@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Language Quiz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .choice-btn.selected {
+            background-color: #3b82f6; /* Tailwind's blue-500 */
+            color: white;
+            border-color: #2563eb; /* Tailwind's blue-600 */
+        }
+        .choice-btn.correct {
+            background-color: #22c55e; /* Tailwind's green-500 */
+            color: white;
+            border-color: #16a34a; /* Tailwind's green-600 */
+        }
+        .choice-btn.incorrect {
+            background-color: #ef4444; /* Tailwind's red-500 */
+            color: white;
+            border-color: #dc2626; /* Tailwind's red-600 */
+        }
+        .blank-space {
+            display: inline-block;
+            width: 80px;
+            border-bottom: 1px solid #9ca3af; /* Tailwind's gray-400 */
+            margin: 0 4px;
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+    <div id="quiz-container" class="w-full max-w-3xl mx-auto bg-white p-6 sm:p-8 rounded-2xl shadow-lg">
+        
+        <!-- Loading State -->
+        <div id="loading-state">
+            <h1 class="text-2xl font-bold text-gray-800 text-center">Loading Quiz...</h1>
+            <p class="text-gray-600 text-center mt-2">Please wait while we prepare the questions.</p>
+        </div>
+
+        <!-- Start State -->
+        <div id="start-state" class="text-center hidden">
+            <h1 class="text-3xl font-bold text-gray-800">French Language Quiz</h1>
+            <p class="text-gray-600 mt-4 text-lg">Test your knowledge with 10 random questions at a time.</p>
+            <button id="start-quiz-btn" class="mt-8 bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors text-xl shadow-md">
+                Start Quiz
+            </button>
+        </div>
+
+        <!-- Quiz View -->
+        <div id="quiz-view" class="hidden">
+            <div class="flex justify-between items-center mb-6">
+                <h1 class="text-xl sm:text-2xl font-bold text-blue-600">French Quiz</h1>
+                <div id="question-counter" class="text-gray-600 font-semibold">Question 1/10</div>
+            </div>
+
+            <!-- Context Area -->
+            <div id="context-area" class="mb-6 p-4 bg-gray-50 border border-gray-200 rounded-lg hidden">
+                <h3 class="font-semibold text-gray-700 mb-2">Context:</h3>
+                <p id="context-text" class="text-gray-800 leading-relaxed whitespace-pre-line"></p>
+            </div>
+            
+            <!-- Question Area -->
+            <p id="question-prompt" class="text-lg font-semibold text-gray-900 mb-6"></p>
+            
+            <!-- Choices Area -->
+            <div id="choices-container" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <!-- Choices will be injected here by JavaScript -->
+            </div>
+
+            <!-- Feedback Area -->
+            <div id="feedback-area" class="mt-6 p-4 rounded-lg hidden">
+                <p id="feedback-text" class="font-bold"></p>
+                <p id="correct-answer-text" class="mt-1"></p>
+                <p id="explanation-text" class="mt-2 text-sm text-gray-700"></p>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="mt-8 flex justify-end">
+                <button id="submit-btn" class="bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors shadow-sm">Submit</button>
+                <button id="next-question-btn" class="bg-green-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-green-700 transition-colors hidden shadow-sm">Next Question</button>
+            </div>
+        </div>
+
+        <!-- Score View -->
+        <div id="score-view" class="text-center hidden">
+            <h2 class="text-3xl font-bold text-gray-800">Quiz Complete!</h2>
+            <p class="text-gray-600 mt-4 text-xl">Your Score:</p>
+            <p id="final-score" class="text-6xl font-bold text-blue-600 my-4">0%</p>
+            <p id="score-summary" class="text-gray-700 text-lg"></p>
+            <button id="new-quiz-btn" class="mt-8 bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors text-xl shadow-md">
+                Start New Quiz
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // DOM Elements
+        const loadingState = document.getElementById('loading-state');
+        const startState = document.getElementById('start-state');
+        const startQuizBtn = document.getElementById('start-quiz-btn');
+        const quizView = document.getElementById('quiz-view');
+        const scoreView = document.getElementById('score-view');
+        const questionCounter = document.getElementById('question-counter');
+        const contextArea = document.getElementById('context-area');
+        const contextText = document.getElementById('context-text');
+        const questionPrompt = document.getElementById('question-prompt');
+        const choicesContainer = document.getElementById('choices-container');
+        const submitBtn = document.getElementById('submit-btn');
+        const nextQuestionBtn = document.getElementById('next-question-btn');
+        const feedbackArea = document.getElementById('feedback-area');
+        const feedbackText = document.getElementById('feedback-text');
+        const correctAnswerText = document.getElementById('correct-answer-text');
+        const explanationText = document.getElementById('explanation-text');
+        const finalScore = document.getElementById('final-score');
+        const scoreSummary = document.getElementById('score-summary');
+        const newQuizBtn = document.getElementById('new-quiz-btn');
+
+        // Quiz State
+        let allQuestions = [];
+        let currentQuizQuestions = [];
+        let currentQuestionIndex = 0;
+        let score = 0;
+        let selectedAnswerId = null;
+
+        const QUIZ_LENGTH = 10;
+
+        // --- Data Loading and Parsing ---
+        async function loadQuestions() {
+            try {
+                // Define the paths to your JSON files. You can add more file names here.
+                const filePaths = ['CE_COMBINED.json', 'EE_COMBINED.json'];
+
+                // Fetch all files concurrently.
+                const responses = await Promise.all(
+                    filePaths.map(path => fetch(path))
+                );
+
+                // Check for any fetch errors.
+                for (const response of responses) {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status} for ${response.url}`);
+                    }
+                }
+
+                // Parse all responses as JSON concurrently.
+                const jsonDataArray = await Promise.all(
+                    responses.map(response => response.json())
+                );
+                
+                const parsedQuestions = [];
+
+                // Process each JSON data object from each file.
+                jsonDataArray.forEach(dataFromFile => {
+                    if (dataFromFile.exams) {
+                        dataFromFile.exams.forEach(exam => {
+                            if (exam.questionSets) {
+                                exam.questionSets.forEach(set => {
+                                    if (set.questions) {
+                                        set.questions.forEach(q => {
+                                            parsedQuestions.push({
+                                                context: set.context ? set.context.text : null,
+                                                prompt: q.prompt,
+                                                choices: q.choices,
+                                                answerKey: q.answerKey // This object contains correctChoiceId and explanation
+                                            });
+                                        });
+                                    }
+                                });
+                            }
+                        });
+                    }
+                });
+                
+                allQuestions = parsedQuestions;
+                
+                if (allQuestions.length === 0) {
+                     throw new Error("No questions were loaded. Ensure JSON files have the correct structure ('exams' -> 'questionSets' -> 'questions').");
+                }
+
+                loadingState.classList.add('hidden');
+                startState.classList.remove('hidden');
+
+            } catch (error) {
+                loadingState.innerHTML = `<h1 class="text-2xl font-bold text-red-600 text-center">Error Loading Quiz</h1><p class="text-gray-600 text-center mt-2">${error.message}. Please ensure the JSON files are in the same folder as this HTML file and are correctly formatted.</p>`;
+                console.error("Error loading or parsing questions:", error);
+            }
+        }
+
+        // --- Quiz Logic ---
+        function startNewQuiz() {
+            score = 0;
+            currentQuestionIndex = 0;
+            
+            // Shuffle all questions and pick the first 10
+            const shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
+            currentQuizQuestions = shuffled.slice(0, QUIZ_LENGTH);
+            
+            startState.classList.add('hidden');
+            scoreView.classList.add('hidden');
+            quizView.classList.remove('hidden');
+
+            displayQuestion();
+        }
+
+        function displayQuestion() {
+            // Reset UI
+            selectedAnswerId = null;
+            choicesContainer.innerHTML = '';
+            feedbackArea.classList.add('hidden');
+            explanationText.classList.add('hidden');
+            submitBtn.classList.remove('hidden');
+            nextQuestionBtn.classList.add('hidden');
+            submitBtn.disabled = false;
+
+            const question = currentQuizQuestions[currentQuestionIndex];
+            
+            // Update question counter
+            questionCounter.textContent = `Question ${currentQuestionIndex + 1}/${QUIZ_LENGTH}`;
+            
+            // Display context if it exists
+            if (question.context) {
+                // Replace placeholders like {{BLANK_A}} with a styled span
+                let formattedContext = question.context.replace(/\{\{BLANK.*?\}\}/g, '<span class="blank-space"></span>');
+                contextText.innerHTML = formattedContext;
+                contextArea.classList.remove('hidden');
+            } else {
+                contextArea.classList.add('hidden');
+            }
+            
+            questionPrompt.textContent = question.prompt;
+            
+            // Create and display choice buttons
+            question.choices.forEach(choice => {
+                const button = document.createElement('button');
+                button.innerHTML = choice.text;
+                button.dataset.id = choice.id;
+                button.className = 'choice-btn p-4 border-2 border-gray-300 rounded-lg text-left hover:bg-gray-100 hover:border-blue-400 transition-all';
+                button.onclick = () => selectAnswer(choice.id, button);
+                choicesContainer.appendChild(button);
+            });
+        }
+
+        function selectAnswer(choiceId, buttonElement) {
+            selectedAnswerId = choiceId;
+            // Remove 'selected' class from all buttons
+            Array.from(choicesContainer.children).forEach(btn => btn.classList.remove('selected'));
+            // Add 'selected' class to the clicked button
+            buttonElement.classList.add('selected');
+        }
+
+        function submitAnswer() {
+            if (selectedAnswerId === null) {
+                // Using a less obtrusive feedback mechanism than alert()
+                const originalBorderColor = submitBtn.style.borderColor;
+                submitBtn.style.borderColor = 'red';
+                submitBtn.textContent = 'Please select an answer';
+                setTimeout(() => {
+                    submitBtn.style.borderColor = originalBorderColor;
+                    submitBtn.textContent = 'Submit';
+                }, 2000);
+                return;
+            }
+
+            const question = currentQuizQuestions[currentQuestionIndex];
+            const correctChoiceId = question.answerKey.correctChoiceId;
+            const isCorrect = selectedAnswerId === correctChoiceId;
+
+            // Update score
+            if (isCorrect) {
+                score++;
+            }
+
+            // Show feedback
+            feedbackArea.classList.remove('hidden');
+            feedbackText.textContent = isCorrect ? 'Correct!' : 'Incorrect!';
+            feedbackArea.className = `mt-6 p-4 rounded-lg ${isCorrect ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`;
+
+            const correctChoice = question.choices.find(c => c.id === correctChoiceId);
+            correctAnswerText.textContent = isCorrect ? '' : `The correct answer is: ${correctChoice.text}`;
+            
+            // Show explanation if it exists
+            const explanation = question.answerKey.explanation;
+            if (explanation) {
+                explanationText.innerHTML = `<strong>Explanation:</strong> ${explanation}`;
+                explanationText.classList.remove('hidden');
+            } else {
+                explanationText.classList.add('hidden');
+            }
+
+            // Style buttons to show correct/incorrect
+            Array.from(choicesContainer.children).forEach(btn => {
+                const btnId = parseInt(btn.dataset.id);
+                btn.disabled = true; // Disable all choice buttons
+                
+                if (btnId === correctChoiceId) {
+                    btn.classList.add('correct');
+                    btn.classList.remove('selected');
+                } else if (btnId === selectedAnswerId && !isCorrect) {
+                    btn.classList.add('incorrect');
+                    btn.classList.remove('selected');
+                }
+            });
+
+            submitBtn.classList.add('hidden');
+            nextQuestionBtn.classList.remove('hidden');
+        }
+        
+        function nextQuestion() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < QUIZ_LENGTH) {
+                displayQuestion();
+            } else {
+                showScore();
+            }
+        }
+
+        function showScore() {
+            quizView.classList.add('hidden');
+            scoreView.classList.remove('hidden');
+            
+            const percentage = Math.round((score / QUIZ_LENGTH) * 100);
+            finalScore.textContent = `${percentage}%`;
+            scoreSummary.textContent = `You answered ${score} out of ${QUIZ_LENGTH} questions correctly.`;
+        }
+        
+        // --- Event Listeners ---
+        startQuizBtn.addEventListener('click', startNewQuiz);
+        submitBtn.addEventListener('click', submitAnswer);
+        nextQuestionBtn.addEventListener('click', nextQuestion);
+        newQuizBtn.addEventListener('click', startNewQuiz);
+
+        // --- Initial Load ---
+        document.addEventListener('DOMContentLoaded', loadQuestions);
+    </script>
+</body>
+</html>
+
