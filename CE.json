@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Language Quiz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .choice-btn.selected {
+            background-color: #3b82f6; /* Tailwind's blue-500 */
+            color: white;
+            border-color: #2563eb; /* Tailwind's blue-600 */
+        }
+        .choice-btn.correct {
+            background-color: #22c55e; /* Tailwind's green-500 */
+            color: white;
+            border-color: #16a34a; /* Tailwind's green-600 */
+        }
+        .choice-btn.incorrect {
+            background-color: #ef4444; /* Tailwind's red-500 */
+            color: white;
+            border-color: #dc2626; /* Tailwind's red-600 */
+        }
+        .blank-space {
+            display: inline-block;
+            width: 80px;
+            border-bottom: 1px solid #9ca3af; /* Tailwind's gray-400 */
+            margin: 0 4px;
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+    <div id="quiz-container" class="w-full max-w-3xl mx-auto bg-white p-6 sm:p-8 rounded-2xl shadow-lg">
+        
+        <!-- Loading State -->
+        <div id="loading-state" class="hidden">
+            <h1 class="text-2xl font-bold text-gray-800 text-center">Loading Quiz...</h1>
+            <p class="text-gray-600 text-center mt-2">Please wait while we prepare the questions.</p>
+        </div>
+
+        <!-- Start State -->
+        <div id="start-state" class="text-center">
+            <h1 class="text-3xl font-bold text-gray-800">French Language Quiz</h1>
+            <p class="text-gray-600 mt-4 text-lg">Please select a quiz type to begin.</p>
+            <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+                <button data-quiz-file="CE_COMBINED.json" class="quiz-type-btn bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors text-xl shadow-md">
+                    Compréhension de l'écrit
+                </button>
+                <button data-quiz-file="EE_COMBINED.json" class="quiz-type-btn bg-green-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-green-700 transition-colors text-xl shadow-md">
+                    Expression écrite
+                </button>
+            </div>
+        </div>
+
+        <!-- Quiz View -->
+        <div id="quiz-view" class="hidden">
+            <div class="flex justify-between items-center mb-6">
+                <h1 id="quiz-title" class="text-xl sm:text-2xl font-bold text-blue-600">French Quiz</h1>
+                <div id="question-counter" class="text-gray-600 font-semibold">Question 1/10</div>
+            </div>
+
+            <!-- Context Area -->
+            <div id="context-area" class="mb-6 p-4 bg-gray-50 border border-gray-200 rounded-lg hidden">
+                <h3 class="font-semibold text-gray-700 mb-2">Context:</h3>
+                <p id="context-text" class="text-gray-800 leading-relaxed whitespace-pre-line"></p>
+            </div>
+            
+            <!-- Question Area -->
+            <p id="question-prompt" class="text-lg font-semibold text-gray-900 mb-6"></p>
+            
+            <!-- Choices Area -->
+            <div id="choices-container" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <!-- Choices will be injected here by JavaScript -->
+            </div>
+
+            <!-- Feedback Area -->
+            <div id="feedback-area" class="mt-6 p-4 rounded-lg hidden">
+                <p id="feedback-text" class="font-bold"></p>
+                <p id="correct-answer-text" class="mt-1"></p>
+                <p id="explanation-text" class="mt-2 text-sm text-gray-700"></p>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="mt-8 flex justify-between items-center">
+                <button id="back-to-menu-btn" class="text-gray-600 hover:text-blue-600 font-semibold transition-colors">Back to Menu</button>
+                <div>
+                    <button id="submit-btn" class="bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors shadow-sm">Submit</button>
+                    <button id="next-question-btn" class="bg-green-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-green-700 transition-colors hidden shadow-sm">Next Question</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Score View -->
+        <div id="score-view" class="text-center hidden">
+            <h2 class="text-3xl font-bold text-gray-800">Quiz Complete!</h2>
+            <p class="text-gray-600 mt-4 text-xl">Your Score:</p>
+            <p id="final-score" class="text-6xl font-bold text-blue-600 my-4">0%</p>
+            <p id="score-summary" class="text-gray-700 text-lg"></p>
+            <button id="back-to-menu-score-btn" class="mt-8 bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors text-xl shadow-md">
+                Back to Menu
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // DOM Elements
+        const loadingState = document.getElementById('loading-state');
+        const startState = document.getElementById('start-state');
+        const quizView = document.getElementById('quiz-view');
+        const scoreView = document.getElementById('score-view');
+        const quizTitle = document.getElementById('quiz-title');
+        const questionCounter = document.getElementById('question-counter');
+        const contextArea = document.getElementById('context-area');
+        const contextText = document.getElementById('context-text');
+        const questionPrompt = document.getElementById('question-prompt');
+        const choicesContainer = document.getElementById('choices-container');
+        const submitBtn = document.getElementById('submit-btn');
+        const nextQuestionBtn = document.getElementById('next-question-btn');
+        const feedbackArea = document.getElementById('feedback-area');
+        const feedbackText = document.getElementById('feedback-text');
+        const correctAnswerText = document.getElementById('correct-answer-text');
+        const explanationText = document.getElementById('explanation-
+

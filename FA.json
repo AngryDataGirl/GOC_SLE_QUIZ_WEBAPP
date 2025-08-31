@@ -1,0 +1,1000 @@
+{
+  "exams": [
+    {
+      "examId": "FA_ANG_1",
+      "examTitle": "Faux Amis et Anglicismes",
+      "examType": "Français langue seconde",
+      "questionSets": [
+        {
+          "setId": "FA_ANG_1_Q1",
+          "context": {
+            "type": "sentence",
+            "text": "Elle a postulé pour un nouveau {{BLANK}} dans notre département."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q1",
+              "questionNumber": 1,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel mot complète le mieux la phrase pour signifier 'job' ou 'vacancy'?",
+              "choices": [
+                { "id": 1, "text": "position" },
+                { "id": 2, "text": "poste" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "\"Position\" is a \"faux ami\" of English \"position\" when referring to a job[cite: 1]. The correct French term is poste[cite: 2]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q2",
+          "context": {
+            "type": "sentence",
+            "text": "Les bureaux de la direction sont au troisième {{BLANK}}."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q2",
+              "questionNumber": 2,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel mot est utilisé pour désigner un niveau dans un bâtiment?",
+              "choices": [
+                { "id": 1, "text": "plancher" },
+                { "id": 2, "text": "étage" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "\"Plancher\" is a direct translation of \"floor,\" but for levels in a building, \"étage\" is used[cite: 3]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q3",
+          "context": {
+            "type": "sentence",
+            "text": "Vérifiez si le projecteur est {{BLANK}} pour notre présentation."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q3",
+              "questionNumber": 3,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le mot correct pour 'available'?",
+              "choices": [
+                { "id": 1, "text": "disponable" },
+                { "id": 2, "text": "disponible" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "\"Disponable\" does not exist in French. The correct term for \"available\" is disponible[cite: 4]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q4",
+          "context": {
+            "type": "sentence",
+            "text": "Veuillez déclarer tous vos {{BLANK}} à la douane."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q4",
+              "questionNumber": 4,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est l'expression correcte pour 'valuables'?",
+              "choices": [
+                { "id": 1, "text": "valuables" },
+                { "id": 2, "text": "objets de valeur" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "The English adjective \"valuable\" should not be directly translated as \"valuables\" in French[cite: 5]. The correct expression is objets de valeur[cite: 6]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q5",
+          "context": {
+            "type": "sentence",
+            "text": "L'{{BLANK}} directeur général a pris sa retraite l'an dernier."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q5",
+              "questionNumber": 5,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel mot signifie 'former' dans ce contexte professionnel?",
+              "choices": [
+                { "id": 1, "text": "ancient" },
+                { "id": 2, "text": "ancien" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "While \"ancien\" can mean ancient, it often means previous or former in a professional context[cite: 6]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q6",
+          "context": {
+            "type": "sentence",
+            "text": "{{BLANK}} son excellent travail, il n'a pas eu de promotion."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q6",
+              "questionNumber": 6,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel mot signifiant 'despite' doit être suivi d'un nom?",
+              "choices": [
+                { "id": 1, "text": "Cependant" },
+                { "id": 2, "text": "Malgré" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "\"Malgré\" (despite) should be followed by a noun, whereas cependant or toutefois (however) introduce a contrasting clause[cite: 7]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q7",
+          "context": {
+            "type": "sentence",
+            "text": "L'infirmière va {{BLANK}} le patient pour sa fièvre."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q7",
+              "questionNumber": 7,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel verbe est le plus approprié pour 'to treat' dans un sens médical?",
+              "choices": [
+                { "id": 1, "text": "traiter" },
+                { "id": 2, "text": "soigner" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "\"Traiter\" can mean \"to deal with\" or \"to process,\" but not always \"to treat\" in the medical sense, which might use soigner[cite: 8]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q8",
+          "context": {
+            "type": "sentence",
+            "text": "Il faut {{BLANK}} le travail d'équipe au sein du bureau."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q8",
+              "questionNumber": 8,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le verbe correct pour 'to promote' ou 'to encourage'?",
+              "choices": [
+                { "id": 1, "text": "prémouvoir" },
+                { "id": 2, "text": "promouvoir" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "To express \"to promote\" or \"to encourage\" something, the correct verb is promouvoir[cite: 9, 28]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q9",
+          "context": {
+            "type": "sentence",
+            "text": "Veuillez confirmer votre {{BLANK}} pour demain matin."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q9",
+              "questionNumber": 9,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le mot français pour 'appointment' (meeting)?",
+              "choices": [
+                { "id": 1, "text": "rémunération" },
+                { "id": 2, "text": "rendez-vous" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "\"Rendez-vous\" means appointment (meeting), not \"remuneration\"[cite: 10]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q10",
+          "context": {
+            "type": "sentence",
+            "text": "Nous organisons une {{BLANK}} pour soutenir la banque alimentaire."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q10",
+              "questionNumber": 10,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est l'expression correcte pour 'charitable campaign'?",
+              "choices": [
+                { "id": 1, "text": "campagne charitable" },
+                { "id": 2, "text": "campagne de charité" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "The adjective \"charitable\" applies to persons (kind), not campaigns. The correct term is campagne de charité[cite: 11]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q11",
+          "context": {
+            "type": "sentence",
+            "text": "Il faut {{BLANK}} ces documents dans le bon tiroir."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q11",
+              "questionNumber": 11,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le verbe correct pour 'to file'?",
+              "choices": [
+                { "id": 1, "text": "classifier" },
+                { "id": 2, "text": "classer" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "In the public service, \"classifier\" primarily means to assign a security category[cite: 12]. For \"to file,\" use classer[cite: 13]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q12",
+          "context": {
+            "type": "sentence",
+            "text": "Cette entreprise a une nouvelle {{BLANK}} à la télévision."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q12",
+              "questionNumber": 12,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le mot correct pour un 'commercial' (advertisement)?",
+              "choices": [
+                { "id": 1, "text": "commercial" },
+                { "id": 2, "text": "publicité" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "\"Des commerciaux\" is a \"faux ami\" for \"commercials\". The correct term is publicité or annonces[cite: 14]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q13",
+          "context": {
+            "type": "sentence",
+            "text": "Je dois suivre une {{BLANK}} sur un nouveau logiciel la semaine prochaine."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q13",
+              "questionNumber": 13,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel mot est utilisé pour le développement professionnel?",
+              "choices": [
+                { "id": 1, "text": "entraînement" },
+                { "id": 2, "text": "formation" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "\"Entraînement\" is for sports or military. For professional development, use formation[cite: 15]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q14",
+          "context": {
+            "type": "sentence",
+            "text": "Sa {{BLANK}} pour résoudre le conflit était très efficace."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q14",
+              "questionNumber": 14,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel mot signifie le mieux 'approach' ou 'process' dans ce contexte?",
+              "choices": [
+                { "id": 1, "text": "méthode" },
+                { "id": 2, "text": "démarche" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "While both can mean \"method\", \"démarche\" often refers to an approach or process[cite: 16]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q15",
+          "context": {
+            "type": "sentence",
+            "text": "Elle prétend être un {{BLANK}} qui peut communiquer avec les esprits."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q15",
+              "questionNumber": 15,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel mot désigne une personne qui communique avec les esprits?",
+              "choices": [
+                { "id": 1, "text": "média" },
+                { "id": 2, "text": "médium" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "\"Média\" refers to communication/information channels. \"Médium\" is a person who claims to communicate with spirits[cite: 17]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q16",
+          "context": {
+            "type": "sentence",
+            "text": "{{BLANK}}, j'approuve le projet, {{BLANK}}, je m'inquiète du budget."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q16",
+              "questionNumber": 16,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle expression est utilisée pour dire 'On one hand... on the other hand'?",
+              "choices": [
+                { "id": 1, "text": "D'une part... d'autre part" },
+                { "id": 2, "text": "Pour une chose... pour une autre" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 1,
+                "explanation": "The expression for 'On one hand... on the other hand' is 'D'une part... d'autre part', and the two parts must be used together[cite: 18, 19]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q17",
+          "context": {
+            "type": "sentence",
+            "text": "Nous avons reçu plusieurs {{BLANK}} de la part des clients."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q17",
+              "questionNumber": 17,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le mot correct pour 'complaints'?",
+              "choices": [
+                { "id": 1, "text": "complaintes" },
+                { "id": 2, "text": "plaintes" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "\"Complaintes\" is a \"faux ami\" of English \"complaints\"[cite: 47]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q18",
+          "context": {
+            "type": "sentence",
+            "text": "Tout le {{BLANK}} doit participer à l'exercice d'évacuation."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q18",
+              "questionNumber": 18,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme français correct pour 'staff'?",
+              "choices": [
+                { "id": 1, "text": "staff" },
+                { "id": 2, "text": "personnel" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "Avoid \"staff\" as an anglicism; use personnel[cite: 20]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q19",
+          "context": {
+            "type": "sentence",
+            "text": "En raison de difficultés financières, l'entreprise a annoncé des {{BLANK}}."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q19",
+              "questionNumber": 19,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est l'expression correcte pour 'staffing cuts'?",
+              "choices": [
+                { "id": 1, "text": "coupures de staff" },
+                { "id": 2, "text": "compressions de personnel" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "Use compressions de personnel or suppressions de postes for \"staffing cuts\"[cite: 21]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q20",
+          "context": {
+            "type": "sentence",
+            "text": "Il faut {{BLANK}} les commentaires des utilisateurs."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q20",
+              "questionNumber": 20,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est l'expression correcte pour 'to take into account'?",
+              "choices": [
+                { "id": 1, "text": "prendre en compte de" },
+                { "id": 2, "text": "tenir compte de" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "The correct expression for \"to take into account\" is tenir compte de[cite: 22]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q21",
+          "context": {
+            "type": "sentence",
+            "text": "N'oubliez pas de {{BLANK}} votre travail avant de fermer l'application."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q21",
+              "questionNumber": 21,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le verbe correct pour 'to save' (data)?",
+              "choices": [
+                { "id": 1, "text": "sauver" },
+                { "id": 2, "text": "sauvegarder" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "Sauvegarder is the correct verb for \"to save\" (data)[cite: 23]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q22",
+          "context": {
+            "type": "sentence",
+            "text": "Nous devons analyser toutes les {{BLANK}} recueillies."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q22",
+              "questionNumber": 22,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme correct pour 'data'?",
+              "choices": [
+                { "id": 1, "text": "data" },
+                { "id": 2, "text": "données" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "Les données is the correct term for \"data\"[cite: 24]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q23",
+          "context": {
+            "type": "sentence",
+            "text": "{{BLANK}}, nous n'avons reçu aucune plainte."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q23",
+              "questionNumber": 23,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est l'expression correcte pour 'to date'?",
+              "choices": [
+                { "id": 1, "text": "À date" },
+                { "id": 2, "text": "À ce jour" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "\"À date\" is an anglicism for à ce jour or jusqu'à maintenant[cite: 26]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q24",
+          "context": {
+            "type": "sentence",
+            "text": "Il a fièrement affiché son {{BLANK}} de l'université sur le mur."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q24",
+              "questionNumber": 24,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le mot correct pour un 'academic degree'?",
+              "choices": [
+                { "id": 1, "text": "degré" },
+                { "id": 2, "text": "diplôme" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "\"Degré\" is an anglicism; use diplôme for an academic degree[cite: 27]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q25",
+          "context": {
+            "type": "sentence",
+            "text": "Ce programme de mentorat aide à {{BLANK}}."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q25",
+              "questionNumber": 25,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est l'expression correcte pour 'to acquire new skills'?",
+              "choices": [
+                { "id": 1, "text": "acquérir des nouveaux skills" },
+                { "id": 2, "text": "acquérir de nouvelles compétences" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "The correct expression is acquérir de nouvelles compétences[cite: 29]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q26",
+          "context": {
+            "type": "sentence",
+            "text": "Il faut {{BLANK}} que tous les formulaires sont signés."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q26",
+              "questionNumber": 26,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est la formulation correcte pour 'to make sure'?",
+              "choices": [
+                { "id": 1, "text": "faire sûr" },
+                { "id": 2, "text": "s'assurer" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "Avoid \"faites sûr\"; use s'assurer de or veiller à ce que[cite: 30]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q27",
+          "context": {
+            "type": "sentence",
+            "text": "{{BLANK}}, je préfère la première option."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q27",
+              "questionNumber": 27,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est l'expression correcte pour 'as for me'?",
+              "choices": [
+                { "id": 1, "text": "Comme pour moi" },
+                { "id": 2, "text": "Quant à moi" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "Quant à moi is the correct French expression for \"as for me\"[cite: 31]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q28",
+          "context": {
+            "type": "sentence",
+            "text": "{{BLANK}} vous aviser de la nouvelle politique."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q28",
+              "questionNumber": 28,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est l'expression formelle pour 'The purpose of this message is to...'?",
+              "choices": [
+                { "id": 1, "text": "Le but de ce message est de" },
+                { "id": 2, "text": "Le présent message a pour but de" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "Le présent message a pour but de... is the correct formal expression[cite: 32]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q29",
+          "context": {
+            "type": "sentence",
+            "text": "Est-ce que vous êtes {{BLANK}} des derniers changements?"
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q29",
+              "questionNumber": 29,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est l'expression correcte pour 'to be informed of'?",
+              "choices": [
+                { "id": 1, "text": "au courant" },
+                { "id": 2, "text": "en courant" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 1,
+                "explanation": "The correct expression is être au courant de, spelled with 'au'[cite: 33]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q30",
+          "context": {
+            "type": "sentence",
+            "text": "Je voudrais vous {{BLANK}} une nouvelle importante."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q30",
+              "questionNumber": 30,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle expression signifie 'to inform somebody of something'?",
+              "choices": [
+                { "id": 1, "text": "faire part de" },
+                { "id": 2, "text": "faire pare de" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 1,
+                "explanation": "The correct expression is faire part de quelque chose à quelqu'un, with 'part' spelled with a 't'[cite: 34]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q31",
+          "context": {
+            "type": "sentence",
+            "text": "Il faut {{BLANK}} cette occasion pour améliorer nos processus."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q31",
+              "questionNumber": 31,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle expression signifie 'to take advantage of' ou 'to make the most of'?",
+              "choices": [
+                { "id": 1, "text": "prendre avantage de" },
+                { "id": 2, "text": "mettre à profit" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "Use mettre à profit for \"to take advantage of\" or \"to make the most of\"[cite: 35]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q32",
+          "context": {
+            "type": "sentence",
+            "text": "Il a été nommé directeur {{BLANK}}."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q32",
+              "questionNumber": 32,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle expression est utilisée pour une 'acting position'?",
+              "choices": [
+                { "id": 1, "text": "en position d'intérim" },
+                { "id": 2, "text": "à titre intérimaire" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "À titre intérimaire means \"for a temporary period\" and is used for acting positions[cite: 36]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q33",
+          "context": {
+            "type": "sentence",
+            "text": "Le {{BLANK}} des archives est une tâche importante."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q33",
+              "questionNumber": 33,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme correct pour 'filing'?",
+              "choices": [
+                { "id": 1, "text": "filing" },
+                { "id": 2, "text": "classement" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "Classement is the correct term for 'filing'[cite: 37]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q34",
+          "context": {
+            "type": "sentence",
+            "text": "N'oubliez pas d'éteindre votre ordinateur {{BLANK}}."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q34",
+              "questionNumber": 34,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est la structure correcte pour 'before leaving'?",
+              "choices": [
+                { "id": 1, "text": "avant laisser" },
+                { "id": 2, "text": "avant de partir" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "Use avant de followed by an infinitive, e.g., avant de partir[cite: 38]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q35",
+          "context": {
+            "type": "sentence",
+            "text": "Veuillez choisir un {{BLANK}} sécuritaire."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q35",
+              "questionNumber": 35,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est l'orthographe correcte de 'password'?",
+              "choices": [
+                { "id": 1, "text": "mot-de-passe" },
+                { "id": 2, "text": "mot de passe" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "Mot de passe is spelled without a hyphen[cite: 39]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q36",
+          "context": {
+            "type": "sentence",
+            "text": "L'adjointe administrative va {{BLANK}} pendant la réunion."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q36",
+              "questionNumber": 36,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est l'expression correcte pour 'to take calls'?",
+              "choices": [
+                { "id": 1, "text": "prendre les appels" },
+                { "id": 2, "text": "prendre ses appels" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "Prendre ses appels is the correct expression[cite: 40]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q37",
+          "context": {
+            "type": "sentence",
+            "text": "Elle a pris un {{BLANK}} pour participer à une mission humanitaire."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q37",
+              "questionNumber": 37,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme correct pour 'volunteer leave'?",
+              "choices": [
+                { "id": 1, "text": "congé volontaire" },
+                { "id": 2, "text": "congé de bénévolat" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "Congé de bénévolat is the correct term for 'volunteer leave'[cite: 41]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q38",
+          "context": {
+            "type": "sentence",
+            "text": "Pouvez-vous me {{BLANK}} une copie du rapport?"
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q38",
+              "questionNumber": 38,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le verbe correct pour 'to provide'?",
+              "choices": [
+                { "id": 1, "text": "provider" },
+                { "id": 2, "text": "fournir" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "Fournir is the correct verb for 'to provide'[cite: 42]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q39",
+          "context": {
+            "type": "sentence",
+            "text": "{{BLANK}} l'équipe, je vous souhaite la bienvenue."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q39",
+              "questionNumber": 39,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est l'expression correcte pour 'on behalf of'?",
+              "choices": [
+                { "id": 1, "text": "De la part de" },
+                { "id": 2, "text": "Au nom de" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "The correct expression is Au nom de[cite: 43]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q40",
+          "context": {
+            "type": "sentence",
+            "text": "L'enquête porte sur des accusations de {{BLANK}}."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q40",
+              "questionNumber": 40,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme correct pour 'money laundering'?",
+              "choices": [
+                { "id": 1, "text": "lavage d'argent" },
+                { "id": 2, "text": "blanchiment d'argent" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "Blanchiment d'argent is the correct term for 'money laundering'[cite: 44]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q41",
+          "context": {
+            "type": "sentence",
+            "text": "Il est impératif de suivre les {{BLANK}} de sécurité."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q41",
+              "questionNumber": 41,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme correct pour 'guidelines'?",
+              "choices": [
+                { "id": 1, "text": "guidelines" },
+                { "id": 2, "text": "lignes directrices" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "Lignes directrices is the correct term for 'guidelines'[cite: 45]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q42",
+          "context": {
+            "type": "sentence",
+            "text": "Je crains qu'il ne {{BLANK}} pas à temps."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q42",
+              "questionNumber": 42,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est la forme verbale correcte (au subjonctif) après 'craindre que'?",
+              "choices": [
+                { "id": 1, "text": "arrive" },
+                { "id": 2, "text": "arrive" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "Craindre que requires the subjunctive mood[cite: 46]."
+              }
+            }
+          ]
+        },
+        {
+          "setId": "FA_ANG_1_Q43",
+          "context": {
+            "type": "sentence",
+            "text": "La liste des invités, {{BLANK}} les conférenciers, est maintenant complète."
+          },
+          "questions": [
+            {
+              "questionId": "FA_ANG_1_Q43",
+              "questionNumber": 43,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est l'expression correcte pour 'including'?",
+              "choices": [
+                { "id": 1, "text": "incluant" },
+                { "id": 2, "text": "y compris" }
+              ],
+              "answerKey": {
+                "correctChoiceId": 2,
+                "explanation": "Y compris is the correct expression for 'including'."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

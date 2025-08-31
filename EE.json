@@ -12322,7 +12322,7 @@
           "setId": "EE_8_Q36",
           "context": {
             "type": "text",
-            "text": "En ce qui concerne la réglementation, je sais (1) quelqu'un qui travaille au (2) Secrétariat du Conseil du Trésor. Veux-tu que je lui demande son avis?"
+            "text": "En ce qui concerne la réglementation, je sais (1) quelqu'un qui travaille au (2) Secrétariat du Conseil du Trésor. Veux-tu que je lui demande son avis? Ça ne nous engage à rien (3), je le ferais à titre personnel seulement."
           },
           "questions": [
             {
@@ -12947,7 +12947,7 @@
           "setId": "EE_8_Q61",
           "context": {
             "type": "text",
-            "text": "Le Tribunal de la dotation de la fonction publique est chargé de régler les complaintes (1) liées à des nominations et à des mises en disponibilité."
+            "text": "Le Tribunal de la dotation de la fonction publique est chargé de régler les complaintes (1) liées à des nominations et à des mises en disponibilité. Son rôle consiste à aider les employeurs et les employés à trouver un mécanisme juste, efficace et indépendant pour régler les différends (2) présentés par ces derniers (3)."
           },
           "questions": [
             {
@@ -12972,7 +12972,7 @@
           "setId": "EE_8_Q62",
           "context": {
             "type": "text",
-            "text": "Notre invité, Jean Poudrier, formateur en stratégies Web, met en lumière la Loi, ce qu'elle implique et les moyens à prendre pour mieux s'en conformer (3)."
+            "text": "La Loi canadienne anti-pourriel entrera bientôt en vigueur (1). Pour plusieurs, cette loi nécessite d’être examinée de près (2), car elle vise à encadrer l’envoi de messages électroniques commerciaux. Notre invité, Jean Poudrier, formateur en stratégies Web, met en lumière la Loi, ce qu'elle implique et les moyens à prendre pour mieux s'en conformer (3)."
           },
           "questions": [
             {

@@ -40,24 +40,32 @@
     <div id="quiz-container" class="w-full max-w-3xl mx-auto bg-white p-6 sm:p-8 rounded-2xl shadow-lg">
         
         <!-- Loading State -->
-        <div id="loading-state">
+        <div id="loading-state" class="hidden">
             <h1 class="text-2xl font-bold text-gray-800 text-center">Loading Quiz...</h1>
             <p class="text-gray-600 text-center mt-2">Please wait while we prepare the questions.</p>
         </div>
 
         <!-- Start State -->
-        <div id="start-state" class="text-center hidden">
+        <div id="start-state" class="text-center">
             <h1 class="text-3xl font-bold text-gray-800">French Language Quiz</h1>
-            <p class="text-gray-600 mt-4 text-lg">Test your knowledge with 10 random questions at a time.</p>
-            <button id="start-quiz-btn" class="mt-8 bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors text-xl shadow-md">
-                Start Quiz
-            </button>
+            <p class="text-gray-600 mt-4 text-lg">Please select a quiz type to begin.</p>
+            <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+                <button data-quiz-file="CE.json" class="quiz-type-btn bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors text-xl shadow-md">
+                    Compréhension de l'écrit
+                </button>
+                <button data-quiz-file="EE.json" class="quiz-type-btn bg-green-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-green-700 transition-colors text-xl shadow-md">
+                    Expression écrite
+                </button>
+                <button data-quiz-file="FA.json" class="quiz-type-btn bg-green-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-green-700 transition-colors text-xl shadow-md">
+                    Faux Amis et Anglicismes
+                </button>
+            </div>
         </div>
 
         <!-- Quiz View -->
         <div id="quiz-view" class="hidden">
             <div class="flex justify-between items-center mb-6">
-                <h1 class="text-xl sm:text-2xl font-bold text-blue-600">French Quiz</h1>
+                <h1 id="quiz-title" class="text-xl sm:text-2xl font-bold text-blue-600">French Quiz</h1>
                 <div id="question-counter" class="text-gray-600 font-semibold">Question 1/10</div>
             </div>
 
@@ -83,9 +91,12 @@
             </div>
 
             <!-- Action Buttons -->
-            <div class="mt-8 flex justify-end">
-                <button id="submit-btn" class="bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors shadow-sm">Submit</button>
-                <button id="next-question-btn" class="bg-green-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-green-700 transition-colors hidden shadow-sm">Next Question</button>
+            <div class="mt-8 flex justify-between items-center">
+                <button id="back-to-menu-btn" class="text-gray-600 hover:text-blue-600 font-semibold transition-colors">Back to Menu</button>
+                <div>
+                    <button id="submit-btn" class="bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors shadow-sm">Submit</button>
+                    <button id="next-question-btn" class="bg-green-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-green-700 transition-colors hidden shadow-sm">Next Question</button>
+                </div>
             </div>
         </div>
 
@@ -95,8 +106,8 @@
             <p class="text-gray-600 mt-4 text-xl">Your Score:</p>
             <p id="final-score" class="text-6xl font-bold text-blue-600 my-4">0%</p>
             <p id="score-summary" class="text-gray-700 text-lg"></p>
-            <button id="new-quiz-btn" class="mt-8 bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors text-xl shadow-md">
-                Start New Quiz
+            <button id="back-to-menu-score-btn" class="mt-8 bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors text-xl shadow-md">
+                Back to Menu
             </button>
         </div>
     </div>
@@ -105,9 +116,9 @@
         // DOM Elements
         const loadingState = document.getElementById('loading-state');
         const startState = document.getElementById('start-state');
-        const startQuizBtn = document.getElementById('start-quiz-btn');
         const quizView = document.getElementById('quiz-view');
         const scoreView = document.getElementById('score-view');
+        const quizTitle = document.getElementById('quiz-title');
         const questionCounter = document.getElementById('question-counter');
         const contextArea = document.getElementById('context-area');
         const contextText = document.getElementById('context-text');
@@ -121,10 +132,10 @@
         const explanationText = document.getElementById('explanation-text');
         const finalScore = document.getElementById('final-score');
         const scoreSummary = document.getElementById('score-summary');
-        const newQuizBtn = document.getElementById('new-quiz-btn');
+        const backToMenuBtn = document.getElementById('back-to-menu-btn');
+        const backToMenuScoreBtn = document.getElementById('back-to-menu-score-btn');
 
         // Quiz State
-        let allQuestions = [];
         let currentQuizQuestions = [];
         let currentQuestionIndex = 0;
         let score = 0;
@@ -132,83 +143,74 @@
 
         const QUIZ_LENGTH = 10;
 
-        // --- Data Loading and Parsing ---
-        async function loadQuestions() {
-            try {
-                // Define the paths to your JSON files. You can add more file names here.
-                const filePaths = ['CE_COMBINED.json', 'EE_COMBINED.json'];
-
-                // Fetch all files concurrently.
-                const responses = await Promise.all(
-                    filePaths.map(path => fetch(path))
-                );
-
-                // Check for any fetch errors.
-                for (const response of responses) {
-                    if (!response.ok) {
-                        throw new Error(`HTTP error! status: ${response.status} for ${response.url}`);
-                    }
-                }
-
-                // Parse all responses as JSON concurrently.
-                const jsonDataArray = await Promise.all(
-                    responses.map(response => response.json())
-                );
-                
-                const parsedQuestions = [];
-
-                // Process each JSON data object from each file.
-                jsonDataArray.forEach(dataFromFile => {
-                    if (dataFromFile.exams) {
-                        dataFromFile.exams.forEach(exam => {
-                            if (exam.questionSets) {
-                                exam.questionSets.forEach(set => {
-                                    if (set.questions) {
-                                        set.questions.forEach(q => {
-                                            parsedQuestions.push({
-                                                context: set.context ? set.context.text : null,
-                                                prompt: q.prompt,
-                                                choices: q.choices,
-                                                answerKey: q.answerKey // This object contains correctChoiceId and explanation
-                                            });
-                                        });
-                                    }
+        // --- Helper function to parse JSON data ---
+        function parseJsonData(dataFromFile) {
+            const parsedQuestions = [];
+            // This handles the nested structure of your files
+            let examsArray = dataFromFile.exams;
+            // This handles an occasional extra layer of nesting found in some files
+            if (examsArray && examsArray.length > 0 && examsArray[0].exams) {
+                examsArray = examsArray.flatMap(e => e.exams);
+            }
+            
+            if (examsArray) {
+                examsArray.forEach(exam => {
+                    if (exam.questionSets) {
+                        exam.questionSets.forEach(set => {
+                            if (set.questions) {
+                                set.questions.forEach(q => {
+                                    parsedQuestions.push({
+                                        context: set.context ? set.context.text : null,
+                                        prompt: q.prompt,
+                                        choices: q.choices,
+                                        answerKey: q.answerKey
+                                    });
                                 });
                             }
                         });
                     }
                 });
-                
-                allQuestions = parsedQuestions;
-                
-                if (allQuestions.length === 0) {
-                     throw new Error("No questions were loaded. Ensure JSON files have the correct structure ('exams' -> 'questionSets' -> 'questions').");
+            }
+            return parsedQuestions;
+        }
+
+
+        // --- Quiz Logic ---
+        async function startQuiz(fileName, quizTitleText) {
+            // Show loading screen while fetching data
+            startState.classList.add('hidden');
+            loadingState.classList.remove('hidden');
+
+            try {
+                const response = await fetch(fileName);
+                if (!response.ok) {
+                    throw new Error(`Could not load ${fileName}. Make sure the file exists and is in the same folder.`);
+                }
+                const data = await response.json();
+                const questionsFromFile = parseJsonData(data);
+
+                if (questionsFromFile.length < 1) {
+                    throw new Error(`No questions were found in ${fileName}. Please check the file's content and structure.`);
                 }
 
+                score = 0;
+                currentQuestionIndex = 0;
+                
+                const shuffled = [...questionsFromFile].sort(() => 0.5 - Math.random());
+                currentQuizQuestions = shuffled.slice(0, QUIZ_LENGTH);
+                
+                // Update UI and display the first question
                 loadingState.classList.add('hidden');
-                startState.classList.remove('hidden');
+                quizView.classList.remove('hidden');
+                quizTitle.textContent = quizTitleText;
+                displayQuestion();
 
             } catch (error) {
-                loadingState.innerHTML = `<h1 class="text-2xl font-bold text-red-600 text-center">Error Loading Quiz</h1><p class="text-gray-600 text-center mt-2">${error.message}. Please ensure the JSON files are in the same folder as this HTML file and are correctly formatted.</p>`;
-                console.error("Error loading or parsing questions:", error);
+                loadingState.innerHTML = `<h1 class="text-2xl font-bold text-red-600 text-center">Error</h1><p class="text-gray-600 text-center mt-2">${error.message}</p><button onclick="showMainMenu()" class="mt-4 text-blue-600 hover:underline">Back to Menu</button>`;
+                console.error("Error starting quiz:", error);
             }
         }
 
-        // --- Quiz Logic ---
-        function startNewQuiz() {
-            score = 0;
-            currentQuestionIndex = 0;
-            
-            // Shuffle all questions and pick the first 10
-            const shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
-            currentQuizQuestions = shuffled.slice(0, QUIZ_LENGTH);
-            
-            startState.classList.add('hidden');
-            scoreView.classList.add('hidden');
-            quizView.classList.remove('hidden');
-
-            displayQuestion();
-        }
 
         function displayQuestion() {
             // Reset UI
@@ -218,16 +220,14 @@
             explanationText.classList.add('hidden');
             submitBtn.classList.remove('hidden');
             nextQuestionBtn.classList.add('hidden');
-            submitBtn.disabled = false;
+            submitBtn.disabled = true;
 
             const question = currentQuizQuestions[currentQuestionIndex];
+            const totalQuestionsInSet = currentQuizQuestions.length;
             
-            // Update question counter
-            questionCounter.textContent = `Question ${currentQuestionIndex + 1}/${QUIZ_LENGTH}`;
+            questionCounter.textContent = `Question ${currentQuestionIndex + 1}/${totalQuestionsInSet}`;
             
-            // Display context if it exists
             if (question.context) {
-                // Replace placeholders like {{BLANK_A}} with a styled span
                 let formattedContext = question.context.replace(/\{\{BLANK.*?\}\}/g, '<span class="blank-space"></span>');
                 contextText.innerHTML = formattedContext;
                 contextArea.classList.remove('hidden');
@@ -237,7 +237,6 @@
             
             questionPrompt.textContent = question.prompt;
             
-            // Create and display choice buttons
             question.choices.forEach(choice => {
                 const button = document.createElement('button');
                 button.innerHTML = choice.text;
@@ -250,35 +249,20 @@
 
         function selectAnswer(choiceId, buttonElement) {
             selectedAnswerId = choiceId;
-            // Remove 'selected' class from all buttons
             Array.from(choicesContainer.children).forEach(btn => btn.classList.remove('selected'));
-            // Add 'selected' class to the clicked button
             buttonElement.classList.add('selected');
+            submitBtn.disabled = false;
         }
 
         function submitAnswer() {
-            if (selectedAnswerId === null) {
-                // Using a less obtrusive feedback mechanism than alert()
-                const originalBorderColor = submitBtn.style.borderColor;
-                submitBtn.style.borderColor = 'red';
-                submitBtn.textContent = 'Please select an answer';
-                setTimeout(() => {
-                    submitBtn.style.borderColor = originalBorderColor;
-                    submitBtn.textContent = 'Submit';
-                }, 2000);
-                return;
-            }
+            if (selectedAnswerId === null) return;
 
             const question = currentQuizQuestions[currentQuestionIndex];
             const correctChoiceId = question.answerKey.correctChoiceId;
             const isCorrect = selectedAnswerId === correctChoiceId;
 
-            // Update score
-            if (isCorrect) {
-                score++;
-            }
+            if (isCorrect) score++;
 
-            // Show feedback
             feedbackArea.classList.remove('hidden');
             feedbackText.textContent = isCorrect ? 'Correct!' : 'Incorrect!';
             feedbackArea.className = `mt-6 p-4 rounded-lg ${isCorrect ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`;
@@ -286,7 +270,6 @@
             const correctChoice = question.choices.find(c => c.id === correctChoiceId);
             correctAnswerText.textContent = isCorrect ? '' : `The correct answer is: ${correctChoice.text}`;
             
-            // Show explanation if it exists
             const explanation = question.answerKey.explanation;
             if (explanation) {
                 explanationText.innerHTML = `<strong>Explanation:</strong> ${explanation}`;
@@ -295,18 +278,13 @@
                 explanationText.classList.add('hidden');
             }
 
-            // Style buttons to show correct/incorrect
             Array.from(choicesContainer.children).forEach(btn => {
                 const btnId = parseInt(btn.dataset.id);
-                btn.disabled = true; // Disable all choice buttons
+                btn.disabled = true;
                 
-                if (btnId === correctChoiceId) {
-                    btn.classList.add('correct');
-                    btn.classList.remove('selected');
-                } else if (btnId === selectedAnswerId && !isCorrect) {
-                    btn.classList.add('incorrect');
-                    btn.classList.remove('selected');
-                }
+                if (btnId === correctChoiceId) btn.classList.add('correct');
+                else if (btnId === selectedAnswerId && !isCorrect) btn.classList.add('incorrect');
+                btn.classList.remove('selected');
             });
 
             submitBtn.classList.add('hidden');
@@ -315,7 +293,7 @@
         
         function nextQuestion() {
             currentQuestionIndex++;
-            if (currentQuestionIndex < QUIZ_LENGTH) {
+            if (currentQuestionIndex < currentQuizQuestions.length) {
                 displayQuestion();
             } else {
                 showScore();
@@ -326,19 +304,33 @@
             quizView.classList.add('hidden');
             scoreView.classList.remove('hidden');
             
-            const percentage = Math.round((score / QUIZ_LENGTH) * 100);
+            const totalQuestionsInSet = currentQuizQuestions.length;
+            const percentage = Math.round((score / totalQuestionsInSet) * 100);
             finalScore.textContent = `${percentage}%`;
-            scoreSummary.textContent = `You answered ${score} out of ${QUIZ_LENGTH} questions correctly.`;
+            scoreSummary.textContent = `You answered ${score} out of ${totalQuestionsInSet} questions correctly.`;
+        }
+        
+        function showMainMenu() {
+            quizView.classList.add('hidden');
+            scoreView.classList.add('hidden');
+            loadingState.classList.add('hidden');
+            startState.classList.remove('hidden');
         }
         
         // --- Event Listeners ---
-        startQuizBtn.addEventListener('click', startNewQuiz);
+        document.querySelectorAll('.quiz-type-btn').forEach(button => {
+            button.addEventListener('click', (event) => {
+                const buttonEl = event.currentTarget;
+                const fileName = buttonEl.dataset.quizFile;
+                const quizTitleText = buttonEl.textContent;
+                startQuiz(fileName, quizTitleText);
+            });
+        });
         submitBtn.addEventListener('click', submitAnswer);
         nextQuestionBtn.addEventListener('click', nextQuestion);
-        newQuizBtn.addEventListener('click', startNewQuiz);
+        backToMenuBtn.addEventListener('click', showMainMenu);
+        backToMenuScoreBtn.addEventListener('click', showMainMenu);
 
-        // --- Initial Load ---
-        document.addEventListener('DOMContentLoaded', loadQuestions);
     </script>
 </body>
 </html>
