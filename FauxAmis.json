@@ -948,29 +948,30 @@
             }
           ]
         },
-        {
-          "setId": "FA_ANG_1_Q42",
-          "context": {
-            "type": "sentence",
-            "text": "Je crains qu'il ne {{BLANK}} pas à temps."
-          },
-          "questions": [
-            {
-              "questionId": "FA_ANG_1_Q42",
-              "questionNumber": 42,
-              "questionType": "Fill-in-the-blank",
-              "prompt": "Quelle est la forme verbale correcte (au subjonctif) après 'craindre que'?",
-              "choices": [
-                { "id": 1, "text": "arrive" },
-                { "id": 2, "text": "arrive" }
-              ],
-              "answerKey": {
-                "correctChoiceId": 2,
-                "explanation": "Craindre que requires the subjunctive mood[cite: 46]."
-              }
-            }
-          ]
-        },
+    {
+    "setId": "FA_ANG_1_Q42",
+    "context": {
+      "type": "sentence",
+      "text": "Je crains qu'il ne {{BLANK}} pas prêt à temps."
+    },
+    "questions": [
+      {
+        "questionId": "FA_ANG_1_Q42",
+        "questionNumber": 42,
+        "questionType": "Fill-in-the-blank",
+        "prompt": "Quelle est la forme verbale correcte (au subjonctif) après 'craindre que'?",
+        "choices": [
+          { "id": 1, "text": "est" },
+          { "id": 2, "text": "soit" },
+          { "id": 3, "text": "sera" }
+        ],
+        "answerKey": {
+          "correctChoiceId": 2,
+          "explanation": "'Craindre que' requires the subjunctive mood. 'Soit' is the subjunctive form of the verb 'être', while 'est' is the indicative form."
+        }
+      }
+    ]
+  },
         {
           "setId": "FA_ANG_1_Q43",
           "context": {

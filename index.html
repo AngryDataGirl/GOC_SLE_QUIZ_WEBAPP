@@ -45,22 +45,57 @@
             <p class="text-gray-600 text-center mt-2">Please wait while we prepare the questions.</p>
         </div>
 
-        <!-- Start State -->
-        <div id="start-state" class="text-center">
-            <h1 class="text-3xl font-bold text-gray-800">French Language Quiz</h1>
-            <p class="text-gray-600 mt-4 text-lg">Please select a quiz type to begin.</p>
-            <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4">
-                <button data-quiz-file="CE.json" class="quiz-type-btn bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors text-xl shadow-md">
-                    Compréhension de l'écrit
-                </button>
-                <button data-quiz-file="EE.json" class="quiz-type-btn bg-green-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-green-700 transition-colors text-xl shadow-md">
-                    Expression écrite
-                </button>
-                <button data-quiz-file="FA.json" class="quiz-type-btn bg-green-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-green-700 transition-colors text-xl shadow-md">
-                    Faux Amis et Anglicismes
-                </button>
+    <div id="start-state" class="text-center">
+    <h1 class="text-3xl font-bold text-gray-800">French Language Quiz</h1>
+    <p class="text-gray-600 mt-4 text-lg">Please select a quiz type to begin.</p>
+    
+    <div class="mt-8 space-y-10">
+
+        <section>
+            <h3 class="text-xl font-semibold text-gray-700 mb-4">Practice Tests - Questions Bank</h3>
+            <div class="flex flex-col items-center gap-4">
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button data-quiz-file="CE.json" class="quiz-type-btn bg-indigo-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-indigo-700 transition-colors text-xl shadow-md">
+                        Compréhension de l'écrit
+                    </button>
+                    <button data-quiz-file="EE.json" class="quiz-type-btn bg-indigo-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-indigo-700 transition-colors text-xl shadow-md">
+                        Expression écrite
+                    </button>
+                </div>
             </div>
-        </div>
+        </section>
+
+        <section>
+            <h3 class="text-xl font-semibold text-gray-700 mb-4">Focused Topic / Style Study</h3>
+            <div class="flex flex-col items-center gap-4">
+                <div class="flex">
+                    <button data-quiz-file="FauxAmis.json" class="quiz-type-btn bg-teal-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-teal-700 transition-colors text-xl shadow-md">
+                        Faux Amis et Anglicismes
+                    </button>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button data-quiz-file="Prepositions.json" class="quiz-type-btn bg-sky-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-700 transition-colors text-xl shadow-md">
+                        Prépositions
+                    </button>
+                    <button data-quiz-file="Agreement.json" class="quiz-type-btn bg-sky-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-700 transition-colors text-xl shadow-md">
+                        Accord
+                    </button>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button data-quiz-file="Subjonctif.json" class="quiz-type-btn bg-sky-400 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-700 transition-colors text-xl shadow-md">
+                        Subjonctif
+                    </button>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button data-quiz-file="Lexique.json" class="quiz-type-btn bg-sky-400 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-700 transition-colors text-xl shadow-md">
+                        Lexique
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</div>
 
         <!-- Quiz View -->
         <div id="quiz-view" class="hidden">

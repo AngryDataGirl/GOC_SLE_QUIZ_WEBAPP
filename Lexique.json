@@ -1,0 +1,571 @@
+{
+  "exams": [
+    {
+      "examId": "FR_LEXIQUE_CFP_2",
+      "examTitle": "Lexique de la fonction publique (Quiz exhaustif)",
+      "examType": "Français langue seconde",
+      "questionSets": [
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q1",
+          "context": { "type": "sentence", "text": "Le gestionnaire doit prendre des {{BLANK}} pour l'entrevue d'un candidat ayant une déficience visuelle." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q1",
+              "questionNumber": 1,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme correct pour désigner les ajustements faits pour éliminer les obstacles?",
+              "choices": [ { "id": 1, "text": "accommodements raisonnables" }, { "id": 2, "text": "mesures d'adaptation" }, { "id": 3, "text": "arrangements spéciaux" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme officiel est 'mesures d'adaptation'. 'Accommodement' est un anglicisme." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q2",
+          "context": { "type": "sentence", "text": "Un employé qui occupe temporairement un poste de niveau supérieur reçoit une {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q2",
+              "questionNumber": 2,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme désigne la paie supplémentaire pour une nomination intérimaire ?",
+              "choices": [ { "id": 1, "text": "paie d'intérim" }, { "id": 2, "text": "salaire d'acting" }, { "id": 3, "text": "rémunération d'intérim" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "L'expression correcte est 'rémunération d'intérim'. 'Paie d'acting' est un anglicisme." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q3",
+          "context": { "type": "sentence", "text": "Le processus de {{BLANK}} est ouvert à tous les citoyens canadiens, qu'ils soient ou non déjà fonctionnaires." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q3",
+              "questionNumber": 3,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on le processus d'embauche de candidats qui ne font pas partie de la fonction publique ?",
+              "choices": [ { "id": 1, "text": "recrutement externe" }, { "id": 2, "text": "embauche de l'extérieur" }, { "id": 3, "text": "recrutement ouvert" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme consacré pour l'embauche de personnes n'appartenant pas à la fonction publique est 'recrutement externe'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q4",
+          "context": { "type": "sentence", "text": "Après la restructuration, plusieurs employés ont été déclarés {{BLANK}} et ont obtenu un droit de priorité pour d'autres postes." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q4",
+              "questionNumber": 4,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le statut d'un employé dont les services ne sont plus requis ?",
+              "choices": [ { "id": 1, "text": "employés surplus" }, { "id": 2, "text": "fonctionnaires excédentaires" }, { "id": 3, "text": "personnel en trop" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme officiel est 'fonctionnaires excédentaires'. 'Employé surplus' est un anglicisme." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q5",
+          "context": { "type": "sentence", "text": "Pour être considéré pour le poste, vous devez obtenir au moins 70%, ce qui est la {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q5",
+              "questionNumber": 5,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on le score minimum requis pour réussir une évaluation ?",
+              "choices": [ { "id": 1, "text": "note de passage" }, { "id": 2, "text": "marque de passe" }, { "id": 3, "text": "score de réussite" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme correct est 'note de passage'. 'Marque de passe' est un calque de l'anglais 'pass mark'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q6",
+          "context": { "type": "sentence", "text": "Le transfert permanent d'un employé vers un autre poste de même niveau est appelé une {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q6",
+              "questionNumber": 6,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour un transfert permanent sans processus de nomination ?",
+              "choices": [ { "id": 1, "text": "déploiement" }, { "id": 2, "text": "affectation" }, { "id": 3, "text": "mutation" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme officiel pour ce type de mouvement est 'mutation'. 'Déploiement' est un anglicisme courant, et une 'affectation' est temporaire." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q7",
+          "context": { "type": "sentence", "text": "Le rapport doit être rédigé en {{BLANK}} pour être accessible à tous les employés." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q7",
+              "questionNumber": 7,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on le style d'écriture qui évite le jargon ?",
+              "choices": [ { "id": 1, "text": "langage commun" }, { "id": 2, "text": "langage clair et simple" }, { "id": 3, "text": "langage plain" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression correcte est 'langage clair et simple'. 'Langage plain' est un calque de l'anglais 'plain language'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q8",
+          "context": { "type": "sentence", "text": "Afin de mesurer les habiletés en gestion, on a demandé aux candidats de faire un {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q8",
+              "questionNumber": 8,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom de l'outil d'évaluation qui simule le traitement de courriels et de notes de service ?",
+              "choices": [ { "id": 1, "text": "simulation de corbeille d'arrivée" }, { "id": 2, "text": "test de bureau" }, { "id": 3, "text": "exercice in-basket" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme consacré pour cette simulation est 'exercice in-basket'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q9",
+          "context": { "type": "sentence", "text": "Avant de lancer le projet, l'équipe a effectué une {{BLANK}} pour comprendre les tendances actuelles." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q9",
+              "questionNumber": 9,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour une analyse des facteurs externes ?",
+              "choices": [ { "id": 1, "text": "analyse du contexte" }, { "id": 2, "text": "scan de l'environnement" }, { "id": 3, "text": "étude situationnelle" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme correct est 'analyse du contexte' ou 'analyse de la conjoncture'. 'Scan de l'environnement' est un calque de l'anglais 'environmental scan'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q10",
+          "context": { "type": "sentence", "text": "Le plus haut fonctionnaire du ministère est l'{{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q10",
+              "questionNumber": 10,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le titre du plus haut fonctionnaire d'un ministère ?",
+              "choices": [ { "id": 1, "text": "sous-ministre" }, { "id": 2, "text": "administrateur général" }, { "id": 3, "text": "député-chef" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme 'administrateur général' est utilisé dans la Loi sur l'emploi dans la fonction publique pour désigner un sous-ministre ou le chef d'un organisme. 'Député-chef' est un calque de l'anglais 'deputy head'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q11",
+          "context": { "type": "sentence", "text": "L'organisation a lancé une nouvelle initiative pour améliorer la {{BLANK}} et le bien-être au travail." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q11",
+              "questionNumber": 11,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme mesure le niveau d'engagement et d'enthousiasme des employés ?",
+              "choices": [ { "id": 1, "text": "engagement des employés" }, { "id": 2, "text": "satisfaction du personnel" }, { "id": 3, "text": "mobilisation du personnel" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme approprié est 'mobilisation du personnel'. 'Engagement des employés' est un calque de l'anglais 'employee engagement'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q12",
+          "context": { "type": "sentence", "text": "Le service des finances a mis en place un système de {{BLANK}} pour les services de traduction offerts aux autres ministères." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q12",
+              "questionNumber": 12,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on le processus de facturation pour récupérer les dépenses ?",
+              "choices": [ { "id": 1, "text": "récupération des coûts" }, { "id": 2, "text": "recouvrement des coûts" }, { "id": 3, "text": "remboursement des frais" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme officiel pour ce processus est 'recouvrement des coûts'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q13",
+          "context": { "type": "sentence", "text": "Le formulaire de demande d'emploi inclut une section pour l'{{BLANK}} afin de recueillir des données sur l'équité en matière d'emploi." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q13",
+              "questionNumber": 13,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme désigne le processus par lequel un candidat indique volontairement son appartenance à un groupe visé par l'équité en matière d'emploi ?",
+              "choices": [ { "id": 1, "text": "self-identification" }, { "id": 2, "text": "autodéclaration" }, { "id": 3, "text": "déclaration volontaire" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme correct est 'autodéclaration'. 'Self-identification' est un anglicisme." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q14",
+          "context": { "type": "sentence", "text": "En raison d'un manque de travail, l'usine a annoncé la {{BLANK}} d'une centaine d'employés." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q14",
+              "questionNumber": 14,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme français pour 'lay-off' ?",
+              "choices": [ { "id": 1, "text": "licenciement" }, { "id": 2, "text": "mise en disponibilité" }, { "id": 3, "text": "layoff" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme officiel dans la fonction publique est 'mise en disponibilité'. 'Layoff' est un anglicisme." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q15",
+          "context": { "type": "sentence", "text": "Bien que la connaissance de l'espagnol ne soit pas essentielle, elle est considérée comme l'une des {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q15",
+              "questionNumber": 15,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on une qualification qui est souhaitable mais non obligatoire ?",
+              "choices": [ { "id": 1, "text": "qualifications constituant un atout" }, { "id": 2, "text": "qualifications d'asset" }, { "id": 3, "text": "compétences additionnelles" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression correcte est 'qualifications constituant un atout'. 'Qualifications d'asset' est un calque de l'anglais 'asset qualifications'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q16",
+          "context": { "type": "sentence", "text": "Après l'entrevue, le comité de sélection doit rédiger un {{BLANK}} pour justifier son choix." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q16",
+              "questionNumber": 16,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel document explique comment une décision de dotation a été prise ?",
+              "choices": [ { "id": 1, "text": "rapport de sélection" }, { "id": 2, "text": "record de décision" }, { "id": 3, "text": "rapport de décision" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme officiel est 'rapport de décision'. 'Record de décision' est un anglicisme." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q17",
+          "context": { "type": "sentence", "text": "Le syndicat agit en tant qu'{{BLANK}} pour les employés de cette unité de négociation." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q17",
+              "questionNumber": 17,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme qui désigne l'organisation représentant les employés dans les négociations collectives ?",
+              "choices": [ { "id": 1, "text": "agent négociateur" }, { "id": 2, "text": "représentant syndical" }, { "id": 3, "text": "partenaire de négociation" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme légal et officiel est 'agent négociateur'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q18",
+          "context": { "type": "sentence", "text": "Toute forme de {{BLANK}}, où un candidat est choisi en raison d'une relation personnelle, est interdite." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q18",
+              "questionNumber": 18,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on le fait de favoriser quelqu'un en raison d'une relation personnelle ?",
+              "choices": [ { "id": 1, "text": "favoritisme" }, { "id": 2, "text": "favoritisme personnel" }, { "id": 3, "text": "népotisme" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme précis est 'favoritisme personnel', qui se distingue du favoritisme en général. Le népotisme en est une forme spécifique liée à la famille." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q19",
+          "context": { "type": "sentence", "text": "L'enquête a conclu que la plainte était une {{BLANK}} et qu'aucune mesure ne serait prise." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q19",
+              "questionNumber": 19,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment qualifie-t-on une plainte qui s'est avérée fausse après enquête ?",
+              "choices": [ { "id": 1, "text": "allégation non fondée" }, { "id": 2, "text": "plainte invalide" }, { "id": 3, "text": "accusation rejetée" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme officiel utilisé dans les enquêtes est 'allégation non fondée'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q20",
+          "context": { "type": "sentence", "text": "Ce poste comporte une {{BLANK}} stipulant que le titulaire doit être prêt à voyager fréquemment." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q20",
+              "questionNumber": 20,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on une exigence liée à la conduite des activités de l'organisation ?",
+              "choices": [ { "id": 1, "text": "condition de travail" }, { "id": 2, "text": "exigence opérationnelle" }, { "id": 3, "text": "qualification essentielle" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Une 'exigence opérationnelle' est une condition liée aux besoins de l'organisation, distincte des qualifications du candidat." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q21",
+          "context": { "type": "sentence", "text": "L'audit a révélé une {{BLANK}} avec les politiques du Conseil du Trésor." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q21",
+              "questionNumber": 21,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour le non-respect d'une règle ou d'une politique ?",
+              "choices": [ { "id": 1, "text": "déviation" }, { "id": 2, "text": "non-compliance" }, { "id": 3, "text": "non-conformité" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme correct est 'non-conformité'. 'Non-compliance' est un anglicisme." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q22",
+          "context": { "type": "sentence", "text": "Le comité s'est assuré que le processus de sélection respectait l'{{BLANK}} procédurale." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q22",
+              "questionNumber": 22,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on le principe selon lequel les processus doivent être justes pour tous ?",
+              "choices": [ { "id": 1, "text": "équité procédurale" }, { "id": 2, "text": "justice de processus" }, { "id": 3, "text": "fairness procédurale" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression consacrée est 'équité procédurale'. 'Fairness' est un anglicisme." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q23",
+          "context": { "type": "sentence", "text": "La direction a demandé une {{BLANK}} pour identifier les raisons de la baisse de productivité." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q23",
+              "questionNumber": 23,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme désigne la comparaison entre les résultats prévus et les résultats réels ?",
+              "choices": [ { "id": 1, "text": "analyse de variance" }, { "id": 2, "text": "analyse des écarts" }, { "id": 3, "text": "revue de performance" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme correct est 'analyse des écarts'. 'Analyse de variance' est un anglicisme statistique ('variance analysis')." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q24",
+          "context": { "type": "sentence", "text": "Un fonctionnaire doit respecter son {{BLANK}} et ne pas critiquer publiquement les politiques du gouvernement." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q24",
+              "questionNumber": 24,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le devoir d'un fonctionnaire de ne pas nuire à son employeur ?",
+              "choices": [ { "id": 1, "text": "devoir de réserve" }, { "id": 2, "text": "obligation de loyauté" }, { "id": 3, "text": "serment professionnel" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Ce devoir est appelé 'l'obligation de loyauté'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q25",
+          "context": { "type": "sentence", "text": "L'enquête a été menée pour vérifier une {{BLANK}} d'activités politiques irrégulières." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q25",
+              "questionNumber": 25,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on une plainte ou une accusation formelle ?",
+              "choices": [ { "id": 1, "text": "accusation" }, { "id": 2, "text": "allégation" }, { "id": 3, "text": "dénonciation" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Dans un contexte formel d'enquête, le terme approprié pour une accusation non prouvée est 'allégation'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q26",
+          "context": { "type": "sentence", "text": "Le programme de mentorat est destiné à chaque {{BLANK}} qui souhaite progresser vers un poste de direction." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q26",
+              "questionNumber": 26,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme désigne un employé qui aspire à un poste de direction ?",
+              "choices": [ { "id": 1, "text": "aspirant-cadre" }, { "id": 2, "text": "futur leader" }, { "id": 3, "text": "employé ambitieux" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme officiel pour un 'aspiring leader' est 'aspirant-cadre'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q27",
+          "context": { "type": "sentence", "text": "La fonction publique s'efforce d'améliorer sa {{BLANK}} pour mieux refléter la population canadienne." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q27",
+              "questionNumber": 27,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel concept mesure à quel point une organisation reflète la diversité de la population ?",
+              "choices": [ { "id": 1, "text": "diversité" }, { "id": 2, "text": "représentation" }, { "id": 3, "text": "représentativité" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme 'représentativité' est utilisé pour décrire la mesure dans laquelle l'effectif est le reflet de la population." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q28",
+          "context": { "type": "sentence", "text": "L'enquête a prouvé que le gestionnaire a agi de {{BLANK}} en cachant des informations pertinentes." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q28",
+              "questionNumber": 28,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme décrit une action faite avec une intention malhonnête ou trompeuse ?",
+              "choices": [ { "id": 1, "text": "mauvaise foi" }, { "id": 2, "text": "faute grave" }, { "id": 3, "text": "intention malicieuse" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression consacrée pour décrire une intention malhonnête ('bad faith') est 'mauvaise foi'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q29",
+          "context": { "type": "sentence", "text": "Suite à l'audit, la direction a dû mettre en place une {{BLANK}} pour corriger la faille." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q29",
+              "questionNumber": 29,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on une action entreprise pour corriger une erreur ou une non-conformité ?",
+              "choices": [ { "id": 1, "text": "action de remède" }, { "id": 2, "text": "mesure corrective" }, { "id": 3, "text": "plan d'action" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme officiel pour une 'corrective action' est 'mesure corrective'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q30",
+          "context": { "type": "sentence", "text": "Une {{BLANK}} est requise pour pouvoir postuler à cet emploi." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q30",
+              "questionNumber": 30,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on une exigence obligatoire, comme un diplôme ou de l'expérience, pour un poste ?",
+              "choices": [ { "id": 1, "text": "qualification essentielle" }, { "id": 2, "text": "prérequis" }, { "id": 3, "text": "critère de base" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Une exigence obligatoire pour un poste est une 'qualification essentielle'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q31",
+          "context": { "type": "sentence", "text": "Nous avons créé un {{BLANK}} de candidats qualifiés pour les futurs besoins en dotation." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q31",
+              "questionNumber": 31,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme désigne une liste ou un bassin de personnes qualifiées ?",
+              "choices": [ { "id": 1, "text": "inventaire" }, { "id": 2, "text": "bassin" }, { "id": 3, "text": "répertoire" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme utilisé est 'répertoire'. 'Inventaire' est un anglicisme ('inventory'). 'Bassin' est souvent utilisé, mais 'répertoire' est le terme du lexique." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q32",
+          "context": { "type": "sentence", "text": "Le programme de {{BLANK}} vise à combler les postes de premier échelon avec de nouveaux diplômés." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q32",
+              "questionNumber": 32,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment se nomme le recrutement pour les postes de début de carrière ?",
+              "choices": [ { "id": 1, "text": "recrutement au niveau d'entrée" }, { "id": 2, "text": "recrutement junior" }, { "id": 3, "text": "embauche post-universitaire" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression officielle est 'recrutement au niveau d'entrée'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q33",
+          "context": { "type": "sentence", "text": "L'employé a reçu une {{BLANK}} pour une mission temporaire dans une autre direction." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q33",
+              "questionNumber": 33,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour une mission temporaire d'un fonctionnaire à d'autres fonctions ?",
+              "choices": [ { "id": 1, "text": "mutation" }, { "id": 2, "text": "affectation" }, { "id": 3, "text": "nomination intérimaire" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Une mission temporaire est une 'affectation'. Une 'mutation' est permanente et une 'nomination intérimaire' implique un niveau supérieur." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q34",
+          "context": { "type": "sentence", "text": "L'équipe de communications organise des {{BLANK}} dans les universités pour promouvoir les carrières dans la fonction publique." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q34",
+              "questionNumber": 34,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme désigne les activités de communication et de sensibilisation ?",
+              "choices": [ { "id": 1, "text": "activités de rayonnement" }, { "id": 2, "text": "activités promotionnelles" }, { "id": 3, "text": "sessions d'information" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Les termes 'activités de liaison', 'de sensibilisation' ou 'de rayonnement' sont utilisés pour 'outreach'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q35",
+          "context": { "type": "sentence", "text": "L'enquête a conclu que le gestionnaire avait commis un {{BLANK}} en utilisant sa position pour accorder un contrat à un ami." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q35",
+              "questionNumber": 35,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on l'utilisation inappropriée de son autorité ?",
+              "choices": [ { "id": 1, "text": "abus de pouvoir" }, { "id": 2, "text": "favoritisme" }, { "id": 3, "text": "mauvaise foi" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'utilisation inappropriée de son autorité officielle est un 'abus de pouvoir'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q36",
+          "context": { "type": "sentence", "text": "Le ministère doit procéder à une {{BLANK}} de ses programmes tous les cinq ans." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q36",
+              "questionNumber": 36,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment se nomme une évaluation menée à intervalles réguliers ?",
+              "choices": [ { "id": 1, "text": "évaluation périodique" }, { "id": 2, "text": "revue régulière" }, { "id": 3, "text": "évaluation cyclique" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme officiel pour une évaluation menée à des intervalles fixes ('cyclical assessment') est 'évaluation cyclique'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q37",
+          "context": { "type": "sentence", "text": "La fin de l'{{BLANK}} est le 31 mars." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q37",
+              "questionNumber": 37,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour la période de 12 mois utilisée pour la budgétisation ?",
+              "choices": [ { "id": 1, "text": "année fiscale" }, { "id": 2, "text": "exercice financier" }, { "id": 3, "text": "année budgétaire" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme consacré est 'exercice financier' ou 'exercice'. 'Année fiscale' est un anglicisme." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q38",
+          "context": { "type": "sentence", "text": "Pour ce projet technique, nous avons besoin de l'avis d'un {{BLANK}} en génie logiciel." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q38",
+              "questionNumber": 38,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on une personne ayant une connaissance approfondie d'un domaine spécifique ?",
+              "choices": [ { "id": 1, "text": "expert en la matière" }, { "id": 2, "text": "spécialiste du sujet" }, { "id": 3, "text": "consultant interne" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression pour 'subject-matter expert' est 'expert en la matière'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q39",
+          "context": { "type": "sentence", "text": "Le fonctionnaire a reçu une offre de {{BLANK}} pour un poste permanent." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q39",
+              "questionNumber": 39,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour l'acte d'embaucher une personne à un poste ?",
+              "choices": [ { "id": 1, "text": "nomination" }, { "id": 2, "text": "engagement" }, { "id": 3, "text": "placement" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Dans la fonction publique, l'acte d'être nommé à un poste est une 'nomination'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_CFP_2_Q40",
+          "context": { "type": "sentence", "text": "L'employé a reçu une {{BLANK}} pour le qualifier à un nouveau poste après l'abolition du sien." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_CFP_2_Q40",
+              "questionNumber": 40,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on la formation offerte pour qualifier un employé à un nouvel emploi ?",
+              "choices": [ { "id": 1, "text": "re-formation" }, { "id": 2, "text": "formation d'appoint" }, { "id": 3, "text": "formation de transition" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme pour 'retraining' dans ce contexte est 'formation d'appoint'." }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
