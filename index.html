@@ -8,365 +8,141 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-        .choice-btn.selected {
-            background-color: #3b82f6; /* Tailwind's blue-500 */
-            color: white;
-            border-color: #2563eb; /* Tailwind's blue-600 */
-        }
-        .choice-btn.correct {
-            background-color: #22c55e; /* Tailwind's green-500 */
-            color: white;
-            border-color: #16a34a; /* Tailwind's green-600 */
-        }
-        .choice-btn.incorrect {
-            background-color: #ef4444; /* Tailwind's red-500 */
-            color: white;
-            border-color: #dc2626; /* Tailwind's red-600 */
-        }
-        .blank-space {
-            display: inline-block;
-            width: 80px;
-            border-bottom: 1px solid #9ca3af; /* Tailwind's gray-400 */
-            margin: 0 4px;
-            vertical-align: bottom;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
     <div id="quiz-container" class="w-full max-w-3xl mx-auto bg-white p-6 sm:p-8 rounded-2xl shadow-lg">
         
-        <!-- Loading State -->
         <div id="loading-state" class="hidden">
-            <h1 class="text-2xl font-bold text-gray-800 text-center">Loading Quiz...</h1>
-            <p class="text-gray-600 text-center mt-2">Please wait while we prepare the questions.</p>
+            <h1 class="text-2xl font-bold text-slate-800 text-center">Loading Quiz...</h1>
+            <p class="text-slate-600 text-center mt-2">Please wait while we prepare the questions.</p>
         </div>
 
-    <div id="start-state" class="text-center">
-    <h1 class="text-3xl font-bold text-gray-800">French Language Quiz</h1>
-    <p class="text-gray-600 mt-4 text-lg">Please select a quiz type to begin.</p>
-    
-    <div class="mt-8 space-y-10">
+        <div id="start-state" class="text-center">
+            <div class="text-center">
+                <header class="py-16">
+                    <h1 class="text-4xl md:text-5xl font-extrabold text-slate-800 tracking-tight">
+                        Get your Cs in your SLEs
+                    </h1>
+                    <p class="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
+Prepare for the Second Language Evaluation (SLE) for the Government of Canada. Test your French, track your progress, and learn with quizzes tailored to the official exam format.                    </p>
+                    <div class="mt-8">
+                        <a href="#quiz-selection" class="bg-blue-600 text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-blue-700 transition-transform hover:scale-105">
+                            Start a Quiz Now
+                        </a>
+                    </div>
+                </header>
 
-        <section>
-            <h3 class="text-xl font-semibold text-gray-700 mb-4">Practice Tests - Questions Bank</h3>
-            <div class="flex flex-col items-center gap-4">
-                <div class="flex flex-col sm:flex-row gap-4">
-                    <button data-quiz-file="CE.json" class="quiz-type-btn bg-indigo-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-indigo-700 transition-colors text-xl shadow-md">
-                        Compréhension de l'écrit
-                    </button>
-                    <button data-quiz-file="EE.json" class="quiz-type-btn bg-indigo-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-indigo-700 transition-colors text-xl shadow-md">
-                        Expression écrite
-                    </button>
-                </div>
+                <section class="py-20 bg-gray-50 -mx-6 sm:-mx-8 px-6 sm:px-8">
+                    <div class="max-w-4xl mx-auto">
+                        <h2 class="text-3xl font-bold text-center text-slate-800">Why Use These Quizzes to Study?</h2>
+                        <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-10">
+                            <div class="flex flex-col items-center">
+                                <div class="bg-blue-100 text-blue-600 rounded-full p-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" /></svg>
+                                </div>
+                                <h3 class="mt-4 text-xl font-semibold">Diverse Topics</h3>
+                                <p class="mt-2 text-slate-600">Specific topics perfect for SLE exam preparation.</p>
+                            </div>
+                            <div class="flex flex-col items-center">
+                                <div class="bg-blue-100 text-blue-600 rounded-full p-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                                </div>
+                                <h3 class="mt-4 text-xl font-semibold">Instant Feedback</h3>
+                                <p class="mt-2 text-slate-600">Quick contextual explanations for your bad choices.</p>
+                            </div>
+                            <div class="flex flex-col items-center">
+                                <div class="bg-blue-100 text-blue-600 rounded-full p-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
+                                </div>
+                                <h3 class="mt-4 text-xl font-semibold">Track Your Progress</h3>
+                                <p class="mt-2 text-slate-600">See your scores and performance over time.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="quiz-selection" class="py-20">
+                    <h2 class="text-3xl font-bold text-center text-slate-800">Choose a Quiz to Begin</h2>
+                    <p class="mt-2 text-center text-slate-600">Select a category that suits your learning goals.</p>
+
+                    <div class="mt-12 max-w-4xl mx-auto text-left">
+                        <h3 class="text-xl font-semibold text-slate-700 mb-4">Practice Tests - Questions Bank</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <button data-quiz-file="CE.json" class="quiz-type-btn text-left p-6 border rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all">
+                                <h4 class="font-bold text-lg">Compréhension de l'écrit</h4>
+                                <p class="mt-1">Practice your reading comprehension with official exam-style questions.</p>
+                            </button>
+                            <button data-quiz-file="EE.json" class="quiz-type-btn text-left p-6 border rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all">
+                                <h4 class="font-bold text-lg">Expression écrite</h4>
+                                <p class="mt-1">Improve your writing skills by identifying common errors.</p>
+                            </button>
+                        </div>
+
+                        <h3 class="text-xl font-semibold text-slate-700 mt-10 mb-4">Focused Topic / Style Study</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <button data-quiz-file="FauxAmis.json" class="quiz-type-btn text-left p-6 border rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all">
+                                <h4 class="font-bold text-lg">Faux Amis et Anglicismes</h4>
+                                <p class="mt-1">Master tricky "false friends" and common anglicisms.</p>
+                            </button>
+                            <button data-quiz-file="Prepositions.json" class="quiz-type-btn text-left p-6 border rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all">
+                                <h4 class="font-bold text-lg">Prépositions</h4>
+                                <p class="mt-1">Sharpen your use of prepositions like 'à', 'de', and 'en'.</p>
+                            </button>
+                            <button data-quiz-file="Agreement.json" class="quiz-type-btn text-left p-6 border rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all">
+                                <h4 class="font-bold text-lg">Accord</h4>
+                                <p class="mt-1">Test your knowledge of verb and adjective agreement.</p>
+                            </button>
+                            <button data-quiz-file="Subjonctif.json" class="quiz-type-btn text-left p-6 border rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all">
+                                <h4 class="font-bold text-lg">Subjonctif</h4>
+                                <p class="mt-1">Practice the subjunctive mood in various contexts.</p>
+                            </button>
+                            <button data-quiz-file="Lexique.json" class="quiz-type-btn text-left p-6 border rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all">
+                                <h4 class="font-bold text-lg">Lexique</h4>
+                                <p class="mt-1">Expand your vocabulary with targeted lexical exercises.</p>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="mt-12 border-t pt-10">
+                    <h3 class="text-xl font-semibold text-slate-700 mb-4">Recent Scores</h3>
+                    <div id="scores-container" class="space-y-2 text-left max-w-md mx-auto"></div>
+                    <button id="clear-scores-btn" class="mt-4 text-sm text-slate-500 hover:text-red-600 transition-colors hidden">Clear All Scores</button>
+                    <button id="view-dashboard-btn" class="mt-6 bg-green-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-green-700 transition-colors text-lg shadow-md">View Dashboard</button>
+                </section>
             </div>
-        </section>
+        </div>
 
-        <section>
-            <h3 class="text-xl font-semibold text-gray-700 mb-4">Focused Topic / Style Study</h3>
-            <div class="flex flex-col items-center gap-4">
-                <div class="flex">
-                    <button data-quiz-file="FauxAmis.json" class="quiz-type-btn bg-teal-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-teal-700 transition-colors text-xl shadow-md">
-                        Faux Amis et Anglicismes
-                    </button>
-                </div>
-                <div class="flex flex-col sm:flex-row gap-4">
-                    <button data-quiz-file="Prepositions.json" class="quiz-type-btn bg-sky-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-700 transition-colors text-xl shadow-md">
-                        Prépositions
-                    </button>
-                    <button data-quiz-file="Agreement.json" class="quiz-type-btn bg-sky-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-700 transition-colors text-xl shadow-md">
-                        Accord
-                    </button>
-                </div>
-                <div class="flex flex-col sm:flex-row gap-4">
-                    <button data-quiz-file="Subjonctif.json" class="quiz-type-btn bg-sky-400 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-700 transition-colors text-xl shadow-md">
-                        Subjonctif
-                    </button>
-                </div>
-                <div class="flex flex-col sm:flex-row gap-4">
-                    <button data-quiz-file="Lexique.json" class="quiz-type-btn bg-sky-400 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-700 transition-colors text-xl shadow-md">
-                        Lexique
-                    </button>
-                </div>
-            </div>
-        </section>
-
-    </div>
-</div>
-
-        <!-- Quiz View -->
         <div id="quiz-view" class="hidden">
-            <div class="flex justify-between items-center mb-6">
-                <h1 id="quiz-title" class="text-xl sm:text-2xl font-bold text-blue-600">French Quiz</h1>
-                <div id="question-counter" class="text-gray-600 font-semibold">Question 1/10</div>
-            </div>
-
-            <!-- Context Area -->
-            <div id="context-area" class="mb-6 p-4 bg-gray-50 border border-gray-200 rounded-lg hidden">
-                <h3 class="font-semibold text-gray-700 mb-2">Context:</h3>
-                <p id="context-text" class="text-gray-800 leading-relaxed whitespace-pre-line"></p>
-            </div>
-            
-            <!-- Question Area -->
-            <p id="question-prompt" class="text-lg font-semibold text-gray-900 mb-6"></p>
-            
-            <!-- Choices Area -->
-            <div id="choices-container" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <!-- Choices will be injected here by JavaScript -->
-            </div>
-
-            <!-- Feedback Area -->
-            <div id="feedback-area" class="mt-6 p-4 rounded-lg hidden">
-                <p id="feedback-text" class="font-bold"></p>
-                <p id="correct-answer-text" class="mt-1"></p>
-                <p id="explanation-text" class="mt-2 text-sm text-gray-700"></p>
-            </div>
-
-            <!-- Action Buttons -->
-            <div class="mt-8 flex justify-between items-center">
-                <button id="back-to-menu-btn" class="text-gray-600 hover:text-blue-600 font-semibold transition-colors">Back to Menu</button>
-                <div>
-                    <button id="submit-btn" class="bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors shadow-sm">Submit</button>
-                    <button id="next-question-btn" class="bg-green-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-green-700 transition-colors hidden shadow-sm">Next Question</button>
-                </div>
-            </div>
+            <div class="flex justify-between items-center mb-6"><h1 id="quiz-title" class="text-xl sm:text-2xl font-bold text-blue-600">French Quiz</h1><div id="question-counter" class="text-slate-600 font-semibold"></div></div>
+            <div id="context-area" class="mb-6 p-4 bg-gray-50 border border-gray-200 rounded-lg hidden"><h3 class="font-semibold text-slate-700 mb-2">Context:</h3><p id="context-text" class="text-slate-800 leading-relaxed whitespace-pre-line"></p></div>
+            <p id="question-prompt" class="text-lg font-semibold text-slate-900 mb-6"></p>
+            <div id="choices-container" class="grid grid-cols-1 sm:grid-cols-2 gap-4"></div>
+            <div id="feedback-area" class="mt-6 p-4 rounded-lg hidden"><p id="feedback-text" class="font-bold"></p><p id="correct-answer-text" class="mt-1"></p><p id="explanation-text" class="mt-2 text-sm text-slate-700"></p></div>
+            <div class="mt-8 flex justify-between items-center"><button id="back-to-menu-btn" class="text-slate-600 hover:text-blue-600 font-semibold transition-colors">Back to Menu</button><div><button id="submit-btn" class="bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors shadow-sm">Submit</button><button id="next-question-btn" class="bg-green-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-green-700 transition-colors hidden shadow-sm">Next Question</button></div></div>
         </div>
 
-        <!-- Score View -->
         <div id="score-view" class="text-center hidden">
-            <h2 class="text-3xl font-bold text-gray-800">Quiz Complete!</h2>
-            <p class="text-gray-600 mt-4 text-xl">Your Score:</p>
+            <h2 class="text-3xl font-bold text-slate-800">Quiz Complete!</h2>
+            <p class="text-slate-600 mt-4 text-xl">Your Score:</p>
             <p id="final-score" class="text-6xl font-bold text-blue-600 my-4">0%</p>
-            <p id="score-summary" class="text-gray-700 text-lg"></p>
-            <button id="back-to-menu-score-btn" class="mt-8 bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors text-xl shadow-md">
-                Back to Menu
-            </button>
+            <p id="score-summary" class="text-slate-700 text-lg"></p>
+            <button id="back-to-menu-score-btn" class="mt-8 bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors text-xl shadow-md">Back to Menu</button>
+        </div>
+        
+        <div id="dashboard-view" class="text-center hidden">
+            <h2 class="text-3xl font-bold text-slate-800">Your Dashboard</h2>
+            <div class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <div class="bg-gray-100 p-4 rounded-lg"><p class="text-lg font-semibold text-slate-600">Total Quizzes</p><p id="stats-total-quizzes" class="text-4xl font-bold text-blue-600">0</p></div>
+                <div class="bg-gray-100 p-4 rounded-lg"><p class="text-lg font-semibold text-slate-600">Overall Accuracy</p><p id="stats-overall-accuracy" class="text-4xl font-bold text-green-600">0%</p></div>
+                <div class="bg-gray-100 p-4 rounded-lg"><p class="text-lg font-semibold text-slate-600">Total Questions</p><p id="stats-total-questions" class="text-4xl font-bold text-slate-800">0</p></div>
+            </div>
+            <div class="mt-10"><h3 class="text-xl font-semibold text-slate-700 mb-4">Performance by Topic</h3><div id="stats-by-topic" class="space-y-2 text-left max-w-md mx-auto"></div></div>
+            <button id="back-to-menu-dashboard-btn" class="mt-8 bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700">Back to Menu</button>
         </div>
     </div>
 
-    <script>
-        // DOM Elements
-        const loadingState = document.getElementById('loading-state');
-        const startState = document.getElementById('start-state');
-        const quizView = document.getElementById('quiz-view');
-        const scoreView = document.getElementById('score-view');
-        const quizTitle = document.getElementById('quiz-title');
-        const questionCounter = document.getElementById('question-counter');
-        const contextArea = document.getElementById('context-area');
-        const contextText = document.getElementById('context-text');
-        const questionPrompt = document.getElementById('question-prompt');
-        const choicesContainer = document.getElementById('choices-container');
-        const submitBtn = document.getElementById('submit-btn');
-        const nextQuestionBtn = document.getElementById('next-question-btn');
-        const feedbackArea = document.getElementById('feedback-area');
-        const feedbackText = document.getElementById('feedback-text');
-        const correctAnswerText = document.getElementById('correct-answer-text');
-        const explanationText = document.getElementById('explanation-text');
-        const finalScore = document.getElementById('final-score');
-        const scoreSummary = document.getElementById('score-summary');
-        const backToMenuBtn = document.getElementById('back-to-menu-btn');
-        const backToMenuScoreBtn = document.getElementById('back-to-menu-score-btn');
-
-        // Quiz State
-        let currentQuizQuestions = [];
-        let currentQuestionIndex = 0;
-        let score = 0;
-        let selectedAnswerId = null;
-
-        const QUIZ_LENGTH = 10;
-
-        // --- Helper function to parse JSON data ---
-        function parseJsonData(dataFromFile) {
-            const parsedQuestions = [];
-            // This handles the nested structure of your files
-            let examsArray = dataFromFile.exams;
-            // This handles an occasional extra layer of nesting found in some files
-            if (examsArray && examsArray.length > 0 && examsArray[0].exams) {
-                examsArray = examsArray.flatMap(e => e.exams);
-            }
-            
-            if (examsArray) {
-                examsArray.forEach(exam => {
-                    if (exam.questionSets) {
-                        exam.questionSets.forEach(set => {
-                            if (set.questions) {
-                                set.questions.forEach(q => {
-                                    parsedQuestions.push({
-                                        context: set.context ? set.context.text : null,
-                                        prompt: q.prompt,
-                                        choices: q.choices,
-                                        answerKey: q.answerKey
-                                    });
-                                });
-                            }
-                        });
-                    }
-                });
-            }
-            return parsedQuestions;
-        }
-
-
-        // --- Quiz Logic ---
-        async function startQuiz(fileName, quizTitleText) {
-            // Show loading screen while fetching data
-            startState.classList.add('hidden');
-            loadingState.classList.remove('hidden');
-
-            try {
-                const response = await fetch(fileName);
-                if (!response.ok) {
-                    throw new Error(`Could not load ${fileName}. Make sure the file exists and is in the same folder.`);
-                }
-                const data = await response.json();
-                const questionsFromFile = parseJsonData(data);
-
-                if (questionsFromFile.length < 1) {
-                    throw new Error(`No questions were found in ${fileName}. Please check the file's content and structure.`);
-                }
-
-                score = 0;
-                currentQuestionIndex = 0;
-                
-                const shuffled = [...questionsFromFile].sort(() => 0.5 - Math.random());
-                currentQuizQuestions = shuffled.slice(0, QUIZ_LENGTH);
-                
-                // Update UI and display the first question
-                loadingState.classList.add('hidden');
-                quizView.classList.remove('hidden');
-                quizTitle.textContent = quizTitleText;
-                displayQuestion();
-
-            } catch (error) {
-                loadingState.innerHTML = `<h1 class="text-2xl font-bold text-red-600 text-center">Error</h1><p class="text-gray-600 text-center mt-2">${error.message}</p><button onclick="showMainMenu()" class="mt-4 text-blue-600 hover:underline">Back to Menu</button>`;
-                console.error("Error starting quiz:", error);
-            }
-        }
-
-
-        function displayQuestion() {
-            // Reset UI
-            selectedAnswerId = null;
-            choicesContainer.innerHTML = '';
-            feedbackArea.classList.add('hidden');
-            explanationText.classList.add('hidden');
-            submitBtn.classList.remove('hidden');
-            nextQuestionBtn.classList.add('hidden');
-            submitBtn.disabled = true;
-
-            const question = currentQuizQuestions[currentQuestionIndex];
-            const totalQuestionsInSet = currentQuizQuestions.length;
-            
-            questionCounter.textContent = `Question ${currentQuestionIndex + 1}/${totalQuestionsInSet}`;
-            
-            if (question.context) {
-                let formattedContext = question.context.replace(/\{\{BLANK.*?\}\}/g, '<span class="blank-space"></span>');
-                contextText.innerHTML = formattedContext;
-                contextArea.classList.remove('hidden');
-            } else {
-                contextArea.classList.add('hidden');
-            }
-            
-            questionPrompt.textContent = question.prompt;
-            
-            question.choices.forEach(choice => {
-                const button = document.createElement('button');
-                button.innerHTML = choice.text;
-                button.dataset.id = choice.id;
-                button.className = 'choice-btn p-4 border-2 border-gray-300 rounded-lg text-left hover:bg-gray-100 hover:border-blue-400 transition-all';
-                button.onclick = () => selectAnswer(choice.id, button);
-                choicesContainer.appendChild(button);
-            });
-        }
-
-        function selectAnswer(choiceId, buttonElement) {
-            selectedAnswerId = choiceId;
-            Array.from(choicesContainer.children).forEach(btn => btn.classList.remove('selected'));
-            buttonElement.classList.add('selected');
-            submitBtn.disabled = false;
-        }
-
-        function submitAnswer() {
-            if (selectedAnswerId === null) return;
-
-            const question = currentQuizQuestions[currentQuestionIndex];
-            const correctChoiceId = question.answerKey.correctChoiceId;
-            const isCorrect = selectedAnswerId === correctChoiceId;
-
-            if (isCorrect) score++;
-
-            feedbackArea.classList.remove('hidden');
-            feedbackText.textContent = isCorrect ? 'Correct!' : 'Incorrect!';
-            feedbackArea.className = `mt-6 p-4 rounded-lg ${isCorrect ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`;
-
-            const correctChoice = question.choices.find(c => c.id === correctChoiceId);
-            correctAnswerText.textContent = isCorrect ? '' : `The correct answer is: ${correctChoice.text}`;
-            
-            const explanation = question.answerKey.explanation;
-            if (explanation) {
-                explanationText.innerHTML = `<strong>Explanation:</strong> ${explanation}`;
-                explanationText.classList.remove('hidden');
-            } else {
-                explanationText.classList.add('hidden');
-            }
-
-            Array.from(choicesContainer.children).forEach(btn => {
-                const btnId = parseInt(btn.dataset.id);
-                btn.disabled = true;
-                
-                if (btnId === correctChoiceId) btn.classList.add('correct');
-                else if (btnId === selectedAnswerId && !isCorrect) btn.classList.add('incorrect');
-                btn.classList.remove('selected');
-            });
-
-            submitBtn.classList.add('hidden');
-            nextQuestionBtn.classList.remove('hidden');
-        }
-        
-        function nextQuestion() {
-            currentQuestionIndex++;
-            if (currentQuestionIndex < currentQuizQuestions.length) {
-                displayQuestion();
-            } else {
-                showScore();
-            }
-        }
-
-        function showScore() {
-            quizView.classList.add('hidden');
-            scoreView.classList.remove('hidden');
-            
-            const totalQuestionsInSet = currentQuizQuestions.length;
-            const percentage = Math.round((score / totalQuestionsInSet) * 100);
-            finalScore.textContent = `${percentage}%`;
-            scoreSummary.textContent = `You answered ${score} out of ${totalQuestionsInSet} questions correctly.`;
-        }
-        
-        function showMainMenu() {
-            quizView.classList.add('hidden');
-            scoreView.classList.add('hidden');
-            loadingState.classList.add('hidden');
-            startState.classList.remove('hidden');
-        }
-        
-        // --- Event Listeners ---
-        document.querySelectorAll('.quiz-type-btn').forEach(button => {
-            button.addEventListener('click', (event) => {
-                const buttonEl = event.currentTarget;
-                const fileName = buttonEl.dataset.quizFile;
-                const quizTitleText = buttonEl.textContent;
-                startQuiz(fileName, quizTitleText);
-            });
-        });
-        submitBtn.addEventListener('click', submitAnswer);
-        nextQuestionBtn.addEventListener('click', nextQuestion);
-        backToMenuBtn.addEventListener('click', showMainMenu);
-        backToMenuScoreBtn.addEventListener('click', showMainMenu);
-
-    </script>
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>
-

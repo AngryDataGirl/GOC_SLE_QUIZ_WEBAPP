@@ -1,0 +1,125 @@
+/* --- Modern Blueberry Palette --- */
+:root {
+    --bg-color: #f8f9fa; /* Very light gray */
+    --container-bg: #ffffff;
+    --text-primary: #212529; /* Dark charcoal */
+    --text-secondary: #6c757d; /* Muted gray */
+    --primary-color: #005f73; /* Deep teal */
+    --primary-hover: #0a9396;
+    --accent-color: #0a9396; /* Bright cyan/teal for highlights */
+    --border-color: #dee2e6;
+    
+    --color-correct: #2a9d8f;
+    --color-correct-bg: #e9f5f3;
+    --color-incorrect: #e76f51;
+    --color-incorrect-bg: #fdeae6;
+    --color-selected-bg: #005f73;
+    --color-selected-border: #004c5c;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+}
+
+#quiz-container {
+    background-color: var(--container-bg);
+}
+
+/* Added for secondary text elements */
+.text-secondary {
+    color: var(--text-secondary);
+}
+
+/* === Button Styling === */
+
+/* Added for the main "Start a Quiz Now" link */
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+    transition: background-color 0.2s ease-in-out;
+}
+.btn-primary:hover {
+     background-color: var(--primary-hover);
+}
+
+.quiz-type-btn {
+    border: 1px solid var(--border-color); /* Kept a border for definition */
+}
+.quiz-type-btn:hover {
+    border-color: var(--primary-color);
+    background-color: #f8f9fa;
+}
+
+
+#view-dashboard-btn, #back-to-menu-score-btn, #back-to-menu-dashboard-btn {
+    background-color: var(--primary-color);
+    color: white;
+    transition: background-color 0.2s ease-in-out;
+}
+#view-dashboard-btn:hover, #back-to-menu-score-btn:hover, #back-to-menu-dashboard-btn:hover {
+    background-color: var(--primary-hover);
+}
+
+#submit-btn {
+    background-color: var(--accent-color);
+    color: white;
+}
+#submit-btn:hover {
+    background-color: var(--primary-hover);
+}
+
+/* Added for the next question button */
+#next-question-btn {
+    background-color: var(--color-correct);
+    color: white;
+}
+#next-question-btn:hover {
+    background-color: #248a7f; /* A slightly darker correct color */
+}
+
+
+.choice-btn {
+    border: 1px solid var(--border-color);
+    transition: all 0.2s ease;
+}
+.choice-btn:hover {
+    border-color: var(--accent-color);
+    background-color: #f8f9fa;
+}
+
+/* === Feedback States === */
+.choice-btn.selected {
+    background-color: var(--color-selected-bg);
+    border-color: var(--color-selected-border);
+    color: white;
+}
+.choice-btn.correct {
+    background-color: var(--color-correct);
+    border-color: var(--color-correct);
+    color: white;
+}
+.choice-btn.incorrect {
+    background-color: var(--color-incorrect);
+    border-color: var(--color-incorrect);
+    color: white;
+}
+
+/* Changed selectors to be independent of Tailwind. Your JS should add the .correct or .incorrect class. */
+#feedback-area.correct {
+    background-color: var(--color-correct-bg);
+    border: 1px solid var(--color-correct);
+}
+#feedback-area.incorrect {
+    background-color: var(--color-incorrect-bg);
+    border: 1px solid var(--color-incorrect);
+}
+
+.blank-space {
+    display: inline-block;
+    width: 80px;
+    border-bottom: 1px solid var(--border-color);
+    margin: 0 4px;
+    vertical-align: bottom;
+}
