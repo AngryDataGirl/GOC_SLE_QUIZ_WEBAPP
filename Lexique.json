@@ -564,8 +564,3201 @@
               "answerKey": { "correctChoiceId": 2, "explanation": "Le terme pour 'retraining' dans ce contexte est 'formation d'appoint'." }
             }
           ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q1",
+          "context": { "type": "sentence", "text": "Utiliser sa position pour accorder un contrat à un ami est un exemple flagrant d'{{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q1",
+              "questionNumber": 1,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme désigne l'utilisation inappropriée de son autorité officielle ?",
+              "choices": [ { "id": 1, "text": "abus de pouvoir" }, { "id": 2, "text": "favoritisme personnel" }, { "id": 3, "text": "conflit d'intérêts" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme 'abus de pouvoir' (abuse of authority) désigne précisément l'utilisation de sa position pour un gain personnel ou pour favoriser autrui." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q2",
+          "context": { "type": "sentence", "text": "Notre nouvelle stratégie de recrutement vise à {{BLANK}} provenant de divers horizons." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q2",
+              "questionNumber": 2,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle expression signifie 'donner accès aux personnes compétentes' ?",
+              "choices": [ { "id": 1, "text": "accéder au talent" }, { "id": 2, "text": "attirer les compétences" }, { "id": 3, "text": "sourcer le talent" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression consacrée est 'accéder au talent' (access talent)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q3",
+          "context": { "type": "sentence", "text": "Pour des raisons de sécurité, ce répertoire de données est en {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q3",
+              "questionNumber": 3,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme est utilisé pour 'limited access' ?",
+              "choices": [ { "id": 1, "text": "accès limité" }, { "id": 2, "text": "accès restreint" }, { "id": 3, "text": "permission réduite" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme officiel est 'accès restreint' (limited access)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q4",
+          "context": { "type": "sentence", "text": "Le nouveau site web a été conçu en respectant les normes d'{{BLANK}} pour qu'il soit utilisable par les personnes handicapées." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q4",
+              "questionNumber": 4,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel concept vise à éliminer les obstacles pour assurer la pleine participation des personnes handicapées ?",
+              "choices": [ { "id": 1, "text": "accessibilité" }, { "id": 2, "text": "inclusion" }, { "id": 3, "text": "accommodement" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le concept est 'l'accessibilité' (access). 'Accommodement' est un anglicisme pour 'mesures d'adaptation'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q5",
+          "context": { "type": "sentence", "text": "Le centre d'{{BLANK}} aide les employés à obtenir les outils nécessaires pour surmonter les obstacles liés à un handicap." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q5",
+              "questionNumber": 5,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme englobe les concepts d'accessibilité, d'adaptation et de technologie informatique adaptée ?",
+              "choices": [ { "id": 1, "text": "accessibilité, adaptation et technologie informatique adaptée" }, { "id": 2, "text": "soutien technologique et accommodement" }, { "id": 3, "text": "centre de ressources pour l'accessibilité" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme complet est 'Accessibilité, adaptation et technologie informatique adaptée' (Accessibility, Accommodation and Adaptative Computer Technology)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q6",
+          "context": { "type": "sentence", "text": "L'évaluation des candidats est une étape clé de toute {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q6",
+              "questionNumber": 6,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on une action liée à une nomination, comme la présélection ou l'évaluation ?",
+              "choices": [ { "id": 1, "text": "activité de dotation" }, { "id": 2, "text": "procédure d'embauche" }, { "id": 3, "text": "action de staffing" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme officiel est 'activité de dotation' (staffing activity). 'Staffing' est un anglicisme." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q7",
+          "context": { "type": "sentence", "text": "Un fonctionnaire qui se présente comme candidat à une élection exerce une {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q7",
+              "questionNumber": 7,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme désigne une activité exercée au sein d'un parti politique ou pour soutenir un candidat ?",
+              "choices": [ { "id": 1, "text": "action civique" }, { "id": 2, "text": "activité politique" }, { "id": 3, "text": "engagement partisan" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme légal est 'activité politique' (political activity)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q8",
+          "context": { "type": "sentence", "text": "L'équipe de recrutement organise des {{BLANK}} dans les universités." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q8",
+              "questionNumber": 8,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme français pour 'outreach' ?",
+              "choices": [ { "id": 1, "text": "activités de liaison" }, { "id": 2, "text": "sessions d'information" }, { "id": 3, "text": "événements de réseautage" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme 'activités de liaison' (ou de communication/rayonnement/sensibilisation) est utilisé pour 'outreach'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q9",
+          "context": { "type": "sentence", "text": "Toutes les {{BLANK}} doivent respecter les principes de mérite et d'équité." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q9",
+              "questionNumber": 9,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme général désigne les 'hiring activities' ?",
+              "choices": [ { "id": 1, "text": "activités d'embauche" }, { "id": 2, "text": "processus de recrutement" }, { "id": 3, "text": "pratiques d'emploi" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme direct est 'activités d'embauche' (hiring activities)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q10",
+          "context": { "type": "sentence", "text": "La Commission de la fonction publique surveille les {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q10",
+              "questionNumber": 10,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme englobe à la fois l'embauche externe et la dotation interne ?",
+              "choices": [ { "id": 1, "text": "activités d'embauche externe et de dotation interne à la fonction publique" }, { "id": 2, "text": "processus de dotation complets" }, { "id": 3, "text": "mouvements de personnel" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression complète est 'activités d'embauche externe et de dotation interne à la fonction publique' (hiring and staffing activities to and within the public service)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q11",
+          "context": { "type": "sentence", "text": "Le fait pour un fonctionnaire d'utiliser les ressources du gouvernement pour une campagne électorale est considéré comme une {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q11",
+              "questionNumber": 11,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on une activité politique qui contrevient à la Loi ?",
+              "choices": [ { "id": 1, "text": "activité politique irrégulière" }, { "id": 2, "text": "faute politique" }, { "id": 3, "text": "violation politique" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme légal est 'activité politique irrégulière' (improper political activity)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q12",
+          "context": { "type": "sentence", "text": "Le pouvoir de nomination est délégué par la Commission à chaque {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q12",
+              "questionNumber": 12,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le titre du plus haut fonctionnaire d'un ministère (p. ex. un sous-ministre) ?",
+              "choices": [ { "id": 1, "text": "député-chef" }, { "id": 2, "text": "administrateur général" }, { "id": 3, "text": "directeur exécutif" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme 'administrateur général' (deputy head) est utilisé dans la Loi pour désigner un sous-ministre ou le chef d'un organisme." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q13",
+          "context": { "type": "sentence", "text": "Le système d'{{BLANK}} assure que les employés excédentaires sont considérés en premier pour les postes vacants." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q13",
+              "questionNumber": 13,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du système qui gère les droits des personnes ayant une priorité de nomination ?",
+              "choices": [ { "id": 1, "text": "gestion des priorités" }, { "id": 2, "text": "administration des priorités" }, { "id": 3, "text": "système de placement prioritaire" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme officiel est 'administration des priorités' (priority administration)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q14",
+          "context": { "type": "sentence", "text": "L'employé a reçu une {{BLANK}} de six mois pour travailler sur un projet spécial dans une autre équipe." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q14",
+              "questionNumber": 14,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour une mission temporaire d'un fonctionnaire à d'autres fonctions ?",
+              "choices": [ { "id": 1, "text": "mutation" }, { "id": 2, "text": "détachement" }, { "id": 3, "text": "affectation" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Une mission temporaire est une 'affectation' (assignment). Une 'mutation' est permanente." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q15",
+          "context": { "type": "sentence", "text": "Le syndicat agit en tant qu'{{BLANK}} pour les employés de l'unité de négociation." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q15",
+              "questionNumber": 15,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme désigne l'entité qui représente les employés dans les négociations collectives ?",
+              "choices": [ { "id": 1, "text": "agent négociateur" }, { "id": 2, "text": "représentant syndical" }, { "id": 3, "text": "partenaire de négociation" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme légal et officiel est 'agent négociateur' (bargaining agent)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q16",
+          "context": { "type": "sentence", "text": "Une enquête a été lancée suite à une {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q16",
+              "questionNumber": 16,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on une plainte formelle concernant une potentielle activité politique inappropriée ?",
+              "choices": [ { "id": 1, "text": "accusation d'activité politique" }, { "id": 2, "text": "allégation d'activités politiques irrégulières" }, { "id": 3, "text": "rapport d'infraction politique" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme précis est 'allégation d'activités politiques irrégulières' (allegation of improper political activity)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q17",
+          "context": { "type": "sentence", "text": "Après enquête, la Commission a déterminé que la plainte était une {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q17",
+              "questionNumber": 17,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment qualifie-t-on une plainte confirmée par une enquête ?",
+              "choices": [ { "id": 1, "text": "allégation fondée" }, { "id": 2, "text": "plainte justifiée" }, { "id": 3, "text": "accusation prouvée" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme officiel pour une plainte qui a été confirmée est 'allégation fondée' (founded allegation)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q18",
+          "context": { "type": "sentence", "text": "L'enquête a conclu qu'il n'y avait pas eu d'inconduite; c'était une {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q18",
+              "questionNumber": 18,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment qualifie-t-on une plainte qui s'est avérée fausse après enquête ?",
+              "choices": [ { "id": 1, "text": "plainte invalide" }, { "id": 2, "text": "accusation rejetée" }, { "id": 3, "text": "allégation non fondée" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme officiel utilisé dans les enquêtes est 'allégation non fondée' (unfounded allegation)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q19",
+          "context": { "type": "sentence", "text": "Un {{BLANK}} a été nommé pour promouvoir des pratiques d'évaluation justes et accessibles." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q19",
+              "questionNumber": 19,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le titre de la personne qui fait la promotion de l'accessibilité en matière d'évaluation ?",
+              "choices": [ { "id": 1, "text": "champion de l'accessibilité" }, { "id": 2, "text": "ambassadeur de l'accessibilité en matière d'évaluation" }, { "id": 3, "text": "agent de liaison pour l'évaluation accessible" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le titre complet est 'Ambassadeur de l'accessibilité en matière d'évaluation' (Assessment Accessibility Ambassador)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q20",
+          "context": { "type": "sentence", "text": "Le rapport financier a révélé un écart important, nécessitant une {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q20",
+              "questionNumber": 20,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme désigne la comparaison entre les résultats prévus et les résultats réels ?",
+              "choices": [ { "id": 1, "text": "analyse de variance" }, { "id": 2, "text": "analyse des écarts" }, { "id": 3, "text": "revue de performance" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme correct est 'analyse des écarts' (variance analysis)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q21",
+          "context": { "type": "sentence", "text": "Le projet est actuellement au stade de l'{{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q21",
+              "questionNumber": 21,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme signifie 'concept base' ?",
+              "choices": [ { "id": 1, "text": "phase conceptuelle" }, { "id": 2, "text": "analyse de concept" }, { "id": 3, "text": "développement de l'idée" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "La traduction directe est 'analyse de concept' (concept base)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q22",
+          "context": { "type": "sentence", "text": "Afin de planifier pour l'année à venir, l'équipe a effectué une {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q22",
+              "questionNumber": 22,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour une analyse des facteurs externes et des tendances actuelles ?",
+              "choices": [ { "id": 1, "text": "analyse du contexte" }, { "id": 2, "text": "scan de l'environnement" }, { "id": 3, "text": "étude situationnelle" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme correct est 'analyse du contexte' ou 'analyse de la conjoncture' (environmental scan)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q23",
+          "context": { "type": "sentence", "text": "L'{{BLANK}} a montré que la plupart des visiteurs quittent le site après la première page." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q23",
+              "questionNumber": 23,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on l'étude des données sur l'utilisation d'un site web ?",
+              "choices": [ { "id": 1, "text": "analyse web" }, { "id": 2, "text": "métriques du site" }, { "id": 3, "text": "analytiques web" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme est 'analyse web' (web analytics). 'Analytiques' est un anglicisme." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q24",
+          "context": { "type": "sentence", "text": "Un {{BLANK}} est disponible pour les employés malentendants." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q24",
+              "questionNumber": 24,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est l'appareil qui permet aux personnes sourdes de communiquer par téléphone ?",
+              "choices": [ { "id": 1, "text": "téléscripteur" }, { "id": 2, "text": "appareil de télécommunication pour sourds" }, { "id": 3, "text": "téléphone adapté" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme complet est 'appareil de télécommunication pour sourds' (telecommunications device for the deaf)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q25",
+          "context": { "type": "sentence", "text": "Le plan de perfectionnement de l'employé met l'accent sur l'{{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q25",
+              "questionNumber": 25,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel concept souligne l'importance de se développer professionnellement tout au long de sa carrière ?",
+              "choices": [ { "id": 1, "text": "apprentissage continu" }, { "id": 2, "text": "formation permanente" }, { "id": 3, "text": "développement de carrière" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Ce concept est 'l'apprentissage continu' (continuous learning)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q26",
+          "context": { "type": "sentence", "text": "Les jeunes diplômés doivent démontrer non seulement des connaissances techniques mais aussi des {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q26",
+              "questionNumber": 26,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on les compétences générales comme la communication et le travail d'équipe ?",
+              "choices": [ { "id": 1, "text": "compétences générales" }, { "id": 2, "text": "soft skills" }, { "id": 3, "text": "aptitudes à l'emploi" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme est 'aptitudes à l'emploi' (employability skills). 'Soft skills' est un terme anglais." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q27",
+          "context": { "type": "sentence", "text": "Le rapport sur les plans et les priorités est structuré selon l'{{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q27",
+              "questionNumber": 27,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom de l'inventaire structuré de tous les programmes d'un ministère ?",
+              "choices": [ { "id": 1, "text": "structure des programmes" }, { "id": 2, "text": "architecture des activités de programmes" }, { "id": 3, "text": "cadre de gestion des résultats" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "La structure est appelée 'Architecture des activités de programmes' (Program Activity Architecture)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q28",
+          "context": { "type": "sentence", "text": "Les statistiques sur les {{BLANK}} montrent le nombre de nouvelles embauches dans la fonction publique." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q28",
+              "questionNumber": 28,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme est utilisé pour 'inflow' ou l'entrée de personnel ?",
+              "choices": [ { "id": 1, "text": "arrivées" }, { "id": 2, "text": "entrées" }, { "id": 3, "text": "embauches" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme statistique utilisé pour 'inflow' est 'arrivées'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q29",
+          "context": { "type": "sentence", "text": "Le programme de mentorat est destiné à chaque {{BLANK}} qui souhaite progresser vers un poste de direction." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q29",
+              "questionNumber": 29,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme désigne un employé qui aspire à un poste de direction ('aspiring leader') ?",
+              "choices": [ { "id": 1, "text": "futur leader" }, { "id": 2, "text": "aspirant-cadre" }, { "id": 3, "text": "employé ambitieux" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme officiel pour un 'aspiring leader' est 'aspirant-cadre'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q30",
+          "context": { "type": "sentence", "text": "Pour participer au programme d'emploi étudiant, il faut fournir une {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q30",
+              "questionNumber": 30,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel document confirme qu'un étudiant est inscrit à temps plein ?",
+              "choices": [ { "id": 1, "text": "preuve d'inscription" }, { "id": 2, "text": "attestation d'études à temps plein dans un établissement reconnu" }, { "id": 3, "text": "lettre de l'université" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression complète et officielle est 'attestation d'études à temps plein dans un établissement reconnu'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q31",
+          "context": { "type": "sentence", "text": "Le but de la campagne de recrutement est d'{{BLANK}} de haut calibre." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q31",
+              "questionNumber": 31,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle expression signifie 'attract talent' ?",
+              "choices": [ { "id": 1, "text": "attirer le talent" }, { "id": 2, "text": "recruter des talents" }, { "id": 3, "text": "charmer les talents" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression consacrée est 'attirer le talent'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q32",
+          "context": { "type": "sentence", "text": "La fonction publique s'est engagée à augmenter le nombre d'employés se déclarant {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q32",
+              "questionNumber": 32,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme correct pour désigner une personne des Premières Nations, métisse ou inuite ?",
+              "choices": [ { "id": 1, "text": "Indigène" }, { "id": 2, "text": "Aborigène" }, { "id": 3, "text": "Autochtone" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme privilégié et officiel au Canada est 'Autochtone' (Indigenous). 'Aborigène' est utilisé pour l'Australie." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q33",
+          "context": { "type": "sentence", "text": "Le formulaire de demande d'emploi inclut une section pour l'{{BLANK}} afin de recueillir des données sur l'équité en matière d'emploi." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q33",
+              "questionNumber": 33,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme désigne le processus par lequel un candidat indique volontairement son appartenance à un groupe visé par l'équité en matière d'emploi ?",
+              "choices": [ { "id": 1, "text": "self-déclaration" }, { "id": 2, "text": "autodéclaration" }, { "id": 3, "text": "déclaration volontaire" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme correct est 'autodéclaration' (self-declaration)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q34",
+          "context": { "type": "sentence", "text": "Le processus d'{{BLANK}} permet aux employés de s'identifier comme membre d'un groupe visé par l'équité en matière d'emploi." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q34",
+              "questionNumber": 34,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le synonyme d'autodéclaration ?",
+              "choices": [ { "id": 1, "text": "auto-identification" }, { "id": 2, "text": "identification personnelle" }, { "id": 3, "text": "profilage volontaire" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme 'auto-identification' (self-identification) est un synonyme d''autodéclaration'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q35",
+          "context": { "type": "sentence", "text": "Le processus de dotation doit être {{BLANK}} pour tous les candidats." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q35",
+              "questionNumber": 35,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel adjectif signifie 'fair' ?",
+              "choices": [ { "id": 1, "text": "juste" }, { "id": 2, "text": "équitable" }, { "id": 3, "text": "impartial" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'adjectif 'équitable' est le terme consacré dans ce contexte pour 'fair'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q36",
+          "context": { "type": "sentence", "text": "L'{{BLANK}} est une valeur fondamentale de la fonction publique, garantissant que les décisions sont impartiales et objectives." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q36",
+              "questionNumber": 36,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel nom correspond à la valeur de 'fairness' ?",
+              "choices": [ { "id": 1, "text": "justice" }, { "id": 2, "text": "impartialité" }, { "id": 3, "text": "équité" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le principe d''équité' (fairness) assure que les décisions sont justes et objectives." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q37",
+          "context": { "type": "sentence", "text": "Tous les candidats doivent avoir la même possibilité de démontrer leurs compétences, ce qui relève de l'{{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q37",
+              "questionNumber": 37,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on le principe selon lequel les processus doivent être justes pour tous ?",
+              "choices": [ { "id": 1, "text": "équité procédurale" }, { "id": 2, "text": "justice de processus" }, { "id": 3, "text": "fairness procédurale" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression consacrée est 'équité procédurale' (procedural fairness)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q38",
+          "context": { "type": "sentence", "text": "Le rapport annuel de la Commission de la fonction publique évalue l'{{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q38",
+              "questionNumber": 38,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme est utilisé pour 'health of the staffing system' ?",
+              "choices": [ { "id": 1, "text": "santé du système de dotation" }, { "id": 2, "text": "état du système de dotation" }, { "id": 3, "text": "performance du système de dotation" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression officielle est 'état du système de dotation'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q39",
+          "context": { "type": "sentence", "text": "Une {{BLANK}} a été menée pour analyser les tendances en matière d'embauche." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q39",
+              "questionNumber": 39,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on une étude basée sur l'analyse de données numériques ?",
+              "choices": [ { "id": 1, "text": "étude statistique" }, { "id": 2, "text": "analyse quantitative" }, { "id": 3, "text": "recherche de données" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme est 'étude statistique' (statistical study)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q40",
+          "context": { "type": "sentence", "text": "Le gouvernement a publié une {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q40",
+              "questionNumber": 40,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom de l'étude sur l'avancement professionnel des groupes visés par l'équité en matière d'emploi ?",
+              "choices": [ { "id": 1, "text": "étude sur l'avancement professionnel des groupes visés par l'équité en matière d'emploi" }, { "id": 2, "text": "rapport sur la progression de carrière de l'équité en emploi" }, { "id": 3, "text": "analyse de la carrière des groupes d'équité" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le titre complet de l'étude est 'Étude sur l'avancement professionnel des groupes visés par l'équité en matière d'emploi' (Employment equity career progression study)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q41",
+          "context": { "type": "sentence", "text": "Le ministère doit procéder à une {{BLANK}} de ses programmes tous les cinq ans." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q41",
+              "questionNumber": 41,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment se nomme une évaluation menée à intervalles réguliers ?",
+              "choices": [ { "id": 1, "text": "évaluation périodique" }, { "id": 2, "text": "revue régulière" }, { "id": 3, "text": "évaluation cyclique" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme officiel pour une évaluation menée à des intervalles fixes ('cyclical assessment') est 'évaluation cyclique'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q42",
+          "context": { "type": "sentence", "text": "Pour obtenir le profil linguistique BBB, un candidat doit réussir l'{{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q42",
+              "questionNumber": 42,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment s'appelle l'ensemble des tests pour évaluer les compétences dans la deuxième langue officielle ?",
+              "choices": [ { "id": 1, "text": "test de bilinguisme" }, { "id": 2, "text": "évaluation de langue seconde" }, { "id": 3, "text": "examen de compétence linguistique" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme officiel est 'évaluation de langue seconde' (second language evaluation)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q43",
+          "context": { "type": "sentence", "text": "Avant de lancer un nouveau programme qui collecte des renseignements personnels, il faut compléter une {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q43",
+              "questionNumber": 43,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment se nomme l'évaluation visant à identifier et à gérer les risques pour la vie privée ?",
+              "choices": [ { "id": 1, "text": "évaluation des facteurs relatifs à la vie privée" }, { "id": 2, "text": "analyse d'impact sur la vie privée" }, { "id": 3, "text": "revue de la confidentialité" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme est 'évaluation des facteurs relatifs à la vie privée' (privacy impact assessment)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q44",
+          "context": { "type": "sentence", "text": "L'{{BLANK}} est une étape cruciale de la gestion de projet." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q44",
+              "questionNumber": 44,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour le processus d'identification et d'analyse des risques potentiels ?",
+              "choices": [ { "id": 1, "text": "gestion des risques" }, { "id": 2, "text": "évaluation du risque" }, { "id": 3, "text": "analyse de risque" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme est 'évaluation du risque' (risk assessment)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q45",
+          "context": { "type": "sentence", "text": "Plutôt qu'un examen à choix multiples, les candidats ont dû soumettre une {{BLANK}} pour démontrer leurs compétences en communication." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q45",
+              "questionNumber": 45,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on une évaluation basée sur un texte descriptif écrit par le candidat ?",
+              "choices": [ { "id": 1, "text": "test de rédaction" }, { "id": 2, "text": "étude de cas écrite" }, { "id": 3, "text": "évaluation narrative écrite" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme précis pour une 'written narrative assessment' est 'évaluation narrative écrite'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q46",
+          "context": { "type": "sentence", "text": "La Nouvelle orientation en dotation représente une {{BLANK}} importante, donnant plus de souplesse aux gestionnaires." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q46",
+              "questionNumber": 46,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme est utilisé pour 'maturation of the staffing system' ?",
+              "choices": [ { "id": 1, "text": "maturité du système de dotation" }, { "id": 2, "text": "évolution du système de dotation" }, { "id": 3, "text": "changement du système de dotation" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression officielle est 'évolution du système de dotation'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q47",
+          "context": { "type": "sentence", "text": "Avant de publier le rapport final, il a été soumis à un {{BLANK}} par les pairs." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q47",
+              "questionNumber": 47,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme français pour 'review' ?",
+              "choices": [ { "id": 1, "text": "révision" }, { "id": 2, "text": "examen" }, { "id": 3, "text": "revue" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme consacré est 'examen'. 'Revue' est aussi utilisé, mais 'examen' est plus courant dans ce contexte." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q48",
+          "context": { "type": "sentence", "text": "Les candidats devront passer un {{BLANK}} pour évaluer leurs compétences." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q48",
+              "questionNumber": 48,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on un test effectué sur un ordinateur ('e-testing') ?",
+              "choices": [ { "id": 1, "text": "test électronique" }, { "id": 2, "text": "examen en ligne" }, { "id": 3, "text": "évaluation numérique" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression correcte est 'examen en ligne' ou 'test en ligne'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q49",
+          "context": { "type": "sentence", "text": "L'{{BLANK}} du gouvernement du Canada se termine le 31 mars." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q49",
+              "questionNumber": 49,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour la période de 12 mois utilisée pour la budgétisation ('fiscal year') ?",
+              "choices": [ { "id": 1, "text": "année fiscale" }, { "id": 2, "text": "exercice financier" }, { "id": 3, "text": "année budgétaire" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme consacré est 'exercice financier' ou 'exercice'. 'Année fiscale' est un anglicisme." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q50",
+          "context": { "type": "sentence", "text": "Le candidat doit satisfaire à l'{{BLANK}} pour être considéré." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q50",
+              "questionNumber": 50,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme signifie 'assessment requirement' ?",
+              "choices": [ { "id": 1, "text": "exigence d'évaluation" }, { "id": 2, "text": "exigence relative à l'évaluation" }, { "id": 3, "text": "besoin d'évaluation" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression officielle est 'exigence relative à l'évaluation'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q51",
+          "context": { "type": "sentence", "text": "Les gestionnaires doivent respecter les {{BLANK}} en matière de dotation." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q51",
+              "questionNumber": 51,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on les exigences issues des lois, règlements et politiques ?",
+              "choices": [ { "id": 1, "text": "exigences légales et réglementaires" }, { "id": 2, "text": "cadre de politiques et de lois" }, { "id": 3, "text": "exigences de la loi, des règlements et des politiques" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "L'expression complète et officielle est 'exigences de la loi, des règlements et des politiques' (legislative, regulatory and policy requirements)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q52",
+          "context": { "type": "sentence", "text": "Le rapport annuel doit respecter des {{BLANK}} précises." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q52",
+              "questionNumber": 52,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour 'reporting requirements' ?",
+              "choices": [ { "id": 1, "text": "besoins de rapportage" }, { "id": 2, "text": "exigences en matière de rapport" }, { "id": 3, "text": "conditions de rapport" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression correcte est 'exigences en matière de rapport'. 'Rapportage' est un anglicisme." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q53",
+          "context": { "type": "sentence", "text": "Le profil CBC/CBC représente les {{BLANK}} du poste." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q53",
+              "questionNumber": 53,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on les compétences requises dans les langues officielles ?",
+              "choices": [ { "id": 1, "text": "exigences linguistiques" }, { "id": 2, "text": "besoins en langues" }, { "id": 3, "text": "qualifications de langue" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme officiel est 'exigences linguistiques' (language requirements)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q54",
+          "context": { "type": "sentence", "text": "Le programme COOP offre aux étudiants une première {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q54",
+              "questionNumber": 54,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est l'expression pour 'public service work experience' ?",
+              "choices": [ { "id": 1, "text": "expérience de travail dans le service public" }, { "id": 2, "text": "expérience de travail à la fonction publique" }, { "id": 3, "text": "stage dans la fonction publique" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression consacrée est 'expérience de travail à la fonction publique'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q55",
+          "context": { "type": "sentence", "text": "Pour évaluer les compétences techniques, le comité a fait appel à un {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q55",
+              "questionNumber": 55,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on une personne ayant une connaissance approfondie d'un domaine spécifique ?",
+              "choices": [ { "id": 1, "text": "expert en la matière" }, { "id": 2, "text": "spécialiste du sujet" }, { "id": 3, "text": "consultant interne" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression pour 'subject-matter expert' est 'expert en la matière'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q56",
+          "context": { "type": "sentence", "text": "L'{{BLANK}} principal de ce projet est la production d'un rapport final." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q56",
+              "questionNumber": 56,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme français pour 'output' (le produit ou service résultant d'une activité) ?",
+              "choices": [ { "id": 1, "text": "résultat" }, { "id": 2, "text": "produit" }, { "id": 3, "text": "extrant" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Dans le jargon administratif, le terme pour 'output' est 'extrant'. 'Résultat' correspond à 'outcome'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q57",
+          "context": { "type": "sentence", "text": "La communication efficace est un {{BLANK}} pour la réussite de tout projet." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q57",
+              "questionNumber": 57,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on un 'key success factor' ?",
+              "choices": [ { "id": 1, "text": "facteur clé de réussite" }, { "id": 2, "text": "élément de succès" }, { "id": 3, "text": "clé du succès" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression correcte est 'facteur clé de réussite'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q58",
+          "context": { "type": "sentence", "text": "Le processus de dotation doit être impartial pour éviter tout {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q58",
+              "questionNumber": 58,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme général désigne l'acte de donner un traitement préférentiel de manière injuste ?",
+              "choices": [ { "id": 1, "text": "favoritisme" }, { "id": 2, "text": "népotisme" }, { "id": 3, "text": "partialité" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme général est 'favoritisme' (favouritism). Le népotisme (favoriser la famille) en est une forme." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q59",
+          "context": { "type": "sentence", "text": "La série de conférences {{BLANK}} explore les nouvelles idées au sein du gouvernement." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q59",
+              "questionNumber": 59,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom de la série de conférences de type 'TED Talk' de la fonction publique ?",
+              "choices": [ { "id": 1, "text": "Discours Fédéral" }, { "id": 2, "text": "Conférence FP" }, { "id": 3, "text": "FÉDérologue" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le nom de cette série de conférences est 'FÉDérologue' (FEDTalk)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q60",
+          "context": { "type": "sentence", "text": "Pour la recherche, les données ont été compilées dans un {{BLANK}} pour protéger la confidentialité." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q60",
+              "questionNumber": 60,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on un fichier dont les informations d'identification ont été retirées ?",
+              "choices": [ { "id": 1, "text": "fichier confidentiel" }, { "id": 2, "text": "fichier anonymisé" }, { "id": 3, "text": "document dépersonnalisé" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme correct est 'fichier anonymisé' (anonymized file)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q61",
+          "context": { "type": "sentence", "text": "Le Service des renseignements de la CFP tient à jour un {{BLANK}} des fonctionnaires fédéraux." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q61",
+              "questionNumber": 61,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour 'central index' ?",
+              "choices": [ { "id": 1, "text": "index central" }, { "id": 2, "text": "répertoire principal" }, { "id": 3, "text": "fichier central" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "La traduction officielle est 'fichier central'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q62",
+          "context": { "type": "sentence", "text": "La Commission a une {{BLANK}} importante, car elle établit les politiques de dotation." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q62",
+              "questionNumber": 62,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on le rôle de 'policy setting function' ?",
+              "choices": [ { "id": 1, "text": "fonction d'établissement des politiques" }, { "id": 2, "text": "rôle de création de politiques" }, { "id": 3, "text": "mandat politique" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression officielle est 'fonction d'établissement des politiques'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q63",
+          "context": { "type": "sentence", "text": "Travailler pour le gouvernement du Canada signifie travailler pour la {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q63",
+              "questionNumber": 63,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme français pour 'public service' ?",
+              "choices": [ { "id": 1, "text": "service public" }, { "id": 2, "text": "fonction publique" }, { "id": 3, "text": "administration gouvernementale" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme correct est 'fonction publique'. 'Service public' fait référence aux services offerts au public." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q64",
+          "context": { "type": "sentence", "text": "Chaque {{BLANK}} doit respecter le Code de valeurs et d'éthique." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q64",
+              "questionNumber": 64,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme général désigne un employé de la fonction publique ?",
+              "choices": [ { "id": 1, "text": "employé du gouvernement" }, { "id": 2, "text": "fonctionnaire" }, { "id": 3, "text": "serviteur public" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme consacré est 'fonctionnaire' (employee)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q65",
+          "context": { "type": "sentence", "text": "Un {{BLANK}} travaille moins d'heures que la semaine de travail normale." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q65",
+              "questionNumber": 65,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on un 'part-time employee' ?",
+              "choices": [ { "id": 1, "text": "employé à temps partiel" }, { "id": 2, "text": "fonctionnaire à temps partiel" }, { "id": 3, "text": "travailleur à temps partiel" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme officiel est 'fonctionnaire à temps partiel'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q66",
+          "context": { "type": "sentence", "text": "La plateforme de tests permet d'utiliser une {{BLANK}} pour les évaluations à distance." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q66",
+              "questionNumber": 66,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour 'online testing facility' ?",
+              "choices": [ { "id": 1, "text": "facilité de tests en ligne" }, { "id": 2, "text": "fonctionnalité de tests en ligne" }, { "id": 3, "text": "plateforme d'examens en ligne" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "La traduction officielle est 'fonctionnalité de tests en ligne'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q67",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} de la Commission de la fonction publique est la Loi sur l'emploi dans la fonction publique." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q67",
+              "questionNumber": 67,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme signifie 'statutory basis' ou la base légale d'une organisation ?",
+              "choices": [ { "id": 1, "text": "base légale" }, { "id": 2, "text": "mandat législatif" }, { "id": 3, "text": "fondement législatif" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme approprié est 'fondement législatif'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q68",
+          "context": { "type": "sentence", "text": "Les ministères doivent gérer leurs {{BLANK}} conformément aux politiques sur la gestion de l'information." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q68",
+              "questionNumber": 68,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on les 'asset data' ou les données sur les biens d'une organisation ?",
+              "choices": [ { "id": 1, "text": "données d'actifs" }, { "id": 2, "text": "fonds d'information" }, { "id": 3, "text": "ressources informationnelles" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme consacré est 'fonds d'information'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q69",
+          "context": { "type": "sentence", "text": "Le candidat doit remplir le {{BLANK}} s'il souhaite être considéré pour un poste destiné aux Autochtones." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q69",
+              "questionNumber": 69,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du formulaire utilisé pour affirmer son identité autochtone ?",
+              "choices": [ { "id": 1, "text": "formulaire d'affirmation de l'identité autochtone" }, { "id": 2, "text": "formulaire d'autodéclaration autochtone" }, { "id": 3, "text": "déclaration d'identité autochtone" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le nom complet du formulaire est 'Formulaire d'affirmation de l'identité autochtone'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q70",
+          "context": { "type": "sentence", "text": "La {{BLANK}} des objectifs du projet doit être claire et concise." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q70",
+              "questionNumber": 70,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour 'articulation' ou l'action de formuler des idées ?",
+              "choices": [ { "id": 1, "text": "articulation" }, { "id": 2, "text": "formulation" }, { "id": 3, "text": "expression" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme 'formulation' est utilisé ici pour signifier 'articulation' ou l'action d'exprimer clairement." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q71",
+          "context": { "type": "sentence", "text": "L'évaluation a identifié une {{BLANK}} dans les compétences de l'équipe." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q71",
+              "questionNumber": 71,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme est utilisé pour désigner un 'point faible' ou 'weakness' ?",
+              "choices": [ { "id": 1, "text": "faiblesse" }, { "id": 2, "text": "déficience" }, { "id": 3, "text": "lacune" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme 'lacune' est utilisé pour désigner un point faible ou une faiblesse." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q72",
+          "context": { "type": "sentence", "text": "Il y a une {{BLANK}} dans le rapport; des données importantes sont manquantes." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q72",
+              "questionNumber": 72,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour 'deficiency' ou un manque ?",
+              "choices": [ { "id": 1, "text": "lacune" }, { "id": 2, "text": "erreur" }, { "id": 3, "text": "omission" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme 'lacune' peut aussi signifier une 'deficiency' ou un manque." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q73",
+          "context": { "type": "sentence", "text": "Le gestionnaire a fourni une {{BLANK}} des tâches à accomplir avant le lancement." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q73",
+              "questionNumber": 73,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on une 'checklist' ?",
+              "choices": [ { "id": 1, "text": "liste de contrôle" }, { "id": 2, "text": "liste de vérification" }, { "id": 3, "text": "checklist" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme correct est 'liste de vérification'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q74",
+          "context": { "type": "sentence", "text": "Le principe du mérite est enchâssé dans la {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q74",
+              "questionNumber": 74,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle loi régit l'embauche et la dotation dans la fonction publique ?",
+              "choices": [ { "id": 1, "text": "Loi sur la fonction publique" }, { "id": 2, "text": "Loi sur l'emploi dans la fonction publique" }, { "id": 3, "text": "Loi sur la gestion des finances publiques" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "La principale loi est la 'Loi sur l'emploi dans la fonction publique' (Public Service Employment Act)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q75",
+          "context": { "type": "sentence", "text": "La {{BLANK}} donne une préférence aux anciens combattants dans les processus de nomination." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q75",
+              "questionNumber": 75,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle loi facilite l'embauche des anciens membres des Forces armées canadiennes ?",
+              "choices": [ { "id": 1, "text": "Loi sur les anciens combattants" }, { "id": 2, "text": "Loi sur l'embauche des anciens combattants" }, { "id": 3, "text": "Loi sur la priorité des vétérans" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le titre exact de la loi est 'Loi sur l'embauche des anciens combattants' (Veterans Hiring Act)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q76",
+          "context": { "type": "sentence", "text": "La {{BLANK}} vise à corriger les désavantages subis par les femmes, les Autochtones, les personnes handicapées et les minorités visibles." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q76",
+              "questionNumber": 76,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle loi régit l'équité en matière d'emploi au sein de la fonction publique ?",
+              "choices": [ { "id": 1, "text": "Loi sur la diversité et l'inclusion" }, { "id": 2, "text": "Loi sur l'équité en matière d'emploi" }, { "id": 3, "text": "Loi sur les droits de la personne" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "La loi en question est la 'Loi sur l'équité en matière d'emploi' (Employment Equity Act)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q77",
+          "context": { "type": "sentence", "text": "Le responsable des médias sociaux de l'équipe est un vrai {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q77",
+              "questionNumber": 77,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme amusant pour 'memester' ?",
+              "choices": [ { "id": 1, "text": "créateur de mèmes" }, { "id": 2, "text": "maître-mème" }, { "id": 3, "text": "spécialiste des mèmes" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme humoristique utilisé dans le lexique est 'maître-mème'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q78",
+          "context": { "type": "sentence", "text": "Une personne qui n'est ni autochtone ni issue de la majorité caucasienne est considérée comme un {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q78",
+              "questionNumber": 78,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme désigne un 'member of a visible minority' ?",
+              "choices": [ { "id": 1, "text": "membre d'une minorité visible" }, { "id": 2, "text": "personne de couleur" }, { "id": 3, "text": "individu de minorité" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression officielle et légale est 'membre d'une minorité visible'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q79",
+          "context": { "type": "sentence", "text": "La Commission peut ordonner une {{BLANK}} si un processus de nomination n'était pas équitable." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q79",
+              "questionNumber": 79,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour une 'remedial action' ?",
+              "choices": [ { "id": 1, "text": "action de remède" }, { "id": 2, "text": "mesure de redressement" }, { "id": 3, "text": "correction de processus" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme approprié est 'mesure de redressement'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q80",
+          "context": { "type": "sentence", "text": "Le candidat a demandé des {{BLANK}} en raison d'un handicap." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q80",
+              "questionNumber": 80,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on les ajustements apportés durant un processus d'évaluation ('assessment accommodation') ?",
+              "choices": [ { "id": 1, "text": "accommodements d'évaluation" }, { "id": 2, "text": "mesures d'adaptation en matière d'évaluation" }, { "id": 3, "text": "ajustements de test" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression complète est 'mesures d'adaptation en matière d'évaluation'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q81",
+          "context": { "type": "sentence", "text": "La {{BLANK}} utilisée pour l'étude est décrite dans l'annexe du rapport." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q81",
+              "questionNumber": 81,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme désigne l'approche ou l'ensemble des méthodes utilisées ?",
+              "choices": [ { "id": 1, "text": "méthode" }, { "id": 2, "text": "procédure" }, { "id": 3, "text": "approche" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme 'méthode' ou 'méthodologie' (methodology) est utilisé pour décrire l'approche systématique." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q82",
+          "context": { "type": "sentence", "text": "Le recrutement collectif est un exemple de {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q82",
+              "questionNumber": 82,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on un 'recruitment mechanism' ?",
+              "choices": [ { "id": 1, "text": "mécanisme de recrutement" }, { "id": 2, "text": "méthode de recrutement" }, { "id": 3, "text": "processus de recrutement" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme est 'méthode de recrutement'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q83",
+          "context": { "type": "sentence", "text": "Tous les {{BLANK}} sont assujettis à la Loi sur l'emploi dans la fonction publique." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q83",
+              "questionNumber": 83,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle expression désigne l'ensemble des 'departments and agencies' ?",
+              "choices": [ { "id": 1, "text": "départements et agences" }, { "id": 2, "text": "ministères et organismes" }, { "id": 3, "text": "entités gouvernementales" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression consacrée est 'ministères et organismes'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q84",
+          "context": { "type": "sentence", "text": "La {{BLANK}} des employés entre les ministères est encouragée pour favoriser le développement de carrière." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q84",
+              "questionNumber": 84,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on le 'movement within' la fonction publique ?",
+              "choices": [ { "id": 1, "text": "mobilité interne" }, { "id": 2, "text": "mouvement interne" }, { "id": 3, "text": "déplacement intérieur" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme est 'mobilité interne'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q85",
+          "context": { "type": "sentence", "text": "Les {{BLANK}} de l'emploi sont décrites dans l'offre de nomination." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q85",
+              "questionNumber": 85,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour 'terms and conditions' ?",
+              "choices": [ { "id": 1, "text": "termes et conditions" }, { "id": 2, "text": "modalités" }, { "id": 3, "text": "conditions d'emploi" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme correct est 'modalités'. 'Termes et conditions' est un calque de l'anglais." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q86",
+          "context": { "type": "sentence", "text": "Les {{BLANK}} du site web précisent qui peut consulter et modifier les informations." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q86",
+              "questionNumber": 86,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour 'terms of access' ?",
+              "choices": [ { "id": 1, "text": "termes d'accès" }, { "id": 2, "text": "conditions d'accès" }, { "id": 3, "text": "modalités d'accès" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme correct est 'modalités d'accès'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q87",
+          "context": { "type": "sentence", "text": "Ce processus de dotation est ouvert à tous les employés {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q87",
+              "questionNumber": 87,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle expression signifie 'non-EX' ?",
+              "choices": [ { "id": 1, "text": "n'appartenant pas au groupe EX" }, { "id": 2, "text": "de l'extérieur du groupe EX" }, { "id": 3, "text": "excluant le groupe EX" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression officielle est 'n'appartenant pas au groupe EX'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q88",
+          "context": { "type": "sentence", "text": "Le poste de directeur général adjoint est considéré comme étant de {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q88",
+              "questionNumber": 88,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment décrit-on un niveau de poste comparable au groupe de la direction (EX) ?",
+              "choices": [ { "id": 1, "text": "niveau équivalent EX" }, { "id": 2, "text": "niveau comparable EX" }, { "id": 3, "text": "grade similaire à EX" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression utilisée est 'niveau équivalent EX' (EX-equivalent level)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q89",
+          "context": { "type": "sentence", "text": "Le gestionnaire a le pouvoir de procéder à la {{BLANK}} d'un candidat qualifié." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q89",
+              "questionNumber": 89,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour l'acte d'embaucher une personne à un poste ('appointment') ?",
+              "choices": [ { "id": 1, "text": "embauche" }, { "id": 2, "text": "nomination" }, { "id": 3, "text": "placement" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Dans la fonction publique, l'acte d'être nommé à un poste est une 'nomination'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q90",
+          "context": { "type": "sentence", "text": "Une {{BLANK}} est la première embauche d'une personne dans l'administration publique centrale." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q90",
+              "questionNumber": 90,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment s'appelle une 'appointment to the public service' ?",
+              "choices": [ { "id": 1, "text": "nomination à la fonction publique" }, { "id": 2, "text": "première embauche" }, { "id": 3, "text": "recrutement initial" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme officiel est 'nomination à la fonction publique'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q91",
+          "context": { "type": "sentence", "text": "Le processus pour devenir directeur est une {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q91",
+              "questionNumber": 91,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment s'appelle une 'appointment to the Executive Group' ?",
+              "choices": [ { "id": 1, "text": "nomination de direction" }, { "id": 2, "text": "nomination exécutive" }, { "id": 3, "text": "nomination au groupe de la direction" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "L'expression consacrée est 'nomination au groupe de la direction'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q92",
+          "context": { "type": "sentence", "text": "Pour obtenir un poste EX-01, il faut réussir un processus de {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q92",
+              "questionNumber": 92,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour 'Executive appointment' ?",
+              "choices": [ { "id": 1, "text": "nomination au groupe EX" }, { "id": 2, "text": "nomination de cadre" }, { "id": 3, "text": "nomination exécutive" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme est 'nomination au groupe EX'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q93",
+          "context": { "type": "sentence", "text": "Le poste exige des compétences linguistiques CBC dès le premier jour; c'est une {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q93",
+              "questionNumber": 93,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on une nomination où les exigences linguistiques doivent être satisfaites dès le départ ?",
+              "choices": [ { "id": 1, "text": "nomination bilingue obligatoire" }, { "id": 2, "text": "nomination bilingue impérative" }, { "id": 3, "text": "nomination impérative" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme officiel est 'nomination bilingue impérative' (bilingual imperative appointment)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q94",
+          "context": { "type": "sentence", "text": "Le gestionnaire peut offrir une {{BLANK}} selon les besoins de l'organisation." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q94",
+              "questionNumber": 94,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme englobe les nominations à durée déterminée et celles à durée indéterminée ?",
+              "choices": [ { "id": 1, "text": "nomination de durée déterminée ou indéterminée" }, { "id": 2, "text": "nomination temporaire ou permanente" }, { "id": 3, "text": "nomination contractuelle ou stable" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression est 'nomination de durée déterminée ou indéterminée' (term or indeterminate appointment)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q95",
+          "context": { "type": "sentence", "text": "Ce poste est bilingue, mais une {{BLANK}} est possible, ce qui signifie que le candidat peut suivre une formation linguistique après avoir été embauché." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q95",
+              "questionNumber": 95,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on une nomination à un poste bilingue où le candidat n'a pas encore à satisfaire aux exigences linguistiques ?",
+              "choices": [ { "id": 1, "text": "nomination conditionnelle" }, { "id": 2, "text": "nomination non impérative" }, { "id": 3, "text": "nomination avec formation" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme officiel est 'nomination non impérative' (non-imperative appointment)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q96",
+          "context": { "type": "sentence", "text": "Après sa période probatoire, l'employé a reçu une {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q96",
+              "questionNumber": 96,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour un emploi permanent ('indeterminate appointment') ?",
+              "choices": [ { "id": 1, "text": "nomination permanente" }, { "id": 2, "text": "nomination pour une période indéterminée" }, { "id": 3, "text": "nomination à long terme" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme officiel est 'nomination pour une période indéterminée'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q97",
+          "context": { "type": "sentence", "text": "Le sondage sur la dotation s'applique à toutes les {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q97",
+              "questionNumber": 97,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle expression désigne les 'non-Executive Group appointments' ?",
+              "choices": [ { "id": 1, "text": "nominations aux postes non-exécutifs" }, { "id": 2, "text": "nominations à des postes autres que le groupe EX" }, { "id": 3, "text": "nominations de non-cadres" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression officielle est 'nominations à des postes autres que le groupe EX'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q98",
+          "context": { "type": "sentence", "text": "Le rapport annuel couvre toutes les {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q98",
+              "questionNumber": 98,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on l'ensemble des nominations, qu'il s'agisse de recrutement externe ou de promotion interne ?",
+              "choices": [ { "id": 1, "text": "nominations à la fonction publique et au sein de celle-ci" }, { "id": 2, "text": "nominations internes et externes" }, { "id": 3, "text": "tous les types de nominations" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression complète est 'nominations à la fonction publique et au sein de celle-ci' (appointments to and within the public service)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q99",
+          "context": { "type": "sentence", "text": "Les gestionnaires peuvent utiliser des processus non annoncés, mais doivent justifier ces {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q99",
+              "questionNumber": 99,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme désigne les nominations permanentes ou à terme issues de processus non annoncés ?",
+              "choices": [ { "id": 1, "text": "nominations directes" }, { "id": 2, "text": "nominations de durée déterminée ou indéterminée découlant de processus non annoncés" }, { "id": 3, "text": "embauches non annoncées" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression complète et officielle est 'nominations de durée déterminée ou indéterminée découlant de processus non annoncés'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q100",
+          "context": { "type": "sentence", "text": "Les statistiques distinguent les {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q100",
+              "questionNumber": 100,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle expression englobe les nominations de personnes de l'extérieur et de l'intérieur de la fonction publique ?",
+              "choices": [ { "id": 1, "text": "nominations de personnes appartenant ou non à la fonction publique" }, { "id": 2, "text": "nominations internes et externes" }, { "id": 3, "text": "nominations de tous les candidats" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression officielle est 'nominations de personnes appartenant ou non à la fonction publique' (appointments of persons to and from within the public service)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q101",
+          "context": { "type": "sentence", "text": "L'employeur doit respecter les {{BLANK}} établies par le Conseil du Trésor pour chaque groupe professionnel." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q101",
+              "questionNumber": 101,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on les exigences minimales pour un poste ('qualification standards') ?",
+              "choices": [ { "id": 1, "text": "standards de qualification" }, { "id": 2, "text": "normes de qualification" }, { "id": 3, "text": "critères de qualification" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme correct est 'normes de qualification'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q102",
+          "context": { "type": "sentence", "text": "La {{BLANK}} de chaque candidat a été faite sur une échelle de 1 à 5." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q102",
+              "questionNumber": 102,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour 'rating' ou l'évaluation d'un candidat ?",
+              "choices": [ { "id": 1, "text": "pointage" }, { "id": 2, "text": "évaluation" }, { "id": 3, "text": "notation" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme 'notation' est utilisé pour désigner l'action d'attribuer une note ou un classement." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q103",
+          "context": { "type": "sentence", "text": "Une {{BLANK}} sera envoyée à tous les candidats pour les informer des résultats du processus." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q103",
+              "questionNumber": 103,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme formel pour l'acte d'informer les candidats d'une décision ?",
+              "choices": [ { "id": 1, "text": "avis" }, { "id": 2, "text": "notification" }, { "id": 3, "text": "communication" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme officiel est 'notification'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q104",
+          "context": { "type": "sentence", "text": "Le rapport analyse le profil des {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q104",
+              "questionNumber": 104,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on les 'new indeterminate employees' ?",
+              "choices": [ { "id": 1, "text": "nouveaux employés permanents" }, { "id": 2, "text": "nouveaux fonctionnaires nommés pour une période indéterminée" }, { "id": 3, "text": "employés indéterminés récents" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression officielle complète est 'nouveaux fonctionnaires nommés pour une période indéterminée'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q105",
+          "context": { "type": "sentence", "text": "La {{BLANK}} a été introduite pour simplifier le système de dotation." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q105",
+              "questionNumber": 105,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom de la réforme de la dotation ('New Direction in Staffing') ?",
+              "choices": [ { "id": 1, "text": "Nouvelle direction en dotation" }, { "id": 2, "text": "Nouvelle orientation en dotation" }, { "id": 3, "text": "Nouveau système de dotation" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le nom officiel de la réforme est 'Nouvelle orientation en dotation'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q106",
+          "context": { "type": "sentence", "text": "L'employeur a une {{BLANK}} pour les employés handicapés." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q106",
+              "questionNumber": 106,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment s'appelle l'obligation légale de fournir des mesures d'adaptation ('duty to accommodate') ?",
+              "choices": [ { "id": 1, "text": "obligation d'accommodement" }, { "id": 2, "text": "devoir d'adapter" }, { "id": 3, "text": "obligation de prendre des mesures d'adaptation" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "L'expression légale complète est 'obligation de prendre des mesures d'adaptation'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q107",
+          "context": { "type": "sentence", "text": "Respecter la Loi sur les langues officielles est une {{BLANK}} pour tous les ministères." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q107",
+              "questionNumber": 107,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour une exigence imposée par la loi ('legal obligation') ?",
+              "choices": [ { "id": 1, "text": "obligation légale" }, { "id": 2, "text": "devoir légal" }, { "id": 3, "text": "responsabilité juridique" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme correct est 'obligation légale'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q108",
+          "context": { "type": "sentence", "text": "L'{{BLANK}} est un programme visant à attirer des étudiants autochtones talentueux vers la fonction publique." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q108",
+              "questionNumber": 108,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du programme 'Indigenous Student Employment Opportunity' ?",
+              "choices": [ { "id": 1, "text": "Programme d'emploi pour étudiants autochtones" }, { "id": 2, "text": "Occasion d'emploi pour étudiants autochtones" }, { "id": 3, "text": "Initiative d'embauche des étudiants autochtones" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le nom officiel du programme est 'Occasion d'emploi pour étudiants autochtones'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q109",
+          "context": { "type": "sentence", "text": "Le candidat retenu recevra une {{BLANK}} officielle par écrit." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q109",
+              "questionNumber": 109,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on la proposition formelle d'un emploi ('offer of appointment') ?",
+              "choices": [ { "id": 1, "text": "offre d'emploi" }, { "id": 2, "text": "offre de nomination" }, { "id": 3, "text": "lettre d'offre" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme officiel est 'offre de nomination'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q110",
+          "context": { "type": "sentence", "text": "Le candidat doit posséder toutes les {{BLANK}} énumérées dans l'énoncé de critères de mérite." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q110",
+              "questionNumber": 110,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme général pour 'qualifications' ?",
+              "choices": [ { "id": 1, "text": "compétences" }, { "id": 2, "text": "qualifications" }, { "id": 3, "text": "exigences" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme général est 'qualifications'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q111",
+          "context": { "type": "sentence", "text": "Seuls les candidats qui sont jugés {{BLANK}} seront invités à l'entrevue." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q111",
+              "questionNumber": 111,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est l'adjectif pour 'skilled' ou qui possède les compétences requises ?",
+              "choices": [ { "id": 1, "text": "compétent" }, { "id": 2, "text": "qualifié" }, { "id": 3, "text": "adéquat" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'adjectif utilisé dans ce contexte est 'qualifié'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q112",
+          "context": { "type": "sentence", "text": "Pendant l'entrevue, le comité a posé des {{BLANK}} pour obtenir plus de détails." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q112",
+              "questionNumber": 112,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on les 'probing questions' ?",
+              "choices": [ { "id": 1, "text": "questions de suivi" }, { "id": 2, "text": "questions d'approfondissement" }, { "id": 3, "text": "questions détaillées" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression correcte est 'questions d'approfondissement'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q113",
+          "context": { "type": "sentence", "text": "L'enquêteur doit produire un {{BLANK}} à la fin de son enquête." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q113",
+              "questionNumber": 113,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du document qui résume les conclusions d'une enquête ('investigation report') ?",
+              "choices": [ { "id": 1, "text": "rapport d'investigation" }, { "id": 2, "text": "rapport d'enquête" }, { "id": 3, "text": "résumé de l'enquête" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme correct est 'rapport d'enquête'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q114",
+          "context": { "type": "sentence", "text": "L'équipe des RH utilise des plateformes en ligne pour la {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q114",
+              "questionNumber": 114,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour la recherche proactive de candidats qualifiés ('talent sourcing') ?",
+              "choices": [ { "id": 1, "text": "recherche de talents" }, { "id": 2, "text": "sourçage de talents" }, { "id": 3, "text": "recherche de candidats" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression consacrée est 'recherche de talents'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q115",
+          "context": { "type": "sentence", "text": "L'analyste effectue des {{BLANK}} pour appuyer l'élaboration de nouvelles réglementations." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q115",
+              "questionNumber": 115,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on la 'policy research' ?",
+              "choices": [ { "id": 1, "text": "recherche de politiques" }, { "id": 2, "text": "recherche sur les politiques" }, { "id": 3, "text": "recherches en politiques" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "L'expression correcte est 'recherches en politiques'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q116",
+          "context": { "type": "sentence", "text": "Le ministère a accueilli une centaine de {{BLANK}} l'année dernière." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q116",
+              "questionNumber": 116,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme désigne les 'new indeterminate hires' ?",
+              "choices": [ { "id": 1, "text": "nouvelles embauches permanentes" }, { "id": 2, "text": "recrues nommées pour une période indéterminée" }, { "id": 3, "text": "nouveaux employés indéterminés" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression officielle est 'recrues nommées pour une période indéterminée'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q117",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} est un programme prestigieux qui vise à attirer les meilleurs diplômés dans la fonction publique." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q117",
+              "questionNumber": 117,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du programme 'Recruitment of Policy Leaders' ?",
+              "choices": [ { "id": 1, "text": "Recrutement de leaders en politiques" }, { "id": 2, "text": "Programme des leaders en politiques" }, { "id": 3, "text": "Initiative des leaders de demain" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le nom complet est 'Recrutement de leaders en politiques'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q118",
+          "context": { "type": "sentence", "text": "La stratégie de ressourcement de l'organisation combine le {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q118",
+              "questionNumber": 118,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle expression englobe le recrutement de candidats internes et externes ?",
+              "choices": [ { "id": 1, "text": "recrutement interne et externe" }, { "id": 2, "text": "recrutement externe et interne" }, { "id": 3, "text": "dotation mixte" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression officielle est 'recrutement externe et interne' (external and internal recruitment)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q119",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} définit ce que les fonctionnaires peuvent et ne peuvent pas faire en matière d'activités politiques." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q119",
+              "questionNumber": 119,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du règlement sur les 'Political Activities' ?",
+              "choices": [ { "id": 1, "text": "Règlement sur les activités politiques" }, { "id": 2, "text": "Règlement concernant les activités politiques" }, { "id": 3, "text": "Règlement sur l'engagement politique" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le titre exact est 'Règlement concernant les activités politiques'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q120",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} est un instrument juridique qui précise les modalités d'application de la Loi sur l'emploi dans la fonction publique." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q120",
+              "questionNumber": 120,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du règlement associé à la Loi sur l'emploi dans la fonction publique ?",
+              "choices": [ { "id": 1, "text": "Règlement d'application de la LEFP" }, { "id": 2, "text": "Règlement sur l'emploi dans la fonction publique" }, { "id": 3, "text": "Règlement de la Commission de la fonction publique" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le titre est 'Règlement sur l'emploi dans la fonction publique' (Public Service Employment Regulations)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q121",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} régit les nominations non impératives." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q121",
+              "questionNumber": 121,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel règlement concerne les nominations et les langues officielles ?",
+              "choices": [ { "id": 1, "text": "Règlement sur les langues officielles – nominations dans la fonction publique" }, { "id": 2, "text": "Règlement sur les nominations bilingues" }, { "id": 3, "text": "Règlement sur la dualité linguistique" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le titre complet est 'Règlement sur les langues officielles – nominations dans la fonction publique'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q122",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} établit les règles pour les programmes comme le PFETE." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q122",
+              "questionNumber": 122,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel règlement s'applique aux participants des programmes d'embauche d'étudiants ?",
+              "choices": [ { "id": 1, "text": "Règlement sur l'emploi étudiant" }, { "id": 2, "text": "Règlement sur les participants aux programmes d'embauche d'étudiants" }, { "id": 3, "text": "Règlement sur les programmes pour étudiants" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le titre officiel est 'Règlement sur les participants aux programmes d'embauche d'étudiants'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q123",
+          "context": { "type": "sentence", "text": "La nomination de l'employé à durée déterminée a fait l'objet d'une {{BLANK}} pour une année supplémentaire." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q123",
+              "questionNumber": 123,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on le renouvellement d'une nomination ('reappointment') ?",
+              "choices": [ { "id": 1, "text": "renouvellement" }, { "id": 2, "text": "renomination" }, { "id": 3, "text": "prolongation" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme officiel est 'renomination'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q124",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} permet aux gestionnaires de consulter les bassins de candidats qualifiés de l'ensemble du gouvernement." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q124",
+              "questionNumber": 124,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du 'Central Repository of Active Federal Public Service Pools' ?",
+              "choices": [ { "id": 1, "text": "Répertoire central des bassins" }, { "id": 2, "text": "Répertoire central de bassins actifs au sein de la fonction publique fédérale" }, { "id": 3, "text": "Base de données centrale des bassins" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le nom complet de l'outil est 'Répertoire central de bassins actifs au sein de la fonction publique fédérale'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q125",
+          "context": { "type": "sentence", "text": "Un candidat peut postuler à un {{BLANK}} qui correspond à son domaine d'expertise, comme les finances ou les communications." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q125",
+              "questionNumber": 125,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on un 'career stream' ?",
+              "choices": [ { "id": 1, "text": "chemin de carrière" }, { "id": 2, "text": "flux de carrière" }, { "id": 3, "text": "répertoire de carrières" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme utilisé est 'répertoire de carrières'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q126",
+          "context": { "type": "sentence", "text": "Le gestionnaire doit d'abord consulter le {{BLANK}} avant de lancer un processus externe." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q126",
+              "questionNumber": 126,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom de l'inventaire des personnes ayant un droit de priorité ('Priority Inventory') ?",
+              "choices": [ { "id": 1, "text": "Inventaire des priorités" }, { "id": 2, "text": "Répertoire des bénéficiaires de priorité" }, { "id": 3, "text": "Liste des employés prioritaires" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le nom officiel de l'outil est 'Répertoire des bénéficiaires de priorité'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q127",
+          "context": { "type": "sentence", "text": "Chaque ministère a un {{BLANK}} que les employés peuvent consulter pour obtenir des conseils." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q127",
+              "questionNumber": 127,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on le 'Designated Political Activities Representative' ?",
+              "choices": [ { "id": 1, "text": "représentant désigné en matière d'activités politiques" }, { "id": 2, "text": "conseiller en activités politiques" }, { "id": 3, "text": "agent désigné pour la politique" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le titre complet est 'représentant désigné en matière d'activités politiques'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q128",
+          "context": { "type": "sentence", "text": "Le gestionnaire d'embauche est souvent un {{BLANK}} qui a reçu les pouvoirs de nomination." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q128",
+              "questionNumber": 128,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour un 'sub-delegated official' ?",
+              "choices": [ { "id": 1, "text": "officiel subdélégué" }, { "id": 2, "text": "représentant subdélégué" }, { "id": 3, "text": "gestionnaire délégué" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme correct est 'représentant subdélégué'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q129",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} offre des occasions de développement et de réseautage aux nouveaux fonctionnaires." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q129",
+              "questionNumber": 129,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment s'appelle le 'Emerging Leaders Network' ?",
+              "choices": [ { "id": 1, "text": "Réseau des leaders de la relève" }, { "id": 2, "text": "Réseau des leaders émergents" }, { "id": 3, "text": "Réseau des futurs leaders" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le nom du réseau est 'Réseau des leaders émergents'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q130",
+          "context": { "type": "sentence", "text": "L'enquête a conclu au {{BLANK}} car le candidat choisi ne possédait pas une des qualifications essentielles." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q130",
+              "questionNumber": 130,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour 'merit not demonstrated' ?",
+              "choices": [ { "id": 1, "text": "mérite non démontré" }, { "id": 2, "text": "non-respect du mérite" }, { "id": 3, "text": "respect du mérite non démontré" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "L'expression officielle est 'respect du mérite non démontré'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q131",
+          "context": { "type": "sentence", "text": "Les fonctionnaires doivent connaître leurs {{BLANK}} en ce qui concerne les activités politiques." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q131",
+              "questionNumber": 131,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle expression englobe les 'legal rights and responsibilities' ?",
+              "choices": [ { "id": 1, "text": "droits et responsabilités légaux" }, { "id": 2, "text": "responsabilités et droits légaux" }, { "id": 3, "text": "obligations et droits légaux" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression consacrée est 'responsabilités et droits légaux'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q132",
+          "context": { "type": "sentence", "text": "Les gestionnaires qui ont des pouvoirs subdélégués doivent assumer les {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q132",
+              "questionNumber": 132,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on les responsabilités liées aux nominations ('appointment-related responsibilities') ?",
+              "choices": [ { "id": 1, "text": "responsabilités de nomination" }, { "id": 2, "text": "responsabilités relatives à la dotation" }, { "id": 3, "text": "responsabilités liées aux nominations" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "L'expression officielle est 'responsabilités liées aux nominations'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q133",
+          "context": { "type": "sentence", "text": "La division des ressources humaines est responsable du {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q133",
+              "questionNumber": 133,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme général pour l'ensemble des activités de dotation ('resourcing') ?",
+              "choices": [ { "id": 1, "text": "ressourcement" }, { "id": 2, "text": "dotation en personnel" }, { "id": 3, "text": "gestion des ressources" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme 'ressourcement' est utilisé pour englober l'ensemble du processus de dotation." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q134",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} souhaité est d'augmenter la diversité au sein de l'équipe." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q134",
+              "questionNumber": 134,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour la conséquence finale d'une action ou d'un programme ('outcome') ?",
+              "choices": [ { "id": 1, "text": "résultat" }, { "id": 2, "text": "extrant" }, { "id": 3, "text": "objectif final" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme 'résultat' correspond à 'outcome'. 'Extrant' correspond à 'output'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q1",
+          "context": { "type": "sentence", "text": "Après l'entrevue, le comité de sélection doit rédiger un {{BLANK}} pour justifier son choix." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q1",
+              "questionNumber": 1,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel document explique comment une décision de dotation a été prise ?",
+              "choices": [ { "id": 1, "text": "rapport de sélection" }, { "id": 2, "text": "record de décision" }, { "id": 3, "text": "rapport de décision" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme officiel est 'rapport de décision'. 'Record de décision' est un anglicisme." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q2",
+          "context": { "type": "sentence", "text": "L'enquêteur doit produire un {{BLANK}} à la fin de son enquête." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q2",
+              "questionNumber": 2,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du document qui résume les conclusions d'une enquête ('investigation report') ?",
+              "choices": [ { "id": 1, "text": "rapport d'investigation" }, { "id": 2, "text": "rapport d'enquête" }, { "id": 3, "text": "résumé de l'enquête" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme correct est 'rapport d'enquête'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q3",
+          "context": { "type": "sentence", "text": "L'équipe des RH utilise des plateformes en ligne pour la {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q3",
+              "questionNumber": 3,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour la recherche proactive de candidats qualifiés ('talent sourcing') ?",
+              "choices": [ { "id": 1, "text": "recherche de talents" }, { "id": 2, "text": "sourçage de talents" }, { "id": 3, "text": "recherche de candidats" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression consacrée est 'recherche de talents'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q4",
+          "context": { "type": "sentence", "text": "L'analyste effectue des {{BLANK}} pour appuyer l'élaboration de nouvelles réglementations." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q4",
+              "questionNumber": 4,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on la 'policy research' ?",
+              "choices": [ { "id": 1, "text": "recherche de politiques" }, { "id": 2, "text": "recherche sur les politiques" }, { "id": 3, "text": "recherches en politiques" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "L'expression correcte est 'recherches en politiques'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q5",
+          "context": { "type": "sentence", "text": "Le service des finances a mis en place un système de {{BLANK}} pour les services de traduction offerts aux autres ministères." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q5",
+              "questionNumber": 5,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on le processus de facturation pour récupérer les dépenses ?",
+              "choices": [ { "id": 1, "text": "récupération des coûts" }, { "id": 2, "text": "recouvrement des coûts" }, { "id": 3, "text": "remboursement des frais" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme officiel pour ce processus est 'recouvrement des coûts'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q6",
+          "context": { "type": "sentence", "text": "Le ministère a accueilli une centaine de {{BLANK}} l'année dernière." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q6",
+              "questionNumber": 6,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme désigne les 'new indeterminate hires' ?",
+              "choices": [ { "id": 1, "text": "nouvelles embauches permanentes" }, { "id": 2, "text": "recrues nommées pour une période indéterminée" }, { "id": 3, "text": "nouveaux employés indéterminés" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression officielle est 'recrues nommées pour une période indéterminée'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q7",
+          "context": { "type": "sentence", "text": "Le programme de {{BLANK}} vise à combler les postes de premier échelon avec de nouveaux diplômés." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q7",
+              "questionNumber": 7,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment se nomme le recrutement pour les postes de début de carrière ?",
+              "choices": [ { "id": 1, "text": "recrutement au niveau d'entrée" }, { "id": 2, "text": "recrutement junior" }, { "id": 3, "text": "embauche post-universitaire" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression officielle est 'recrutement au niveau d'entrée'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q8",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} est un programme prestigieux qui vise à attirer les meilleurs diplômés dans la fonction publique." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q8",
+              "questionNumber": 8,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du programme 'Recruitment of Policy Leaders' ?",
+              "choices": [ { "id": 1, "text": "Recrutement de leaders en politiques" }, { "id": 2, "text": "Programme des leaders en politiques" }, { "id": 3, "text": "Initiative des leaders de demain" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le nom complet est 'Recrutement de leaders en politiques'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q9",
+          "context": { "type": "sentence", "text": "Le processus de {{BLANK}} est ouvert à tous les citoyens canadiens, qu'ils soient ou non déjà fonctionnaires." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q9",
+              "questionNumber": 9,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on le processus d'embauche de candidats qui ne font pas partie de la fonction publique ?",
+              "choices": [ { "id": 1, "text": "recrutement externe" }, { "id": 2, "text": "embauche de l'extérieur" }, { "id": 3, "text": "recrutement ouvert" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme consacré pour l'embauche de personnes n'appartenant pas à la fonction publique est 'recrutement externe'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q10",
+          "context": { "type": "sentence", "text": "La stratégie de ressourcement de l'organisation combine le {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q10",
+              "questionNumber": 10,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle expression englobe le recrutement de candidats internes et externes ?",
+              "choices": [ { "id": 1, "text": "recrutement interne et externe" }, { "id": 2, "text": "recrutement externe et interne" }, { "id": 3, "text": "dotation mixte" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression officielle est 'recrutement externe et interne' (external and internal recruitment)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q11",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} définit ce que les fonctionnaires peuvent et ne peuvent pas faire en matière d'activités politiques." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q11",
+              "questionNumber": 11,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du règlement sur les 'Political Activities' ?",
+              "choices": [ { "id": 1, "text": "Règlement sur les activités politiques" }, { "id": 2, "text": "Règlement concernant les activités politiques" }, { "id": 3, "text": "Règlement sur l'engagement politique" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le titre exact est 'Règlement concernant les activités politiques'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q12",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} est un instrument juridique qui précise les modalités d'application de la Loi sur l'emploi dans la fonction publique." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q12",
+              "questionNumber": 12,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du règlement associé à la Loi sur l'emploi dans la fonction publique ?",
+              "choices": [ { "id": 1, "text": "Règlement d'application de la LEFP" }, { "id": 2, "text": "Règlement sur l'emploi dans la fonction publique" }, { "id": 3, "text": "Règlement de la Commission de la fonction publique" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le titre est 'Règlement sur l'emploi dans la fonction publique' (Public Service Employment Regulations)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q13",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} régit les nominations non impératives." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q13",
+              "questionNumber": 13,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel règlement concerne les nominations et les langues officielles ?",
+              "choices": [ { "id": 1, "text": "Règlement sur les langues officielles – nominations dans la fonction publique" }, { "id": 2, "text": "Règlement sur les nominations bilingues" }, { "id": 3, "text": "Règlement sur la dualité linguistique" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le titre complet est 'Règlement sur les langues officielles – nominations dans la fonction publique'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q14",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} établit les règles pour les programmes comme le PFETE." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q14",
+              "questionNumber": 14,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel règlement s'applique aux participants des programmes d'embauche d'étudiants ?",
+              "choices": [ { "id": 1, "text": "Règlement sur l'emploi étudiant" }, { "id": 2, "text": "Règlement sur les participants aux programmes d'embauche d'étudiants" }, { "id": 3, "text": "Règlement sur les programmes pour étudiants" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le titre officiel est 'Règlement sur les participants aux programmes d'embauche d'étudiants'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q15",
+          "context": { "type": "sentence", "text": "La nomination de l'employé à durée déterminée a fait l'objet d'une {{BLANK}} pour une année supplémentaire." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q15",
+              "questionNumber": 15,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on le renouvellement d'une nomination ('reappointment') ?",
+              "choices": [ { "id": 1, "text": "renouvellement" }, { "id": 2, "text": "renomination" }, { "id": 3, "text": "prolongation" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme officiel est 'renomination'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q16",
+          "context": { "type": "sentence", "text": "Nous avons créé un {{BLANK}} de candidats qualifiés pour les futurs besoins en dotation." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q16",
+              "questionNumber": 16,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme désigne une liste ou un bassin de personnes qualifiées ?",
+              "choices": [ { "id": 1, "text": "inventaire" }, { "id": 2, "text": "bassin" }, { "id": 3, "text": "répertoire" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme utilisé est 'répertoire'. 'Inventaire' est un anglicisme ('inventory'). 'Bassin' est souvent utilisé, mais 'répertoire' est le terme du lexique." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q17",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} permet aux gestionnaires de consulter les bassins de candidats qualifiés de l'ensemble du gouvernement." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q17",
+              "questionNumber": 17,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du 'Central Repository of Active Federal Public Service Pools' ?",
+              "choices": [ { "id": 1, "text": "Répertoire central des bassins" }, { "id": 2, "text": "Répertoire central de bassins actifs au sein de la fonction publique fédérale" }, { "id": 3, "text": "Base de données centrale des bassins" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le nom complet de l'outil est 'Répertoire central de bassins actifs au sein de la fonction publique fédérale'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q18",
+          "context": { "type": "sentence", "text": "Un candidat peut postuler à un {{BLANK}} qui correspond à son domaine d'expertise, comme les finances ou les communications." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q18",
+              "questionNumber": 18,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on un 'career stream' ?",
+              "choices": [ { "id": 1, "text": "chemin de carrière" }, { "id": 2, "text": "flux de carrière" }, { "id": 3, "text": "répertoire de carrières" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme utilisé est 'répertoire de carrières'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q19",
+          "context": { "type": "sentence", "text": "Le gestionnaire doit d'abord consulter le {{BLANK}} avant de lancer un processus externe." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q19",
+              "questionNumber": 19,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom de l'inventaire des personnes ayant un droit de priorité ('Priority Inventory') ?",
+              "choices": [ { "id": 1, "text": "Inventaire des priorités" }, { "id": 2, "text": "Répertoire des bénéficiaires de priorité" }, { "id": 3, "text": "Liste des employés prioritaires" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le nom officiel de l'outil est 'Répertoire des bénéficiaires de priorité'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q20",
+          "context": { "type": "sentence", "text": "Chaque ministère a un {{BLANK}} que les employés peuvent consulter pour obtenir des conseils." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q20",
+              "questionNumber": 20,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on le 'Designated Political Activities Representative' ?",
+              "choices": [ { "id": 1, "text": "représentant désigné en matière d'activités politiques" }, { "id": 2, "text": "conseiller en activités politiques" }, { "id": 3, "text": "agent désigné pour la politique" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le titre complet est 'représentant désigné en matière d'activités politiques'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q21",
+          "context": { "type": "sentence", "text": "Le gestionnaire d'embauche est souvent un {{BLANK}} qui a reçu les pouvoirs de nomination." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q21",
+              "questionNumber": 21,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour un 'sub-delegated official' ?",
+              "choices": [ { "id": 1, "text": "officiel subdélégué" }, { "id": 2, "text": "représentant subdélégué" }, { "id": 3, "text": "gestionnaire délégué" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme correct est 'représentant subdélégué'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q22",
+          "context": { "type": "sentence", "text": "La fonction publique s'efforce d'améliorer sa {{BLANK}} pour mieux refléter la population canadienne." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q22",
+              "questionNumber": 22,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel concept mesure à quel point une organisation reflète la diversité de la population ?",
+              "choices": [ { "id": 1, "text": "diversité" }, { "id": 2, "text": "représentation" }, { "id": 3, "text": "représentativité" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme 'représentativité' est utilisé pour décrire la mesure dans laquelle l'effectif est le reflet de la population." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q23",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} offre des occasions de développement et de réseautage aux nouveaux fonctionnaires." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q23",
+              "questionNumber": 23,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment s'appelle le 'Emerging Leaders Network' ?",
+              "choices": [ { "id": 1, "text": "Réseau des leaders de la relève" }, { "id": 2, "text": "Réseau des leaders émergents" }, { "id": 3, "text": "Réseau des futurs leaders" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le nom du réseau est 'Réseau des leaders émergents'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q24",
+          "context": { "type": "sentence", "text": "Le comité de sélection doit justifier sa décision pour assurer le {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q24",
+              "questionNumber": 24,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme signifie 'merit demonstrated' ?",
+              "choices": [ { "id": 1, "text": "démonstration du mérite" }, { "id": 2, "text": "respect du mérite démontré" }, { "id": 3, "text": "mérite prouvé" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression officielle est 'respect du mérite démontré'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q25",
+          "context": { "type": "sentence", "text": "L'enquête a conclu au {{BLANK}} car le candidat choisi ne possédait pas une des qualifications essentielles." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q25",
+              "questionNumber": 25,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour 'merit not demonstrated' ?",
+              "choices": [ { "id": 1, "text": "mérite non démontré" }, { "id": 2, "text": "non-respect du mérite" }, { "id": 3, "text": "respect du mérite non démontré" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "L'expression officielle est 'respect du mérite non démontré'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q26",
+          "context": { "type": "sentence", "text": "Les fonctionnaires doivent connaître leurs {{BLANK}} en ce qui concerne les activités politiques." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q26",
+              "questionNumber": 26,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle expression englobe les 'legal rights and responsibilities' ?",
+              "choices": [ { "id": 1, "text": "droits et responsabilités légaux" }, { "id": 2, "text": "responsabilités et droits légaux" }, { "id": 3, "text": "obligations et droits légaux" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression consacrée est 'responsabilités et droits légaux'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q27",
+          "context": { "type": "sentence", "text": "Les gestionnaires qui ont des pouvoirs subdélégués doivent assumer les {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q27",
+              "questionNumber": 27,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on les responsabilités liées aux nominations ('appointment-related responsibilities') ?",
+              "choices": [ { "id": 1, "text": "responsabilités de nomination" }, { "id": 2, "text": "responsabilités relatives à la dotation" }, { "id": 3, "text": "responsabilités liées aux nominations" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "L'expression officielle est 'responsabilités liées aux nominations'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q28",
+          "context": { "type": "sentence", "text": "La division des ressources humaines est responsable du {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q28",
+              "questionNumber": 28,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme général pour l'ensemble des activités de dotation ('resourcing') ?",
+              "choices": [ { "id": 1, "text": "ressourcement" }, { "id": 2, "text": "dotation en personnel" }, { "id": 3, "text": "gestion des ressources" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme 'ressourcement' est utilisé pour englober l'ensemble du processus de dotation." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q29",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} souhaité est d'augmenter la diversité au sein de l'équipe." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q29",
+              "questionNumber": 29,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour la conséquence finale d'une action ou d'un programme ('outcome') ?",
+              "choices": [ { "id": 1, "text": "résultat" }, { "id": 2, "text": "extrant" }, { "id": 3, "text": "objectif final" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme 'résultat' correspond à 'outcome'. 'Extrant' correspond à 'output'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q30",
+          "context": { "type": "sentence", "text": "À la fin de l'enquête, l'enquêteur a fourni un {{BLANK}} aux parties concernées." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q30",
+              "questionNumber": 30,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on un 'case summary' ?",
+              "choices": [ { "id": 1, "text": "sommaire du cas" }, { "id": 2, "text": "résumé de l'affaire" }, { "id": 3, "text": "résumé de cas" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme officiel est 'résumé de cas'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q31",
+          "context": { "type": "sentence", "text": "Un {{BLANK}} est fourni aux parties dans le cadre d'une enquête pour assurer la transparence." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q31",
+              "questionNumber": 31,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour un résumé non anonyme dans le contexte d'une enquête ('disclosure summary') ?",
+              "choices": [ { "id": 1, "text": "résumé de divulgation" }, { "id": 2, "text": "résumé non anonyme" }, { "id": 3, "text": "sommaire de l'enquête" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme utilisé est 'résumé non anonyme'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q32",
+          "context": { "type": "sentence", "text": "La {{BLANK}} d'une nomination peut survenir si des informations frauduleuses ont été fournies." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q32",
+              "questionNumber": 32,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour l'annulation d'une nomination ('revocation') ?",
+              "choices": [ { "id": 1, "text": "annulation" }, { "id": 2, "text": "révocation" }, { "id": 3, "text": "retrait" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme légal est 'révocation'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q33",
+          "context": { "type": "sentence", "text": "L'initiative {{BLANK}} vise à moderniser les systèmes de ressources humaines et de paye." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q33",
+              "questionNumber": 33,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du projet 'HR-to-Pay' ?",
+              "choices": [ { "id": 1, "text": "RH à la paye" }, { "id": 2, "text": "RH-Paye" }, { "id": 3, "text": "Ressources Humaines à la Paye" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le nom de l'initiative est 'RH à la paye'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q34",
+          "context": { "type": "sentence", "text": "Un gestionnaire doit évaluer le {{BLANK}} avant de choisir une stratégie de dotation." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q34",
+              "questionNumber": 34,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on un 'staffing risk' ?",
+              "choices": [ { "id": 1, "text": "risque de dotation" }, { "id": 2, "text": "risque en matière de dotation" }, { "id": 3, "text": "risque de staffing" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression correcte est 'risque en matière de dotation'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q35",
+          "context": { "type": "sentence", "text": "Le ministère tiendra un kiosque au {{BLANK}} de l'université pour attirer de nouveaux diplômés." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q35",
+              "questionNumber": 35,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme français pour 'job fair' ?",
+              "choices": [ { "id": 1, "text": "foire à l'emploi" }, { "id": 2, "text": "salon de l'emploi" }, { "id": 3, "text": "événement de recrutement" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme le plus courant et correct est 'salon de l'emploi'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q36",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} est responsable de la gestion des documents officiels et de la coordination des réunions." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q36",
+              "questionNumber": 36,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on le 'Corporate Secretariat' ?",
+              "choices": [ { "id": 1, "text": "Secrétariat corporatif" }, { "id": 2, "text": "Secrétariat aux affaires générales" }, { "id": 3, "text": "Secrétariat de la direction" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le nom officiel est 'Secrétariat aux affaires générales'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q37",
+          "context": { "type": "sentence", "text": "L'initiative du {{BLANK}} vise à rendre les données du gouvernement plus accessibles au public." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q37",
+              "questionNumber": 37,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du 'Open Government Secretariat' ?",
+              "choices": [ { "id": 1, "text": "Secrétariat du gouvernement ouvert" }, { "id": 2, "text": "Secrétariat pour un gouvernement ouvert" }, { "id": 3, "text": "Bureau du gouvernement ouvert" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le nom officiel est 'Secrétariat du gouvernement ouvert'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q38",
+          "context": { "type": "sentence", "text": "La gestion de l'accès à l'information relève du {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q38",
+              "questionNumber": 38,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on le 'Corporate Affairs Sector' ?",
+              "choices": [ { "id": 1, "text": "Secteur des affaires corporatives" }, { "id": 2, "text": "Secteur des affaires ministérielles" }, { "id": 3, "text": "Secteur des services généraux" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le nom officiel est 'Secteur des affaires ministérielles'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q39",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} est responsable de la communication externe et de l'élaboration des politiques." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q39",
+              "questionNumber": 39,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du 'Policy and Communications Sector' ?",
+              "choices": [ { "id": 1, "text": "Secteur des politiques et des communications" }, { "id": 2, "text": "Secteur de la politique et de la communication" }, { "id": 3, "text": "Secteur des communications politiques" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le nom officiel est 'Secteur des politiques et des communications'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q40",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} mène des audits et des enquêtes sur les activités de dotation." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q40",
+              "questionNumber": 40,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment se nomme le 'Oversight and Investigations Sector' ?",
+              "choices": [ { "id": 1, "text": "Secteur de la surveillance et des enquêtes" }, { "id": 2, "text": "Secteur de la supervision et des investigations" }, { "id": 3, "text": "Secteur des audits et des enquêtes" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le nom officiel est 'Secteur de la surveillance et des enquêtes'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q41",
+          "context": { "type": "sentence", "text": "L'ingénierie informatique est actuellement un {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q41",
+              "questionNumber": 41,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on un domaine où il manque de travailleurs qualifiés ('skills shortage area') ?",
+              "choices": [ { "id": 1, "text": "zone de pénurie de compétences" }, { "id": 2, "text": "secteur en pénurie de main-d'oeuvre" }, { "id": 3, "text": "domaine en manque de compétences" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression correcte est 'secteur en pénurie de main-d'oeuvre'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q42",
+          "context": { "type": "sentence", "text": "Durant la {{BLANK}}, des rappels sur la protection des informations sont envoyés à tous les employés." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q42",
+              "questionNumber": 42,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom de la 'Security Awareness Week' ?",
+              "choices": [ { "id": 1, "text": "Semaine de la conscience de la sécurité" }, { "id": 2, "text": "Semaine de la sensibilisation à la sécurité" }, { "id": 3, "text": "Semaine de la sécurité" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le nom officiel de l'événement est 'Semaine de la sensibilisation à la sécurité'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q43",
+          "context": { "type": "sentence", "text": "La nouvelle stratégie met l'accent sur la {{BLANK}} auprès des communautés éloignées." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q43",
+              "questionNumber": 43,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle expression est synonyme d''awareness and outreach' ?",
+              "choices": [ { "id": 1, "text": "conscience et rayonnement" }, { "id": 2, "text": "sensibilisation et communication" }, { "id": 3, "text": "information et liaison" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression utilisée est 'sensibilisation et communication'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q44",
+          "context": { "type": "sentence", "text": "Un fonctionnaire qui souhaite {{BLANK}} doit d'abord obtenir la permission de la Commission." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q44",
+              "questionNumber": 44,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est l'expression pour 'seek nomination' dans un contexte d'activité politique ?",
+              "choices": [ { "id": 1, "text": "chercher la nomination" }, { "id": 2, "text": "se porter candidat" }, { "id": 3, "text": "briguer un poste" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression légale est 'se porter candidat'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q45",
+          "context": { "type": "sentence", "text": "Avant d'entrer en fonction, le nouveau fonctionnaire doit prêter un {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q45",
+              "questionNumber": 45,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on l''oath or solemn affirmation' ?",
+              "choices": [ { "id": 1, "text": "serment ou affirmation solennelle" }, { "id": 2, "text": "serment d'allégeance" }, { "id": 3, "text": "affirmation de loyauté" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme légal complet est 'serment ou affirmation solennelle'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q46",
+          "context": { "type": "sentence", "text": "Pour la portabilité de la pension, le {{BLANK}} est une considération importante." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q46",
+              "questionNumber": 46,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour 'continuous service' ?",
+              "choices": [ { "id": 1, "text": "service continu" }, { "id": 2, "text": "service ininterrompu" }, { "id": 3, "text": "emploi continu" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme officiel est 'service continu'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q47",
+          "context": { "type": "sentence", "text": "Des {{BLANK}} sont offerts aux directeurs pour les aider à gérer le stress et les défis professionnels." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q47",
+              "questionNumber": 47,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment s'appellent les 'executive counselling services' ?",
+              "choices": [ { "id": 1, "text": "services de conseil pour exécutifs" }, { "id": 2, "text": "services de counselling aux cadres" }, { "id": 3, "text": "aide psychologique pour les directeurs" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le nom officiel est 'services de counselling aux cadres'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q48",
+          "context": { "type": "sentence", "text": "Le programme de développement offre des {{BLANK}} pour aider les employés à atteindre leurs objectifs de carrière." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q48",
+              "questionNumber": 48,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel terme englobe le 'counselling and coaching' ?",
+              "choices": [ { "id": 1, "text": "conseil et coaching" }, { "id": 2, "text": "services de counselling et d'encadrement" }, { "id": 3, "text": "accompagnement professionnel" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression consacrée est 'services de counselling et d'encadrement'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q49",
+          "context": { "type": "sentence", "text": "Le programme d'aide est destiné aux sous-ministres et offre des {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q49",
+              "questionNumber": 49,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment se nomment les services de 'executive counselling and coaching' ?",
+              "choices": [ { "id": 1, "text": "counselling et encadrement pour exécutifs" }, { "id": 2, "text": "coaching pour les cadres supérieurs" }, { "id": 3, "text": "services de counselling et d'encadrement aux cadres supérieurs" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le nom complet est 'services de counselling et d'encadrement aux cadres supérieurs'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q50",
+          "context": { "type": "sentence", "text": "Les {{BLANK}} du ministère ont fourni un avis sur la légalité de la nouvelle politique." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q50",
+              "questionNumber": 50,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est l'appellation des 'Legal Services' ?",
+              "choices": [ { "id": 1, "text": "services légaux" }, { "id": 2, "text": "services juridiques" }, { "id": 3, "text": "conseillers juridiques" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme correct est 'services juridiques'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q51",
+          "context": { "type": "sentence", "text": "Le processus de dotation pour les postes EX-04 inclut des {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q51",
+              "questionNumber": 51,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on les 'Simulations for the Selection of Executives' ?",
+              "choices": [ { "id": 1, "text": "Simulations pour la sélection des EX" }, { "id": 2, "text": "Exercices de simulation pour les exécutifs" }, { "id": 3, "text": "Tests de sélection des cadres" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le nom complet de l'outil d'évaluation est 'Simulations pour la sélection des EX'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q52",
+          "context": { "type": "sentence", "text": "Le formulaire demande d'indiquer votre {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q52",
+              "questionNumber": 52,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle expression signifie 'previous employment status' ?",
+              "choices": [ { "id": 1, "text": "statut d'emploi précédent" }, { "id": 2, "text": "situation professionnelle antérieure" }, { "id": 3, "text": "historique d'emploi" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression correcte est 'situation professionnelle antérieure'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q53",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} est envoyé à tous ceux qui ont postulé à un emploi dans la fonction publique." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q53",
+              "questionNumber": 53,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du 'Survey of Staffing – Candidates' ?",
+              "choices": [ { "id": 1, "text": "Sondage sur la dotation – Candidats" }, { "id": 2, "text": "Enquête sur la dotation pour les candidats" }, { "id": 3, "text": "Sondage des candidats sur le staffing" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le nom officiel du sondage est 'Sondage sur la dotation – Candidats'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q54",
+          "context": { "type": "sentence", "text": "Les résultats du {{BLANK}} aident à comprendre la perspective des gestionnaires sur le système de dotation." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q54",
+              "questionNumber": 54,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du 'Survey of Staffing – Managers' ?",
+              "choices": [ { "id": 1, "text": "Sondage sur la dotation pour les gestionnaires" }, { "id": 2, "text": "Sondage sur la dotation – Gestionnaires" }, { "id": 3, "text": "Enquête auprès des gestionnaires sur la dotation" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le nom officiel du sondage est 'Sondage sur la dotation – Gestionnaires'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q55",
+          "context": { "type": "sentence", "text": "La direction des RH fournit un {{BLANK}} aux gestionnaires." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q55",
+              "questionNumber": 55,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on le 'organizational human resources support' ?",
+              "choices": [ { "id": 1, "text": "support organisationnel en RH" }, { "id": 2, "text": "soutien organisationnel en matière de ressources humaines" }, { "id": 3, "text": "aide organisationnelle des ressources humaines" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression complète est 'soutien organisationnel en matière de ressources humaines'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q56",
+          "context": { "type": "sentence", "text": "Le gestionnaire a consulté un {{BLANK}} pour l'aider avec le processus de classification." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q56",
+              "questionNumber": 56,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le titre d'un 'human resources specialist' ?",
+              "choices": [ { "id": 1, "text": "spécialiste des ressources humaines" }, { "id": 2, "text": "spécialiste en ressources humaines" }, { "id": 3, "text": "spécialiste RH" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le titre correct est 'spécialiste en ressources humaines'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q57",
+          "context": { "type": "sentence", "text": "La {{BLANK}} de l'équipe de recrutement inclut des visites sur les campus universitaires." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q57",
+              "questionNumber": 57,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour 'outreach process' ?",
+              "choices": [ { "id": 1, "text": "processus de rayonnement" }, { "id": 2, "text": "stratégie de liaison" }, { "id": 3, "text": "démarche de sensibilisation" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme utilisé est 'stratégie de liaison'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q58",
+          "context": { "type": "sentence", "text": "Le Sondage auprès des fonctionnaires fédéraux est un outil clé pour la {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q58",
+              "questionNumber": 58,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est l'expression pour 'employee engagement strategy' ?",
+              "choices": [ { "id": 1, "text": "stratégie d'engagement des employés" }, { "id": 2, "text": "stratégie de mobilisation du personnel" }, { "id": 3, "text": "plan de mobilisation des employés" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression correcte est 'stratégie de mobilisation du personnel'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q59",
+          "context": { "type": "sentence", "text": "L'auditeur interne a présenté sa {{BLANK}} à la direction." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q59",
+              "questionNumber": 59,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on une 'audit approach' ?",
+              "choices": [ { "id": 1, "text": "approche d'audit" }, { "id": 2, "text": "méthodologie d'audit" }, { "id": 3, "text": "stratégie de vérification" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme officiel pour une approche d'audit est 'stratégie de vérification'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q60",
+          "context": { "type": "sentence", "text": "Chaque ministère doit élaborer une {{BLANK}} qui correspond à ses besoins spécifiques." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q60",
+              "questionNumber": 60,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle est l'expression pour 'organizational staffing strategy' ?",
+              "choices": [ { "id": 1, "text": "stratégie de dotation organisationnelle" }, { "id": 2, "text": "stratégie organisationnelle en matière de dotation" }, { "id": 3, "text": "plan de dotation de l'organisation" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression officielle est 'stratégie organisationnelle en matière de dotation'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q61",
+          "context": { "type": "sentence", "text": "L'administrateur du système, ou {{BLANK}}, a accès à toutes les fonctionnalités." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q61",
+              "questionNumber": 61,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme français pour 'super user' ?",
+              "choices": [ { "id": 1, "text": "superutilisateur" }, { "id": 2, "text": "usager expert" }, { "id": 3, "text": "utilisateur avancé" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme correct est 'superutilisateur'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q62",
+          "context": { "type": "sentence", "text": "La Commission de la fonction publique est responsable de la {{BLANK}} du système de dotation." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q62",
+              "questionNumber": 62,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour 'monitoring' ?",
+              "choices": [ { "id": 1, "text": "monitorage" }, { "id": 2, "text": "surveillance" }, { "id": 3, "text": "supervision" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme correct pour 'monitoring' est 'surveillance'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q63",
+          "context": { "type": "sentence", "text": "Les gestionnaires doivent assurer une {{BLANK}} des nouveaux employés durant leur période de probation." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q63",
+              "questionNumber": 63,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on le 'ongoing monitoring' ?",
+              "choices": [ { "id": 1, "text": "surveillance continue" }, { "id": 2, "text": "monitorage continu" }, { "id": 3, "text": "suivi permanent" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression officielle est 'surveillance continue'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q64",
+          "context": { "type": "sentence", "text": "Le plan de surveillance ministériel inclut une {{BLANK}} des activités de dotation." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q64",
+              "questionNumber": 64,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour 'cyclical monitoring' ?",
+              "choices": [ { "id": 1, "text": "monitorage cyclique" }, { "id": 2, "text": "surveillance cyclique" }, { "id": 3, "text": "vérification périodique" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme correct est 'surveillance cyclique'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q65",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} est utilisé pour traiter les résultats des examens de langue seconde." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q65",
+              "questionNumber": 65,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on le système de 'test scoring and results reporting' ?",
+              "choices": [ { "id": 1, "text": "système de notation et de rapport des résultats" }, { "id": 2, "text": "système de correction des examens et de production des rapports" }, { "id": 3, "text": "plateforme de correction et de résultats" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le nom complet du système est 'Système de correction des examens et de production des rapports'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q66",
+          "context": { "type": "sentence", "text": "La Nouvelle orientation en dotation promeut un {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q66",
+              "questionNumber": 66,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour un 'values-based staffing system' ?",
+              "choices": [ { "id": 1, "text": "système de dotation basé sur des valeurs" }, { "id": 2, "text": "système de dotation fondé sur des valeurs" }, { "id": 3, "text": "système de dotation axé sur les valeurs" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "L'expression officielle est 'système de dotation fondé sur des valeurs'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q67",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} est utilisé pour suivre toute la correspondance officielle de l'organisation." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q67",
+              "questionNumber": 67,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du 'Corporate Communications Management' system ?",
+              "choices": [ { "id": 1, "text": "système de gestion des communications" }, { "id": 2, "text": "système de gestion de la correspondance" }, { "id": 3, "text": "plateforme de correspondance ministérielle" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le nom du système est 'Système de gestion de la correspondance'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q68",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} est l'outil utilisé pour gérer l'administration des priorités." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q68",
+              "questionNumber": 68,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment s'appelle le 'Priority Information Management System' ?",
+              "choices": [ { "id": 1, "text": "système d'information sur les priorités" }, { "id": 2, "text": "système de gestion de l'information sur les priorités" }, { "id": 3, "text": "système de gestion des priorités" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le nom complet est 'Système de gestion de l'information sur les priorités'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q69",
+          "context": { "type": "sentence", "text": "Les candidats postulent en ligne via le {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q69",
+              "questionNumber": 69,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du 'Public Service Resourcing System' (le site emplois.gc.ca) ?",
+              "choices": [ { "id": 1, "text": "système de ressourcement de la fonction publique" }, { "id": 2, "text": "système de dotation de la fonction publique" }, { "id": 3, "text": "portail d'emplois de la fonction publique" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le nom officiel du système est 'Système de ressourcement de la fonction publique'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q70",
+          "context": { "type": "sentence", "text": "Le gouvernement travaille à la mise en place du {{BLANK}} pour remplacer Phénix." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q70",
+              "questionNumber": 70,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom du projet 'Next Generation Human Resources and Pay System' ?",
+              "choices": [ { "id": 1, "text": "système de RH et de paye de la prochaine génération" }, { "id": 2, "text": "système de ressources humaines et de paye de la prochaine génération" }, { "id": 3, "text": "prochaine génération des RH et de la paye" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le nom complet est 'Système de ressources humaines et de paye de la prochaine génération'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q71",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} accorde aux personnes admissibles un droit légal d'être nommées avant les autres." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q71",
+              "questionNumber": 71,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on le 'priority system' ?",
+              "choices": [ { "id": 1, "text": "système prioritaire" }, { "id": 2, "text": "système de priorité" }, { "id": 3, "text": "système des priorités" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le nom officiel est 'système des priorités'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q72",
+          "context": { "type": "sentence", "text": "Le Centre de psychologie du personnel utilise un {{BLANK}} pour gérer les informations sur les évaluations." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q72",
+              "questionNumber": 72,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le nom de l''Assessment Centre Integrated Information System' ?",
+              "choices": [ { "id": 1, "text": "système d'information intégré du centre d'évaluation" }, { "id": 2, "text": "système d'information intégré des centres d'évaluation" }, { "id": 3, "text": "système intégré d'information des centres d'évaluation" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le nom officiel est 'Système d’information intégré des centres d’évaluation'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q73",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} mesure le nombre d'employés embauchés par rapport à la taille de l'effectif." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q73",
+              "questionNumber": 73,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on le 'hiring rate' ?",
+              "choices": [ { "id": 1, "text": "taux d'embauche" }, { "id": 2, "text": "taux de recrutement" }, { "id": 3, "text": "ratio d'embauche" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme correct est 'taux d'embauche'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q74",
+          "context": { "type": "sentence", "text": "Un faible {{BLANK}} peut indiquer un manque de possibilités d'avancement." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q74",
+              "questionNumber": 74,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour 'promotion rate' ?",
+              "choices": [ { "id": 1, "text": "taux de promotion" }, { "id": 2, "text": "ratio de promotion" }, { "id": 3, "text": "pourcentage de promotion" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme correct est 'taux de promotion'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q75",
+          "context": { "type": "sentence", "text": "Un {{BLANK}} élevé peut indiquer des problèmes de satisfaction au travail." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q75",
+              "questionNumber": 75,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on le 'turnover rate' ?",
+              "choices": [ { "id": 1, "text": "taux de départ" }, { "id": 2, "text": "taux de rotation" }, { "id": 3, "text": "taux de roulement" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme consacré est 'taux de roulement'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q76",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} inclut les départs à la retraite, les démissions et les licenciements." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q76",
+              "questionNumber": 76,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour 'separation rate' ?",
+              "choices": [ { "id": 1, "text": "taux de séparation" }, { "id": 2, "text": "taux de départ" }, { "id": 3, "text": "taux d'attrition" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme statistique est 'taux de séparation'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q77",
+          "context": { "type": "sentence", "text": "Chaque candidat doit passer un {{BLANK}} écrit." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q77",
+              "questionNumber": 77,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le mot général pour un 'test' ?",
+              "choices": [ { "id": 1, "text": "examen" }, { "id": 2, "text": "test" }, { "id": 3, "text": "évaluation" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le mot 'test' est utilisé directement en français." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q78",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} mesure le raisonnement logique et la capacité de jugement." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q78",
+              "questionNumber": 78,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on un 'aptitude test' ?",
+              "choices": [ { "id": 1, "text": "test d'aptitude" }, { "id": 2, "text": "test de compétences" }, { "id": 3, "text": "test d'aptitudes" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme correct est 'test d'aptitudes' (au pluriel)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q79",
+          "context": { "type": "sentence", "text": "Un {{BLANK}} a été administré pour vérifier la compréhension de la loi par les candidats." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q79",
+              "questionNumber": 79,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour un 'knowledge test' ?",
+              "choices": [ { "id": 1, "text": "test de connaissance" }, { "id": 2, "text": "test de connaissances" }, { "id": 3, "text": "examen de connaissances" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme correct est 'test de connaissances' (au pluriel)." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q80",
+          "context": { "type": "sentence", "text": "L'Évaluation de langue seconde est un {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q80",
+              "questionNumber": 80,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on un 'second language test' ?",
+              "choices": [ { "id": 1, "text": "test de deuxième langue" }, { "id": 2, "text": "test de langue seconde" }, { "id": 3, "text": "examen de bilinguisme" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme est 'test de langue seconde'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q81",
+          "context": { "type": "sentence", "text": "L'Examen de surveillance de la Commission de la fonction publique est un {{BLANK}} utilisé partout au pays." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q81",
+              "questionNumber": 81,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on un 'standardized test' ?",
+              "choices": [ { "id": 1, "text": "test standard" }, { "id": 2, "text": "test normalisé" }, { "id": 3, "text": "test standardisé" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme correct est 'test standardisé'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q82",
+          "context": { "type": "sentence", "text": "Pour assurer l'intégrité du processus, l'examen était un {{BLANK}}." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q82",
+              "questionNumber": 82,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour un test administré en présence d'un surveillant ('supervised test') ?",
+              "choices": [ { "id": 1, "text": "test supervisé" }, { "id": 2, "text": "test surveillé" }, { "id": 3, "text": "examen en personne" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme officiel est 'test supervisé'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q83",
+          "context": { "type": "sentence", "text": "Le {{BLANK}} du poste est responsable de la gestion de l'équipe." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q83",
+              "questionNumber": 83,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on la personne qui occupe un poste ('incumbent') ?",
+              "choices": [ { "id": 1, "text": "occupant" }, { "id": 2, "text": "titulaire" }, { "id": 3, "text": "détenteur du poste" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme correct pour la personne qui occupe un poste est 'titulaire'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q84",
+          "context": { "type": "sentence", "text": "La politique de l'organisation prône une {{BLANK}} pour le harcèlement en milieu de travail." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q84",
+              "questionNumber": 84,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quelle expression signifie 'zero tolerance' ?",
+              "choices": [ { "id": 1, "text": "tolérance zéro" }, { "id": 2, "text": "aucune tolérance" }, { "id": 3, "text": "zéro tolérance" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression correcte est 'tolérance zéro'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q85",
+          "context": { "type": "sentence", "text": "La {{BLANK}} du processus de dotation est essentielle pour maintenir la confiance du public." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q85",
+              "questionNumber": 85,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour 'transparency' ?",
+              "choices": [ { "id": 1, "text": "transparence" }, { "id": 2, "text": "clarté" }, { "id": 3, "text": "ouverture" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "Le terme correct est 'transparence'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q86",
+          "context": { "type": "sentence", "text": "Chaque {{BLANK}} du système doit avoir un mot de passe sécurisé." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q86",
+              "questionNumber": 86,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le mot français pour 'user' ?",
+              "choices": [ { "id": 1, "text": "usager" }, { "id": 2, "text": "utilisateur" }, { "id": 3, "text": "client" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme correct est 'utilisateur'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q87",
+          "context": { "type": "sentence", "text": "Les {{BLANK}} de la fonction publique incluent le respect de la démocratie et le service au public." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q87",
+              "questionNumber": 87,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel mot désigne les 'values' ou les principes directeurs ?",
+              "choices": [ { "id": 1, "text": "principes" }, { "id": 2, "text": "éthique" }, { "id": 3, "text": "valeurs" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme est 'valeurs'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q88",
+          "context": { "type": "sentence", "text": "Le Bureau du vérificateur général a mené une {{BLANK}} des dépenses du ministère." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q88",
+              "questionNumber": 88,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme français pour un 'audit' ?",
+              "choices": [ { "id": 1, "text": "audit" }, { "id": 2, "text": "vérification" }, { "id": 3, "text": "examen" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme officiel pour un 'audit' est 'vérification'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q89",
+          "context": { "type": "sentence", "text": "La première étape du processus est la {{BLANK}} des candidats pour s'assurer qu'ils répondent aux exigences de base." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q89",
+              "questionNumber": 89,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment appelle-t-on la vérification de l'éligibilité ('eligibility check') ?",
+              "choices": [ { "id": 1, "text": "vérification de l'admissibilité" }, { "id": 2, "text": "contrôle d'éligibilité" }, { "id": 3, "text": "présélection" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression correcte est 'vérification de l'admissibilité'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q90",
+          "context": { "type": "sentence", "text": "Le gestionnaire doit effectuer une {{BLANK}} avant de faire une offre d'emploi." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q90",
+              "questionNumber": 90,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour 'reference check' ?",
+              "choices": [ { "id": 1, "text": "vérification des références" }, { "id": 2, "text": "contrôle des références" }, { "id": 3, "text": "appel de références" } ],
+              "answerKey": { "correctChoiceId": 1, "explanation": "L'expression correcte est 'vérification des références'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_COMPLET_Q91",
+          "context": { "type": "sentence", "text": "La politique sur la prévention du harcèlement et de la {{BLANK}} en milieu de travail doit être respectée par tous." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_COMPLET_Q91",
+              "questionNumber": 91,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le mot pour 'violence' ?",
+              "choices": [ { "id": 1, "text": "agression" }, { "id": 2, "text": "violence" }, { "id": 3, "text": "brutalité" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme utilisé dans les politiques est 'violence'." }
+            }
+          ]
+        },
+               {
+          "setId": "FR_LEXIQUE_FULL_Q92",
+          "context": { "type": "sentence", "text": "Un candidat qui n'est pas satisfait du processus de nomination interne peut déposer une plainte si la {{BLANK}} était limitée à ce ministère." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q92",
+              "questionNumber": 92,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Quel est le terme pour la 'area of recourse' où un candidat peut déposer une plainte ?",
+              "choices": [ { "id": 1, "text": "zone de plainte" }, { "id": 2, "text": "zone de recours" }, { "id": 3, "text": "région de recours" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Le terme légal est 'zone de recours'. C'est la portée géographique à l'intérieur de laquelle un candidat peut se plaindre." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q93",
+          "context": { "type": "sentence", "text": "Le processus de dotation est ouvert à tous les résidents de la région de la capitale nationale, qui est la {{BLANK}} pour ce poste." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q93",
+              "questionNumber": 93,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment nomme-t-on la zone géographique dans laquelle les candidats doivent résider pour être admissibles ('area of selection') ?",
+              "choices": [ { "id": 1, "text": "région de sélection" }, { "id": 2, "text": "zone géographique" }, { "id": 3, "text": "zone de sélection" } ],
+              "answerKey": { "correctChoiceId": 3, "explanation": "Le terme officiel pour la portée géographique d'un processus est 'zone de sélection'." }
+            }
+          ]
+        },
+        {
+          "setId": "FR_LEXIQUE_FULL_Q94",
+          "context": { "type": "sentence", "text": "Pour ce poste de haute direction, la {{BLANK}} a été établie, permettant aux candidats de partout au pays de postuler." },
+          "questions": [
+            {
+              "questionId": "FR_LEXIQUE_FULL_Q94",
+              "questionNumber": 94,
+              "questionType": "Fill-in-the-blank",
+              "prompt": "Comment s'appelle une 'national area of selection' ?",
+              "choices": [ { "id": 1, "text": "sélection nationale" }, { "id": 2, "text": "zone nationale de sélection" }, { "id": 3, "text": "région de sélection nationale" } ],
+              "answerKey": { "correctChoiceId": 2, "explanation": "Lorsque le processus est ouvert à l'ensemble du Canada, on parle d'une 'zone nationale de sélection'." }
+            }
+          ]
         }
       ]
     }
   ]
 }
+    
