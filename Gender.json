@@ -1,0 +1,813 @@
+{
+    "exams": [
+    {
+      "examId": "FA_ANG_1",
+      "examTitle": "Faux Amis et Anglicismes",
+      "examType": "Français langue seconde",
+      "questionSets":
+      [
+
+    {
+      "setId": "FR_GENDER_2_Q1",
+      "context": { "type": "sentence", "text": "J'ai acheté _________________ livre de grammaire." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q1",
+          "questionNumber": 1,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'livre' (a book) est masculin. On dit 'un livre'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q2",
+      "context": { "type": "sentence", "text": "_________________ fois, il y avait une princesse." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q2",
+          "questionNumber": 2,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "Un" },
+            { "id": 2, "text": "Une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 2,
+            "explanation": "Le mot 'fois' (time, occasion) est féminin. On dit 'une fois'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q3",
+      "context": { "type": "sentence", "text": "Le pianiste a joué _________________ morceau magnifique." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q3",
+          "questionNumber": 3,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'morceau' (piece) est masculin. On dit 'un morceau'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q4",
+      "context": { "type": "sentence", "text": "J'aime me promener dans _________________ grande forêt." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q4",
+          "questionNumber": 4,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 2,
+            "explanation": "Le mot 'forêt' (forest) est féminin. On dit 'une forêt'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q5",
+      "context": { "type": "sentence", "text": "Il y a _________________ grand arbre dans le jardin." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q5",
+          "questionNumber": 5,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'arbre' (tree) est masculin. On dit 'un arbre'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q6",
+      "context": { "type": "sentence", "text": "J'ai besoin d'_________________ nouvelle voiture." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q6",
+          "questionNumber": 6,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 2,
+            "explanation": "Le mot 'voiture' (car) est féminin. On dit 'une voiture'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q7",
+      "context": { "type": "sentence", "text": "Le Mexique est _________________ pays que je veux visiter." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q7",
+          "questionNumber": 7,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'pays' (country) est masculin. On dit 'un pays'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q8",
+      "context": { "type": "sentence", "text": "Paris est _________________ ville magnifique." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q8",
+          "questionNumber": 8,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 2,
+            "explanation": "Le mot 'ville' (city) est féminin. On dit 'une ville'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q9",
+      "context": { "type": "sentence", "text": "J'ai _________________ doute sur sa réponse." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q9",
+          "questionNumber": 9,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'doute' (doubt) est masculin. On dit 'un doute'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q10",
+      "context": { "type": "sentence", "text": "La patience est _________________ grande vertu." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q10",
+          "questionNumber": 10,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 2,
+            "explanation": "Le mot 'vertu' (virtue) est féminin. On dit 'une vertu'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q11",
+      "context": { "type": "sentence", "text": "Il faut avoir _________________ bon caractère." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q11",
+          "questionNumber": 11,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'caractère' (character) est masculin. On dit 'un caractère'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q12",
+      "context": { "type": "sentence", "text": "J'ai vu _________________ très belle fleur." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q12",
+          "questionNumber": 12,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 2,
+            "explanation": "Le mot 'fleur' (flower) est féminin. On dit 'une fleur'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q13",
+      "context": { "type": "sentence", "text": "C'est _________________ grand honneur pour moi." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q13",
+          "questionNumber": 13,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'honneur' (honor) est masculin. On dit 'un honneur'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q14",
+      "context": { "type": "sentence", "text": "J'ai passé _________________ bonne soirée." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q14",
+          "questionNumber": 14,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 2,
+            "explanation": "Le mot 'soirée' (evening) est féminin. On dit 'une soirée'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q15",
+      "context": { "type": "sentence", "text": "Le matin, je bois _________________ café." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q15",
+          "questionNumber": 15,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'café' (coffee) est masculin. On dit 'un café'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q16",
+      "context": { "type": "sentence", "text": "Je voudrais _________________ tasse de thé, s'il vous plaît." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q16",
+          "questionNumber": 16,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 2,
+            "explanation": "Le mot 'tasse' (cup) est féminin. On dit 'une tasse'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q17",
+      "context": { "type": "sentence", "text": "Il y a _________________ long silence." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q17",
+          "questionNumber": 17,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'silence' est masculin. On dit 'un silence'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q18",
+      "context": { "type": "sentence", "text": "La violence est _________________ chose terrible." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q18",
+          "questionNumber": 18,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 2,
+            "explanation": "Le mot 'violence' est féminin. On dit 'une violence'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q19",
+      "context": { "type": "sentence", "text": "J'ai un _________________ de géographie." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q19",
+          "questionNumber": 19,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel mot complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "atlas" },
+            { "id": 2, "text": "atlase" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'atlas' est masculin. On dit 'un atlas'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q20",
+      "context": { "type": "sentence", "text": "J'ai fait _________________ erreur." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q20",
+          "questionNumber": 20,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 2,
+            "explanation": "Le mot 'erreur' (error) est féminin. On dit 'une erreur'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q21",
+      "context": { "type": "sentence", "text": "Le tonnerre fait _________________ bruit effrayant." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q21",
+          "questionNumber": 21,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'bruit' (noise) est masculin. On dit 'un bruit'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q22",
+      "context": { "type": "sentence", "text": "J'ai _________________ faim de loup." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q22",
+          "questionNumber": 22,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 2,
+            "explanation": "Le mot 'faim' (hunger) est féminin. On dit 'une faim'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q23",
+      "context": { "type": "sentence", "text": "Il y a _________________ grand aéroport près d'ici." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q23",
+          "questionNumber": 23,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'aéroport' (airport) est masculin. On dit 'un aéroport'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q24",
+      "context": { "type": "sentence", "text": "Je vais à _________________ gare." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q24",
+          "questionNumber": 24,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "le" },
+            { "id": 2, "text": "la" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 2,
+            "explanation": "Le mot 'gare' (station) est féminin. On dit 'la gare'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q25",
+      "context": { "type": "sentence", "text": "J'ai acheté _________________ bonbon." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q25",
+          "questionNumber": 25,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'bonbon' (candy) est masculin. On dit 'un bonbon'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q26",
+      "context": { "type": "sentence", "text": "J'aime _________________ chanson." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q26",
+          "questionNumber": 26,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "le" },
+            { "id": 2, "text": "la" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 2,
+            "explanation": "Le mot 'chanson' (song) est féminin. On dit 'la chanson'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q27",
+      "context": { "type": "sentence", "text": "C'est _________________ diamant." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q27",
+          "questionNumber": 27,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'diamant' (diamond) est masculin. On dit 'un diamant'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q28",
+      "context": { "type": "sentence", "text": "Je porte _________________ montre." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q28",
+          "questionNumber": 28,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 2,
+            "explanation": "Le mot 'montre' (watch) est féminin. On dit 'une montre'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q29",
+      "context": { "type": "sentence", "text": "J'ai _________________ rêve étrange." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q29",
+          "questionNumber": 29,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'rêve' (dream) est masculin. On dit 'un rêve'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q30",
+      "context": { "type": "sentence", "text": "La nuit porte conseil." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q30",
+          "questionNumber": 30,
+          "questionType": "True/False",
+          "prompt": "Le mot 'nuit' (night) est féminin.",
+          "choices": [
+            { "id": 1, "text": "Vrai" },
+            { "id": 2, "text": "Faux" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'nuit' est féminin. On dit 'la nuit'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q31",
+      "context": { "type": "sentence", "text": "Le soleil brille." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q31",
+          "questionNumber": 31,
+          "questionType": "True/False",
+          "prompt": "Le mot 'soleil' (sun) est masculin.",
+          "choices": [
+            { "id": 1, "text": "Vrai" },
+            { "id": 2, "text": "Faux" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'soleil' est masculin. On dit 'le soleil'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q32",
+      "context": { "type": "sentence", "text": "La lune est belle ce soir." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q32",
+          "questionNumber": 32,
+          "questionType": "True/False",
+          "prompt": "Le mot 'lune' (moon) est féminin.",
+          "choices": [
+            { "id": 1, "text": "Vrai" },
+            { "id": 2, "text": "Faux" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'lune' est féminin. On dit 'la lune'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q33",
+      "context": { "type": "sentence", "text": "J'ai un _________________." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q33",
+          "questionNumber": 33,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel mot complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "rhume" },
+            { "id": 2, "text": "rhuma" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'rhume' (cold) est masculin. On dit 'un rhume'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q34",
+      "context": { "type": "sentence", "text": "J'ai _________________ grippe." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q34",
+          "questionNumber": 34,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 2,
+            "explanation": "Le mot 'grippe' (flu) est féminin. On dit 'une grippe'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q35",
+      "context": { "type": "sentence", "text": "C'est _________________ bon début." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q35",
+          "questionNumber": 35,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un" },
+            { "id": 2, "text": "une" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'début' (beginning) est masculin. On dit 'un début'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q36",
+      "context": { "type": "sentence", "text": "C'est la fin de l'histoire." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q36",
+          "questionNumber": 36,
+          "questionType": "True/False",
+          "prompt": "Le mot 'fin' (end) est féminin.",
+          "choices": [
+            { "id": 1, "text": "Vrai" },
+            { "id": 2, "text": "Faux" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'fin' est féminin. On dit 'la fin'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q37",
+      "context": { "type": "sentence", "text": "J'ai un _________________ à te demander." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q37",
+          "questionNumber": 37,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel mot complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "service" },
+            { "id": 2, "text": "serviette" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'service' (favor) est masculin. On dit 'un service'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q38",
+      "context": { "type": "sentence", "text": "Passe-moi _________________ serviette, s'il te plaît." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q38",
+          "questionNumber": 38,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel article complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "le" },
+            { "id": 2, "text": "la" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 2,
+            "explanation": "Le mot 'serviette' (towel/napkin) est féminin. On dit 'la serviette'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q39",
+      "context": { "type": "sentence", "text": "J'ai besoin d'_________________." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q39",
+          "questionNumber": 39,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel mot complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un aide" },
+            { "id": 2, "text": "une aide" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 2,
+            "explanation": "Le mot 'aide' (help) est féminin. On dit 'une aide'."
+          }
+        }
+      ]
+    },
+    {
+      "setId": "FR_GENDER_2_Q40",
+      "context": { "type": "sentence", "text": "C'est _________________." },
+      "questions": [
+        {
+          "questionId": "FR_GENDER_2_Q40",
+          "questionNumber": 40,
+          "questionType": "Fill-in-the-blank",
+          "prompt": "Quel mot complète le mieux la phrase ?",
+          "choices": [
+            { "id": 1, "text": "un exemple" },
+            { "id": 2, "text": "une exemple" }
+          ],
+          "answerKey": {
+            "correctChoiceId": 1,
+            "explanation": "Le mot 'exemple' (example) est masculin. On dit 'un exemple'."
+               }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
