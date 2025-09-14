@@ -10,6 +10,7 @@ export const elements = {
     dashboardView: document.getElementById('dashboard-view'),
     quizTitle: document.getElementById('quiz-title'),
     questionCounter: document.getElementById('question-counter'),
+    questionIdDisplay: document.getElementById('question-id'), // ✨ ADDED
     contextArea: document.getElementById('context-area'),
     contextText: document.getElementById('context-text'),
     questionPrompt: document.getElementById('question-prompt'),

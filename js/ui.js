@@ -10,11 +10,18 @@ export function showView(viewToShow) {
 }
 
 export function displayQuestion(question, currentIndex, total) {
+
+    console.log(question);
+
     elements.choicesContainer.innerHTML = '';
     elements.feedbackArea.classList.add('hidden');
     elements.submitBtn.classList.remove('hidden');
     elements.nextQuestionBtn.classList.add('hidden');
     elements.submitBtn.disabled = true;
+
+    if (elements.questionIdDisplay) {
+        elements.questionIdDisplay.textContent = `Question ID: ${question.questionId}`;
+    }
 
     elements.questionCounter.textContent = `Question ${currentIndex + 1}/${total}`;
     elements.questionPrompt.textContent = question.prompt;

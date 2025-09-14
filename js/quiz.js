@@ -22,6 +22,7 @@ function parseJsonData(data) {
                     if (set.questions) {
                         set.questions.forEach(q => {
                             parsedQuestions.push({
+                                questionId: q.questionId, // ✨ ADDED
                                 context: set.context ? set.context.text : null,
                                 prompt: q.prompt,
                                 choices: q.choices,
