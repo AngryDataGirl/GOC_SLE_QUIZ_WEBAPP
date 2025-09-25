@@ -4,13 +4,20 @@ import * as quiz from './quiz.js';
 import * as scoreManager from './scoreManager.js';
 
 function init() {
+    // Get the element reference inside the function to ensure the DOM is ready.
+    const quizLengthSelect = document.getElementById('quiz-length');
+
     // Event listeners for starting quizzes
     document.querySelectorAll('.quiz-type-btn').forEach(button => {
         button.addEventListener('click', (event) => {
             const btn = event.currentTarget;
             const fileName = btn.dataset.quizFile;
             const quizTitleText = btn.querySelector('h4').textContent.trim();
-            quiz.startQuiz(fileName, quizTitleText);
+            
+            // Get the quiz length value and pass it to startQuiz.
+            const quizLength = parseInt(quizLengthSelect.value, 10);
+            
+            quiz.startQuiz(fileName, quizTitleText, quizLength);
         });
     });
 

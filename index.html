@@ -66,6 +66,15 @@ Prepare for the Second Language Evaluation (SLE) for the Government of Canada. T
                     <h2 class="text-3xl font-bold text-center text-slate-800">Choose a Quiz to Begin</h2>
                     <p class="mt-2 text-center text-slate-600">Select a category that suits your learning goals.</p>
 
+                    <div class="mt-8 max-w-xs mx-auto text-left">
+                        <label for="quiz-length" class="block text-sm font-medium text-gray-700">Number of Questions</label>
+                        <select id="quiz-length" name="quiz-length" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md">
+                            <option value="5">5</option>
+                            <option value="10" selected>10</option>
+                            <option value="15">15</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
                     <div class="mt-12 max-w-4xl mx-auto text-left">
                         <h3 class="text-xl font-semibold text-slate-700 mb-4">Practice Tests - Questions Bank</h3>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -78,7 +87,9 @@ Prepare for the Second Language Evaluation (SLE) for the Government of Canada. T
                                 <p class="mt-1">Improve your writing skills by identifying common errors.</p>
                             </button>
                         </div>
+                    </div>
 
+                    <div class="mt-12 max-w-4xl mx-auto text-left">
                         <h3 class="text-xl font-semibold text-slate-700 mt-10 mb-4">Focused Topic / Style Study</h3>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <button data-quiz-file="FauxAmis.json" class="quiz-type-btn text-left p-6 border rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all">

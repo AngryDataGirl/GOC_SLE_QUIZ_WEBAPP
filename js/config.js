@@ -1,5 +1,5 @@
 // A central place for configuration
-export const QUIZ_LENGTH = 10;
+// The QUIZ_LENGTH constant has been removed from here.
 
 // A central place for all DOM element references
 export const elements = {
@@ -10,7 +10,7 @@ export const elements = {
     dashboardView: document.getElementById('dashboard-view'),
     quizTitle: document.getElementById('quiz-title'),
     questionCounter: document.getElementById('question-counter'),
-    questionIdDisplay: document.getElementById('question-id'), // ✨ ADDED
+    questionIdDisplay: document.getElementById('question-id'),
     contextArea: document.getElementById('context-area'),
     contextText: document.getElementById('context-text'),
     questionPrompt: document.getElementById('question-prompt'),

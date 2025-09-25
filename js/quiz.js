@@ -1,4 +1,4 @@
-import { QUIZ_LENGTH, elements } from './config.js';
+import { elements } from './config.js';
 import * as ui from './ui.js';
 import { saveScore } from './scoreManager.js';
 
@@ -21,13 +21,17 @@ function parseJsonData(data) {
                 exam.questionSets.forEach(set => {
                     if (set.questions) {
                         set.questions.forEach(q => {
-                            parsedQuestions.push({
-                                questionId: q.questionId, // ✨ ADDED
-                                context: set.context ? set.context.text : null,
-                                prompt: q.prompt,
-                                choices: q.choices,
-                                answerKey: q.answerKey
-                            });
+                            // Only add the question if it has a prompt, choices, and answer key
+                            if (q.prompt && q.choices && q.answerKey) {
+                                parsedQuestions.push({
+                                    questionId: q.questionId,
+                                    // Use optional chaining for a safer check
+                                    context: set.context?.text || null,
+                                    prompt: q.prompt,
+                                    choices: q.choices,
+                                    answerKey: q.answerKey
+                                });
+                            }
                         });
                     }
                 });
@@ -60,7 +64,7 @@ function shuffle(array) {
   return array;
 }
 
-export async function startQuiz(fileName, quizTitleText) {
+export async function startQuiz(fileName, quizTitleText, quizLength) {
     ui.showView('loadingState');
     try {
         const response = await fetch(fileName);
@@ -73,12 +77,9 @@ export async function startQuiz(fileName, quizTitleText) {
         state.currentIndex = 0;
         state.selectedAnswerId = null;
 
-        // --- MODIFICATION START ---
-        // Replace the old sort method with the new shuffle function
         const shuffled = shuffle([...questionsFromFile]);
-        // --- MODIFICATION END ---
-
-        state.questions = shuffled.slice(0, Math.min(QUIZ_LENGTH, shuffled.length));
+        
+        state.questions = shuffled.slice(0, Math.min(quizLength, shuffled.length));
         
         elements.quizTitle.textContent = quizTitleText;
         ui.showView('quizView');
