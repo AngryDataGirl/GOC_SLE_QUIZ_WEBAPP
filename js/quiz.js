@@ -67,8 +67,7 @@ function shuffle(array) {
 export async function startQuiz(fileName, quizTitleText, quizLength) {
     ui.showView('loadingState');
     try {
-        const response = await fetch(fileName);
-        if (!response.ok) throw new Error(`Could not load ${fileName}.`);
+        const response = await fetch(`${fileName}?v=${new Date().getTime()}`);        if (!response.ok) throw new Error(`Could not load ${fileName}.`);
         const data = await response.json();
         const questionsFromFile = parseJsonData(data);
         if (questionsFromFile.length < 1) throw new Error(`No questions found in ${fileName}.`);
