@@ -993,8 +993,7 @@
         }
       ]
     }
-  ],
-  "exams": [
+  ,
     {
       "examId": "CE_2",
       "examTitle": "Préparation à l’évaluation du français langue seconde - COMPRÉHENSION DE L’ÉCRIT 2",
@@ -1983,8 +1982,7 @@
         }
       ]
     }
-  ],
- "exams": [
+  ,
     {
       "examId": "CE_3",
       "examTitle": "Préparation à l’évaluation du français langue seconde - COMPRÉHENSION DE L’ÉCRIT 3",
@@ -2976,8 +2974,7 @@
         }
       ]
     }
-  ],
- "exams": [
+  ,
     {
       "examId": "CE_4",
       "examTitle": "Préparation à l’évaluation du français langue seconde - COMPRÉHENSION DE L’ÉCRIT 4",
@@ -3969,8 +3966,7 @@
         }
       ]
     }
-  ],
- "exams": [
+  ,
     {
       "examId": "CE_5",
       "examTitle": "Préparation à l’évaluation du français langue seconde - COMPRÉHENSION DE L’ÉCRIT 5",
@@ -4949,8 +4945,7 @@
         }
       ]
     }
-  ],
-"exams": [
+  ,
     {
       "examId": "CE_6",
       "examTitle": "Préparation à l’évaluation du français langue seconde - COMPRÉHENSION DE L’ÉCRIT 6",

@@ -1632,8 +1632,7 @@
         }
       ]
     }
-  ],
- "exams": [
+  ,
     {
       "examId": "EE_2",
       "examTitle": "Préparation à l’évaluation du français langue seconde - EXPRESSION ÉCRITE 2",
@@ -3266,8 +3265,7 @@
         }
       ]
     }
-  ],
-"exams": [
+  ,
     {
       "examId": "EE_3",
       "examTitle": "Préparation à l’évaluation du français langue seconde - EXPRESSION ÉCRITE 3",
@@ -4900,8 +4898,7 @@
         }
       ]
     }
-  ],
- "exams": [
+  ,
     {
       "examId": "EE_4",
       "examTitle": "Préparation à l’évaluation du français langue seconde - EXPRESSION ÉCRITE 4",
@@ -6534,8 +6531,7 @@
         }
       ]
     }
-  ],
-  "exams": [
+  ,
     {
       "examId": "EE_5",
       "examTitle": "Préparation à l’évaluation du français langue seconde - EXPRESSION ÉCRITE 5",
@@ -8168,8 +8164,7 @@
         }
       ]
     }
-  ],
-  "exams": [
+  ,
     {
       "examId": "EE_6",
       "examTitle": "Préparation à l’évaluation du français langue seconde - EXPRESSION ÉCRITE 6",
@@ -9802,8 +9797,7 @@
         }
       ]
     }
-  ],
- "exams": [
+  ,
     {
       "examId": "EE_7",
       "examTitle": "Préparation à l’évaluation du français langue seconde - EXPRESSION ÉCRITE 7",
@@ -11436,8 +11430,7 @@
         }
       ]
     }
-  ],
- "exams": [
+  ,
     {
       "examId": "EE_8",
       "examTitle": "Préparation à l’évaluation du français langue seconde - EXPRESSION ÉCRITE 8",

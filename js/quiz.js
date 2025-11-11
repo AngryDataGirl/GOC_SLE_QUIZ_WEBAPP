@@ -10,6 +10,37 @@ let state = {
 };
 
 function parseJsonData(data) {
+    
+    // ---
+    // NEW LOGIC for flat array (like CE_vectors.json if it's an array)
+    // ---
+    if (Array.isArray(data)) {
+        console.log("Parsing as flat array..."); // For debugging
+        const parsedQuestions = data
+            .map(item => item.metadata) // Get the metadata object
+            .filter(q => q && q.prompt && q.choices && q.answerKey); // Filter for valid questions
+        
+        // If this parsing worked, return the result.
+        if (parsedQuestions.length > 0) {
+            return parsedQuestions;
+        }
+    }
+
+    // ---
+    // NEW LOGIC for single flat object (like your CE_vectors.json example)
+    // ---
+    if (data && typeof data === 'object' && data.metadata && !data.exams) {
+        console.log("Parsing as single flat object..."); // For debugging
+        const q = data.metadata;
+        if (q && q.prompt && q.choices && q.answerKey) {
+            return [q]; // Return as an array with one question
+        }
+    }
+
+    // ---
+    // ORIGINAL LOGIC for nested structure (like CE.json, EE.json)
+    // ---
+    console.log("Parsing as original nested structure..."); // For debugging
     const parsedQuestions = [];
     let examsArray = data.exams;
     if (examsArray && examsArray.length > 0 && examsArray[0].exams) {
@@ -23,13 +54,14 @@ function parseJsonData(data) {
                         set.questions.forEach(q => {
                             // Only add the question if it has a prompt, choices, and answer key
                             if (q.prompt && q.choices && q.answerKey) {
+                                // We build the question object manually to match what ui.js expects
                                 parsedQuestions.push({
                                     questionId: q.questionId,
-                                    // Use optional chaining for a safer check
                                     context: set.context?.text || null,
                                     prompt: q.prompt,
                                     choices: q.choices,
-                                    answerKey: q.answerKey
+                                    answerKey: q.answerKey,
+                                    refersTo: q.refersTo || null // Pass 'refersTo' if it exists
                                 });
                             }
                         });
@@ -38,6 +70,7 @@ function parseJsonData(data) {
             }
         });
     }
+    
     return parsedQuestions;
 }
 

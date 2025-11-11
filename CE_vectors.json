@@ -1,0 +1,206 @@
+[
+{
+  "doc_id": "CE_1_Q1",
+  "content_to_vectorize": "CONTEXT: N’hésitez pas à communiquer avec le personnel de la bibliothèque si vous avez besoin d’aide pour avoir accès à l’un ou l’autre de ses services. Vous devez communiquer avec nous au numéro de téléphone indiqué {{BLANK_A}}. Vous pouvez aussi nous envoyer vos recommandations. Elles nous aideront à améliorer nos services. Le service d’aide est offert de 8 h {{BLANK_B}} 16 h. Service d’aide Téléphone : 613-999-9844. QUESTION: Selon le texte ci-dessus : CHOICES: 1. On peut faire des recommandations concernant les lieux à améliorer. 2. Les améliorations sont bien acceptées par le personnel de la bibliothèque. 3. On invite les gens à faire des propositions pour améliorer les services. 4. On recommande des améliorations pour avoir accès aux ressources. CORRECT ANSWER: On invite les gens à faire des propositions pour améliorer les services.",
+  "metadata": {
+    "examId": "CE_1",
+    "setId": "CE_1_Set_1-3",
+    "questionId": "CE_1_Q1",
+    "questionType": "Comprehension",
+    "context": "N’hésitez pas à communiquer avec le personnel de la bibliothèque si vous avez besoin d’aide pour avoir accès à l’un ou l’autre de ses services. Vous devez communiquer avec nous au numéro de téléphone indiqué {{BLANK_A}}.\n\nVous pouvez aussi nous envoyer vos recommandations. Elles nous aideront à améliorer nos services.\n\nLe service d’aide est offert de 8 h {{BLANK_B}} 16 h.\n\nService d’aide\nTéléphone : 613-999-9844.",
+    "prompt": "Selon le texte ci-dessus :",
+    "choices": [
+      { "id": 1, "text": "On peut faire des recommandations concernant les lieux à améliorer." },
+      { "id": 2, "text": "Les améliorations sont bien acceptées par le personnel de la bibliothèque." },
+      { "id": 3, "text": "On invite les gens à faire des propositions pour améliorer les services." },
+      { "id": 4, "text": "On recommande des améliorations pour avoir accès aux ressources." }
+    ],
+    "answerKey": {
+      "correctChoiceId": 3,
+      "correctChoiceText": "On invite les gens à faire des propositions pour améliorer les services."
+    }
+  }
+},
+ {
+  "doc_id": "CE_1_Q2",
+  "content_to_vectorize": "CONTEXT: N’hésitez pas à communiquer avec le personnel de la bibliothèque si vous avez besoin d’aide pour avoir accès à l’un ou l’autre de ses services. Vous devez communiquer avec nous au numéro de téléphone indiqué {{BLANK_A}}. Vous pouvez aussi nous envoyer vos recommandations. Elles nous aideront à améliorer nos services. Le service d’aide est offert de 8 h {{BLANK_B}} 16 h. Service d’aide Téléphone : 613-999-9844. QUESTION: Choisissez le groupe de mots le plus approprié à insérer dans l’espace en blanc « A ». CHOICES: 1. par ailleurs. 2. en italique. 3. ci-joint. 4. ci-dessous. CORRECT ANSWER: ci-dessous.",
+  "metadata": {
+    "examId": "CE_1",
+    "setId": "CE_1_Set_1-3",
+    "questionId": "CE_1_Q2",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK_A",
+    "context": "N’hésitez pas à communiquer avec le personnel de la bibliothèque si vous avez besoin d’aide pour avoir accès à l’un ou l’autre de ses services. Vous devez communiquer avec nous au numéro de téléphone indiqué {{BLANK_A}}.\n\nVous pouvez aussi nous envoyer vos recommandations. Elles nous aideront à améliorer nos services.\n\nLe service d’aide est offert de 8 h {{BLANK_B}} 16 h.\n\nService d’aide\nTéléphone : 613-999-9844.",
+    "prompt": "Choisissez le groupe de mots le plus approprié à insérer dans l’espace en blanc « A ».",
+    "choices": [
+      { "id": 1, "text": "par ailleurs" },
+      { "id": 2, "text": "en italique" },
+      { "id": 3, "text": "ci-joint" },
+      { "id": 4, "text": "ci-dessous" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 4,
+      "correctChoiceText": "ci-dessous"
+    }
+  }
+},
+ {
+  "doc_id": "CE_1_Q3",
+  "content_to_vectorize": "CONTEXT: N’hésitez pas à communiquer avec le personnel de la bibliothèque si vous avez besoin d’aide pour avoir accès à l’un ou l’autre de ses services. Vous devez communiquer avec nous au numéro de téléphone indiqué {{BLANK_A}}. Vous pouvez aussi nous envoyer vos recommandations. Elles nous aideront à améliorer nos services. Le service d’aide est offert de 8 h {{BLANK_B}} 16 h. Service d’aide Téléphone : 613-999-9844. QUESTION: Choisissez le mot le plus approprié à insérer dans l’espace en blanc « B ». CHOICES: 1. pour. 2. vers. 3. à. 4. dans. CORRECT ANSWER: à.",
+  "metadata": {
+    "examId": "CE_1",
+    "setId": "CE_1_Set_1-3",
+    "questionId": "CE_1_Q3",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK_B",
+    "context": "N’hésitez pas à communiquer avec le personnel de la bibliothèque si vous avez besoin d’aide pour avoir accès à l’un ou l’autre de ses services. Vous devez communiquer avec nous au numéro de téléphone indiqué {{BLANK_A}}.\n\nVous pouvez aussi nous envoyer vos recommandations. Elles nous aideront à améliorer nos services.\n\nLe service d’aide est offert de 8 h {{BLANK_B}} 16 h.\n\nService d’aide\nTéléphone : 613-999-9844.",
+    "prompt": "Choisissez le mot le plus approprié à insérer dans l’espace en blanc « B ».",
+    "choices": [
+      { "id": 1, "text": "pour" },
+      { "id": 2, "text": "vers" },
+      { "id": 3, "text": "à" },
+      { "id": 4, "text": "dans" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 3,
+      "correctChoiceText": "à"
+    }
+  }
+},
+{
+  "doc_id": "CE_1_Q4",
+  "content_to_vectorize": "CONTEXT: Le personnel chargé des achats et de la gestion du matériel suivra le cours « Achats écologiques » offert par l’École de la fonction publique du Canada. Cette formation sera intégrée au prochain plan d’apprentissage individuel. La participation des employés fera l’objet d’un suivi dans leur dossier des Ressources humaines. Les employés recevront plus d’informations à ce sujet {{BLANK}} quelques jours. QUESTION: Choisissez le mot le plus approprié à insérer dans l’espace en blanc. CHOICES: 1. pour. 2. dans. 3. depuis. 4. vers. CORRECT ANSWER: dans.",
+  "metadata": {
+    "examId": "CE_1",
+    "setId": "CE_1_Set_4-6",
+    "questionId": "CE_1_Q4",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "context": "Le personnel chargé des achats et de la gestion du matériel suivra le cours « Achats écologiques » offert par l’École de la fonction publique du Canada.\n\nCette formation sera intégrée au prochain plan d’apprentissage individuel.\n\nLa participation des employés fera l’objet d’un suivi dans leur dossier des Ressources humaines.\n\nLes employés recevront plus d’informations à ce sujet {{BLANK}} quelques jours.",
+    "prompt": "Choisissez le mot le plus approprié à insérer dans l’espace en blanc.",
+    "choices": [
+      { "id": 1, "text": "pour" },
+      { "id": 2, "text": "dans" },
+      { "id": 3, "text": "depuis" },
+      { "id": 4, "text": "vers" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 2,
+      "correctChoiceText": "dans"
+    }
+  }
+},
+{
+  "doc_id": "CE_1_Q5",
+  "content_to_vectorize": "CONTEXT: Le personnel chargé des achats et de la gestion du matériel suivra le cours « Achats écologiques » offert par l’École de la fonction publique du Canada. Cette formation sera intégrée au prochain plan d’apprentissage individuel. La participation des employés fera l’objet d’un suivi dans leur dossier des Ressources humaines. Les employés recevront plus d’informations à ce sujet {{BLANK}} quelques jours. QUESTION: Quel est le but du message? CHOICES: 1. Informer les employés concernés que le cours « Achats écologiques » sera intégré à leur plan d’apprentissage.. 2. Informer le personnel que le cours « Achats écologiques » sera donné par les Ressources humaines.. 3. Informer les employés que les Ressources humaines ont intégré ce cours à leur plan d’apprentissage.. 4. Informer les employés que leur participation aura pour but d’assurer le suivi de leur dossier.. CORRECT ANSWER: Informer les employés concernés que le cours « Achats écologiques » sera intégré à leur plan d’apprentissage.",
+  "metadata": {
+    "examId": "CE_1",
+    "setId": "CE_1_Set_4-6",
+    "questionId": "CE_1_Q5",
+    "questionType": "Comprehension",
+    "context": "Le personnel chargé des achats et de la gestion du matériel suivra le cours « Achats écologiques » offert par l’École de la fonction publique du Canada.\n\nCette formation sera intégrée au prochain plan d’apprentissage individuel.\n\nLa participation des employés fera l’objet d’un suivi dans leur dossier des Ressources humaines.\n\nLes employés recevront plus d’informations à ce sujet {{BLANK}} quelques jours.",
+    "prompt": "Quel est le but du message?",
+    "choices": [
+      { "id": 1, "text": "Informer les employés concernés que le cours « Achats écologiques » sera intégré à leur plan d’apprentissage." },
+      { "id": 2, "text": "Informer le personnel que le cours « Achats écologiques » sera donné par les Ressources humaines." },
+      { "id": 3, "text": "Informer les employés que les Ressources humaines ont intégré ce cours à leur plan d’apprentissage." },
+      { "id": 4, "text": "Informer les employés que leur participation aura pour but d’assurer le suivi de leur dossier." }
+    ],
+    "answerKey": {
+      "correctChoiceId": 1,
+      "correctChoiceText": "Informer les employés concernés que le cours « Achats écologiques » sera intégré à leur plan d’apprentissage."
+    }
+  }
+},
+{
+  "doc_id": "CE_1_Q6",
+  "content_to_vectorize": "CONTEXT: Le personnel chargé des achats et de la gestion du matériel suivra le cours « Achats écologiques » offert par l’École de la fonction publique du Canada. Cette formation sera intégrée au prochain plan d’apprentissage individuel. La participation des employés fera l’objet d’un suivi dans leur dossier des Ressources humaines. Les employés recevront plus d’informations à ce sujet {{BLANK}} quelques jours. QUESTION: Qui doit suivre le cours? CHOICES: 1. Le personnel des Ressources humaines. 2. Les employés qui s’occupent de l’acquisition du matériel. 3. Le personnel désigné qui s’occupe des plans d’apprentissage. 4. Les employés chargés de l’environnement au travail. CORRECT ANSWER: Les employés qui s’occupent de l’acquisition du matériel.",
+  "metadata": {
+    "examId": "CE_1",
+    "setId": "CE_1_Set_4-6",
+    "questionId": "CE_1_Q6",
+    "questionType": "Comprehension",
+    "context": "Le personnel chargé des achats et de la gestion du matériel suivra le cours « Achats écologiques » offert par l’École de la fonction publique du Canada.\n\nCette formation sera intégrée au prochain plan d’apprentissage individuel.\n\nLa participation des employés fera l’objet d’un suivi dans leur dossier des Ressources humaines.\n\nLes employés recevront plus d’informations à ce sujet {{BLANK}} quelques jours.",
+    "prompt": "Qui doit suivre le cours?",
+    "choices": [
+      { "id": 1, "text": "Le personnel des Ressources humaines" },
+      { "id": 2, "text": "Les employés qui s’occupent de l’acquisition du matériel" },
+      { "id": 3, "text": "Le personnel désigné qui s’occupe des plans d’apprentissage" },
+      { "id": 4, "text": "Les employés chargés de l’environnement au travail" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 2,
+      "correctChoiceText": "Les employés qui s’occupent de l’acquisition du matériel"
+    }
+  }
+},
+{
+  "doc_id": "CE_1_Q7",
+  "content_to_vectorize": "CONTEXT: Veuillez prendre note que je suis résentement absent du bureau pour des raisons professionnelles jusqu’au 20 mars inclusivement. {{BLANK_A}}, je vérifierai mes courriels régulièrement et tâcherai de répondre aux demandes les plus urgentes. Si vous désirez {{BLANK_B}} parler avec quelqu’un, vous pouvez contacter le service à la clientèle. QUESTION: Choisissez le mot ou groupe de mots le plus approprié à insérer dans l’espace en blanc « A ». CHOICES: 1. De plus. 2. Toutefois. 3. En plus. 4. Grâce à ça. CORRECT ANSWER: Toutefois.",
+  "metadata": {
+    "examId": "CE_1",
+    "setId": "CE_1_Set_7-9",
+    "questionId": "CE_1_Q7",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK_A",
+    "context": "Veuillez prendre note que je suis résentement absent du bureau pour des raisons professionnelles jusqu’au 20 mars inclusivement. {{BLANK_A}}, je vérifierai mes courriels régulièrement et tâcherai de répondre aux demandes les plus urgentes. Si vous désirez {{BLANK_B}} parler avec quelqu’un, vous pouvez contacter le service à la clientèle.",
+    "prompt": "Choisissez le mot ou groupe de mots le plus approprié à insérer dans l’espace en blanc « A ».",
+    "choices": [
+      { "id": 1, "text": "De plus" },
+      { "id": 2, "text": "Toutefois" },
+      { "id": 3, "text": "En plus" },
+      { "id": 4, "text": "Grâce à ça" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 2,
+      "correctChoiceText": "Toutefois"
+    }
+  }
+},
+{
+  "doc_id": "CE_1_Q8",
+  "content_to_vectorize": "CONTEXT: Veuillez prendre note que je suis résentement absent du bureau pour des raisons professionnelles jusqu’au 20 mars inclusivement. {{BLANK}}, je vérifierai mes courriels régulièrement et tâcherai de répondre aux demandes les plus urgentes. Si vous désirez {{BLANK}} parler avec quelqu’un, vous pouvez contacter le service à la clientèle. QUESTION: Qu’est-ce que René fait savoir? CHOICES: 1. Il sera de retour au bureau le 20 mars prochain. 2. Pour toute demande urgente, il faudra attendre après le 20 mars. 3. Il va prendre en note tous ses courriels jusqu’à son retour le 20 mars. 4. Il va essayer de répondre aux requêtes les plus pressantes. CORRECT ANSWER: Il va essayer de répondre aux requêtes les plus pressantes.",
+  "metadata": {
+    "examId": "CE_1",
+    "setId": "CE_1_Set_7-9",
+    "questionId": "CE_1_Q8",
+    "questionType": "Comprehension",
+    "context": "Veuillez prendre note que je suis résentement absent du bureau pour des raisons professionnelles jusqu’au 20 mars inclusivement. {{BLANK}}, je vérifierai mes courriels régulièrement et tâcherai de répondre aux demandes les plus urgentes. Si vous désirez {{BLANK}} parler avec quelqu’un, vous pouvez contacter le service à la clientèle.",
+    "prompt": "Qu’est-ce que René fait savoir?",
+    "choices": [
+      { "id": 1, "text": "Il sera de retour au bureau le 20 mars prochain." },
+      { "id": 2, "text": "Pour toute demande urgente, il faudra attendre après le 20 mars." },
+      { "id": 3, "text": "Il va prendre en note tous ses courriels jusqu’à son retour le 20 mars." },
+      { "id": 4, "text": "Il va essayer de répondre aux requêtes les plus pressantes." }
+    ],
+    "answerKey": {
+      "correctChoiceId": 4,
+      "correctChoiceText": "Il va essayer de répondre aux requêtes les plus pressantes."
+    }
+  }
+}, 
+{
+  "doc_id": "CE_1_Q9",
+  "content_to_vectorize": "CONTEXT: Veuillez prendre note que je suis résentement absent du bureau pour des raisons professionnelles jusqu’au 20 mars inclusivement. {{BLANK_A}}, je vérifierai mes courriels régulièrement et tâcherai de répondre aux demandes les plus urgentes. Si vous désirez {{BLANK_B}} parler avec quelqu’un, vous pouvez contacter le service à la clientèle. QUESTION: Choisissez le mot ou groupe de mots le plus approprié à insérer dans l’espace en blanc « B ». CHOICES: 1. ainsi. 2. pour cela. 3. tout de même. 4. pour un temps. CORRECT ANSWER: tout de même.",
+  "metadata": {
+    "examId": "CE_1",
+    "setId": "CE_1_Set_7-9",
+    "questionId": "CE_1_Q9",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK_B",
+    "context": "Veuillez prendre note que je suis résentement absent du bureau pour des raisons professionnelles jusqu’au 20 mars inclusivement. {{BLANK_A}}, je vérifierai mes courriels régulièrement et tâcherai de répondre aux demandes les plus urgentes. Si vous désirez {{BLANK_B}} parler avec quelqu’un, vous pouvez contacter le service à la clientèle.",
+    "prompt": "Choisissez le mot ou groupe de mots le plus approprié à insérer dans l’espace en blanc « B ».",
+    "choices": [
+      { "id": 1, "text": "ainsi" },
+      { "id": 2, "text": "pour cela" },
+      { "id": 3, "text": "tout de même" },
+      { "id": 4, "text": "pour un temps" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 3,
+      "correctChoiceText": "tout de même"
+    }
+  }
+}
+]
+ 
