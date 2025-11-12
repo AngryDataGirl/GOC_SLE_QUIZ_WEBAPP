@@ -56,7 +56,7 @@ export function displayQuestion(question, currentIndex, total) {
         const button = document.createElement('button');
         button.innerHTML = choice.text;
         button.dataset.id = choice.id;
-        button.className = 'choice-btn p-4 border-2 border-gray-300 rounded-lg text-left hover:bg-gray-100 hover:border-blue-400 transition-all';
+        button.className = 'choice-btn p-4 rounded-lg text-left transition-all';
         elements.choicesContainer.appendChild(button);
     });
 }
@@ -66,7 +66,7 @@ export function showFeedback(isCorrect, question) {
     
     elements.feedbackArea.classList.remove('hidden');
     elements.feedbackText.textContent = isCorrect ? 'Correct!' : 'Incorrect!';
-    elements.feedbackArea.className = `mt-6 p-4 rounded-lg ${isCorrect ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`;
+    elements.feedbackArea.className = `mt-6 p-4 rounded-lg ${isCorrect ? 'correct' : 'incorrect'}`;
     elements.correctAnswerText.textContent = isCorrect ? '' : `The correct answer is: ${correctChoice.text}`;
     
     if (question.answerKey.explanation) {

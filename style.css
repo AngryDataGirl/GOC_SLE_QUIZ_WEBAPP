@@ -1,20 +1,21 @@
-/* --- Modern Blueberry Palette --- */
+/* --- Modern Techy Dark Palette --- */
 :root {
-    --bg-color: #f8f9fa; /* Very light gray */
-    --container-bg: #ffffff;
-    --text-primary: #212529; /* Dark charcoal */
-    --text-secondary: #6c757d; /* Muted gray */
-    --primary-color: #005f73; /* Deep teal */
-    --primary-hover: #0a9396;
-    --accent-color: #0a9396; /* Bright cyan/teal for highlights */
-    --border-color: #dee2e6;
+    --bg-color: #000000; /* Near-black background */
+    --container-bg: #000000; /* Dark gray for containers */
+    --text-primary: #e0e0e0; /* Soft white for primary text */
+    --text-secondary: #888888; /* Muted light gray */
+    --primary-color: #00aaff; /* Bright "techy" blue */
+    --primary-hover: #33bbff;
+    --accent-color: #00aaff; /* Using same blue for consistency */
+    --border-color: #333333; /* Dark border for components */
     
-    --color-correct: #2a9d8f;
-    --color-correct-bg: #e9f5f3;
-    --color-incorrect: #e76f51;
-    --color-incorrect-bg: #fdeae6;
-    --color-selected-bg: #005f73;
-    --color-selected-border: #004c5c;
+    --color-correct: #28a745; /* Bright green */
+    --color-correct-bg: #1c3a2f; /* Dark green background */
+    --color-incorrect: #dc3545; /* Bright red */
+    --color-incorrect-bg: #3e2225; /* Dark red background */
+    --color-selected-bg-rgb: 0, 170, 255;
+    --color-selected-bg: #00aaff; /* Bright blue */
+    --color-selected-border: #0088cc; /* Darker blue */
 }
 
 body {
@@ -33,11 +34,9 @@ body {
 }
 
 /* === Button Styling === */
-
-/* Added for the main "Start a Quiz Now" link */
 .btn-primary {
     background-color: var(--primary-color);
-    color: white;
+    color: #000; /* Changed from white for contrast */
     transition: background-color 0.2s ease-in-out;
 }
 .btn-primary:hover {
@@ -45,17 +44,18 @@ body {
 }
 
 .quiz-type-btn {
-    border: 1px solid var(--border-color); /* Kept a border for definition */
+    border: 1px solid var(--border-color);
+    color: var(--text-primary); /* Ensure text is light */
 }
 .quiz-type-btn:hover {
     border-color: var(--primary-color);
-    background-color: #f8f9fa;
+    background-color: #2a2a2a; /* Dark hover, not light */
 }
 
 
 #view-dashboard-btn, #back-to-menu-score-btn, #back-to-menu-dashboard-btn {
     background-color: var(--primary-color);
-    color: white;
+    color: #000; /* Changed from white for contrast */
     transition: background-color 0.2s ease-in-out;
 }
 #view-dashboard-btn:hover, #back-to-menu-score-btn:hover, #back-to-menu-dashboard-btn:hover {
@@ -64,46 +64,51 @@ body {
 
 #submit-btn {
     background-color: var(--accent-color);
-    color: white;
+    color: #000; /* Changed from white for contrast */
 }
 #submit-btn:hover {
     background-color: var(--primary-hover);
 }
 
-/* Added for the next question button */
 #next-question-btn {
     background-color: var(--color-correct);
-    color: white;
+    color: #000; /* Changed from white for contrast */
 }
 #next-question-btn:hover {
-    background-color: #248a7f; /* A slightly darker correct color */
+    background-color: #2ecc71; /* A slightly lighter green hover */
 }
-
 
 .choice-btn {
     border: 1px solid var(--border-color);
     transition: all 0.2s ease;
+    color: var(--text-primary); /* Ensure text is light */
 }
+
 .choice-btn:hover {
     border-color: var(--accent-color);
-    background-color: #f8f9fa;
+    background-color: var(--bg-color); /* Or you can use #000000 */
 }
 
 /* === Feedback States === */
 .choice-btn.selected {
-    background-color: var(--color-selected-bg);
+    /* 0.8 is 80% opaque. Change this value as you like. */
+    background-color: rgba(var(--color-selected-bg-rgb), 0.2);
     border-color: var(--color-selected-border);
-    color: white;
+    color: var(--text-primary)
 }
+/* This will only change the border */
 .choice-btn.correct {
-    background-color: var(--color-correct);
-    border-color: var(--color-correct);
-    color: white;
+    background-color: transparent; /* Keeps the background black */
+    border-color: var(--color-correct); /* Makes the border green */
+    color: var(--text-primary); /* Keeps the text light */
+    border-width: 2px; /* <-- Add this line */
 }
+
 .choice-btn.incorrect {
-    background-color: var(--color-incorrect);
+    background-color: transparent;
     border-color: var(--color-incorrect);
-    color: white;
+    color: var(--text-primary); /* White is fine on this darker red */
+    border-width: 2px; /* <-- Add this line */
 }
 
 /* Changed selectors to be independent of Tailwind. Your JS should add the .correct or .incorrect class. */
@@ -122,4 +127,143 @@ body {
     border-bottom: 1px solid var(--border-color);
     margin: 0 4px;
     vertical-align: bottom;
+}
+
+/* --- Flashy Animated Gradient Heading --- */
+
+@keyframes gradient-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.flashy-gradient-heading {
+  /* 1. Create a bright, "techy" gradient */
+  /* This one goes from your blue to a "cyber pink" and back to blue for a smooth loop */
+  background-image: linear-gradient(
+    90deg,
+    var(--primary-color),
+    #ff00aa,
+    var(--primary-color)
+  );
+
+  /* 2. Set the background size to be wider than the text */
+  background-size: 200% auto;
+
+  /* 3. Clip the background to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* 4. Make the text color transparent */
+  color: transparent !important;
+
+  /* 5. Apply the animation */
+  animation: gradient-flow 4s linear infinite;
+}
+
+/* --- Animation for the gradient border --- */
+@keyframes aurora-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* --- Animation for the gradient border --- */
+@keyframes aurora-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* --- The aurora button style (New Method) --- */
+
+/* This is the <a> tag, which is now the gradient border */
+.btn-aurora {
+  display: inline-block;
+  padding: 3px; /* This padding IS the border */
+  text-decoration: none;
+  
+  /* The rainbow gradient */
+  background: linear-gradient(
+    90deg,
+    #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000
+  );
+  background-size: 400% auto;
+  
+  /* Apply the animation */
+  animation: aurora-flow 10s linear infinite;
+
+  /* Match the button's border radius */
+  border-radius: 9999px; 
+  
+  /* --- Hover effect --- */
+  transition: transform 0.2s ease;
+}
+
+.btn-aurora:hover {
+  transform: scale(1.05);
+}
+
+/* This is the new <span>, which is the white button */
+.btn-aurora-inner {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  
+  /* --- Button Appearance (White) --- */
+  background-color: #ffffff;
+  color: #1f2937; /* Dark text */
+  
+  /* --- Layout (from Tailwind) --- */
+  font-weight: 700;
+  padding: 0.75rem 2rem;
+  font-size: 1.125rem;
+  border-radius: 9999px; /* Must match parent */
+}
+
+/* --- The Arrow --- */
+.btn-aurora-inner::after {
+  content: '→';
+  font-size: 1.25em;
+  line-height: 1;
+}
+
+.why-us-section {
+    border: 1px solid var(--border-color);
+    border-radius: 16px; /* for rounded corners */
+}
+
+.select-dark {
+ background-color: var(--container-bg);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  transition: all 0.2s ease;
+}
+.select-dark:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px var(--primary-color);
+  outline: none;
+}
+
+.stat-card-dark {
+  background-color: var(--container-bg);
+  border: 1px solid var(--border-color);
 }

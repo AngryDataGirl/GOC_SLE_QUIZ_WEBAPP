@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
-    <div id="quiz-container" class="w-full max-w-3xl mx-auto bg-white p-6 sm:p-8 rounded-2xl shadow-lg">
+<body class="flex items-center justify-center min-h-screen p-4">
+    <div id="quiz-container" class="w-full max-w-3xl mx-auto p-6 sm:p-8 rounded-2xl shadow-lg">
         
         <div id="loading-state" class="hidden">
             <h1 class="text-2xl font-bold text-slate-800 text-center">Loading Quiz...</h1>
@@ -21,54 +21,53 @@
         <div id="start-state" class="text-center">
             <div class="text-center">
                 <header class="py-16">
-                    <h1 class="text-4xl md:text-5xl font-extrabold text-slate-800 tracking-tight">
+                    <h1 class="text-5xl md:text-6xl font-extrabold text-primary tracking-tight">
                         Get your Cs in your SLEs
                     </h1>
-                    <p class="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
-Prepare for the Second Language Evaluation (SLE) for the Government of Canada. Test your French, track your progress, and learn with quizzes tailored to the official exam format.                    </p>
+                    <p class="mt-4 text-lg text-primary max-w-2xl mx-auto">Prepare for the Second Language Evaluation (SLE) for the Government of Canada by practicing with quizzes based on the official exam format.</p>
                     <div class="mt-8">
-                        <a href="#quiz-selection" class="bg-blue-600 text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-blue-700 transition-transform hover:scale-105">
-                            Start a Quiz Now
+                        <a href="#quiz-selection" class="btn-aurora">
+                            <span class="btn-aurora-inner">Start a Quiz Now</span>
                         </a>
                     </div>
                 </header>
 
-                <section class="py-20 bg-gray-50 -mx-6 sm:-mx-8 px-6 sm:px-8">
-                    <div class="max-w-4xl mx-auto">
-                        <h2 class="text-3xl font-bold text-center text-slate-800">Why Use These Quizzes to Study?</h2>
+                <section class="py-20 -mx-6 sm:-mx-8 px-6 sm:px-8 why-us-section">
+                        <div class="max-w-4xl mx-auto">
+                        <h2 class="text-3xl font-bold text-center text-primary">Why Use These Quizzes to Study?</h2>
                         <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-10">
                             <div class="flex flex-col items-center">
-                                <div class="bg-blue-100 text-blue-600 rounded-full p-4">
+                                <div class="bg-black text-white rounded-full p-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" /></svg>
                                 </div>
-                                <h3 class="mt-4 text-xl font-semibold">Diverse Topics</h3>
-                                <p class="mt-2 text-slate-600">Specific topics perfect for SLE exam preparation.</p>
+                                <h3 class="mt-4 text-primary font-semibold">Diverse Topics</h3>
+                                <p class="mt-2 text-primary">Specific topics perfect for SLE exam preparation.</p>
                             </div>
                             <div class="flex flex-col items-center">
-                                <div class="bg-blue-100 text-blue-600 rounded-full p-4">
+                                <div class="bg-black text-white rounded-full p-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
                                 </div>
-                                <h3 class="mt-4 text-xl font-semibold">Instant Feedback</h3>
-                                <p class="mt-2 text-slate-600">Quick contextual explanations for your bad choices.</p>
+                                <h3 class="mt-4 text-primary font-semibold">Instant Feedback</h3>
+                                <p class="mt-2 text-primary">Quick contextual explanations for your bad choices.</p>
                             </div>
                             <div class="flex flex-col items-center">
-                                <div class="bg-blue-100 text-blue-600 rounded-full p-4">
+                                <div class="bg-black text-white rounded-full p-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
                                 </div>
-                                <h3 class="mt-4 text-xl font-semibold">Track Your Progress</h3>
-                                <p class="mt-2 text-slate-600">See your scores and performance over time.</p>
+                                <h3 class="mt-4 text-primary font-semibold">Track Your Progress</h3>
+                                <p class="mt-2 text-primary">See your scores and performance over time.</p>
                             </div>
                         </div>
                     </div>
                 </section>
 
                 <section id="quiz-selection" class="py-20">
-                    <h2 class="text-3xl font-bold text-center text-slate-800">Choose a Quiz to Begin</h2>
-                    <p class="mt-2 text-center text-slate-600">Select a category that suits your learning goals.</p>
+                    <h2 class="text-3xl font-bold text-center text-primary">Choose a Quiz to Begin</h2>
+                    <p class="mt-2 text-center text-primary">Select a category that suits your learning goals.</p>
 
                     <div class="mt-8 max-w-xs mx-auto text-left">
-                        <label for="quiz-length" class="block text-sm font-medium text-gray-700">Number of Questions</label>
-                        <select id="quiz-length" name="quiz-length" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md">
+                        <label for="quiz-length" class="block text-sm font-medium text-primary">Number of Questions</label>
+                        <select id="quiz-length" name="quiz-length" class="mt-1 block w-full pl-3 pr-10 py-2 text-base bg-white text-black border-gray-900 focus:outline-none focus:ring-2 focus:ring-black focus:border-black sm:text-sm rounded-md">
                             <option value="5">5</option>
                             <option value="10" selected>10</option>
                             <option value="15">15</option>
@@ -76,7 +75,7 @@ Prepare for the Second Language Evaluation (SLE) for the Government of Canada. T
                         </select>
                     </div>
                     <div class="mt-12 max-w-4xl mx-auto text-left">
-                        <h3 class="text-xl font-semibold text-slate-700 mb-4">Practice Tests - Questions Bank</h3>
+                        <h3 class="text-xl font-semibold text-primary mb-4">Practice Tests - Questions Bank</h3>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <button data-quiz-file="CE.json" class="quiz-type-btn text-left p-6 border rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all">
                                 <h4 class="font-bold text-lg">Compréhension de l'écrit</h4>
@@ -90,7 +89,7 @@ Prepare for the Second Language Evaluation (SLE) for the Government of Canada. T
                     </div>
 
                     <div class="mt-12 max-w-4xl mx-auto text-left">
-                        <h3 class="text-xl font-semibold text-slate-700 mt-10 mb-4">Focused Topic / Style Study</h3>
+                        <h3 class="text-xl font-semibold text-primary mt-10 mb-4">Focused Topic / Style Study</h3>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <button data-quiz-file="FauxAmis.json" class="quiz-type-btn text-left p-6 border rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all">
                                 <h4 class="font-bold text-lg">Faux Amis et Anglicismes</h4>
@@ -125,7 +124,7 @@ Prepare for the Second Language Evaluation (SLE) for the Government of Canada. T
                 </section>
 
                 <section class="mt-12 border-t pt-10">
-                    <h3 class="text-xl font-semibold text-slate-700 mb-4">Recent Scores</h3>
+                    <h3 class="text-xl font-semibold text-primary mb-4">Recent Scores</h3>
                     <div id="scores-container" class="space-y-2 text-left max-w-md mx-auto"></div>
                     <button id="clear-scores-btn" class="mt-4 text-sm text-slate-500 hover:text-red-600 transition-colors hidden">Clear All Scores</button>
                     <button id="view-dashboard-btn" class="mt-6 bg-green-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-green-700 transition-colors text-lg shadow-md">View Dashboard</button>
@@ -135,15 +134,15 @@ Prepare for the Second Language Evaluation (SLE) for the Government of Canada. T
 
         <div id="quiz-view" class="hidden">
             <div class="flex justify-between items-center mb-6">
-                <h1 id="quiz-title" class="text-xl sm:text-2xl font-bold text-blue-600">French Quiz</h1>
-                <div id="question-counter" class="text-slate-600 font-semibold"></div>
+                <h1 id="quiz-title" class="text-xl sm:text-2xl font-bold text-white">French Quiz</h1>
+                <div id="question-counter" class="text-primary-600 font-semibold"></div>
             </div>
-                <p id="question-id" class="text-sm text-gray-500"></p> 
-            <div id="context-area" class="mb-6 p-4 bg-gray-50 border border-gray-200 rounded-lg hidden"><h3 class="font-semibold text-slate-700 mb-2">Context:</h3><p id="context-text" class="text-slate-800 leading-relaxed whitespace-pre-line"></p></div>
-            <p id="question-prompt" class="text-lg font-semibold text-slate-900 mb-6"></p>
+                <p id="question-id" class="text-sm text-primary"></p> 
+            <div id="context-area" class="mb-6 p-4 bg-black border border-gray-200 rounded-lg hidden"><h3 class="font-semibold text-primary mb-2">Context:</h3><p id="context-text" class="text-primary leading-relaxed whitespace-pre-line"></p></div>
+            <p id="question-prompt" class="text-lg font-semibold text-primary mb-6"></p>
             <div id="choices-container" class="grid grid-cols-1 sm:grid-cols-2 gap-4"></div>
-            <div id="feedback-area" class="mt-6 p-4 rounded-lg hidden"><p id="feedback-text" class="font-bold"></p><p id="correct-answer-text" class="mt-1"></p><p id="explanation-text" class="mt-2 text-sm text-slate-700"></p></div>
-            <div class="mt-8 flex justify-between items-center"><button id="back-to-menu-btn" class="text-slate-600 hover:text-blue-600 font-semibold transition-colors">Back to Menu</button><div><button id="submit-btn" class="bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors shadow-sm">Submit</button><button id="next-question-btn" class="bg-green-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-green-700 transition-colors hidden shadow-sm">Next Question</button></div></div>
+            <div id="feedback-area" class="mt-6 p-4 rounded-lg hidden"><p id="feedback-text" class="font-bold"></p><p id="correct-answer-text" class="mt-1"></p><p id="explanation-text" class="mt-2 text-sm text-primary"></p></div>
+            <div class="mt-8 flex justify-between items-center"><button id="back-to-menu-btn" class="text-primary hover:text-blue-600 font-semibold transition-colors">Back to Menu</button><div><button id="submit-btn" class="bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors shadow-sm">Submit</button><button id="next-question-btn" class="bg-green-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-green-700 transition-colors hidden shadow-sm">Next Question</button></div></div>
         </div>
 
         <div id="score-view" class="text-center hidden">
