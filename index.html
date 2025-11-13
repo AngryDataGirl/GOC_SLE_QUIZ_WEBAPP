@@ -138,10 +138,18 @@
         <div id="quiz-view" class="hidden">
             <div class="flex justify-between items-center mb-6">
                 <h1 id="quiz-title" class="text-xl sm:text-2xl font-bold text-white">French Quiz</h1>
-                <div id="question-counter" class="text-primary-600 font-semibold"></div>
-            
+    
+                <div class="text-right">
+                    <div id="question-counter" class="text-primary-600 font-semibold"></div>
+                    <div id="quiz-timer" class="text-sm text-secondary">00:00</div>
+                </div>
             </div>
-                <p id="question-id" class="text-sm text-primary"></p> 
+                
+            <div id="progress-bar-container" class="w-full h-2 rounded-full overflow-hidden mb-6" style="background-color: var(--border-color);">
+                <div id="progress-bar-inner" class="h-2 rounded-full transition-all duration-300" style="width: 0%; background-color: var(--primary-color);"></div>
+            </div>
+            
+            <p id="question-id" class="text-sm text-primary"></p> 
             <div id="context-area" class="mb-6 p-4 bg-black border border-gray-200 rounded-lg hidden"><h3 class="font-semibold text-primary mb-2">Context:</h3><p id="context-text" class="text-primary leading-relaxed whitespace-pre-line"></p></div>
             <p id="question-prompt" class="text-lg font-semibold text-primary mb-6"></p>
             <div id="choices-container" class="grid grid-cols-1 sm:grid-cols-2 gap-4"></div>
@@ -153,9 +161,9 @@
             <h2 class="text-3xl font-bold text-primary">Quiz Complete!</h2>
             <p class="text-slate-200 mt-4 text-xl">Your Score:</p>
             <p id="final-score" class="text-6xl font-bold text-blue-200 my-4">0%</p>
-            <p id="score-summary" class="text-slate-200 text-lg"></p>
             <div class="why-us-section p-8 sm:p-12">
-                <p id="sle-level-estimate" class="text-2xl font-bold text-primary"></p>
+                <p id="score-summary" class="text-slate-200 text-lg"></p>
+                <p id="sle-level-estimate" class="text-lg font-bold text-primary"></p>
             </div>
             <button id="back-to-menu-score-btn" class="mt-8 bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors text-xl shadow-md">Back to Menu</button>
         </div>

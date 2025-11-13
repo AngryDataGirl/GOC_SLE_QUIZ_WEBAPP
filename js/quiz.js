@@ -9,6 +9,40 @@ let state = {
     selectedAnswerId: null,
 };
 
+// --- NEW TIMER VARIABLES ---
+let timerInterval = null;
+let secondsElapsed = 0;
+
+/**
+ * Formats total seconds into a "mm:ss" string.
+ */
+function formatTime(totalSeconds) {
+    const minutes = Math.floor(totalSeconds / 60).toString().padStart(2, '0');
+    const seconds = (totalSeconds % 60).toString().padStart(2, '0');
+    return `${minutes}:${seconds}`;
+}
+
+/**
+ * Starts the quiz timer.
+ */
+export function startTimer() {
+    clearInterval(timerInterval); // Clear any existing timer
+    secondsElapsed = 0;
+    ui.updateTimerDisplay(formatTime(secondsElapsed)); // Show 00:00
+    
+    timerInterval = setInterval(() => {
+        secondsElapsed++;
+        ui.updateTimerDisplay(formatTime(secondsElapsed));
+    }, 1000);
+}
+
+/**
+ * Stops the quiz timer.
+ */
+export function stopTimer() {
+    clearInterval(timerInterval);
+}
+// --- END TIMER LOGIC ---
 function parseJsonData(data) {
     
     // ---
@@ -113,6 +147,10 @@ export async function startQuiz(fileName, quizTitleText, quizLength) {
         
         state.questions = shuffled.slice(0, Math.min(quizLength, shuffled.length));
         
+        // --- ADDED ---
+        startTimer(); // Start the timer when quiz starts
+        // --- END ADDED ---
+
         elements.quizTitle.textContent = quizTitleText;
         ui.showView('quizView');
         ui.displayQuestion(state.questions[state.currentIndex], state.currentIndex, state.questions.length);
@@ -145,9 +183,11 @@ export function nextQuestion() {
         state.selectedAnswerId = null;
         ui.displayQuestion(state.questions[state.currentIndex], state.currentIndex, state.questions.length);
     } else {
+        // --- ADDED ---
+        stopTimer(); // Stop timer when quiz is complete
+        // --- END ADDED ---
         const totalQuestions = state.questions.length;
         ui.showScore(state.score, totalQuestions);
         saveScore(elements.quizTitle.textContent.trim(), state.score, state.score, totalQuestions);
     }
 }
-

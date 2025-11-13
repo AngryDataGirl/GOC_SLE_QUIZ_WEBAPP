@@ -1,5 +1,17 @@
 import { elements } from './config.js';
 
+// --- NEW FUNCTION ---
+/**
+ * Updates the timer display in the UI.
+ * @param {string} timeString Formatted time (e.g., "01:30")
+ */
+export function updateTimerDisplay(timeString) {
+    if (elements.quizTimer) {
+        elements.quizTimer.textContent = timeString;
+    }
+}
+// --- END NEW FUNCTION ---
+
 export function showView(viewToShow) {
     ['loadingState', 'startState', 'quizView', 'scoreView', 'dashboardView'].forEach(view => {
         elements[view].classList.add('hidden');
@@ -10,7 +22,14 @@ export function showView(viewToShow) {
 }
 
 export function displayQuestion(question, currentIndex, total) {
-
+// --- NEW PROGRESS BAR LOGIC ---
+    // (currentIndex + 1) because it's 0-based
+    const progressPercent = total > 0 ? ((currentIndex + 1) / total) * 100 : 0;
+    if (elements.progressBarInner) {
+        elements.progressBarInner.style.width = `${progressPercent}%`;
+    }
+    // --- END NEW LOGIC ---
+    
     console.log(question);
 
     elements.choicesContainer.innerHTML = '';
@@ -114,6 +133,13 @@ export function showScore(score, total) {
     }
     // --- END NEW LOGIC ---
     
+    // --- NEW LOGIC ---
+    // Reset progress bar for the next quiz
+    if (elements.progressBarInner) {
+        elements.progressBarInner.style.width = '0%';
+    }
+    // --- END NEW LOGIC ---
+    
     showView('scoreView');
 }
 
@@ -139,3 +165,4 @@ function getSleLevel(score, total) {
     if (normalizedScore <= 35) return "Between B and C";
     return "Level C"; // 36-40
 }
+
