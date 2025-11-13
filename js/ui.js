@@ -116,7 +116,7 @@ export function updateChoiceButtons(selectedId, correctId) {
 //     showView('scoreView');
 // }
 
-export function showScore(score, total) {
+export function showScore(score, total, finalTime) {
     const percentage = total === 0 ? 0 : Math.round((score / total) * 100);
     
     // --- NEW LOGIC ---
@@ -131,15 +131,18 @@ export function showScore(score, total) {
     if (elements.sleLevelEstimate) {
          elements.sleLevelEstimate.textContent = `Estimated Level: ${sleLevel}`;
     }
-    // --- END NEW LOGIC ---
-    
-    // --- NEW LOGIC ---
+
+    // 2. ADD LOGIC TO DISPLAY THE TIME
+    if (elements.finalTime && finalTime) {
+        elements.finalTime.textContent = `Total Time: ${finalTime}`;
+    } else if (elements.finalTime) {
+        elements.finalTime.textContent = ''; // Clear it if no time is passed
+    }
     // Reset progress bar for the next quiz
     if (elements.progressBarInner) {
         elements.progressBarInner.style.width = '0%';
     }
-    // --- END NEW LOGIC ---
-    
+
     showView('scoreView');
 }
 

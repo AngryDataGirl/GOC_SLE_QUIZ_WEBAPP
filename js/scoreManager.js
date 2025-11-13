@@ -4,13 +4,14 @@ function getScores() {
     return JSON.parse(localStorage.getItem('quizScores')) || [];
 }
 
-export function saveScore(quizName, score, correct, total) {
+export function saveScore(quizName, score, correct, total, finalTime) {
     const newScore = {
         name: quizName,
         score: Math.round((correct / total) * 100),
         correct,
         total,
-        date: new Date().toISOString()
+        date: new Date().toISOString(),
+        duration: finalTime || null // 2. ADD DURATION TO THE OBJECT
     };
     const scores = getScores();
     scores.unshift(newScore);
@@ -33,10 +34,15 @@ export function displayScores() {
         const scoreElement = document.createElement('div');
         const formattedDate = new Date(score.date).toLocaleDateString('en-CA');
         scoreElement.className = 'flex justify-between items-center bg-gray-50 p-3 rounded-lg border';
+        // 3. CREATE DURATION STRING (if it exists)
+        const durationString = score.duration ? `<span class="text-sm text-gray-500 ml-2">(${score.duration})</span>` : '';
+
+        // 4. UPDATE INNERHTML TO INCLUDE durationString
         scoreElement.innerHTML = `
             <div>
                 <span class="font-semibold text-gray-800">${score.name}</span>
                 <span class="text-sm text-gray-500 ml-2">${formattedDate}</span>
+                ${durationString}
             </div>
             <span class="font-bold text-lg ${score.score >= 70 ? 'text-green-600' : 'text-amber-600'}">${score.score}%</span>
         `;

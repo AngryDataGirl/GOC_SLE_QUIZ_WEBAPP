@@ -41,6 +41,7 @@ export function startTimer() {
  */
 export function stopTimer() {
     clearInterval(timerInterval);
+    return formatTime(secondsElapsed); // Return the final formatted time
 }
 // --- END TIMER LOGIC ---
 function parseJsonData(data) {
@@ -184,10 +185,13 @@ export function nextQuestion() {
         ui.displayQuestion(state.questions[state.currentIndex], state.currentIndex, state.questions.length);
     } else {
         // --- ADDED ---
-        stopTimer(); // Stop timer when quiz is complete
+        const finalTime = stopTimer(); // 1. Stop timer and get the time
         // --- END ADDED ---
         const totalQuestions = state.questions.length;
-        ui.showScore(state.score, totalQuestions);
-        saveScore(elements.quizTitle.textContent.trim(), state.score, state.score, totalQuestions);
+    
+        // --- MODIFIED SECTION ---
+        ui.showScore(state.score, totalQuestions, finalTime); // 2. Pass time to showScore
+        saveScore(elements.quizTitle.textContent.trim(), state.score, state.score, totalQuestions, finalTime); // 3. Pass time to saveScore
+        // --- END MODIFIED SECTION ---
     }
 }

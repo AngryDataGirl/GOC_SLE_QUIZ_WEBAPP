@@ -26,6 +26,7 @@ export const elements = {
     finalScore: document.getElementById('final-score'),
     scoreSummary: document.getElementById('score-summary'),
     sleLevelEstimate: document.getElementById('sle-level-estimate'),
+    finalTime: document.getElementById('final-time'),
     backToMenuBtn: document.getElementById('back-to-menu-btn'),
     backToMenuScoreBtn: document.getElementById('back-to-menu-score-btn'),
     backToMenuDashboardBtn: document.getElementById('back-to-menu-dashboard-btn'),
