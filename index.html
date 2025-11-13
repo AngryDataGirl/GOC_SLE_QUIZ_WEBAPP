@@ -70,8 +70,11 @@
                         <select id="quiz-length" name="quiz-length" class="mt-1 block w-full pl-3 pr-10 py-2 text-base bg-white text-black border-gray-900 focus:outline-none focus:ring-2 focus:ring-black focus:border-black sm:text-sm rounded-md">
                             <option value="5">5</option>
                             <option value="10" selected>10</option>
-                            <option value="15">15</option>
                             <option value="20">20</option>
+                            <option value="30">30</option>
+                            <option value="45">45</option>
+                            <option value="60">60</option>
+                            <option value="65">65</option>
                         </select>
                     </div>
                     <div class="mt-12 max-w-4xl mx-auto text-left">
@@ -123,7 +126,7 @@
                     </div>
                 </section>
 
-                <section class="mt-12 border-t pt-10">
+                <section class="mt-12 gradient-divider pt-10">
                     <h3 class="text-xl font-semibold text-primary mb-4">Recent Scores</h3>
                     <div id="scores-container" class="space-y-2 text-left max-w-md mx-auto"></div>
                     <button id="clear-scores-btn" class="mt-4 text-sm text-slate-500 hover:text-red-600 transition-colors hidden">Clear All Scores</button>
@@ -136,6 +139,7 @@
             <div class="flex justify-between items-center mb-6">
                 <h1 id="quiz-title" class="text-xl sm:text-2xl font-bold text-white">French Quiz</h1>
                 <div id="question-counter" class="text-primary-600 font-semibold"></div>
+            
             </div>
                 <p id="question-id" class="text-sm text-primary"></p> 
             <div id="context-area" class="mb-6 p-4 bg-black border border-gray-200 rounded-lg hidden"><h3 class="font-semibold text-primary mb-2">Context:</h3><p id="context-text" class="text-primary leading-relaxed whitespace-pre-line"></p></div>
@@ -146,10 +150,13 @@
         </div>
 
         <div id="score-view" class="text-center hidden">
-            <h2 class="text-3xl font-bold text-slate-800">Quiz Complete!</h2>
-            <p class="text-slate-600 mt-4 text-xl">Your Score:</p>
-            <p id="final-score" class="text-6xl font-bold text-blue-600 my-4">0%</p>
-            <p id="score-summary" class="text-slate-700 text-lg"></p>
+            <h2 class="text-3xl font-bold text-primary">Quiz Complete!</h2>
+            <p class="text-slate-200 mt-4 text-xl">Your Score:</p>
+            <p id="final-score" class="text-6xl font-bold text-blue-200 my-4">0%</p>
+            <p id="score-summary" class="text-slate-200 text-lg"></p>
+            <div class="why-us-section p-8 sm:p-12">
+                <p id="sle-level-estimate" class="text-2xl font-bold text-primary"></p>
+            </div>
             <button id="back-to-menu-score-btn" class="mt-8 bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors text-xl shadow-md">Back to Menu</button>
         </div>
         

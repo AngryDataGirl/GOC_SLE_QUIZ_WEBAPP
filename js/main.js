@@ -35,6 +35,9 @@ function init() {
     function showMainMenu() {
         ui.showView('startState');
         scoreManager.displayScores();
+        // --- ADDED ---
+        quiz.stopTimer(); // Stop timer if user goes back to menu
+        // --- END ADDED ---
     }
     
     elements.backToMenuBtn.addEventListener('click', showMainMenu);

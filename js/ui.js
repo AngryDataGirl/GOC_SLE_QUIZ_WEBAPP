@@ -90,14 +90,52 @@ export function updateChoiceButtons(selectedId, correctId) {
     });
 }
 
+// export function showScore(score, total) {
+//     const percentage = total === 0 ? 0 : Math.round((score / total) * 100);
+//     elements.finalScore.textContent = `${percentage}%`;
+//     elements.scoreSummary.textContent = `You answered ${score} out of ${total} questions correctly.`;
+//     showView('scoreView');
+// }
+
 export function showScore(score, total) {
     const percentage = total === 0 ? 0 : Math.round((score / total) * 100);
+    
+    // --- NEW LOGIC ---
+    // 1. Calculate the estimated level
+    const sleLevel = getSleLevel(score, total);
+    
+    // 2. Display the score and summary
     elements.finalScore.textContent = `${percentage}%`;
     elements.scoreSummary.textContent = `You answered ${score} out of ${total} questions correctly.`;
+    
+    // 3. Display the new level
+    if (elements.sleLevelEstimate) {
+         elements.sleLevelEstimate.textContent = `Estimated Level: ${sleLevel}`;
+    }
+    // --- END NEW LOGIC ---
+    
     showView('scoreView');
 }
 
 export function displayLoadingError(error) {
     elements.loadingState.innerHTML = `<h1 class="text-2xl font-bold text-red-600 text-center">Error</h1><p class="text-gray-600 text-center mt-2">${error.message}</p><button id="error-back-btn" class="mt-4 text-blue-600 hover:underline">Back to Menu</button>`;
     document.getElementById('error-back-btn').addEventListener('click', () => showView('startState'));
+}
+
+// --- ADD THIS NEW FUNCTION AT THE BOTTOM ---
+function getSleLevel(score, total) {
+    if (total === 0) return 'N/A'; // Prevent division by zero
+
+    // 1. Normalize the score to a 40-point scale
+    // (score / total) gives the percentage, then multiply by 40
+    const normalizedScore = Math.round((score / total) * 40);
+
+    // 2. Apply your rubric logic
+    if (normalizedScore <= 9) return "X (below A)";
+    if (normalizedScore <= 15) return "Between X and A";
+    if (normalizedScore <= 19) return "Level A";
+    if (normalizedScore <= 25) return "Between A and B";
+    if (normalizedScore <= 29) return "Level B";
+    if (normalizedScore <= 35) return "Between B and C";
+    return "Level C"; // 36-40
 }

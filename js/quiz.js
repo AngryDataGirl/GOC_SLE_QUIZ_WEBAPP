@@ -150,3 +150,4 @@ export function nextQuestion() {
         saveScore(elements.quizTitle.textContent.trim(), state.score, state.score, totalQuestions);
     }
 }
+
