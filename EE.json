@@ -9124,7 +9124,7 @@
           "setId": "EE_6_Q39",
           "context": {
             "type": "text",
-            "text": "...Les gestionnaires de projets doivent intégré (3) l'utilisation de ces outils dans les projets qu'ils développent..."
+            "text": "Par la mise en œuvre (1) à grande échelle des outils informatiques de gestion, la fonction publique profite désormais (2) des développements technologiques pour devenir plus efficace et efficiente. Les gestionnaires de projets doivent intégré (3) l'utilisation de ces outils dans les projets qu'ils développent et dans leurs équipes de gestion."
           },
           "questions": [
             {
@@ -9149,7 +9149,7 @@
           "setId": "EE_6_Q40",
           "context": {
             "type": "text",
-            "text": "Certains ministères ont déjà utilisé (1) des normes acceptées à l'échelle international (2) afin d'assurer la qualité de leurs procédés..."
+            "text": "Certains ministères ont déjà utilisé (1) des normes acceptées à l'échelle international (2) afin d'assurer la qualité de leurs procédés de prestation de services à leur clientèle. Par exemple, certains des services de Ressources naturelles Canada (3) et Travaux publics et Services gouvernementaux Canada sont homologués sous les normes ISO 9 000." 
           },
           "questions": [
             {
@@ -9174,7 +9174,7 @@
           "setId": "EE_6_Q41",
           "context": {
             "type": "text",
-            "text": "Toutes les documents (1) doivent être évalués afin d’en connaître le niveau de sécurité requis selon (2) le sujet traité et la spécificité des renseignements qu'ils renferment (3)."
+            "text": "Toutes les documents (1) doivent être évalués afin d’en connaître le niveau de sécurité requis selon (2) le sujet traité et la spécificité des renseignements qu'ils renferment (3). Certains documents ne requièrent pas de protection particulière tandis que d’autres requièrent différents types et niveaux de protection."
           },
           "questions": [
             {
@@ -9199,7 +9199,7 @@
           "setId": "EE_6_Q42",
           "context": {
             "type": "text",
-            "text": "...pour sécuriser les réseaux partagées (3) du gouvernement du Canada."
+            "text": "Il y a eu récemment (1) quelques incidents sérieux relatifs à la sécurité de l'ensemble des réseaux et des fonds de renseignements du gouvernement du Canada. Le Ministère établit (2) présentement un plan d'action pour mettre en œuvre des mesures de sécurité visant tous les biens liés à la technologie de l'information (TI) et pour sécuriser les réseaux partagées (3) du gouvernement du Canada."
           },
           "questions": [
             {
@@ -9274,7 +9274,7 @@
           "setId": "EE_6_Q45",
           "context": {
             "type": "text",
-            "text": "La fonction publique fédérale s'est engagée (1) à offrir aux étudiantes et étudiants des affectations d'apprentissage valables et structurées qui servent à assurées (2) la transition de l'école au marché du travail."
+            "text": "La fonction publique fédérale s'est engagée (1) à offrir aux étudiantes et étudiants des affectations d'apprentissage valables et structurées qui servent à assurées (2) la transition de l'école au marché du travail. Le personnel étudiant entraîne des coûts moins élevés que le personnel régulier. Ils ont le statut de stagiaires (3) et ne bénéficient pas des mêmes avantages que le personnel en titre."
           },
           "questions": [
             {
@@ -9299,7 +9299,7 @@
           "setId": "EE_6_Q46",
           "context": {
             "type": "sentence",
-            "text": "Le Centre des opérations et déclarations financières du Canada a été créé dans le cadre d'une initiative du gouvernement du Canada _______________ pour lutter contre le blanchiment d'argent..."
+            "text": "Le Centre des opérations et déclarations financières du Canada a été créé dans le cadre d'une initiative du gouvernement du Canada _______________ pour lutter contre le blanchiment d'argent et le financement des activités terroristes, à l'échelle nationale et internationale."
           },
           "questions": [
             {
@@ -11057,7 +11057,7 @@
           "setId": "EE_7_Q51",
           "context": {
             "type": "sentence",
-            "text": "Comme j’étais absent, je ne sais pas comment ________________ la réunion du comité de gestion."
+            "text": "Comme j’étais absent, je ne sais pas comment ________________ la réunion du comité de gestion. Si tu veux plus d’information, tu peux toujours communiquer avec Françoise. Je crois qu’elle était présente."
           },
           "questions": [
             {
@@ -11082,7 +11082,7 @@
           "setId": "EE_7_Q52",
           "context": {
             "type": "sentence",
-            "text": "Cette note _______________________ que la date d’échéance pour soumettre vos candidatures ... est le 1er novembre."
+            "text": "Cette note _______________________ que la date d’échéance pour soumettre vos candidatures pour le prix de la sous-ministre et les prix d’excellence de l’Agence est le 1er novembre."
           },
           "questions": [
             {
@@ -11107,7 +11107,7 @@
           "setId": "EE_7_Q53",
           "context": {
             "type": "sentence",
-            "text": "...approfondir ses connaissances du Canada en utilisant ______________________ d'outils analytiques et documentaires."
+            "text": "La maîtrise en études canadiennes est un programme de deuxième cycle offert uniquement par Internet. Son objectif est d'amen er l'étudiant à approfondir ses connaissances du Canada en utilisant ______________________ d'outils analytiques et documentaires."
           },
           "questions": [
             {
@@ -11132,7 +11132,7 @@
           "setId": "EE_7_Q54",
           "context": {
             "type": "text",
-            "text": "Le Conseil du Trésor est chargé de l'imputabilité et de l'éthic (1), de la gestion des finances, du personnel et de l'administration..."
+            "text": "Le Conseil du Trésor est chargé de l'imputabilité et de l'éthic (1), de la gestion des finances, du personnel et de l'administration, de la fonction de contrôle ainsi que de l'approbation des règlements (2) et de la plupart des décrets en conseil. Le Conseil du Trésor est doté (3) d'un organe administratif, le Secrétariat, qui faisait autrefois partie du ministère des Finances, mais qui depuis 1966 constitue un ministère distinct."
           },
           "questions": [
             {
@@ -11182,7 +11182,7 @@
           "setId": "EE_7_Q56",
           "context": {
             "type": "text",
-            "text": "De plus, il suit de près les risques pour la santé et la sécurité, reliés à la vente et à la consommation de drogues, aliments, chimiques (3), pesticides, matériels médicaux et autres produits de consommation."
+            "text": "Santé Canada encourage les Canadiens à améliorer leur santé en adoptant un mode de vie actif (1). Le Ministère se charge de la surveillance, de la prévention, du contrôle et de la recherche sur les poussées épidémiques (2), au pays comme à l'étranger. De plus, il suit de près les risques pour la santé et la sécurité, reliés à la vente et à la consommation de drogues, aliments, chimiques (3), pesticides, matériels médicaux et autres produits de consommation."
           },
           "questions": [
             {
@@ -11207,7 +11207,7 @@
           "setId": "EE_7_Q57",
           "context": {
             "type": "text",
-            "text": "Les courriels et autres méthodes électroniques utilisés (1) pour communiquer avec le gouvernement du Canada ne sont pas sécuritaires, à moins que ce ne soit précisé autrefois (2) dans la page Web."
+            "text": "Les courriels et autres méthodes électroniques utilisés (1) pour communiquer avec le gouvernement du Canada ne sont pas sécuritaires, à moins que ce ne soit précisé autrefois (2) dans la page Web.  Il est donc recommandé de ne pas transmettre de renseignements personnels sensibles, comme votre numéro d'assurance sociale ou votre date de naissance, par l'entremise (3) d'une voie électronique non sécurisée."
           },
           "questions": [
             {
@@ -11232,7 +11232,7 @@
           "setId": "EE_7_Q58",
           "context": {
             "type": "text",
-            "text": "L'Agence du revenu du Canada tient de (1) prévenir les Canadiens que des courriels frauduleux (2) prétendant provenir de l'Agence sont actuellement en circulation."
+            "text": "L'Agence du revenu du Canada tient de (1) prévenir les Canadiens que des courriels frauduleux (2) prétendant provenir de l'Agence sont actuellement en circulation.  Voici des exemples de ces escroqueries (3) et comment vous pouvez vous protéger."
           },
           "questions": [
             {
@@ -11257,7 +11257,7 @@
           "setId": "EE_7_Q59",
           "context": {
             "type": "text",
-            "text": "Voici quelques renseignements que vous deviez connaître (2) au moment de remplir votre déclaration et qui vous permettront (3) d’économiser de l’argent."
+            "text": "L’Agence du revenu du Canada (ARC) est là pour vous aider pendant la période de production des déclarations de revenus (1). Voici quelques renseignements que vous deviez connaître (2) au moment de remplir votre déclaration et qui vous permettront (3) d’économiser de l’argent."
           },
           "questions": [
             {
@@ -11307,7 +11307,7 @@
           "setId": "EE_7_Q61",
           "context": {
             "type": "text",
-            "text": "...Parcs Canada vieille (3) toujours à ce que les Canadiens puissent profiter de ces joyaux de la façon la plus écologique qui soit."
+            "text": "Parcs Canada est déterminé à prendre des initiatives de protection de l’environnement dans les parcs nationaux, les lieux historiques nationaux et les aires marines (1) nationales de conservation. Que ce soit par la revitalisation de sites contaminés, l’application de pratiques de conservation ou la réalisation de projets novateurs (2), Parcs Canada vieille (3) toujours à ce que les Canadiens puissent profiter de ces joyaux de la façon la plus écologique qui soit."
           },
           "questions": [
             {
@@ -11332,7 +11332,7 @@
           "setId": "EE_7_Q62",
           "context": {
             "type": "text",
-            "text": "De plus (1) de ses employés qui font déjà leur effort quotidien pour réduire leur empreinte écologique (2), Parcs Canada travaille à l’atteinte des objectifs de la Stratégie fédérale de développement durable (3)..."
+            "text": "De plus (1) de ses employés qui font déjà leur effort quotidien pour réduire leur empreinte écologique (2), Parcs Canada travaille à l’atteinte des objectifs de la Stratégie fédérale de développement durable (3) dans le cadre de l’engagement du gouvernement du Canada de réduire ses impacts environnementaux dans ses activités quotidiennes."
           },
           "questions": [
             {
@@ -11357,7 +11357,7 @@
           "setId": "EE_7_Q63",
           "context": {
             "type": "text",
-            "text": "Les collections du Musée permettent à tous d’apprécier l’expression artistique à sa meilleur (3) : les œuvres d’art nous renseignent sur le passé, célèbrent le présent et explorent l’avenir."
+            "text": "Le Musée des beaux-arts du Canada tire sa force (1) de ses collections d’œuvres d’art (2), en particulier d’art canadien, qu’il rend accessibles à toute la population du pays. Les collections du Musée permettent à tous d’apprécier l’expression artistique à sa meilleur (3) : les œuvres d’art nous renseignent sur le passé, célèbrent le présent et explorent l’avenir."
           },
           "questions": [
             {
@@ -11382,7 +11382,7 @@
           "setId": "EE_7_Q64",
           "context": {
             "type": "text",
-            "text": "Vous pourriez avoir droit à une subvention afin que (2) poursuivre des études postsecondaires."
+            "text": "Vous retournez aux études pour acquérir de nouvelles compétences ou prévoyez parfaire (1) vos connaissances? Vous pourriez avoir droit à une subvention afin que (2) poursuivre des études postsecondaires. Ce programme offre une aide financière pour soutenir l’apprentissage (3) et aider les étudiants canadiens qui souhaitent étudier à l’étranger, tout en encourageant les jeunes à étudier dans les domaines des sciences, de la technologie, de l’ingénierie et des mathématiques."
           },
           "questions": [
             {
@@ -12390,7 +12390,7 @@
           "setId": "EE_8_Q39",
           "context": {
             "type": "text",
-            "text": "En ce qui concerne la demande d'accès à l'information que tu as reçue la semaine dernière, je t'envoie (1) une partie des documents. Le reste vont suivre (2) cet après-midi."
+            "text": "En ce qui concerne la demande d'accès à l'information que tu as reçue la semaine dernière, je t'envoie (1) une partie des documents. Le reste vont suivre (2) cet après-midi. Si tu as besoin d'aide ou si tu veux en discuter (3), tu peux toujours m'appeler. Je suis disponible toute la journée, demain également."
           },
           "questions": [
             {
