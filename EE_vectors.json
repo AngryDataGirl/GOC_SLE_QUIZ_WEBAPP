@@ -1,0 +1,152 @@
+[
+{
+  "doc_id": "EE_1_Q1",
+  "content_to_vectorize": "CONTEXT: Il a refusé {{BLANK}} nos offres. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. tous. 2. tout. 3. toute. 4. toutes. CORRECT ANSWER: toutes.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q1",
+    "questionId": "EE_1_Q1",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Accord de l'adjectif indéfini (tout)",
+    "context": "Il a refusé {{BLANK}} nos offres.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      { "id": 1, "text": "tous" },
+      { "id": 2, "text": "tout" },
+      { "id": 3, "text": "toute" },
+      { "id": 4, "text": "toutes" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 4,
+      "correctChoiceText": "toutes",
+      "explanation": "L'adjectif indéfini « tout » doit s'accorder en genre et en nombre avec le mot auquel il se rapporte « offres », féminin pluriel."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q2",
+  "content_to_vectorize": "CONTEXT: Madeleine? Elle {{BLANK}}. Elle est en train de traduire la présentation de la semaine prochaine. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. a occupé. 2. s'occupe. 3. s'est occupée. 4. est occupée. CORRECT ANSWER: est occupée.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q2",
+    "questionId": "EE_1_Q2",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Adjectif (participe passé) vs. Verbe pronominal",
+    "context": "Madeleine? Elle {{BLANK}}. Elle est en train de traduire la présentation de la semaine prochaine.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      { "id": 1, "text": "a occupé" },
+      { "id": 2, "text": "s'occupe" },
+      { "id": 3, "text": "s'est occupée" },
+      { "id": 4, "text": "est occupée" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 4,
+      "correctChoiceText": "est occupée",
+      "explanation": "Ne pas confondre l’expression « être occupé » (to be busy) et le verbe « s'occuper de » (to deal with / to take care of)."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q3",
+  "content_to_vectorize": "CONTEXT: Ce courriel, {{BLANK}} faut-il l'envoyer? QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. quelle adresse. 2. à quelle adresse. 3. à quel adresse. 4. quel adresse. CORRECT ANSWER: à quelle adresse.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q3",
+    "questionId": "EE_1_Q3",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Adjectif interrogatif (accord) et préposition",
+    "context": "Ce courriel, {{BLANK}} faut-il l'envoyer?",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      { "id": 1, "text": "quelle adresse" },
+      { "id": 2, "text": "à quelle adresse" },
+      { "id": 3, "text": "à quel adresse" },
+      { "id": 4, "text": "quel adresse" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 2,
+      "correctChoiceText": "à quelle adresse",
+      "explanation": "L'expression « envoyer quelque chose à quelque part » nécessite la préposition « à ». L'adjectif interrogatif « quel » s'accorde en genre et en nombre avec le nom auquel il se rapporte « adresse », féminin singulier : « à quelle adresse »."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q4",
+  "content_to_vectorize": "CONTEXT: Dites-moi si je peux vous {{BLANK}}. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. avoir utile. 2. soyez utile. 3. être utile. 4. être utilisé. CORRECT ANSWER: être utile.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q4",
+    "questionId": "EE_1_Q4",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Verbe modal (pouvoir) + infinitif",
+    "context": "Dites-moi si je peux vous {{BLANK}}.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      { "id": 1, "text": "avoir utile" },
+      { "id": 2, "text": "soyez utile" },
+      { "id": 3, "text": "être utile" },
+      { "id": 4, "text": "être utilisé" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 3,
+      "correctChoiceText": "être utile",
+      "explanation": "L'expression à employer est « être utile à quelqu'un ». Après le semi-auxiliaire « pouvoir », le verbe doit être à l'infinitif. « Être utilisé » (to be used) n'a pas de sens dans ce contexte."
+    }
+  }
+}
+,{
+  "doc_id": "EE_1_Q5",
+  "content_to_vectorize": "CONTEXT: Il {{BLANK}} le président de la réunion. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. a déplacé. 2. a replacé. 3. a remplacé. 4. a joué. CORRECT ANSWER: a remplacé.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q5",
+    "questionId": "EE_1_Q5",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Vocabulaire (Verbes)",
+    "context": "Il {{BLANK}} le président de la réunion.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      { "id": 1, "text": "a déplacé" },
+      { "id": 2, "text": "a replacé" },
+      { "id": 3, "text": "a remplacé" },
+      { "id": 4, "text": "a joué" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 3,
+      "correctChoiceText": "a remplacé",
+      "explanation": "Les verbes « déplacer » (to move), « replacer » (to put back) et « jouer » (to play) n'ont aucun sens dans ce contexte."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q6",
+  "content_to_vectorize": "CONTEXT: Assure-toi de vérifier la date {{BLANK}} de chaque commande. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. de livraison. 2. délivraison. 3. de délivraison. 4. de livraisson. CORRECT ANSWER: de livraison.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q6",
+    "questionId": "EE_1_Q6",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Vocabulaire/Orthographe",
+    "context": "Assure-toi de vérifier la date {{BLANK}} de chaque commande.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      { "id": 1, "text": "de livraison" },
+      { "id": 2, "text": "délivraison" },
+      { "id": 3, "text": "de délivraison" },
+      { "id": 4, "text": "de livraisson" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 1,
+      "correctChoiceText": "de livraison",
+      "explanation": "Delivery se traduit par « livraison ». Le mot « délivraison » n'existe pas en français. Le mot « livraisson » est mal écrit."
+    }
+  }
+}
+]
