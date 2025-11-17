@@ -148,5 +148,480 @@
       "explanation": "Delivery se traduit par « livraison ». Le mot « délivraison » n'existe pas en français. Le mot « livraisson » est mal écrit."
     }
   }
+},
+{
+  "doc_id": "EE_1_Q7",
+  "content_to_vectorize": "CONTEXT: {{BLANK}} à votre question, sachez que je suis tout à fait d'accord avec vous sur ce point. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. En retour. 2. En réponse. 3. En répondant. 4. En réplique. CORRECT ANSWER: En réponse.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q7",
+    "questionId": "EE_1_Q7",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Vocabulaire/Expression",
+    "context": "{{BLANK}} à votre question, sachez que je suis tout à fait d'accord avec vous sur ce point.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      { "id": 1, "text": "En retour" },
+      { "id": 2, "text": "En réponse" },
+      { "id": 3, "text": "En répondant" },
+      { "id": 4, "text": "En réplique" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 2,
+      "correctChoiceText": "En réponse",
+      "explanation": "« En retour », « En répondant » et « En réplique » n'ont pas de sens dans ce contexte."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q8",
+  "content_to_vectorize": "CONTEXT: Il {{BLANK}} l'affaire avec tact. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. a agi. 2. s'est occupé. 3. a manipulé. 4. a traité. CORRECT ANSWER: a traité.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q8",
+    "questionId": "EE_1_Q8",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Choix du verbe/Vocabulaire",
+    "context": "Il {{BLANK}} l'affaire avec tact.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      { "id": 1, "text": "a agi" },
+      { "id": 2, "text": "s'est occupé" },
+      { "id": 3, "text": "a manipulé" },
+      { "id": 4, "text": "a traité" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 4,
+      "correctChoiceText": "a traité",
+      "explanation": "Le verbe « agir » ne s'emploie pas avec un objet direct. L'expression « s'occuper de quelque chose » se construit avec la préposition de. Le verbe « manipuler » (to move by hand) n'a pas de sens dans ce contexte. « Il a traité l’affaire avec tact » peut se traduire par 'He dealt with the situation with tact'."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q9",
+  "content_to_vectorize": "CONTEXT: Mon patron? {{BLANK}} plusieurs fois de me procurer un meilleur fauteuil pour le travail. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. J'ai lui demandé. 2. Je lui ai demandé. 3. Je l’ai demandé. 4. J'ai demandé à lui. CORRECT ANSWER: Je lui ai demandé.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q9",
+    "questionId": "EE_1_Q9",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Place des pronoms objets",
+    "context": "Mon patron? {{BLANK}} plusieurs fois de me procurer un meilleur fauteuil pour le travail.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      { "id": 1, "text": "J'ai lui demandé" },
+      { "id": 2, "text": "Je lui ai demandé" },
+      { "id": 3, "text": "Je l’ai demandé" },
+      { "id": 4, "text": "J'ai demandé à lui" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 2,
+      "correctChoiceText": "Je lui ai demandé",
+      "explanation": "Les pronoms objets se placent entre le sujet et l'auxiliaire : « je ___ ai demandé ». On demande quelque chose à quelqu'un. Dans le présent contexte, il faut employer le pronom objet indirect qui réfère à une seule personne « lui »."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q10",
+  "content_to_vectorize": "CONTEXT: Ils nous ont promis {{BLANK}} à haute vitesse. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. une branche. 2. une branchement. 3. une connexion. 4. une connection. CORRECT ANSWER: une connexion.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q10",
+    "questionId": "EE_1_Q10",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Orthographe/Vocabulaire",
+    "context": "Ils nous ont promis {{BLANK}} à haute vitesse.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      { "id": 1, "text": "une branche" },
+      { "id": 2, "text": "une branchement" },
+      { "id": 3, "text": "une connexion" },
+      { "id": 4, "text": "une connection" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 3,
+      "correctChoiceText": "une connexion",
+      "explanation": "La réponse « branche » n’a pas de sens dans ce contexte. La réponse « branchement » serait acceptable, mais « branchement » est un nom masculin. Le mot « connection » s’écrit différemment en français (« connexion »)."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q11",
+  "content_to_vectorize": "CONTEXT: Cet atelier (1) a permis la mise en place d'un système de réseautage étendu (2) à plusieures (3) institutions non gouvernementales. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. Cet atelier. 2. étendu. 3. plusieures. 4. aucune correction. CORRECT ANSWER: plusieures.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q11",
+    "questionId": "EE_1_Q11",
+    "questionType": "Error-identification",
+    "refersTo": null,
+    "grammarType": "Accord de l'adjectif indéfini (plusieurs)",
+    "context": "Cet atelier (1) a permis la mise en place d'un système de réseautage étendu (2) à plusieures (3) institutions non gouvernementales.",
+    "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+    "choices": [
+      { "id": 1, "text": "Cet atelier" },
+      { "id": 2, "text": "étendu" },
+      { "id": 3, "text": "plusieures" },
+      { "id": 4, "text": "aucune correction" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 3,
+      "correctChoiceText": "plusieures",
+      "explanation": "L'adjectif indéfini « plusieurs » est invariable et s'écrit toujours de la même façon : « plusieurs »."
+    }
+  }
+}
+,{
+  "doc_id": "EE_1_Q12",
+  "content_to_vectorize": "CONTEXT: Voilà ce que je te suggère. Annulons la réunion de demain et remettons-la (1) à la semaine prochaine. Comme ça (2), on aura le temps de faire les dernières vérifications dans les documents et de meilleur (3) se préparer. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. remettons-la. 2. Comme ça. 3. meilleur. 4. aucune correction. CORRECT ANSWER: meilleur.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q12",
+    "questionId": "EE_1_Q12",
+    "questionType": "Error-identification",
+    "refersTo": null,
+    "grammarType": "Adjectif (meilleur) vs Adverbe (mieux)",
+    "context": "Voilà ce que je te suggère. Annulons la réunion de demain et remettons-la (1) à la semaine prochaine. Comme ça (2), on aura le temps de faire les dernières vérifications dans les documents et de meilleur (3) se préparer.",
+    "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+    "choices": [
+      { "id": 1, "text": "remettons-la" },
+      { "id": 2, "text": "Comme ça" },
+      { "id": 3, "text": "meilleur" },
+      { "id": 4, "text": "aucune correction" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 3,
+      "correctChoiceText": "meilleur",
+      "explanation": "L'adjectif « meilleur » se place devant un nom. L'adverbe « mieux » se place devant un verbe : « ... et de mieux se préparer. »"
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q13",
+  "content_to_vectorize": "CONTEXT: Je suis désolé pour demain, Pénélope, mais je ne peux malheureusement pas t'accorder (1) le congé demandé. La traduction du document doit absolument être terminé (2) pour demain, 17 h, et tu es la seule qui puisse (3) le faire. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. t'accorder. 2. être terminé. 3. puisse. 4. aucune correction. CORRECT ANSWER: être terminé.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q13",
+    "questionId": "EE_1_Q13",
+    "questionType": "Error-identification",
+    "refersTo": null,
+    "grammarType": "Accord du participe passé (avec être)",
+    "context": "Je suis désolé pour demain, Pénélope, mais je ne peux malheureusement pas t'accorder (1) le congé demandé. La traduction du document doit absolument être terminé (2) pour demain, 17 h, et tu es la seule qui puisse (3) le faire.",
+    "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+    "choices": [
+      { "id": 1, "text": "t'accorder" },
+      { "id": 2, "text": "être terminé" },
+      { "id": 3, "text": "puisse" },
+      { "id": 4, "text": "aucune correction" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 2,
+      "correctChoiceText": "être terminé",
+      "explanation": "Le participe passé qui suit le verbe « être » s'accorde avec le sujet du verbe, dans ce cas-ci « traduction » féminin singulier : « terminée »."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q14",
+  "content_to_vectorize": "CONTEXT: Savait-tu (1) qu'Ariane avait été nommée nouvelle directrice adjointe? Je te dis (2) que la nouvelle s'est répandue comme une traînée de poudre partout (3) dans la division. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. Savait-tu. 2. dis. 3. partout. 4. aucune correction. CORRECT ANSWER: Savait-tu.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q14",
+    "questionId": "EE_1_Q14",
+    "questionType": "Error-identification",
+    "refersTo": null,
+    "grammarType": "Conjugaison (imparfait, 2e pers. sing.)",
+    "context": "Savait-tu (1) qu'Ariane avait été nommée nouvelle directrice adjointe? Je te dis (2) que la nouvelle s'est répandue comme une traînée de poudre partout (3) dans la division.",
+    "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+    "choices": [
+      { "id": 1, "text": "Savait-tu" },
+      { "id": 2, "text": "dis" },
+      { "id": 3, "text": "partout" },
+      { "id": 4, "text": "aucune correction" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 1,
+      "correctChoiceText": "Savait-tu",
+      "explanation": "Le verbe « savoir » s'accorde avec son sujet « tu » à la 2e personne du singulier « Savais-tu »."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q15",
+  "content_to_vectorize": "CONTEXT: Salut Robert. Peux-tu me dire (1) à qui je dois envoyer le chèque en ce qui concerne le contrat de service Internet? Il ne faut pas que j'oublie de l'envoyer (2), car la date d'échéance est demain, le 30 avril (3). QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. me dire. 2. l'envoyer. 3. le 30 avril. 4. aucune correction. CORRECT ANSWER: aucune correction.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q15",
+    "questionId": "EE_1_Q15",
+    "questionType": "Error-identification",
+    "refersTo": null,
+    "grammarType": "Aucune erreur",
+    "context": "Salut Robert. Peux-tu me dire (1) à qui je dois envoyer le chèque en ce qui concerne le contrat de service Internet? Il ne faut pas que j'oublie de l'envoyer (2), car la date d'échéance est demain, le 30 avril (3).",
+    "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+    "choices": [
+      { "id": 1, "text": "me dire" },
+      { "id": 2, "text": "l'envoyer" },
+      { "id": 3, "text": "le 30 avril" },
+      { "id": 4, "text": "aucune correction" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 4,
+      "correctChoiceText": "aucune correction",
+      "explanation": "Il n’y a pas d’erreur dans cette phrase."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q16",
+  "content_to_vectorize": "CONTEXT: Notre directrice nous rencontrera dès qu’elle {{BLANK}} de sa rencontre avec le sous-ministre. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. sera revenue. 2. sera revenu. 3. sera retourné. 4. sera retournée. CORRECT ANSWER: sera revenue.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q16",
+    "questionId": "EE_1_Q16",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Accord du participe passé (avec être) / Futur antérieur",
+    "context": "Notre directrice nous rencontrera dès qu’elle {{BLANK}} de sa rencontre avec le sous-ministre.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      { "id": 1, "text": "sera revenue" },
+      { "id": 2, "text": "sera revenu" },
+      { "id": 3, "text": "sera retourné" },
+      { "id": 4, "text": "sera retournée" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 1,
+      "correctChoiceText": "sera revenue",
+      "explanation": "Avec l'auxiliaire « être », le participe passé s'accorde avec le sujet, « elle » dans ce cas-ci, et s'écrit « revenue ». Le verbe « retourner » aurait plutôt le sens de 'to go again' et non de 'to come back'."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q17",
+  "content_to_vectorize": "CONTEXT: La note de frais {{BLANK}} par le service des finances. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. sera payé. 2. sera réglée. 3. sera réglé. 4. seront réglées. CORRECT ANSWER: sera réglée.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q17",
+    "questionId": "EE_1_Q17",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Accord du participe passé (voix passive)",
+    "context": "La note de frais {{BLANK}} par le service des finances.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      { "id": 1, "text": "sera payé" },
+      { "id": 2, "text": "sera réglée" },
+      { "id": 3, "text": "sera réglé" },
+      { "id": 4, "text": "seront réglées" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 2,
+      "correctChoiceText": "sera réglée",
+      "explanation": "Le verbe et le participe passé doivent s'accorder avec le sujet « la note », féminin singulier : « La note sera réglée... ». Dans cette phrase, le verbe « régler » a le sens de 'to pay, to settle'."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q18",
+  "content_to_vectorize": "CONTEXT: Si cette politique est adoptée telle quelle, elle {{BLANK}} une augmentation des dépenses pour ce ministère. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. aura entraîné. 2. entraînera. 3. entraînerait. 4. aurait entraîné. CORRECT ANSWER: entraînera.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q18",
+    "questionId": "EE_1_Q18",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Concordance des temps (Si + présent + futur simple)",
+    "context": "Si cette politique est adoptée telle quelle, elle {{BLANK}} une augmentation des dépenses pour ce ministère.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      { "id": 1, "text": "aura entraîné" },
+      { "id": 2, "text": "entraînera" },
+      { "id": 3, "text": "entraînerait" },
+      { "id": 4, "text": "aurait entraîné" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 2,
+      "correctChoiceText": "entraînera",
+      "explanation": "Le second verbe de cette phrase doit être au futur simple : Si + verbe au présent + verbe au futur simple. Dans ce contexte, « entraîner » signifie 'to bring about, to lead to'."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q19",
+  "content_to_vectorize": "CONTEXT: Je {{BLANK}} que l'ordre du jour avait été établi par les deux parties. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. lui ai rappelé. 2. l'ai rappelé. 3. m'ai rappelé. 4. rappelle à lui. CORRECT ANSWER: lui ai rappelé.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q19",
+    "questionId": "EE_1_Q19",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Pronoms objets indirects / Place des pronoms",
+    "context": "Je {{BLANK}} que l'ordre du jour avait été établi par les deux parties.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      { "id": 1, "text": "lui ai rappelé" },
+      { "id": 2, "text": "l'ai rappelé" },
+      { "id": 3, "text": "m'ai rappelé" },
+      { "id": 4, "text": "rappelle à lui" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 1,
+      "correctChoiceText": "lui ai rappelé",
+      "explanation": "On rappelle quelque chose à quelqu'un (to remind somebody of something). Dans ce contexte, il faut employer un pronom objet indirect. Les pronoms objets se placent entre le sujet et l'auxiliaire."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q20",
+  "content_to_vectorize": "CONTEXT: Ils {{BLANK}} de notre mise en demeure hier. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. ont chargé réception. 2. ont accusé réception. 3. ont accusé le reçu. 4. ont reçu. CORRECT ANSWER: ont accusé réception.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q20",
+    "questionId": "EE_1_Q20",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Expression/Vocabulaire",
+    "context": "Ils {{BLANK}} de notre mise en demeure hier.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      { "id": 1, "text": "ont chargé réception" },
+      { "id": 2, "text": "ont accusé réception" },
+      { "id": 3, "text": "ont accusé le reçu" },
+      { "id": 4, "text": "ont reçu" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 2,
+      "correctChoiceText": "ont accusé réception",
+      "explanation": "Il faut employer une expression qui traduit le sens de 'to acknowledge receipt of'. « ont accusé réception » est la bonne expression."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q21",
+  "content_to_vectorize": "CONTEXT: Si nous ne passons pas une commande d'ici peu, je crains que {{BLANK}} de papier pour les imprimantes de l'étage. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. nous manquons. 2. nous manquerons. 3. nous manquions. 4. nous manquerions. CORRECT ANSWER: nous manquions.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q21",
+    "questionId": "EE_1_Q21",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Subjonctif (après 'craindre que')",
+    "context": "Si nous ne passons pas une commande d'ici peu, je crains que {{BLANK}} de papier pour les imprimantes de l'étage.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      { "id": 1, "text": "nous manquons" },
+      { "id": 2, "text": "nous manquerons" },
+      { "id": 3, "text": "nous manquions" },
+      { "id": 4, "text": "nous manquerions" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 3,
+      "correctChoiceText": "nous manquions",
+      "explanation": "L'expression « craindre que » (to be afraid that) nécessite l’emploi du subjonctif."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q22",
+  "content_to_vectorize": "CONTEXT: Vous devez savoir qu'elle n'a pas {{BLANK}} des personnes de moins de seize ans dans ce rapport. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. tenu compte. 2. tenue compte. 3. tenu à compter. 4. tenue le compte. CORRECT ANSWER: tenu compte.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q22",
+    "questionId": "EE_1_Q22",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Expression (tenir compte de)",
+    "context": "Vous devez savoir qu'elle n'a pas {{BLANK}} des personnes de moins de seize ans dans ce rapport.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      { "id": 1, "text": "tenu compte" },
+      { "id": 2, "text": "tenue compte" },
+      { "id": 3, "text": "tenu à compter" },
+      { "id": 4, "text": "tenue le compte" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 1,
+      "correctChoiceText": "tenu compte",
+      "explanation": "La bonne expression est « tenir compte de » (to take into account). Dans l'expression « avoir tenu compte de » le participe passé « tenu » est toujours invariable."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q23",
+  "content_to_vectorize": "CONTEXT: Ils {{BLANK}} s'assurer de ne pas contrevenir aux lois sur la concurrence. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. auraient dû. 2. auraient du. 3. auraient due. 4. auraient dut. CORRECT ANSWER: auraient dû.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q23",
+    "questionId": "EE_1_Q23",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Participe passé (devoir) / Homophones (dû vs du)",
+    "context": "Ils {{BLANK}} s'assurer de ne pas contrevenir aux lois sur la concurrence.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      { "id": 1, "text": "auraient dû" },
+      { "id": 2, "text": "auraient du" },
+      { "id": 3, "text": "auraient due" },
+      { "id": 4, "text": "auraient dut" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 1,
+      "correctChoiceText": "auraient dû",
+      "explanation": "Dans cette phrase, « auraient dû » se traduit par 'should have'. Attention de ne pas confondre le participe passé « dû » avec l’article contracté « du »."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q24",
+  "content_to_vectorize": "CONTEXT: Ils ont fait leurs profits grâce à la vente de produits {{BLANK}}. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. dérivés. 2. dérivants. 3. derrivés. 4. derrivants. CORRECT ANSWER: dérivés.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q24",
+    "questionId": "EE_1_Q24",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Vocabulaire/Orthographe",
+    "context": "Ils ont fait leurs profits grâce à la vente de produits {{BLANK}}.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      { "id": 1, "text": "dérivés" },
+      { "id": 2, "text": "dérivants" },
+      { "id": 3, "text": "derrivés" },
+      { "id": 4, "text": "derrivants" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 1,
+      "correctChoiceText": "dérivés",
+      "explanation": "« Produits dérivés » signifie 'tie-in merchandise'. « dérivés » s’écrit avec un seul « r »."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q25",
+  "content_to_vectorize": "CONTEXT: On embauchera {{BLANK}} économiste cette année. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. un nouveau. 2. un nouvel. 3. un nouvelle. 4. une nouveau. CORRECT ANSWER: un nouvel.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q25",
+    "questionId": "EE_1_Q25",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Adjectif (nouveau/nouvel)",
+    "context": "On embauchera {{BLANK}} économiste cette année.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      { "id": 1, "text": "un nouveau" },
+      { "id": 2, "text": "un nouvel" },
+      { "id": 3, "text": "un nouvelle" },
+      { "id": 4, "text": "une nouveau" }
+    ],
+    "answerKey": {
+      "correctChoiceId": 2,
+      "correctChoiceText": "un nouvel",
+      "explanation": "Les adjectifs « nouveau, beau, fou, vieux » font « nouvel, bel, fol, vieil » devant un nom masculin commençant par une voyelle ou un « h » muet."
+    }
+  }
 }
 ]
