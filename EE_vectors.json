@@ -623,5 +623,732 @@
       "explanation": "Les adjectifs « nouveau, beau, fou, vieux » font « nouvel, bel, fol, vieil » devant un nom masculin commençant par une voyelle ou un « h » muet."
     }
   }
+},
+{
+  "doc_id": "EE_1_Q26",
+  "content_to_vectorize": "CONTEXT: Excusez-moi {{BLANK}} fait attendre. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. de vous avoir 2. vous avoir 3. pour avoir vous 4. d’avoir vous CORRECT ANSWER: de vous avoir",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q26",
+    "questionId": "EE_1_Q26",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Syntaxe / Préposition + Infinitif",
+    "context": "Excusez-moi {{BLANK}} fait attendre.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      {
+        "id": 1,
+        "text": "de vous avoir"
+      },
+      {
+        "id": 2,
+        "text": "vous avoir"
+      },
+      {
+        "id": 3,
+        "text": "pour avoir vous"
+      },
+      {
+        "id": 4,
+        "text": "d’avoir vous"
+      }
+    ],
+    "answerKey": {
+      "correctChoiceId": 1,
+      "correctChoiceText": "de vous avoir",
+      "explanation": "Après « excusez-moi » il faut employer la préposition « de » plus un verbe à l’infinitif. Dans un temps composé, on place le pronom objet devant l’auxiliaire : pronom + auxiliaire + participe passé."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q27",
+  "content_to_vectorize": "CONTEXT: {{BLANK}}, j’ai téléphoné à Zabulon. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. En retourner dans mon bureau 2. De retour à mon bureau 3. Revenu à mon office 4. Au retour dans mon bureau CORRECT ANSWER: De retour à mon bureau",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q27",
+    "questionId": "EE_1_Q27",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Vocabulaire / Expressions idiomatiques",
+    "context": "{{BLANK}}, j’ai téléphoné à Zabulon.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      {
+        "id": 1,
+        "text": "En retourner dans mon bureau"
+      },
+      {
+        "id": 2,
+        "text": "De retour à mon bureau"
+      },
+      {
+        "id": 3,
+        "text": "Revenu à mon office"
+      },
+      {
+        "id": 4,
+        "text": "Au retour dans mon bureau"
+      }
+    ],
+    "answerKey": {
+      "correctChoiceId": 2,
+      "correctChoiceText": "De retour à mon bureau",
+      "explanation": "« De retour à mon bureau » se traduit par 'Back in my office' ou 'after returning to my office'. 'Office' est un faux ami; il faut employer 'bureau'."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q28",
+  "content_to_vectorize": "CONTEXT: Sortez quand {{BLANK}}. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. vous serez finis. 2. vous êtes finis. 3. vous aurez fini. 4. vous aurez été finis. CORRECT ANSWER: vous aurez fini.",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q28",
+    "questionId": "EE_1_Q28",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Conjugaison / Futur antérieur",
+    "context": "Sortez quand {{BLANK}}.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      {
+        "id": 1,
+        "text": "vous serez finis."
+      },
+      {
+        "id": 2,
+        "text": "vous êtes finis."
+      },
+      {
+        "id": 3,
+        "text": "vous aurez fini."
+      },
+      {
+        "id": 4,
+        "text": "vous aurez été finis."
+      }
+    ],
+    "answerKey": {
+      "correctChoiceId": 3,
+      "correctChoiceText": "vous aurez fini.",
+      "explanation": "Le futur antérieur « aurez fini » indique qu’une action se termine avant l’autre dans le futur. Le verbe « finir » se conjugue avec l’auxiliaire « avoir » aux temps composés."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q29",
+  "content_to_vectorize": "CONTEXT: Pensez-vous que ça {{BLANK}} la peine d’embaucher une personne pour une si courte période de temps? QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. veuille 2. vaille 3. soit 4. veut CORRECT ANSWER: vaille",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q29",
+    "questionId": "EE_1_Q29",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Conjugaison / Subjonctif",
+    "context": "Pensez-vous que ça {{BLANK}} la peine d’embaucher une personne pour une si courte période de temps?",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      {
+        "id": 1,
+        "text": "veuille"
+      },
+      {
+        "id": 2,
+        "text": "vaille"
+      },
+      {
+        "id": 3,
+        "text": "soit"
+      },
+      {
+        "id": 4,
+        "text": "veut"
+      }
+    ],
+    "answerKey": {
+      "correctChoiceId": 2,
+      "correctChoiceText": "vaille",
+      "explanation": "L’expression « pensez-vous que » est suivie d’un verbe conjugué au subjonctif. L’expression recherchée est « valoir la peine » (to be worth). « vaille » est le verbe « valoir » conjugué au subjonctif."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q30",
+  "content_to_vectorize": "CONTEXT: Êtes-vous d’accord avec les récentes politiques de notre ministère concernant les toutes dernières {{BLANK}}. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. réductions des positions 2. coupures de postes 3. compressions de personnel 4. abolitions de staff CORRECT ANSWER: compressions de personnel",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q30",
+    "questionId": "EE_1_Q30",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Vocabulaire / Anglicismes",
+    "context": "Êtes-vous d’accord avec les récentes politiques de notre ministère concernant les toutes dernières {{BLANK}}.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      {
+        "id": 1,
+        "text": "réductions des positions"
+      },
+      {
+        "id": 2,
+        "text": "coupures de postes"
+      },
+      {
+        "id": 3,
+        "text": "compressions de personnel"
+      },
+      {
+        "id": 4,
+        "text": "abolitions de staff"
+      }
+    ],
+    "answerKey": {
+      "correctChoiceId": 3,
+      "correctChoiceText": "compressions de personnel",
+      "explanation": "« compressions de personnel » est une bonne traduction de 'staffing cuts'. 'Position' et 'staff' sont des anglicismes dans ce contexte."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q31",
+  "content_to_vectorize": "CONTEXT: Vous {{BLANK}} du fait que ce projet sera très couteux et passablement inutile. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. devriez tenir le compte 2. devez tenez compte 3. auriez du tenir compte 4. devez tenir compte CORRECT ANSWER: devez tenir compte",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q31",
+    "questionId": "EE_1_Q31",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Syntaxe / Semi-auxiliaire + Infinitif",
+    "context": "Vous {{BLANK}} du fait que ce projet sera très couteux et passablement inutile.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      {
+        "id": 1,
+        "text": "devriez tenir le compte"
+      },
+      {
+        "id": 2,
+        "text": "devez tenez compte"
+      },
+      {
+        "id": 3,
+        "text": "auriez du tenir compte"
+      },
+      {
+        "id": 4,
+        "text": "devez tenir compte"
+      }
+    ],
+    "answerKey": {
+      "correctChoiceId": 4,
+      "correctChoiceText": "devez tenir compte",
+      "explanation": "La bonne expression est « tenir compte de » (to take into account). Le semi-auxiliaire « devez » doit être suivi d'un verbe à l'infinitif « tenir »."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q32",
+  "content_to_vectorize": "CONTEXT: Vous n’êtes pas autorisé {{BLANK}} prendre ce genre de décisions. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. à 2. de 3. par 4. pour CORRECT ANSWER: à",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q32",
+    "questionId": "EE_1_Q32",
+    "questionType": "Fill-in-the-blank",
+    "refersTo": "BLANK",
+    "grammarType": "Syntaxe / Prépositions (Régime des verbes)",
+    "context": "Vous n’êtes pas autorisé {{BLANK}} prendre ce genre de décisions.",
+    "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+    "choices": [
+      {
+        "id": 1,
+        "text": "à"
+      },
+      {
+        "id": 2,
+        "text": "de"
+      },
+      {
+        "id": 3,
+        "text": "par"
+      },
+      {
+        "id": 4,
+        "text": "pour"
+      }
+    ],
+    "answerKey": {
+      "correctChoiceId": 1,
+      "correctChoiceText": "à",
+      "explanation": "Le verbe « autoriser » se construit avec la préposition « à » devant un infinitif."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q33",
+  "content_to_vectorize": "CONTEXT: Elles ont choisi de s'exprimées (1) devant le groupe pour faire taire les rumeurs voulant (2) qu'elles partent (3) toutes les deux pour des postes dans un autre ministère. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. s'exprimées 2. voulant 3. partent 4. aucune correction CORRECT ANSWER: s'exprimées",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q33",
+    "questionId": "EE_1_Q33",
+    "questionType": "Error-identification",
+    "grammarType": "Conjugaison / Infinitif après préposition",
+    "context": "Elles ont choisi de s'exprimées (1) devant le groupe pour faire taire les rumeurs voulant (2) qu'elles partent (3) toutes les deux pour des postes dans un autre ministère.",
+    "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+    "choices": [
+      {
+        "id": 1,
+        "text": "s'exprimées"
+      },
+      {
+        "id": 2,
+        "text": "voulant"
+      },
+      {
+        "id": 3,
+        "text": "partent"
+      },
+      {
+        "id": 4,
+        "text": "aucune correction"
+      }
+    ],
+    "answerKey": {
+      "correctChoiceId": 1,
+      "correctChoiceText": "s'exprimées",
+      "explanation": "Après une préposition (à, de, pour, etc.), le verbe est généralement à l'infinitif : « de s'exprimer »."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q34",
+  "content_to_vectorize": "CONTEXT: On lui a demandé de sauvegarder (1) les données (2) dans une banque compatible à celle (3) de la direction des achats. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. sauvegarder 2. données 3. à celle 4. aucune correction CORRECT ANSWER: aucune correction",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q34",
+    "questionId": "EE_1_Q34",
+    "questionType": "Error-identification",
+    "grammarType": "Syntaxe / Grammaire générale",
+    "context": "On lui a demandé de sauvegarder (1) les données (2) dans une banque compatible à celle (3) de la direction des achats.",
+    "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+    "choices": [
+      {
+        "id": 1,
+        "text": "sauvegarder"
+      },
+      {
+        "id": 2,
+        "text": "données"
+      },
+      {
+        "id": 3,
+        "text": "à celle"
+      },
+      {
+        "id": 4,
+        "text": "aucune correction"
+      }
+    ],
+    "answerKey": {
+      "correctChoiceId": 4,
+      "correctChoiceText": "aucune correction",
+      "explanation": "Il n’y a pas d’erreur dans cette phrase."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q35",
+  "content_to_vectorize": "CONTEXT: Il n'y a rien qu'on puisse (1) faire pour améliorer leurs (2) situation étant donné que nous sommes nous-mêmes (3) des intervenants dans ce projet. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. puisse 2. leurs 3. nous-mêmes 4. aucune correction CORRECT ANSWER: leurs",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q35",
+    "questionId": "EE_1_Q35",
+    "questionType": "Error-identification",
+    "grammarType": "Grammaire / Accord de l'adjectif possessif",
+    "context": "Il n'y a rien qu'on puisse (1) faire pour améliorer leurs (2) situation étant donné que nous sommes nous-mêmes (3) des intervenants dans ce projet.",
+    "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+    "choices": [
+      {
+        "id": 1,
+        "text": "puisse"
+      },
+      {
+        "id": 2,
+        "text": "leurs"
+      },
+      {
+        "id": 3,
+        "text": "nous-mêmes"
+      },
+      {
+        "id": 4,
+        "text": "aucune correction"
+      }
+    ],
+    "answerKey": {
+      "correctChoiceId": 2,
+      "correctChoiceText": "leurs",
+      "explanation": "L’adjectif possessif « leur » s'accorde avec « situation » qui est au singulier. Il doit donc s'écrire sans « s » : « leur situation »."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q36",
+  "content_to_vectorize": "CONTEXT: La pénurie de main-d'œuvre (1) dans cette région a obligée (2) les travailleurs à faire beaucoup d'heures supplémentaires au cours (3) de la dernière année. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. main-d'œuvre 2. a obligée 3. au cours 4. aucune correction CORRECT ANSWER: a obligée",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q36",
+    "questionId": "EE_1_Q36",
+    "questionType": "Error-identification",
+    "grammarType": "Conjugaison / Accord du participe passé",
+    "context": "La pénurie de main-d'œuvre (1) dans cette région a obligée (2) les travailleurs à faire beaucoup d'heures supplémentaires au cours (3) de la dernière année.",
+    "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+    "choices": [
+      {
+        "id": 1,
+        "text": "main-d'œuvre"
+      },
+      {
+        "id": 2,
+        "text": "a obligée"
+      },
+      {
+        "id": 3,
+        "text": "au cours"
+      },
+      {
+        "id": 4,
+        "text": "aucune correction"
+      }
+    ],
+    "answerKey": {
+      "correctChoiceId": 2,
+      "correctChoiceText": "a obligée",
+      "explanation": "Le participe passé employé avec l'auxiliaire « avoir » s'accorde avec le c.o.d. si ce dernier est placé avant le verbe. Dans ce cas-ci, le c.o.d. « les travailleurs » est placé après le verbe, donc il n'y a pas d'accord : « a obligé »."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q37",
+  "content_to_vectorize": "CONTEXT: Mon patron m'a dit qu'il fallait (1) embaucher une firme informatique pour finir la programmation de l'outil en ligne (2). Personnellement, je ne suis pas d'accord avec cette décision qui me semble un peu précipité (3). QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. faillait 2. de l'outil en ligne 3. précipité 4. aucune correction CORRECT ANSWER: précipité",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q37",
+    "questionId": "EE_1_Q37",
+    "questionType": "Error-identification",
+    "grammarType": "Grammaire / Accord de l'adjectif",
+    "context": "Mon patron m'a dit qu'il fallait (1) embaucher une firme informatique pour finir la programmation de l'outil en ligne (2). Personnellement, je ne suis pas d'accord avec cette décision qui me semble un peu précipité (3).",
+    "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+    "choices": [
+      {
+        "id": 1,
+        "text": "faillait"
+      },
+      {
+        "id": 2,
+        "text": "de l'outil en ligne"
+      },
+      {
+        "id": 3,
+        "text": "précipité"
+      },
+      {
+        "id": 4,
+        "text": "aucune correction"
+      }
+    ],
+    "answerKey": {
+      "correctChoiceId": 3,
+      "correctChoiceText": "précipité",
+      "explanation": "Avec le verbe « sembler », l'adjectif qualificatif qui suit s'accorde avec le sujet, « décision » dans ce cas-ci : « précipitée »."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q38",
+  "content_to_vectorize": "CONTEXT: Veuillez prendre note que la documentation que vous avez demandée (1) n'est plus disponible en format papier. Par contre (2), vous pouvez depuis (3) vous la procurer en ligne, en format électronique, sur le site Web des Publications du gouvernement du Canada. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. avez demandée 2. Par contre 3. depuis 4. aucune correction CORRECT ANSWER: depuis",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q38",
+    "questionId": "EE_1_Q38",
+    "questionType": "Error-identification",
+    "grammarType": "Vocabulaire / Indicateurs de temps",
+    "context": "Veuillez prendre note que la documentation que vous avez demandée (1) n'est plus disponible en format papier. Par contre (2), vous pouvez depuis (3) vous la procurer en ligne, en format électronique, sur le site Web des Publications du gouvernement du Canada.",
+    "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+    "choices": [
+      {
+        "id": 1,
+        "text": "avez demandée"
+      },
+      {
+        "id": 2,
+        "text": "Par contre"
+      },
+      {
+        "id": 3,
+        "text": "depuis"
+      },
+      {
+        "id": 4,
+        "text": "aucune correction"
+      }
+    ],
+    "answerKey": {
+      "correctChoiceId": 3,
+      "correctChoiceText": "depuis",
+      "explanation": "L’usage de l’indicateur de temps « depuis » (since/for) n’est pas approprié. On pourrait utiliser « désormais » (from now on) ou « maintenant » (now)."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q39",
+  "content_to_vectorize": "CONTEXT: Vu les circonstances exceptionnels (1), l'agence accordera une semaine de congé de plus à tout le personnel. Vous bénéficierez (2) d'une période d'une année financière pour vous prévaloir de cette semaine de congé. Veillez (3) à respecter cette durée. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. exceptionnels 2. bénéficierez 3. Veillez 4. aucune correction CORRECT ANSWER: exceptionnels",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q39",
+    "questionId": "EE_1_Q39",
+    "questionType": "Error-identification",
+    "grammarType": "Grammaire / Accord de l'adjectif",
+    "context": "Vu les circonstances exceptionnels (1), l'agence accordera une semaine de congé de plus à tout le personnel. Vous bénéficierez (2) d'une période d'une année financière pour vous prévaloir de cette semaine de congé. Veillez (3) à respecter cette durée.",
+    "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+    "choices": [
+      {
+        "id": 1,
+        "text": "exceptionnels"
+      },
+      {
+        "id": 2,
+        "text": "bénéficierez"
+      },
+      {
+        "id": 3,
+        "text": "Veillez"
+      },
+      {
+        "id": 4,
+        "text": "aucune correction"
+      }
+    ],
+    "answerKey": {
+      "correctChoiceId": 1,
+      "correctChoiceText": "exceptionnels",
+      "explanation": "L'adjectif qualificatif « exceptionnel » s'accorde avec « circonstances » féminin pluriel : « exceptionnelles »."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q40",
+  "content_to_vectorize": "CONTEXT: Je viens d'apprendre que c'est Michel qui sera chargé (1) de mettre sur pied (2) le nouveau programme de mentorat. C'est un bon choix, car il est titulaire d'un degré (3) en andragogie. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. sera chargé 2. sur pied 3. degré 4. aucune correction CORRECT ANSWER: degré",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q40",
+    "questionId": "EE_1_Q40",
+    "questionType": "Error-identification",
+    "grammarType": "Vocabulaire / Anglicismes",
+    "context": "Je viens d'apprendre que c'est Michel qui sera chargé (1) de mettre sur pied (2) le nouveau programme de mentorat. C'est un bon choix, car il est titulaire d'un degré (3) en andragogie.",
+    "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+    "choices": [
+      {
+        "id": 1,
+        "text": "sera chargé"
+      },
+      {
+        "id": 2,
+        "text": "sur pied"
+      },
+      {
+        "id": 3,
+        "text": "degré"
+      },
+      {
+        "id": 4,
+        "text": "aucune correction"
+      }
+    ],
+    "answerKey": {
+      "correctChoiceId": 3,
+      "correctChoiceText": "degré",
+      "explanation": "Le mot « degré » est un calque de l’anglais. Le mot à employer est « diplôme »."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q41",
+  "content_to_vectorize": "CONTEXT: En ce qui concerne le nouveau projet d'intégration des systèmes informatiques, d'après (1) les plus récentes statistiques, nous ne pouvons pas s'attendre (2) à ce que ce programme soit une réussite à 100 % (3). QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. d'après 2. s'attendre 3. à 100 % 4. aucune correction CORRECT ANSWER: s'attendre",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q41",
+    "questionId": "EE_1_Q41",
+    "questionType": "Error-identification",
+    "grammarType": "Syntaxe / Accord du pronom réfléchi",
+    "context": "En ce qui concerne le nouveau projet d'intégration des systèmes informatiques, d'après (1) les plus récentes statistiques, nous ne pouvons pas s'attendre (2) à ce que ce programme soit une réussite à 100 % (3).",
+    "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+    "choices": [
+      {
+        "id": 1,
+        "text": "d'après"
+      },
+      {
+        "id": 2,
+        "text": "s'attendre"
+      },
+      {
+        "id": 3,
+        "text": "à 100 %"
+      },
+      {
+        "id": 4,
+        "text": "aucune correction"
+      }
+    ],
+    "answerKey": {
+      "correctChoiceId": 2,
+      "correctChoiceText": "s'attendre",
+      "explanation": "Le pronom personnel réfléchi à utiliser est « nous » car le verbe « pouvoir » et le verbe « s'attendre » doivent référer à la même personne : « nous ne pouvons pas nous attendre à ce... »"
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q42",
+  "content_to_vectorize": "CONTEXT: Nous aimerions savoir si M. Bouchard a l’intention d’accepté (1) le poste de vérificateur principal à Toronto à la suite du concours qui a eu lieu (2) dans cette région le mois dernier. La date d'échéance pour donner sa réponse est fixée (3) au 20 juin. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. d'accepté 2. a eu lieu 3. fixée 4. aucune correction CORRECT ANSWER: d'accepté",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q42",
+    "questionId": "EE_1_Q42",
+    "questionType": "Error-identification",
+    "grammarType": "Conjugaison / Infinitif après préposition",
+    "context": "Nous aimerions savoir si M. Bouchard a l’intention d’accepté (1) le poste de vérificateur principal à Toronto à la suite du concours qui a eu lieu (2) dans cette région le mois dernier. La date d'échéance pour donner sa réponse est fixée (3) au 20 juin.",
+    "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+    "choices": [
+      {
+        "id": 1,
+        "text": "d'accepté"
+      },
+      {
+        "id": 2,
+        "text": "a eu lieu"
+      },
+      {
+        "id": 3,
+        "text": "fixée"
+      },
+      {
+        "id": 4,
+        "text": "aucune correction"
+      }
+    ],
+    "answerKey": {
+      "correctChoiceId": 1,
+      "correctChoiceText": "d'accepté",
+      "explanation": "Le verbe « accepter » doit être à l'infinitif puisqu'il est précédé de la préposition « de » : « d'accepter »."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q43",
+  "content_to_vectorize": "CONTEXT: Il est prévu (1) que les conséquences des modifications apportées (2) à la loi se feront sentir seulement l’an prochain, après que les fabricants auront eus (3) le temps de s’adapter à ces changements. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. prévu 2. apportées 3. auront eus 4. aucune correction CORRECT ANSWER: auront eus",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q43",
+    "questionId": "EE_1_Q43",
+    "questionType": "Error-identification",
+    "grammarType": "Conjugaison / Accord du participe passé",
+    "context": "Il est prévu (1) que les conséquences des modifications apportées (2) à la loi se feront sentir seulement l’an prochain, après que les fabricants auront eus (3) le temps de s’adapter à ces changements.",
+    "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+    "choices": [
+      {
+        "id": 1,
+        "text": "prévu"
+      },
+      {
+        "id": 2,
+        "text": "apportées"
+      },
+      {
+        "id": 3,
+        "text": "auront eus"
+      },
+      {
+        "id": 4,
+        "text": "aucune correction"
+      }
+    ],
+    "answerKey": {
+      "correctChoiceId": 3,
+      "correctChoiceText": "auront eus",
+      "explanation": "Le participe passé employé avec l'auxiliaire « avoir » s'accorde avec le c.o.d. si ce dernier est placé avant le verbe. Ici, le c.o.d. est placé après, donc le participe passé « eu » est invariable : « auront eu »."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q44",
+  "content_to_vectorize": "CONTEXT: Le représentant ministériel en Europe doit prémouvoir (1) et administrer conjointement (2) avec le représentant de la CE (Communauté européenne) et le directeur des Affaires ministérielles et internationales, un programme d’assistance technique pour les pays émergents (3). QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. prémouvoir 2. conjointement 3. émergents 4. aucune correction CORRECT ANSWER: prémouvoir",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q44",
+    "questionId": "EE_1_Q44",
+    "questionType": "Error-identification",
+    "grammarType": "Vocabulaire / Orthographe",
+    "context": "Le représentant ministériel en Europe doit prémouvoir (1) et administrer conjointement (2) avec le représentant de la CE (Communauté européenne) et le directeur des Affaires ministérielles et internationales, un programme d’assistance technique pour les pays émergents (3).",
+    "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+    "choices": [
+      {
+        "id": 1,
+        "text": "prémouvoir"
+      },
+      {
+        "id": 2,
+        "text": "conjointement"
+      },
+      {
+        "id": 3,
+        "text": "émergents"
+      },
+      {
+        "id": 4,
+        "text": "aucune correction"
+      }
+    ],
+    "answerKey": {
+      "correctChoiceId": 1,
+      "correctChoiceText": "prémouvoir",
+      "explanation": "Le mot « prémouvoir » n’existe pas. Le verbe à utiliser est « promouvoir » (to promote)."
+    }
+  }
+},
+{
+  "doc_id": "EE_1_Q45",
+  "content_to_vectorize": "CONTEXT: Le calendrier du plan de dotation (1) de la Direction générale vient d’être mis à jour (2) sur l’intranet. Si vous avez des questions à cette sujet (3), veuillez communiquer avec Mme Pigeon au Service des ressources humaines. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. plan de dotation 2. mis à jour 3. à cette sujet 4. aucune correction CORRECT ANSWER: à cette sujet",
+  "metadata": {
+    "examId": "EE_1",
+    "setId": "EE_1_Q45",
+    "questionId": "EE_1_Q45",
+    "questionType": "Error-identification",
+    "grammarType": "Grammaire / Accord du déterminant",
+    "context": "Le calendrier du plan de dotation (1) de la Direction générale vient d’être mis à jour (2) sur l’intranet. Si vous avez des questions à cette sujet (3), veuillez communiquer avec Mme Pigeon au Service des ressources humaines.",
+    "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+    "choices": [
+      {
+        "id": 1,
+        "text": "plan de dotation"
+      },
+      {
+        "id": 2,
+        "text": "mis à jour"
+      },
+      {
+        "id": 3,
+        "text": "à cette sujet"
+      },
+      {
+        "id": 4,
+        "text": "aucune correction"
+      }
+    ],
+    "answerKey": {
+      "correctChoiceId": 3,
+      "correctChoiceText": "à cette sujet",
+      "explanation": "« Sujet » est un nom masculin singulier. L’adjectif démonstratif à utiliser est « ce » : « ... à ce sujet... »"
+    }
+  }
 }
 ]
