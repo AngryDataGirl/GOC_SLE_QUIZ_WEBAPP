@@ -9324,7 +9324,7 @@
           "setId": "EE_6_Q47",
           "context": {
             "type": "sentence",
-            "text": "La tâche de représentation exige des gestionnaires qu'ils agissent d'une part comme porte-parole auprès d'autres organisations et _________________, qu'ils assurent dans leur propre organisation la promotion des politiques et des programmes en vigueur."
+            "text": "Une fois les politiques et les programmes approuvés, il faut en faire valoir le bienfondé. La tâche de représentation exige des gestionnaires qu'ils agissent d'une part comme porte-parole auprès d'autres organisations et _________________, qu'ils assurent dans leur propre organisation la promotion des politiques et des programmes en vigueur."
           },
           "questions": [
             {
@@ -9349,7 +9349,7 @@
           "setId": "EE_6_Q48",
           "context": {
             "type": "sentence",
-            "text": "Si vous êtes un homme ou une femme d’affaires, renseignez-vous pour savoir si vous devez obtenir un permis de travail et si c’est le cas, _________________."
+            "text": "Même si vous n’êtes pas Canadiens, il est possible que vous n’ayez pas besoin d’obtenir un permis de travail pour travailler de façon temporaire au Canada. Si vous êtes un homme ou une femme d’affaires, renseignez-vous pour savoir si vous devez obtenir un permis de travail et si c’est le cas, _________________."
           },
           "questions": [
             {
@@ -9374,7 +9374,7 @@
           "setId": "EE_6_Q49",
           "context": {
             "type": "sentence",
-            "text": "L'utilisation de données révisées, disponibles au moment _________________ les décisions de politique monétaire ont été prises, plutôt que de données en temps réel ne modifie pas le raisonnement..."
+            "text": "L'utilisation de données révisées, disponibles au moment _________________ les décisions de politique monétaire ont été prises, plutôt que de données en temps réel ne modifie pas le raisonnement sur lequel ont reposé les délibérations."
           },
           "questions": [
             {
@@ -9424,7 +9424,7 @@
           "setId": "EE_6_Q51",
           "context": {
             "type": "sentence",
-            "text": "La première étape pour prévenir et __________________ la violence en milieu de travail est de comprendre les différents types d’événements qui peuvent être jugés violents."
+            "text": "La première étape pour prévenir et __________________ la violence en milieu de travail est de comprendre les différents types d’événements qui peuvent être jugés violents. Ce n’est pas aussi facile qu’on pourrait le penser. "
           },
           "questions": [
             {
@@ -9474,7 +9474,7 @@
           "setId": "EE_6_Q53",
           "context": {
             "type": "sentence",
-            "text": "Au cours des prochaines semaines, nous __________________ l'efficacité de nos programmes de formation aussi bien à l’interne qu’à l’externe."
+            "text": "À la lumière d’un processus exhaustif de consultation et de recherche, nous en sommes actuellement à transformer nos activités et nos façons de faire dans le but de mieux répondre aux besoins d’apprentissage actuels et futurs de la fonction publique.  Au cours des prochaines semaines, nous __________________ l'efficacité de nos programmes de formation aussi bien à l’interne qu’à l’externe."
           },
           "questions": [
             {
@@ -9574,7 +9574,7 @@
           "setId": "EE_6_Q57",
           "context": {
             "type": "text",
-            "text": "Notre gouvernement accueille avec plaisir les recommandations que présentent (1) le Groupe de travail sur la transparence dans les industries extractives. Nous allons étudier le cadre de référence (2) proposé..."
+            "text": "Notre gouvernement accueille avec plaisir les recommandations que présentent (1) le Groupe de travail sur la transparence dans les industries extractives. Nous allons étudier le cadre de référence (2) proposé et poursuivre nos consultations avec l’industrie, les gouvernements provinciaux et territoriaux, les groupes autochtones (3) et les organisations de la société civile."
           },
           "questions": [
             {
@@ -9599,7 +9599,7 @@
           "setId": "EE_6_Q58",
           "context": {
             "type": "text",
-            "text": "Lorsqu'une personne ayant la grippe tousse ou éternue, le virus peut être projeté dans l'air et inhalé de quelqu'un (1) d'autre. Le virus peut aussi atterrir sur des surfaces (2) comme les poignées de portes, les boutons d’ascenseur ou les téléphones. Vous pouvez attraper la grippe si vous touchez un objet contaminé et portez ensuite (3) la main aux yeux, au nez ou à la bouche"
+            "text": "Lorsqu'une personne ayant la grippe tousse ou éternue, le virus peut être projeté dans l'air et inhalé de quelqu'un (1) d'autre. Le virus peut aussi atterrir sur des surfaces (2) comme les poignées de portes, les boutons d’ascenseur ou les téléphones. Vous pouvez attraper la grippe si vous touchez un objet contaminé et portez ensuite (3) la main aux yeux, au nez ou à la bouche."
           },
           "questions": [
             {
@@ -9649,7 +9649,7 @@
           "setId": "EE_6_Q60",
           "context": {
             "type": "text",
-            "text": "Pour présenter une demande en vertu de (1) la Loi sur la protection des renseignements personnels, vous devez être citoyen canadien ou présent au Canada. Si vous n’êtes pas citoyen canadien ni présent au Canada et vous voulez présenter (2) une demande en vertu de la Loi à notre ministère, vous devrez le faire (3) par l’entremise d’un représentant..."
+            "text": "Pour présenter une demande en vertu de (1) la Loi sur la protection des renseignements personnels, vous devez être citoyen canadien ou présent au Canada. Si vous n’êtes pas citoyen canadien ni présent au Canada et vous voulez présenter (2) une demande en vertu de la Loi à notre ministère, vous devrez le faire (3) par l’entremise d’un représentant qui est citoyen canadien, résident permanent ou qui a une adresse au Canada."
           },
           "questions": [
             {
