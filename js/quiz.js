@@ -7,6 +7,7 @@ let state = {
     currentIndex: 0,
     score: 0,
     selectedAnswerId: null,
+    results: [] // Track metadata for each answer
 };
 
 // --- NEW TIMER VARIABLES ---
@@ -174,24 +175,38 @@ export function submitAnswer() {
     const isCorrect = state.selectedAnswerId === correctChoiceId;
     if (isCorrect) state.score++;
     
+    // Store metadata for the breakdown
+    state.results.push({
+        isCorrect,
+        questionType: question.questionType || 'General',
+        grammarType: question.grammarType || 'General'
+    });
+
     ui.showFeedback(isCorrect, question);
     ui.updateChoiceButtons(state.selectedAnswerId, correctChoiceId);
 }
 
 export function nextQuestion() {
     state.currentIndex++;
+    
+    // Check if there are still questions left
     if (state.currentIndex < state.questions.length) {
         state.selectedAnswerId = null;
         ui.displayQuestion(state.questions[state.currentIndex], state.currentIndex, state.questions.length);
     } else {
-        // --- ADDED ---
-        const finalTime = stopTimer(); // 1. Stop timer and get the time
-        // --- END ADDED ---
+        // We have reached the end of the quiz
+        const finalTime = stopTimer();
         const totalQuestions = state.questions.length;
     
-        // --- MODIFIED SECTION ---
-        ui.showScore(state.score, totalQuestions, finalTime); // 2. Pass time to showScore
-        saveScore(elements.quizTitle.textContent.trim(), state.score, state.score, totalQuestions, finalTime); // 3. Pass time to saveScore
-        // --- END MODIFIED SECTION ---
+        // Pass state.results (the breakdown) to both UI and ScoreManager
+        ui.showScore(state.score, totalQuestions, finalTime, state.results);
+        saveScore(
+            elements.quizTitle.textContent.trim(), 
+            state.score, 
+            state.score, 
+            totalQuestions, 
+            finalTime, 
+            state.results // Pass the breakdown here
+        );
     }
 }

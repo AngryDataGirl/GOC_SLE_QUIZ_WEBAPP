@@ -11,7 +11,8 @@ export function saveScore(quizName, score, correct, total, finalTime) {
         correct,
         total,
         date: new Date().toISOString(),
-        duration: finalTime || null // 2. ADD DURATION TO THE OBJECT
+        duration: finalTime || null, // 2. ADD DURATION TO THE OBJECT
+        breakdown: results // <--- This saves the grammar/question types permanently
     };
     const scores = getScores();
     scores.unshift(newScore);

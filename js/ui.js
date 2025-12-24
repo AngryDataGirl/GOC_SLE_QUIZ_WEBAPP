@@ -111,34 +111,60 @@ export function updateChoiceButtons(selectedId, correctId) {
 //     elements.scoreSummary.textContent = `You answered ${score} out of ${total} questions correctly.`;
 //     showView('scoreView');
 // }
-
-export function showScore(score, total, finalTime) {
+export function showScore(score, total, finalTime, results = []) {
     const percentage = total === 0 ? 0 : Math.round((score / total) * 100);
     
-    // --- NEW LOGIC ---
-    // 1. Calculate the estimated level
+    // 1. Level & Basic Stats
     const sleLevel = getSleLevel(score, total);
-    
-    // 2. Display the score and summary
     elements.finalScore.textContent = `${percentage}%`;
-    elements.scoreSummary.textContent = `You answered ${score} out of ${total} questions correctly.`;
     
-    // 3. Display the new level
+    // Use innerHTML here so we can append the breakdown below it later
+    elements.scoreSummary.innerHTML = `<div>You answered ${score} out of ${total} questions correctly.</div>`;
+    
     if (elements.sleLevelEstimate) {
          elements.sleLevelEstimate.textContent = `Estimated Level: ${sleLevel}`;
     }
 
-    // 2. ADD LOGIC TO DISPLAY THE TIME
+    // 2. Time Display
     if (elements.finalTime && finalTime) {
         elements.finalTime.textContent = `Total Time: ${finalTime}`;
     } else if (elements.finalTime) {
-        elements.finalTime.textContent = ''; // Clear it if no time is passed
+        elements.finalTime.textContent = ''; 
     }
-    // Reset progress bar for the next quiz
+
+    // 3. Progress Bar Reset
     if (elements.progressBarInner) {
         elements.progressBarInner.style.width = '0%';
     }
 
+    // 4. Grammar Breakdown Logic
+    if (results && results.length > 0) {
+        const breakdown = results.reduce((acc, curr) => {
+            const key = curr.grammarType || 'Other';
+            if (!acc[key]) acc[key] = { correct: 0, total: 0 };
+            acc[key].total++;
+            if (curr.isCorrect) acc[key].correct++;
+            return acc;
+        }, {});
+
+        let breakdownHTML = `<div class="mt-6 border-t border-gray-700 pt-4 text-left">
+                                <h4 class="font-bold mb-2 text-blue-400">Category Breakdown:</h4>`;
+        
+        for (const [type, stats] of Object.entries(breakdown)) {
+            const isPerfect = stats.correct === stats.total;
+            const colorClass = isPerfect ? 'text-green-400' : 'text-amber-400';
+            
+            breakdownHTML += `
+                <div class="flex justify-between text-sm mb-1">
+                    <span class="text-gray-300">${type}</span>
+                    <span class="font-mono ${colorClass}">${stats.correct}/${stats.total}</span>
+                </div>`;
+        }
+        breakdownHTML += `</div>`;
+        
+        elements.scoreSummary.innerHTML += breakdownHTML;
+    }
+    
     showView('scoreView');
 }
 
