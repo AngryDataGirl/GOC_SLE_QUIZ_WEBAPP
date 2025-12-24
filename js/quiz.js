@@ -144,7 +144,8 @@ export async function startQuiz(fileName, quizTitleText, quizLength) {
         state.score = 0;
         state.currentIndex = 0;
         state.selectedAnswerId = null;
-
+        state.results = []; // <--- ADD THIS LINE TO CLEAR PREVIOUS BREAKDOWN
+        
         const shuffled = shuffle([...questionsFromFile]);
         
         state.questions = shuffled.slice(0, Math.min(quizLength, shuffled.length));

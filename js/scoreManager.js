@@ -61,41 +61,62 @@ export function clearScores() {
 export function calculateAndDisplayDashboard() {
     const scores = getScores();
     const totalQuizzes = scores.length;
-    const totalCorrect = scores.reduce((sum, s) => sum + s.correct, 0);
-    const totalQuestions = scores.reduce((sum, s) => sum + s.total, 0);
-    const overallAccuracy = totalQuestions === 0 ? 0 : Math.round((totalCorrect / totalQuestions) * 100);
+    let totalCorrect = 0;
+    let totalQuestions = 0;
+    
+    // This will store aggregated stats like: { "Subjonctif": { correct: 5, total: 10 }, ... }
+    const grammarMastery = {};
 
-    elements.stats.totalQuizzes.textContent = totalQuizzes;
-    elements.stats.overallAccuracy.textContent = `${overallAccuracy}%`;
-    elements.stats.totalQuestions.textContent = totalQuestions;
-
-    const topicStats = {};
     scores.forEach(score => {
-        if (!topicStats[score.name]) {
-            topicStats[score.name] = { correct: 0, total: 0, count: 0 };
+        totalCorrect += score.correct;
+        totalQuestions += score.total;
+
+        // Process the breakdown data saved in each score object
+        if (score.breakdown) {
+            score.breakdown.forEach(item => {
+                const type = item.grammarType || 'General';
+                if (!grammarMastery[type]) {
+                    grammarMastery[type] = { correct: 0, total: 0 };
+                }
+                grammarMastery[type].total++;
+                if (item.isCorrect) grammarMastery[type].correct++;
+            });
         }
-        topicStats[score.name].correct += score.correct;
-        topicStats[score.name].total += score.total;
-        topicStats[score.name].count += 1;
     });
 
+    // Update Top Stats
+    elements.stats.totalQuizzes.textContent = totalQuizzes;
+    elements.stats.overallAccuracy.textContent = totalQuestions > 0 
+        ? `${Math.round((totalCorrect / totalQuestions) * 100)}%` 
+        : '0%';
+    elements.stats.totalQuestions.textContent = totalQuestions;
+
+    // Display Grammar Mastery Breakdown
     elements.stats.byTopic.innerHTML = '';
-    if (Object.keys(topicStats).length === 0) {
-        elements.stats.byTopic.innerHTML = '<p class="text-gray-500 text-center">Take some quizzes to see your topic performance.</p>';
+    
+    if (Object.keys(grammarMastery).length === 0) {
+        elements.stats.byTopic.innerHTML = '<p class="text-gray-500 text-center italic">No category data available yet.</p>';
     } else {
-        for (const topicName in topicStats) {
-            const stats = topicStats[topicName];
+        // Sort by accuracy (lowest first) to show what needs work
+        const sortedTypes = Object.entries(grammarMastery).sort((a, b) => {
+            return (a[1].correct / a[1].total) - (b[1].correct / b[1].total);
+        });
+
+        sortedTypes.forEach(([type, stats]) => {
             const accuracy = Math.round((stats.correct / stats.total) * 100);
             const topicElement = document.createElement('div');
-            topicElement.className = 'flex justify-between items-center bg-gray-50 p-3 rounded-lg border';
+            topicElement.className = 'flex justify-between items-center bg-gray-900 p-3 rounded-lg border border-gray-800 mb-2';
+            
+            const colorClass = accuracy > 80 ? 'text-green-400' : accuracy > 50 ? 'text-amber-400' : 'text-red-400';
+
             topicElement.innerHTML = `
                 <div>
-                    <span class="font-semibold text-gray-800">${topicName}</span>
-                    <span class="text-sm text-gray-500 ml-2">(${stats.count} attempts)</span>
+                    <span class="font-semibold text-gray-200">${type}</span>
+                    <span class="text-xs text-gray-500 ml-2">(${stats.total} questions)</span>
                 </div>
-                <span class="font-bold text-lg ${accuracy >= 70 ? 'text-green-600' : 'text-amber-600'}">${accuracy}%</span>
+                <span class="font-bold text-lg ${colorClass}">${accuracy}%</span>
             `;
             elements.stats.byTopic.appendChild(topicElement);
-        }
+        });
     }
 }
