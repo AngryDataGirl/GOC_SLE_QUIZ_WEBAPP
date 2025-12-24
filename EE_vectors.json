@@ -11509,5 +11509,1605 @@
         "explanation": "Il ne faut pas confondre les verbes « acquitter » (to pay) et « s’acquitter » (to fulfill). La forme correcte est « en s’acquittant de son mandat »."
       }
     }
+  },
+  {
+    "doc_id": "EE_8_Q1",
+    "content_to_vectorize": "CONTEXT: On a congédié le secrétaire du ministre parce qu’{{BLANK}} un bon travail. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. il ne fera pas. 2. il ne faisait pas. 3. il faisait. 4. il ne fasse pas. CORRECT ANSWER: il ne faisait pas.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Set_1-10",
+      "questionId": "EE_8_Q1",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "L'imparfait de l'indicatif",
+      "context": "On a congédié le secrétaire du ministre parce qu’{{BLANK}} un bon travail.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "il ne fera pas" },
+        { "id": 2, "text": "il ne faisait pas" },
+        { "id": 3, "text": "il faisait" },
+        { "id": 4, "text": "il ne fasse pas" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 2,
+        "correctChoiceText": "il ne faisait pas",
+        "explanation": "Le contexte de la phrase nécessite un verbe conjugué au passé, l’imparfait dans ce cas-ci. « Parce que » n'est généralement pas suivi du subjonctif."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q2",
+    "content_to_vectorize": "CONTEXT: Tous les candidats ayant fourni une demande incomplète ou reçue {{BLANK}} le 8 février verront leur candidature placée sur une liste d'attente. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. avant. 2. après. 3. sur. 4. après que. CORRECT ANSWER: après.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Set_1-10",
+      "questionId": "EE_8_Q2",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Prépositions de temps",
+      "context": "Tous les candidats ayant fourni une demande incomplète ou reçue {{BLANK}} le 8 février verront leur candidature placée sur une liste d'attente.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "avant" },
+        { "id": 2, "text": "après" },
+        { "id": 3, "text": "sur" },
+        { "id": 4, "text": "après que" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 2,
+        "correctChoiceText": "après",
+        "explanation": "« après » (after) est la réponse qui complète le plus logiquement le texte, indiquant les demandes reçues après la date limite."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q3",
+    "content_to_vectorize": "CONTEXT: J'aimerais {{BLANK}} certaines règles fondamentales concernant l’utilisation d’Internet durant les heures de travail. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. vous rappeler. 2. rappeler à vous. 3. vous rappelez. 4. rappeler vous. CORRECT ANSWER: vous rappeler.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Set_1-10",
+      "questionId": "EE_8_Q3",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Place du pronom personnel",
+      "context": "J'aimerais {{BLANK}} certaines règles fondamentales concernant l’utilisation d’Internet durant les heures de travail.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "vous rappeler" },
+        { "id": 2, "text": "rappeler à vous" },
+        { "id": 3, "text": "vous rappelez" },
+        { "id": 4, "text": "rappeler vous" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "vous rappeler",
+        "explanation": "Le pronom objet (« vous ») se place devant le verbe à l'infinitif. Le verbe qui suit « J’aimerais » doit être à l'infinitif (« rappeler »)."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q4",
+    "content_to_vectorize": "CONTEXT: {{BLANK}} de contribuer à l'exécution de notre mandat et à l'atteinte de nos objectifs en donnant le meilleur rendement possible. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. Tout le personnel doit. 2. Tout le personnel sont tenus. 3. Tous les personnels sont tenus. 4. Tout le personnel est tenu. CORRECT ANSWER: Tout le personnel est tenu.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Set_1-10",
+      "questionId": "EE_8_Q4",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Accord du nom collectif (personnel)",
+      "context": "{{BLANK}} de contribuer à l'exécution de notre mandat et à l'atteinte de nos objectifs en donnant le meilleur rendement possible.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "Tout le personnel doit" },
+        { "id": 2, "text": "Tout le personnel sont tenus" },
+        { "id": 3, "text": "Tous les personnels sont tenus" },
+        { "id": 4, "text": "Tout le personnel est tenu" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 4,
+        "correctChoiceText": "Tout le personnel est tenu",
+        "explanation": "L'expression « être tenu de » signifie 'to be required to'. Le nom « personnel » est toujours singulier en français, donc le verbe s'accorde au singulier (« est tenu »)."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q5",
+    "content_to_vectorize": "CONTEXT: En ce qui concerne les documents que tu m’avais demandés, tu les trouveras dans le deuxième {{BLANK}} de mon bureau. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. tireur. 2. tirroir. 3. trottoir. 4. tiroir. CORRECT ANSWER: tiroir.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Set_1-10",
+      "questionId": "EE_8_Q5",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Orthographe d'usage",
+      "context": "En ce qui concerne les documents que tu m’avais demandés, tu les trouveras dans le deuxième {{BLANK}} de mon bureau.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "tireur" },
+        { "id": 2, "text": "tirroir" },
+        { "id": 3, "text": "trottoir" },
+        { "id": 4, "text": "tiroir" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 4,
+        "correctChoiceText": "tiroir",
+        "explanation": "Le word correct pour 'drawer' est « tiroir ». Les autres mots ont des significations différentes ou sont mal orthographiés."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q6",
+    "content_to_vectorize": "CONTEXT: {{BLANK}} ont ratifié la nouvelle convention collective. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. Le département et les unions. 2. Le ministère et les syndicats. 3. Le département et les syndicats. 4. Le ministère et les unions. CORRECT ANSWER: Le ministère et les syndicats.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Set_1-10",
+      "questionId": "EE_8_Q6",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Anglicismes et faux amis",
+      "context": "{{BLANK}} ont ratifié la nouvelle convention collective.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "Le département et les unions" },
+        { "id": 2, "text": "Le ministère et les syndicats" },
+        { "id": 3, "text": "Le département et les syndicats" },
+        { "id": 4, "text": "Le ministère et les unions" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 2,
+        "correctChoiceText": "Le ministère et les syndicats",
+        "explanation": "« ministère » est la bonne traduction de 'department' et « syndicats » est la bonne traduction de 'unions'. « département » et « unions » sont des faux amis."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q7",
+    "content_to_vectorize": "CONTEXT: Veillez à ce que {{BLANK}} à temps. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. tous sont prêts. 2. tout est prêt. 3. toute soit prête. 4. tout soit prêt. CORRECT ANSWER: tout soit prêt.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Set_1-10",
+      "questionId": "EE_8_Q7",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Le subjonctif présent",
+      "context": "Veillez à ce que {{BLANK}} à temps.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "tous sont prêts" },
+        { "id": 2, "text": "tout est prêt" },
+        { "id": 3, "text": "toute soit prête" },
+        { "id": 4, "text": "tout soit prêt" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 4,
+        "correctChoiceText": "tout soit prêt",
+        "explanation": "L'expression « Veillez à ce que » nécessite l’emploi du subjonctif. Quand « tout » signifie 'everything', il est invariable (masculin singulier) et le verbe s'accorde en conséquence (« soit prêt »)."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q8",
+    "content_to_vectorize": "CONTEXT: Les dates {{BLANK}} doivent être respectées. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. limites. 2. limités. 3. déchéances. 4. limitées. CORRECT ANSWER: limites.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Set_1-10",
+      "questionId": "EE_8_Q8",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Accord de l'adjectif",
+      "context": "Les dates {{BLANK}} doivent être respectées.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "limites" },
+        { "id": 2, "text": "limités" },
+        { "id": 3, "text": "déchéances" },
+        { "id": 4, "text": "limitées" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "limites",
+        "explanation": "« dates limites » est la bonne traduction de 'deadlines'. L'adjectif s'accorde avec le nom 'dates' (féminin pluriel)."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q9",
+    "content_to_vectorize": "CONTEXT: Nous aimerions recevoir une réponse {{BLANK}}. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. par juin 30. 2. avant le 30 juin. 3. par 30 juin. 4. devant le 30 juin. CORRECT ANSWER: avant le 30 juin.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Set_1-10",
+      "questionId": "EE_8_Q9",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Syntaxe de la date",
+      "context": "Nous aimerions recevoir une réponse {{BLANK}}.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "par juin 30" },
+        { "id": 2, "text": "avant le 30 juin" },
+        { "id": 3, "text": "par 30 juin" },
+        { "id": 4, "text": "devant le 30 juin" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 2,
+        "correctChoiceText": "avant le 30 juin",
+        "explanation": "En français, la date est précédée de l’article « le » et les mois s’écrivent sans majuscule. « avant le 30 juin » (before June 30th) est correct."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q10",
+    "content_to_vectorize": "CONTEXT: J’aimerais {{BLANK}} de cette occasion pour vous remercier. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. bénéficier. 2. profiter. 3. prendre avantage. 4. avantager. CORRECT ANSWER: profiter.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Set_1-10",
+      "questionId": "EE_8_Q10",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Vocabulaire et locutions",
+      "context": "J’aimerais {{BLANK}} de cette occasion pour vous remercier.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "bénéficier" },
+        { "id": 2, "text": "profiter" },
+        { "id": 3, "text": "prendre avantage" },
+        { "id": 4, "text": "avantager" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 2,
+        "correctChoiceText": "profiter",
+        "explanation": "L'expression correcte est « profiter de » (to take advantage of). Les autres options sont des faux amis ou des calques de l'anglais."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q11",
+    "content_to_vectorize": "CONTEXT: Les qualifications essentiels (1) sont celles (2) qui sont nécessaires (3) pour accomplir le travail. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. essentiels. 2. celles. 3. nécessaires. 4. aucune correction. CORRECT ANSWER: essentiels.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Set_11-20",
+      "questionId": "EE_8_Q11",
+      "questionType": "Error-identification",
+      "refersTo": null,
+      "grammarType": "Accord de l'adjectif (féminin pluriel)",
+      "context": "Les qualifications essentiels (1) sont celles (2) qui sont nécessaires (3) pour accomplir le travail.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "essentiels" },
+        { "id": 2, "text": "celles" },
+        { "id": 3, "text": "nécessaires" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "essentiels",
+        "explanation": "L’adjectif « essentiel » doit s’accorder en genre et en nombre avec le nom « qualifications », qui est féminin pluriel. La forme correcte est « essentielles »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q12",
+    "content_to_vectorize": "CONTEXT: La réunion pour discuter des nouveaux (1) services de formation professionnel (2) aura lieu dans quelques (3) semaines. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. nouveaux. 2. professionnel. 3. quelques. 4. aucune correction. CORRECT ANSWER: professionnel.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Set_11-20",
+      "questionId": "EE_8_Q12",
+      "questionType": "Error-identification",
+      "refersTo": null,
+      "grammarType": "Accord de l'adjectif (féminin singulier)",
+      "context": "La réunion pour discuter des nouveaux (1) services de formation professionnel (2) aura lieu dans quelques (3) semaines.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "nouveaux" },
+        { "id": 2, "text": "professionnel" },
+        { "id": 3, "text": "quelques" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 2,
+        "correctChoiceText": "professionnel",
+        "explanation": "L’adjectif « professionnel » doit s’accorder en genre et en nombre avec le nom « formation », qui est féminin singulier. La forme correcte est « professionnelle »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q13",
+    "content_to_vectorize": "CONTEXT: La réunion de matin (1) portait sur l’établissement de normes (2) plus strictes en ce concerne l’attribution (3) des contrats de rénovation. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. de matin. 2. normes. 3. l’attribution. 4. aucune correction. CORRECT ANSWER: de matin.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Set_11-20",
+      "questionId": "EE_8_Q13",
+      "questionType": "Error-identification",
+      "refersTo": null,
+      "grammarType": "Emploi de l'article",
+      "context": "La réunion de matin (1) portait sur l’établissement de normes (2) plus strictes en ce concerne l’attribution (3) des contrats de rénovation.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "de matin" },
+        { "id": 2, "text": "normes" },
+        { "id": 3, "text": "l’attribution" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "de matin",
+        "explanation": "Il manque un article devant le nom « matin ». On peut dire « du matin » (de + le) ou « de ce matin »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q14",
+    "content_to_vectorize": "CONTEXT: As-tu appris le rumeur (1)? Il paraît que (2) Jean-Baptiste Métellus pourrait (3) être nommé président du comité des finances. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. le rumeur. 2. Il paraît que. 3. pourrait. 4. aucune correction. CORRECT ANSWER: le rumeur.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Set_11-20",
+      "questionId": "EE_8_Q14",
+      "questionType": "Error-identification",
+      "refersTo": null,
+      "grammarType": "Genre des noms",
+      "context": "As-tu appris le rumeur (1)? Il paraît que (2) Jean-Baptiste Métellus pourrait (3) être nommé président du comité des finances.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "le rumeur" },
+        { "id": 2, "text": "Il paraît que" },
+        { "id": 3, "text": "pourrait" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "le rumeur",
+        "explanation": "Le nom « rumeur » est féminin. Il faut donc utiliser l'article « la »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q15",
+    "content_to_vectorize": "CONTEXT: Aucune (1) incident de ce genre (2) n’a été rapporté (3) au cours de la dernière année. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ». CHOICES: 1. Aucune. 2. ce genre. 3. rapporté. 4. aucune correction. CORRECT ANSWER: Aucune.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Set_11-20",
+      "questionId": "EE_8_Q15",
+      "questionType": "Error-identification",
+      "refersTo": null,
+      "grammarType": "Accord de l'adjectif indéfini (aucun)",
+      "context": "Aucune (1) incident de ce genre (2) n’a été rapporté (3) au cours de la dernière année.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "Aucune" },
+        { "id": 2, "text": "ce genre" },
+        { "id": 3, "text": "rapporté" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "Aucune",
+        "explanation": "Le nom « incident » est masculin. L’adjectif indéfini « aucun » doit donc être aussi au masculin."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q16",
+    "content_to_vectorize": "CONTEXT: Malheureusement, étant donné la situation financière actuelle, nous {{BLANK}} devoir abandonner certains de nos projets. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. avons. 2. allons. 3. aurons. 4. voudrons. CORRECT ANSWER: allons.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Set_11-20",
+      "questionId": "EE_8_Q16",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Futur proche",
+      "context": "Malheureusement, étant donné la situation financière actuelle, nous {{BLANK}} devoir abandonner certains de nos projets.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "avons" },
+        { "id": 2, "text": "allons" },
+        { "id": 3, "text": "aurons" },
+        { "id": 4, "text": "voudrons" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 2,
+        "correctChoiceText": "allons",
+        "explanation": "« Allons devoir » est le futur proche du verbe « devoir » (we are going to have to) et correspond bien au sens recherché."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q17",
+    "content_to_vectorize": "CONTEXT: Monsieur Michel Constantin {{BLANK}} les responsabilités de spécialiste en la matière en ce qui concerne la formation à distance. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. continura d’assumer. 2. continuera d’assumé. 3. continuera d’assumer. 4. continuerat d’assumer. CORRECT ANSWER: continuera d’assumer.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Set_11-20",
+      "questionId": "EE_8_Q17",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Futur simple et Infinitif",
+      "context": "Monsieur Michel Constantin {{BLANK}} les responsabilités de spécialiste en la matière en ce qui concerne la formation à distance.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "continura d’assumer" },
+        { "id": 2, "text": "continuera d’assumé" },
+        { "id": 3, "text": "continuera d’assumer" },
+        { "id": 4, "text": "continuerat d’assumer" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 3,
+        "correctChoiceText": "continuera d’assumer",
+        "explanation": "Il ne faut pas oublier le 'e' pour les verbes en '-uer' au futur simple (« continuera »). Le verbe qui suit la préposition 'de' doit être à l'infinitif (« assumer »)."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q18",
+    "content_to_vectorize": "CONTEXT: L’agence {{BLANK}} terminer la révision de son site Web. Celui-ci présentera dorénavant une interface adaptée aux appareils mobiles. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. avait juste. 2. a juste. 3. vient tout juste de. 4. vient juste de tout. CORRECT ANSWER: vient tout juste de.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Set_11-20",
+      "questionId": "EE_8_Q18",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Passé récent (venir de)",
+      "context": "L’agence {{BLANK}} terminer la révision de son site Web. Celui-ci présentera dorénavant une interface adaptée aux appareils mobiles.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "avait juste" },
+        { "id": 2, "text": "a juste" },
+        { "id": 3, "text": "vient tout juste de" },
+        { "id": 4, "text": "vient juste de tout" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 3,
+        "correctChoiceText": "vient tout juste de",
+        "explanation": "On emploie l’expression verbale « venir de » pour traduire 'to have just'. L'expression « tout juste » peut être ajoutée pour renforcer la proximité temporelle."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q19",
+    "content_to_vectorize": "CONTEXT: Je t’ai laissé le seul exemplaire que j’avais de ce cahier d’exercices pour l’expression écrite. S’il te plait, {{BLANK}} dedans. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. assure-toi de n’écrire pas. 2. assure-toi de ne pas écrire. 3. fais certain de pas écrire. 4. fais sûr de ne pas écrire. CORRECT ANSWER: assure-toi de ne pas écrire.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Set_11-20",
+      "questionId": "EE_8_Q19",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Négation à l'infinitif et Impératif",
+      "context": "Je t’ai laissé le seul exemplaire que j’avais de ce cahier d’exercices pour l’expression écrite. S’il te plait, {{BLANK}} dedans.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "assure-toi de n’écrire pas" },
+        { "id": 2, "text": "assure-toi de ne pas écrire" },
+        { "id": 3, "text": "fais certain de pas écrire" },
+        { "id": 4, "text": "fais sûr de ne pas écrire" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 2,
+        "correctChoiceText": "assure-toi de ne pas écrire",
+        "explanation": "L'expression correcte est « s'assurer de ». À l'impératif : « assure-toi de ». Pour un verbe à l’infinitif, on place « ne pas » avant le verbe."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q20",
+    "content_to_vectorize": "CONTEXT: À la demande de votre superviseur, nous avons envoyé tous les renseignements {{BLANK}} concernant le processus de dotation numéro 19-AGR-NRCDAS-MIBS-235. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. demandées. 2. que nous ayons. 3. que nous avions. 4. que nous aurons. CORRECT ANSWER: que nous avions.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Set_11-20",
+      "questionId": "EE_8_Q20",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Imparfait de l'indicatif",
+      "context": "À la demande de votre superviseur, nous avons envoyé tous les renseignements {{BLANK}} concernant le processus de dotation numéro 19-AGR-NRCDAS-MIBS-235.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "demandées" },
+        { "id": 2, "text": "que nous ayons" },
+        { "id": 3, "text": "que nous avions" },
+        { "id": 4, "text": "que nous aurons" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 3,
+        "correctChoiceText": "que nous avions",
+        "explanation": "La phrase se réfère à un événement passé. Un verbe à l'imparfait (« que nous avions ») est approprié pour décrire le contexte de l'envoi."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q21",
+    "content_to_vectorize": "CONTEXT: J’aurais signé cette pétition avec joie si {{BLANK}} présent. Malheureusement, j’étais absent du bureau cette journée-là. J’avais un rendez-vous chez l’allergologue. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. j’avais eu. 2. j’avais été. 3. j’étais. 4. j’aurais été. CORRECT ANSWER: j’avais été.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q21",
+      "questionId": "EE_8_Q21",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Phrases conditionnelles (Si + Plus-que-parfait)",
+      "context": "J’aurais signé cette pétition avec joie si {{BLANK}} présent. Malheureusement, j’étais absent du bureau cette journée-là. J’avais un rendez-vous chez l’allergologue.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "j’avais eu" },
+        { "id": 2, "text": "j’avais été" },
+        { "id": 3, "text": "j’étais" },
+        { "id": 4, "text": "j’aurais été" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 2,
+        "correctChoiceText": "j’avais été",
+        "explanation": "Dans cette phrase de condition (hypothèse sur le passé), la structure est : conditionnel passé (« J’aurais signé ») + « si » + plus-que-parfait (« j’avais été »)."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q22",
+    "content_to_vectorize": "CONTEXT: ...durant une période {{BLANK}} vous devriez normalement être présent à votre poste de travail, vous devrez demander à l’avance... QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. que. 2. où. 3. quand. 4. duquel. CORRECT ANSWER: où.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q22",
+      "questionId": "EE_8_Q22",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Pronoms relatifs (où)",
+      "context": "Veuillez noter que comme il s’agit d’un événement d’apprentissage qui se déroulera en partie pendant vos heures de travail, durant une période {{BLANK}} vous devriez normalement être présent à votre poste de travail, vous devrez demander à l’avance à votre superviseur la permission d’y participer. Si vous obtenez la permission d’y participer, il est attendu que vous serez de retour au travail à 14 h.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "que" },
+        { "id": 2, "text": "où" },
+        { "id": 3, "text": "quand" },
+        { "id": 4, "text": "duquel" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 2,
+        "correctChoiceText": "où",
+        "explanation": "Il faut employer le pronom relatif « où » pour faire référence à une période de temps."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q23",
+    "content_to_vectorize": "CONTEXT: Nous devons nous rencontrer dès que possible pour {{BLANK}} sur les nouveaux projets. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. faire le point. 2. faire point. 3. faire à point. 4. faire de point. CORRECT ANSWER: faire le point.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q23",
+      "questionId": "EE_8_Q23",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Expressions idiomatiques",
+      "context": "Nous devons nous rencontrer dès que possible pour {{BLANK}} sur les nouveaux projets.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "faire le point" },
+        { "id": 2, "text": "faire point" },
+        { "id": 3, "text": "faire à point" },
+        { "id": 4, "text": "faire de point" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "faire le point",
+        "explanation": "L'expression idiomatique « faire le point sur » signifie 'to review' ou 'to take stock of'."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q24",
+    "content_to_vectorize": "CONTEXT: Pour clarifier la situation, {{BLANK}} convoquer l’équipe pour une réunion générale. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. je pense. 2. je prévoie. 3. j’ai l’intention. 4. je souhaite à. CORRECT ANSWER: je pense.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q24",
+      "questionId": "EE_8_Q24",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Verbes d'opinion et construction verbale",
+      "context": "Pour clarifier la situation, {{BLANK}} convoquer l’équipe pour une réunion générale.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "je pense" },
+        { "id": 2, "text": "je prévoie" },
+        { "id": 3, "text": "j’ai l’intention" },
+        { "id": 4, "text": "je souhaite à" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "je pense",
+        "explanation": "Dans ce contexte, « je pense » a le sens de 'I'm thinking of / I'm considering'. Les autres options sont incorrectes grammaticalement (ex: 'j'ai l'intention de', 'je souhaite')."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q25",
+    "content_to_vectorize": "CONTEXT: Si on avait le budget suffisant, {{BLANK}} une personne pour s’occuper de ce genre de choses. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. j’engagerais. 2. j’engagerai. 3. j’aurais engagé. 4. j’engageais. CORRECT ANSWER: j’engagerais.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q25",
+      "questionId": "EE_8_Q25",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Phrases conditionnelles (Si + Imparfait)",
+      "context": "Si on avait le budget suffisant, {{BLANK}} une personne pour s’occuper de ce genre de choses.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "j’engagerais" },
+        { "id": 2, "text": "j’engagerai" },
+        { "id": 3, "text": "j’aurais engagé" },
+        { "id": 4, "text": "j’engageais" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "j’engagerais",
+        "explanation": "Dans cette phrase de condition (hypothèse sur le présent), la structure est : si + imparfait (« si on avait ») + conditionnel présent (« j’engagerais »)."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q26",
+    "content_to_vectorize": "CONTEXT: Le patron sera bien content si on {{BLANK}} nos commentaires avant de quitter le bureau car il en aura besoin demain matin. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. lui envoie. 2. l’envoie. 3. lui enverra. 4. envoyait. CORRECT ANSWER: lui envoie.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q26",
+      "questionId": "EE_8_Q26",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Phrases conditionnelles et Pronoms COI",
+      "context": "Le patron sera bien content si on {{BLANK}} nos commentaires avant de quitter le bureau car il en aura besoin demain matin.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "lui envoie" },
+        { "id": 2, "text": "l’envoie" },
+        { "id": 3, "text": "lui enverra" },
+        { "id": 4, "text": "envoyait" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "lui envoie",
+        "explanation": "Dans cette phrase de condition, la structure est : futur simple (« sera ») + si + présent de l'indicatif. On envoie quelque chose à quelqu'un, donc le pronom correct est l'objet indirect « lui »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q27",
+    "content_to_vectorize": "CONTEXT: M. Robert insiste pour {{BLANK}} le scénarimage cette semaine. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. qu’il reçoive. 2. qu’il reçoit. 3. recevoir. 4. obtienne. CORRECT ANSWER: recevoir.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q27",
+      "questionId": "EE_8_Q27",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Infinitif après préposition",
+      "context": "M. Robert insiste pour {{BLANK}} le scénarimage cette semaine.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "qu’il reçoive" },
+        { "id": 2, "text": "qu’il reçoit" },
+        { "id": 3, "text": "recevoir" },
+        { "id": 4, "text": "obtienne" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 3,
+        "correctChoiceText": "recevoir",
+        "explanation": "Puisque les deux verbes (« insister » et « recevoir ») ont le même sujet (M. Robert), on utilise la structure 'insister pour' + infinitif."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q28",
+    "content_to_vectorize": "CONTEXT: Je n'ai encore parlé à {{BLANK}} de cette nouvelle directive car je sens que ça va faire du bruit. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. rien. 2. quelqu’un. 3. personne. 4. nulle part. CORRECT ANSWER: personne.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q28",
+      "questionId": "EE_8_Q28",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "La négation et pronoms indéfinis",
+      "context": "Je n'ai encore parlé à {{BLANK}} de cette nouvelle directive car je sens que ça va faire du bruit.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "rien" },
+        { "id": 2, "text": "quelqu’un" },
+        { "id": 3, "text": "personne" },
+        { "id": 4, "text": "nulle part" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 3,
+        "correctChoiceText": "personne",
+        "explanation": "Le pronom indéfini « personne » (no one, nobody) est utilisé dans une phrase négative pour parler de personnes."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q29",
+    "content_to_vectorize": "CONTEXT: J’attire votre attention sur le fait que cette version n’est pas définitive et qu’elle {{BLANK}} dans les prochaines semaines. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. sera revue. 2. se reverra. 3. sera revu. 4. soit revue. CORRECT ANSWER: sera revue.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q29",
+      "questionId": "EE_8_Q29",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Voix passive et accord du participe passé",
+      "context": "J’attire votre attention sur le fait que cette version n’est pas définitive et qu’elle {{BLANK}} dans les prochaines semaines.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "sera revue" },
+        { "id": 2, "text": "se reverra" },
+        { "id": 3, "text": "sera revu" },
+        { "id": 4, "text": "soit revue" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "sera revue",
+        "explanation": "La phrase est à la voix passive au futur. Le participe passé « revue » doit s'accorder avec le sujet « elle » (qui remplace 'version'), féminin singulier."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q30",
+    "content_to_vectorize": "CONTEXT: Comme on nous l’a dit, la présentation du projet devrait {{BLANK}} vers 16 h 30. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. terminer. 2. se terminer. 3. avoir fini. 4. avoir terminé. CORRECT ANSWER: se terminer.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q30",
+      "questionId": "EE_8_Q30",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Verbes pronominaux à sens passif",
+      "context": "Comme on nous l’a dit, la présentation du projet devrait {{BLANK}} vers 16 h 30.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "terminer" },
+        { "id": 2, "text": "se terminer" },
+        { "id": 3, "text": "avoir fini" },
+        { "id": 4, "text": "avoir terminé" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 2,
+        "correctChoiceText": "se terminer",
+        "explanation": "Le verbe « se terminer » est un verbe pronominal à sens passif utilisé pour dire 'to be finished' ou 'to end'."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q31",
+    "content_to_vectorize": "CONTEXT: Je crois qu'elle a encore besoin de ce document et qu’elle {{BLANK}} pour ses recherches. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. s’y sert. 2. s’en serve. 3. s’en sert. 4. sert. CORRECT ANSWER: s’en sert.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q31",
+      "questionId": "EE_8_Q31",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Pronoms adverbiaux (en) et verbes pronominaux",
+      "context": "Je crois qu'elle a encore besoin de ce document et qu’elle {{BLANK}} pour ses recherches.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "s’y sert" },
+        { "id": 2, "text": "s’en serve" },
+        { "id": 3, "text": "s’en sert" },
+        { "id": 4, "text": "sert" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 3,
+        "correctChoiceText": "s’en sert",
+        "explanation": "Le verbe correct est « se servir de » (to use). Le pronom « en » remplace le complément « de ce document »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q32",
+    "content_to_vectorize": "CONTEXT: Il pense qu'elle {{BLANK}} son travail d’ici 17 h, mais il faudrait le lui demander. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. avait terminé. 2. aura terminé. 3. ait terminé. 4. est terminé. CORRECT ANSWER: aura terminé.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q32",
+      "questionId": "EE_8_Q32",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Futur antérieur",
+      "context": "Il pense qu'elle {{BLANK}} son travail d’ici 17 h, mais il faudrait le lui demander.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "avait terminé" },
+        { "id": 2, "text": "aura terminé" },
+        { "id": 3, "text": "ait terminé" },
+        { "id": 4, "text": "est terminé" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 2,
+        "correctChoiceText": "aura terminé",
+        "explanation": "On emploie le futur antérieur pour exprimer une action future qui aura eu lieu avant un autre moment futur (ici, 17 h)."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q33",
+    "content_to_vectorize": "CONTEXT: Comme l'adjointe administrative du directeur est occupé (1), elle te verra seulement cet (2) après-midi. Prépare-toi de solides arguments si tu veux obtenir un rendez-vous (3) de trois heures... QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. occupé. 2. cet. 3. rendez-vous. 4. aucune correction. CORRECT ANSWER: occupé.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q33",
+      "questionId": "EE_8_Q33",
+      "questionType": "Error-identification",
+      "grammarType": "Accord de l'adjectif/participe passé",
+      "context": "Comme l'adjointe administrative du directeur est occupé (1), elle te verra seulement cet (2) après-midi. Prépare-toi de solides arguments si tu veux obtenir un rendez-vous (3) de trois heures, car il est difficile de rencontrer le directeur pour une aussi longue période.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "occupé" },
+        { "id": 2, "text": "cet" },
+        { "id": 3, "text": "rendez-vous" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "occupé",
+        "explanation": "Le participe passé/adjectif « occupé » doit s'accorder avec le sujet « adjointe administrative », qui est féminin singulier. La forme correcte est « occupée »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q34",
+    "content_to_vectorize": "CONTEXT: Monique a partie (1) au siège social (2) pour la rencontre des analystes. Elle devrait être de retour d'ici trois jours (3). En attendant, je te conseille de continuer à travailler sur le dossier de l'accessibilité. C'est une priorité ministérielle. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. a partie. 2. siège social. 3. d’ici trois jours. 4. aucune correction. CORRECT ANSWER: a partie.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q34",
+      "questionId": "EE_8_Q34",
+      "questionType": "Error-identification",
+      "grammarType": "Auxiliaire de conjugaison (être vs avoir)",
+      "context": "Monique a partie (1) au siège social (2) pour la rencontre des analystes. Elle devrait être de retour d'ici trois jours (3). En attendant, je te conseille de continuer à travailler sur le dossier de l'accessibilité. C'est une priorité ministérielle.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "a partie" },
+        { "id": 2, "text": "siège social" },
+        { "id": 3, "text": "d’ici trois jours" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "a partie",
+        "explanation": "Le verbe « partir » se conjugue avec l'auxiliaire « être ». La forme correcte est « est partie »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q35",
+    "content_to_vectorize": "CONTEXT: Mme Meiri aimerait voir toi (1) à son bureau ce matin (2). Je ne sais pas exactement pour quelle raison, mais je pense que ça concerne les vacances. Je pense qu'elle veut s'assurer qu'il n'y aura pas (3) d'interruption du service à la clientèle durant la période des vacances estivales.QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. voir toi. 2. ce matin. 3. n’y aura pas. 4. aucune correction. CORRECT ANSWER: voir toi.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q35",
+      "questionId": "EE_8_Q35",
+      "questionType": "Error-identification",
+      "grammarType": "Place et forme des pronoms personnels objets",
+      "context": "Mme Meiri aimerait voir toi (1) à son bureau ce matin (2). Je ne sais pas exactement pour quelle raison, mais je pense que ça concerne les vacances. Je pense qu'elle veut s'assurer qu'il n'y aura pas (3) d'interruption du service à la clientèle durant la période des vacances estivales.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "voir toi" },
+        { "id": 2, "text": "ce matin" },
+        { "id": 3, "text": "n’y aura pas" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "voir toi",
+        "explanation": "Le pronom personnel objet de la deuxième personne du singulier est « te ». Il se place avant le verbe, même à l'infinitif. La forme correcte est « te voir »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q36",
+    "content_to_vectorize": "CONTEXT: En ce qui concerne la réglementation, je sais (1) quelqu'un qui travaille au (2) Secrétariat du Conseil du Trésor. Veux-tu que je lui demande son avis? Ça ne nous engage à rien (3), je le ferais à titre personnel seulement. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. je sais. 2. au. 3. à rien. 4. aucune correction. CORRECT ANSWER: je sais.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q36",
+      "questionId": "EE_8_Q36",
+      "questionType": "Error-identification",
+      "grammarType": "Différence entre savoir et connaître",
+      "context": "En ce qui concerne la réglementation, je sais (1) quelqu'un qui travaille au (2) Secrétariat du Conseil du Trésor. Veux-tu que je lui demande son avis? Ça ne nous engage à rien (3), je le ferais à titre personnel seulement.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "je sais" },
+        { "id": 2, "text": "au" },
+        { "id": 3, "text": "à rien" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "je sais",
+        "explanation": "Pour parler d'une personne ('I know someone'), on doit employer le verbe « connaître ». Le verbe « savoir » est utilisé pour des faits ou des compétences."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q37",
+    "content_to_vectorize": "CONTEXT: Rappelle-moi (1) si tu trouves un exemplaire de ce débat historique à la Chambre des communes (2) car je tiens à l’avoir (3). J'en ai absolument besoin pour finir mon mémoire de maîtrise à l'université. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. Rappelle-moi. 2. Chambre des communes. 3. je tiens à l’avoir. 4. aucune correction. CORRECT ANSWER: aucune correction.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q37",
+      "questionId": "EE_8_Q37",
+      "questionType": "Error-identification",
+      "grammarType": "Syntaxe générale",
+      "context": "Rappelle-moi (1) si tu trouves un exemplaire de ce débat historique à la Chambre des communes (2) car je tiens à l’avoir (3). J'en ai absolument besoin pour finir mon mémoire de maîtrise à l'université.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "Rappelle-moi" },
+        { "id": 2, "text": "Chambre des communes" },
+        { "id": 3, "text": "je tiens à l’avoir" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 4,
+        "correctChoiceText": "aucune correction",
+        "explanation": "Il n’y a aucune erreur à corriger dans ce texte."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q38",
+    "content_to_vectorize": "CONTEXT: Le vérificateur demande est-ce que (1) les rapports seront prêts aujourd'hui même. Peux-tu lui téléphoner? Sinon, je peux le faire moi-même (2), mais j'aimerais mieux que tu t'en occupes. Après tout (3), c'est toi qui es le plus au courant du dossier.QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. est-ce que. 2. moi-même. 3. Après tout. 4. aucune correction. CORRECT ANSWER: est-ce que.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q38",
+      "questionId": "EE_8_Q38",
+      "questionType": "Error-identification",
+      "grammarType": "Discours indirect (Interrogation)",
+      "context": "Le vérificateur demande est-ce que (1) les rapports seront prêts aujourd'hui même. Peux-tu lui téléphoner? Sinon, je peux le faire moi-même (2), mais j'aimerais mieux que tu t'en occupes. Après tout (3), c'est toi qui es le plus au courant du dossier.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "est-ce que" },
+        { "id": 2, "text": "moi-même" },
+        { "id": 3, "text": "Après tout" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "est-ce que",
+        "explanation": "Dans le discours indirect, « est-ce que » se transforme en « si ». La phrase correcte est « Le vérificateur demande si les rapports seront prêts... »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q39",
+    "content_to_vectorize": "CONTEXT: En ce qui concerne la demande d'accès à l'information que tu as reçue la semaine dernière, je t'envoie (1) une partie des documents. Le reste vont suivre (2) cet après-midi. Si tu as besoin d'aide ou si tu veux en discuter (3), tu peux toujours m'appeler. Je suis disponible toute la journée, demain également. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. je t'envoie. 2. vont suivre. 3. en discuter. 4. aucune correction. CORRECT ANSWER: vont suivre.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q39",
+      "questionId": "EE_8_Q39",
+      "questionType": "Error-identification",
+      "grammarType": "Accord sujet-verbe (noms collectifs)",
+      "context": "En ce qui concerne la demande d'accès à l'information que tu as reçue la semaine dernière, je t'envoie (1) une partie des documents. Le reste vont suivre (2) cet après-midi. Si tu as besoin d'aide ou si tu veux en discuter (3), tu peux toujours m'appeler. Je suis disponible toute la journée, demain également.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "je t'envoie" },
+        { "id": 2, "text": "vont suivre" },
+        { "id": 3, "text": "en discuter" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 2,
+        "correctChoiceText": "vont suivre",
+        "explanation": "Le sujet du verbe est « Le reste », qui est singulier. Le verbe doit donc s'accorder au singulier : « Le reste va suivre »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q40",
+    "content_to_vectorize": "CONTEXT: Comme je te le (1) disais, il est parfois (2) difficile d’envisager tous (3) les facettes d’un problème. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. le. 2. parfois. 3. tous. 4. aucune correction. CORRECT ANSWER: tous.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q40",
+      "questionId": "EE_8_Q40",
+      "questionType": "Error-identification",
+      "grammarType": "Accord de l'adjectif indéfini (tout)",
+      "context": "Comme je te le (1) disais, il est parfois (2) difficile d’envisager tous (3) les facettes d’un problème.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "le" },
+        { "id": 2, "text": "parfois" },
+        { "id": 3, "text": "tous" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 3,
+        "correctChoiceText": "tous",
+        "explanation": "L'adjectif indéfini « tout » doit s’accorder en genre et en nombre avec le nom qu'il modifie, « facettes », qui est féminin pluriel. La forme correcte est « toutes »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q41",
+    "content_to_vectorize": "CONTEXT: Nous avons réfléchis (1) à cette question, mais nous n’avons trouvé (2) aucune solution satisfaisante (3). QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. réfléchis. 2. trouvé. 3. satisfaisante. 4. aucune correction. CORRECT ANSWER: réfléchis.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q41",
+      "questionId": "EE_8_Q41",
+      "questionType": "Error-identification",
+      "grammarType": "Accord du participe passé avec avoir",
+      "context": "Nous avons réfléchis (1) à cette question, mais nous n’avons trouvé (2) aucune solution satisfaisante (3).",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "réfléchis" },
+        { "id": 2, "text": "trouvé" },
+        { "id": 3, "text": "satisfaisante" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "réfléchis",
+        "explanation": "Le participe passé conjugué avec l'auxiliaire « avoir » ne s'accorde pas avec le sujet. De plus, il n'y a pas de complément d'objet direct avant le verbe. La forme correcte est « réfléchi »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q42",
+    "content_to_vectorize": "CONTEXT: Il faudra prévoir (1) un nouvelle (2) espace pour ce classeur encombrant (3). QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. prévoir. 2. nouvelle. 3. encombrant. 4. aucune correction. CORRECT ANSWER: nouvelle.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q42",
+      "questionId": "EE_8_Q42",
+      "questionType": "Error-identification",
+      "grammarType": "Accord de l'adjectif (nouveau/nouvel/nouvelle)",
+      "context": "Il faudra prévoir (1) un nouvelle (2) espace pour ce classeur encombrant (3).",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "prévoir" },
+        { "id": 2, "text": "nouvelle" },
+        { "id": 3, "text": "encombrant" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 2,
+        "correctChoiceText": "nouvelle",
+        "explanation": "L’adjectif « nouveau » s’écrit « nouvel » devant un nom masculin singulier commençant par une voyelle, comme « espace »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q43",
+    "content_to_vectorize": "CONTEXT: Les propos (1) de M. Hill ont soulevés (2) la colère de certains (3) de mes collègues. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. propos. 2. soulevés. 3. certains. 4. aucune correction. CORRECT ANSWER: soulevés.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q43",
+      "questionId": "EE_8_Q43",
+      "questionType": "Error-identification",
+      "grammarType": "Accord du participe passé avec avoir (position du COD)",
+      "context": "Les propos (1) de M. Hill ont soulevés (2) la colère de certains (3) de mes collègues.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "propos" },
+        { "id": 2, "text": "soulevés" },
+        { "id": 3, "text": "certains" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 2,
+        "correctChoiceText": "soulevés",
+        "explanation": "Le participe passé conjugué avec l'auxiliaire « avoir » s'accorde avec le complément d'objet direct (COD) seulement si celui-ci est placé avant le verbe. Ici, le COD (« la colère ») est après le verbe, donc le participe passé est invariable : « soulevé »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q44",
+    "content_to_vectorize": "CONTEXT: Il est primordial qu’un compte rendu (1) de toutes (2) les réunions est donné (3) au directeur général. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. compte rendu. 2. toutes. 3. est donné. 4. aucune correction. CORRECT ANSWER: est donné.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q44",
+      "questionId": "EE_8_Q44",
+      "questionType": "Error-identification",
+      "grammarType": "Emploi du subjonctif après une tournure impersonnelle",
+      "context": "Il est primordial qu’un compte rendu (1) de toutes (2) les réunions est donné (3) au directeur général.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "compte rendu" },
+        { "id": 2, "text": "toutes" },
+        { "id": 3, "text": "est donné" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 3,
+        "correctChoiceText": "est donné",
+        "explanation": "L’expression « Il est primordial que » requiert l’emploi du subjonctif. La forme correcte est « soit donné »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q45",
+    "content_to_vectorize": "CONTEXT: Vu l’importance des questions qui seront débattus (1) à la prochaine réunion, je tiens à ce que (2) tous les employés et employées soient (3) présents. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. débattus. 2. tiens à ce que. 3. soient. 4. aucune correction. CORRECT ANSWER: débattus.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q45",
+      "questionId": "EE_8_Q45",
+      "questionType": "Error-identification",
+      "grammarType": "Accord du participe passé (forme passive)",
+      "context": "Vu l’importance des questions qui seront débattus (1) à la prochaine réunion, je tiens à ce que (2) tous les employés et employées soient (3) présents.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "débattus" },
+        { "id": 2, "text": "tiens à ce que" },
+        { "id": 3, "text": "soient" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "débattus",
+        "explanation": "Le participe passé « débattu » doit s'accorder avec le sujet du verbe passif, « les questions », qui est féminin pluriel. La forme correcte est « débattues »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q46",
+    "content_to_vectorize": "CONTEXT: La façon {{BLANK}} les services sont offerts à la population permet d’accroître la confiance et l'autonomie de la clientèle. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. où. 2. dont. 3. avec quoi. 4. qui. CORRECT ANSWER: dont.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q46",
+      "questionId": "EE_8_Q46",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Pronom relatif (dont)",
+      "context": "La façon {{BLANK}} les services sont offerts à la population permet d’accroître la confiance et l'autonomie de la clientèle.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "où" },
+        { "id": 2, "text": "dont" },
+        { "id": 3, "text": "avec quoi" },
+        { "id": 4, "text": "qui" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 2,
+        "correctChoiceText": "dont",
+        "explanation": "On doit employer le pronom relatif « dont » pour remplacer un complément introduit par « de ». La structure sous-jacente est 'les services sont offerts d'une certaine façon'."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q47",
+    "content_to_vectorize": "CONTEXT: {{BLANK}} entretenir des rapports francs et ouverts avec les gestionnaires et le personnel. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. Je m’ai engagé à. 2. J'ai engagé moi-même à. 3. Je me suis engagé à. 4. Je me suis engagé d’. CORRECT ANSWER: Je me suis engagé à.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q47",
+      "questionId": "EE_8_Q47",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Conjugaison des verbes pronominaux",
+      "context": "{{BLANK}} entretenir des rapports francs et ouverts avec les gestionnaires et le personnel.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "Je m’ai engagé à" },
+        { "id": 2, "text": "J'ai engagé moi-même à" },
+        { "id": 3, "text": "Je me suis engagé à" },
+        { "id": 4, "text": "Je me suis engagé d’" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 3,
+        "correctChoiceText": "Je me suis engagé à",
+        "explanation": "Aux temps composés, les verbes pronominaux comme « s’engager à » se conjuguent avec l’auxiliaire « être ». La préposition correcte est « à »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q48",
+    "content_to_vectorize": "CONTEXT: Nous sollicitons {{BLANK}} inviter vos employés à profiter de ce service qui leur est offert gratuitement. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. votre coopération pour d’. 2. votre coopération afin d’. 3. votre collaboration afin d’. 4. votre collaboration pour d’. CORRECT ANSWER: votre collaboration afin d’.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q48",
+      "questionId": "EE_8_Q48",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Vocabulaire (faux amis) et locution de but",
+      "context": "Nous sollicitons {{BLANK}} inviter vos employés à profiter de ce service qui leur est offert gratuitement.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "votre coopération pour d’" },
+        { "id": 2, "text": "votre coopération afin d’" },
+        { "id": 3, "text": "votre collaboration afin d’" },
+        { "id": 4, "text": "votre collaboration pour d’" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 3,
+        "correctChoiceText": "votre collaboration afin d’",
+        "explanation": "Le mot 'cooperation' est un faux ami; en français, on utilise « collaboration ». « afin de » (in order to) est un indicateur de but correct."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q49",
+    "content_to_vectorize": "CONTEXT: {{BLANK}} ces nouveaux aspects du programme, nous installerons des kiosques d'information. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. De plus faire connaître. 2. Pour mieux connaître. 3. Afin de mieux connaître. 4. Afin de mieux faire connaître. CORRECT ANSWER: Afin de mieux faire connaître.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q49",
+      "questionId": "EE_8_Q49",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Expression du but et verbe factitif (faire connaître)",
+      "context": "{{BLANK}} ces nouveaux aspects du programme, nous installerons des kiosques d'information.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "De plus faire connaître" },
+        { "id": 2, "text": "Pour mieux connaître" },
+        { "id": 3, "text": "Afin de mieux connaître" },
+        { "id": 4, "text": "Afin de mieux faire connaître" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 4,
+        "correctChoiceText": "Afin de mieux faire connaître",
+        "explanation": "Le but est de 'make the new aspects known' (faire connaître), pas simplement 'to know' (connaître). « Afin de » est un indicateur de but correct."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q50",
+    "content_to_vectorize": "CONTEXT: Une définition de la violence en milieu de travail doit tenir compte de deux aspects importants : le comportement {{BLANK}} manifesté lors d’un incident violent et son origine. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. en tant que tel. 2. en temps que tel. 3. en tant que t’elle. 4. en tant que telle. CORRECT ANSWER: en tant que tel.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q50",
+      "questionId": "EE_8_Q50",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Locution (en tant que) et accord de l'adjectif",
+      "context": "Une définition de la violence en milieu de travail doit tenir compte de deux aspects importants : le comportement {{BLANK}} manifesté lors d’un incident violent et son origine.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "en tant que tel" },
+        { "id": 2, "text": "en temps que tel" },
+        { "id": 3, "text": "en tant que t’elle" },
+        { "id": 4, "text": "en tant que telle" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "en tant que tel",
+        "explanation": "Dans l’expression « en tant que tel » (as such), l’adjectif « tel » s’accorde avec le nom auquel il se rapporte, ici « comportement » (masculin singulier)."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q51",
+    "content_to_vectorize": "CONTEXT: Dans la Loi sur le Service canadien de sécurité, on peut lire que, pour être considérées comme des menaces, des activités doivent être influencées par l’étranger, préjudiciables aux intérêts du Canada et de nature clandestine ou trompeuse, ou doivent comporter des menaces envers {{BLANK}}. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. quel que soit. 2. quelconque. 3. qui de droit. 4. quelqu’un. CORRECT ANSWER: quelqu’un.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q51",
+      "questionId": "EE_8_Q51",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Pronom indéfini",
+      "context": "Dans la Loi sur le Service canadien de sécurité, on peut lire que, pour être considérées comme des menaces, des activités doivent être influencées par l’étranger, préjudiciables aux intérêts du Canada et de nature clandestine ou trompeuse, ou doivent comporter des menaces envers {{BLANK}}.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "quel que soit" },
+        { "id": 2, "text": "quelconque" },
+        { "id": 3, "text": "qui de droit" },
+        { "id": 4, "text": "quelqu’un" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 4,
+        "correctChoiceText": "quelqu’un",
+        "explanation": "« quelqu’un » (anyone/someone) est le pronom indéfini correct pour représenter une personne non spécifiée."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q52",
+    "content_to_vectorize": "CONTEXT: Ce système générera plus de liberté et de flexibilité {{BLANK}} garantira la sécurité de l’information. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. ainsi que. 2. aussi que. 3. tout en. 4. et. CORRECT ANSWER: et.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q52",
+      "questionId": "EE_8_Q52",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Conjonction de coordination",
+      "context": "Ce système générera plus de liberté et de flexibilité {{BLANK}} garantira la sécurité de l’information.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "ainsi que" },
+        { "id": 2, "text": "aussi que" },
+        { "id": 3, "text": "tout en" },
+        { "id": 4, "text": "et" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 4,
+        "correctChoiceText": "et",
+        "explanation": "La conjonction « et » est utilisée pour joindre deux propositions complètes qui se rapportent au même sujet (« Ce système »)."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q53",
+    "content_to_vectorize": "CONTEXT: Grâce à ce réseau, vous serez désormais en mesure de vous tenir informé où que vous {{BLANK}}. QUESTION: Quel mot ou groupe de mots complète le mieux le texte? CHOICES: 1. êtes. 2. soyez. 3. seriez. 4. serez. CORRECT ANSWER: soyez.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q53",
+      "questionId": "EE_8_Q53",
+      "questionType": "Fill-in-the-blank",
+      "refersTo": "BLANK",
+      "grammarType": "Subjonctif après 'où que'",
+      "context": "Grâce à ce réseau, vous serez désormais en mesure de vous tenir informé où que vous {{BLANK}}.",
+      "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
+      "choices": [
+        { "id": 1, "text": "êtes" },
+        { "id": 2, "text": "soyez" },
+        { "id": 3, "text": "seriez" },
+        { "id": 4, "text": "serez" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 2,
+        "correctChoiceText": "soyez",
+        "explanation": "L’adverbe indéfini « où que » (wherever) doit être suivi d’un verbe au subjonctif. La forme correcte est « soyez »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q54",
+    "content_to_vectorize": "CONTEXT: Il faudra voir si l’augmentation de l’activité économique dans les régions isolées (1) du Canada n’aura pas (2) une influence négative sur les espèces considérées en périles (3).QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. isolées. 2. n’aura pas. 3. en périles. 4. aucune correction. CORRECT ANSWER: en périles.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q54",
+      "questionId": "EE_8_Q54",
+      "questionType": "Error-identification",
+      "grammarType": "Locution invariable (en péril)",
+      "context": "Il faudra voir si l’augmentation de l’activité économique dans les régions isolées (1) du Canada n’aura pas (2) une influence négative sur les espèces considérées en périles (3).",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "isolées" },
+        { "id": 2, "text": "n’aura pas" },
+        { "id": 3, "text": "en périles" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 3,
+        "correctChoiceText": "en périles",
+        "explanation": "L'expression « en péril » (endangered) est invariable et ne prend jamais de 's'."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q55",
+    "content_to_vectorize": "CONTEXT: Le nouveau centre de recherche en (1) biotechnologie du Conseil national de recherches du Canada (CNRC) a adopté une démarche (2) scientifique résolument orientée pour (3) l’innovation industrielle. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. en. 2. démarche. 3. pour. 4. aucune correction. CORRECT ANSWER: pour.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q55",
+      "questionId": "EE_8_Q55",
+      "questionType": "Error-identification",
+      "grammarType": "Régime prépositionnel (orienté vers)",
+      "context": "Le nouveau centre de recherche en (1) biotechnologie du Conseil national de recherches du Canada (CNRC) a adopté une démarche (2) scientifique résolument orientée pour (3) l’innovation industrielle.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "en" },
+        { "id": 2, "text": "démarche" },
+        { "id": 3, "text": "pour" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 3,
+        "correctChoiceText": "pour",
+        "explanation": "L’expression correcte est « s’orienter vers quelque chose » (to be oriented towards). La préposition correcte est « vers »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q56",
+    "content_to_vectorize": "CONTEXT: L’abondante production de porc dans tout le Canada permet aux consommateurs et consommatrices (1) de procurer (2) les produits de cet élevage à des prix inférieurs cette année à ceux de (3) l’an dernier. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. consommateurs et consommatrices. 2. procurer. 3. de. 4. aucune correction. CORRECT ANSWER: procurer.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q56",
+      "questionId": "EE_8_Q56",
+      "questionType": "Error-identification",
+      "grammarType": "Verbe pronominal (se procurer)",
+      "context": "L’abondante production de porc dans tout le Canada permet aux consommateurs et consommatrices (1) de procurer (2) les produits de cet élevage à des prix inférieurs cette année à ceux de (3) l’an dernier.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "consommateurs et consommatrices" },
+        { "id": 2, "text": "procurer" },
+        { "id": 3, "text": "de" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 2,
+        "correctChoiceText": "procurer",
+        "explanation": "Il faut employer ici le verbe pronominal « se procurer » (to get, to buy) et non le verbe « procurer » (to provide)."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q57",
+    "content_to_vectorize": "CONTEXT: Comme vous le savez déjà, c’est moi qui sera (1) votre délégué pour la prochaine négociation collective qui débutera (2) bientôt. J’espère vous représenter avec brio (3) et j’aimerais vous assurer de mon total engagement envers les objectifs que nous défendons tous. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. sera. 2. débutera. 3. avec brio. 4. aucune correction. CORRECT ANSWER: sera.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q57",
+      "questionId": "EE_8_Q57",
+      "questionType": "Error-identification",
+      "grammarType": "Accord du verbe avec le pronom relatif 'qui'",
+      "context": "Comme vous le savez déjà, c’est moi qui sera (1) votre délégué pour la prochaine négociation collective qui débutera (2) bientôt. J’espère vous représenter avec brio (3) et j’aimerais vous assurer de mon total engagement envers les objectifs que nous défendons tous.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "sera" },
+        { "id": 2, "text": "débutera" },
+        { "id": 3, "text": "avec brio" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "sera",
+        "explanation": "Le sujet du verbe est « qui », qui remplace « moi » (première personne du singulier). Le verbe doit donc être conjugué à cette personne : « c’est moi qui serai »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q58",
+    "content_to_vectorize": "CONTEXT: Les hautes gestionnaires (1) sont chargés de gérer les risques auxquels (2) leur organisation est exposée et de mettre en œuvre (3) des pratiques efficaces de gestion du risque, qu'elles soient formelles ou informelles. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. hautes gestionnaires. 2. auxquels. 3. mettre en œuvre. 4. aucune correction. CORRECT ANSWER: hautes gestionnaires.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q58",
+      "questionId": "EE_8_Q58",
+      "questionType": "Error-identification",
+      "grammarType": "Accord en genre et nombre",
+      "context": "Les hautes gestionnaires (1) sont chargés de gérer les risques auxquels (2) leur organisation est exposée et de mettre en œuvre (3) des pratiques efficaces de gestion du risque, qu'elles soient formelles ou informelles.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "hautes gestionnaires" },
+        { "id": 2, "text": "auxquels" },
+        { "id": 3, "text": "mettre en œuvre" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "hautes gestionnaires",
+        "explanation": "Comme on parle des gestionnaires en général (confirmé par « chargés », masculin pluriel), le nom et l'adjectif doivent être au masculin pluriel : « Les hauts gestionnaires »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q59",
+    "content_to_vectorize": "CONTEXT: Le risque désigne l'effet de l'incertitude (1) sur la réalisation des objectifs. Il exprime (2) la probabilité et les répercussions d'un incident susceptible de nuire (3) à l'atteinte des objectifs de l'organisation. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. l’effet de l’incertitude. 2. exprime. 3. susceptible de nuire. 4. aucune correction. CORRECT ANSWER: aucune correction.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q59",
+      "questionId": "EE_8_Q59",
+      "questionType": "Error-identification",
+      "grammarType": "Syntaxe générale",
+      "context": "Le risque désigne l'effet de l'incertitude (1) sur la réalisation des objectifs. Il exprime (2) la probabilité et les répercussions d'un incident susceptible de nuire (3) à l'atteinte des objectifs de l'organisation.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "l’effet de l’incertitude" },
+        { "id": 2, "text": "exprime" },
+        { "id": 3, "text": "susceptible de nuire" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 4,
+        "correctChoiceText": "aucune correction",
+        "explanation": "Il n’y a pas d’erreur à corriger dans ce texte."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q60",
+    "content_to_vectorize": "CONTEXT: Les lettres qui suivent la mention « bilingue impératif » ou « bilingue non impératif » représentent les niveaux de compétence linguistique exigés (1) pour chaque langue officielle. Les trois premières lettres représentent les niveaux de compétence linguistique requis en anglais et les trois dernières lettres celles (2) qui le sont en français. La première lettre de chaque groupe correspond (3) aux compétences en lecture, la deuxième en rédaction et la troisième en interaction orale. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. exigés. 2. celles. 3. correspond. 4. aucune correction. CORRECT ANSWER: celles.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q60",
+      "questionId": "EE_8_Q60",
+      "questionType": "Error-identification",
+      "grammarType": "Accord du pronom démonstratif",
+      "context": "Les lettres qui suivent la mention « bilingue impératif » ou « bilingue non impératif » représentent les niveaux de compétence linguistique exigés (1) pour chaque langue officielle. Les trois premières lettres représentent les niveaux de compétence linguistique requis en anglais et les trois dernières lettres celles (2) qui le sont en français. La première lettre de chaque groupe correspond (3) aux compétences en lecture, la deuxième en rédaction et la troisième en interaction orale.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "exigés" },
+        { "id": 2, "text": "celles" },
+        { "id": 3, "text": "correspond" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 2,
+        "correctChoiceText": "celles",
+        "explanation": "Le pronom démonstratif doit référer aux « niveaux de compétence », qui est masculin pluriel. La forme correcte est « ceux »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q61",
+    "content_to_vectorize": "CONTEXT: Le Tribunal de la dotation de la fonction publique est chargé de régler les complaintes (1) liées à des nominations et à des mises en disponibilité. Son rôle consiste à aider les employeurs et les employés à trouver un mécanisme juste, efficace et indépendant pour régler les différends (2) présentés par ces derniers (3). QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. complaintes. 2. différends. 3. derniers. 4. aucune correction. CORRECT ANSWER: complaintes.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q61",
+      "questionId": "EE_8_Q61",
+      "questionType": "Error-identification",
+      "grammarType": "Vocabulaire (faux ami)",
+      "context": "Le Tribunal de la dotation de la fonction publique est chargé de régler les complaintes (1) liées à des nominations et à des mises en disponibilité. Son rôle consiste à aider les employeurs et les employés à trouver un mécanisme juste, efficace et indépendant pour régler les différends (2) présentés par ces derniers (3).",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "complaintes" },
+        { "id": 2, "text": "différends" },
+        { "id": 3, "text": "derniers" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "complaintes",
+        "explanation": "« complaintes » est un faux ami de l'anglais 'complaints'. La bonne traduction est « plaintes »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q62",
+    "content_to_vectorize": "CONTEXT: La Loi canadienne anti-pourriel entrera bientôt en vigueur (1). Pour plusieurs, cette loi nécessite d’être examinée de près (2), car elle vise à encadrer l’envoi de messages électroniques commerciaux. Notre invité, Jean Poudrier, formateur en stratégies Web, met en lumière la Loi, ce qu'elle implique et les moyens à prendre pour mieux s'en conformer (3). QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. entrera bientôt en vigueur. 2. d’être examinée de près. 3. s’en conformer. 4. aucune correction. CORRECT ANSWER: s’en conformer.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q62",
+      "questionId": "EE_8_Q62",
+      "questionType": "Error-identification",
+      "grammarType": "Emploi des pronoms compléments (en vs y)",
+      "context": "La Loi canadienne anti-pourriel entrera bientôt en vigueur (1). Pour plusieurs, cette loi nécessite d’être examinée de près (2), car elle vise à encadrer l’envoi de messages électroniques commerciaux. Notre invité, Jean Poudrier, formateur en stratégies Web, met en lumière la Loi, ce qu'elle implique et les moyens à prendre pour mieux s'en conformer (3).",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "entrera bientôt en vigueur" },
+        { "id": 2, "text": "d’être examinée de près" },
+        { "id": 3, "text": "s’en conformer" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 3,
+        "correctChoiceText": "s’en conformer",
+        "explanation": "On se conforme « à » une loi. Il faut donc utiliser le pronom objet indirect « y » qui remplace « à la Loi ». La forme correcte est « s'y conformer »."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q63",
+    "content_to_vectorize": "CONTEXT: En conséquence (1), je vous demanderais de porter ce litige (2) à l’attention de vos directeurs d’établissements respectifs (3). QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. En conséquence. 2. ce litige. 3. respectifs. 4. aucune correction. CORRECT ANSWER: aucune correction.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q63",
+      "questionId": "EE_8_Q63",
+      "questionType": "Error-identification",
+      "grammarType": "Syntaxe générale",
+      "context": "En conséquence (1), je vous demanderais de porter ce litige (2) à l’attention de vos directeurs d’établissements respectifs (3).",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "En conséquence" },
+        { "id": 2, "text": "ce litige" },
+        { "id": 3, "text": "respectifs" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 4,
+        "correctChoiceText": "aucune correction",
+        "explanation": "Il n’y a aucune erreur à corriger dans ce texte."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q64",
+    "content_to_vectorize": "CONTEXT: Il y a, au sain de (1) notre direction, un nombre impressionnant (2) de professionnels chevronnés (3) et de techniciens compétents. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. au sain de. 2. impressionnant. 3. chevronnés. 4. aucune correction. CORRECT ANSWER: au sain de.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q64",
+      "questionId": "EE_8_Q64",
+      "questionType": "Error-identification",
+      "grammarType": "Homophones (sain vs sein)",
+      "context": "Il y a, au sain de (1) notre direction, un nombre impressionnant (2) de professionnels chevronnés (3) et de techniciens compétents.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "au sain de" },
+        { "id": 2, "text": "impressionnant" },
+        { "id": 3, "text": "chevronnés" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 1,
+        "correctChoiceText": "au sain de",
+        "explanation": "L’expression « au sein de » (within) s’écrit avec un 'e'. Il ne faut pas la confondre avec l'adjectif « sain » (healthy)."
+      }
+    }
+  },
+  {
+    "doc_id": "EE_8_Q65",
+    "content_to_vectorize": "CONTEXT: Vous trouverez ci-joint deux nomenclatures. Je vous demanderais d’exprimer votre point de vue pour savoir (1) quel système de classement serait le plus approprié pour notre ministère ou encore de proposer une autre solution. Nous aimerions recevoir votre response avant le 30 juin (2) afin de pouvoir présenter ces résultats à la conférence qui aura lieux (3) à la mi-juillet. QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. pour savoir. 2. avant le 30 juin. 3. qui aura lieux. 4. aucune correction. CORRECT ANSWER: qui aura lieux.",
+    "metadata": {
+      "examId": "EE_8",
+      "setId": "EE_8_Q65",
+      "questionId": "EE_8_Q65",
+      "questionType": "Error-identification",
+      "grammarType": "Locution verbale (avoir lieu)",
+      "context": "Vous trouverez ci-joint deux nomenclatures. Je vous demanderais d’exprimer votre point de vue pour savoir (1) quel système de classement serait le plus approprié pour notre ministère ou encore de proposer une autre solution. Nous aimerions recevoir votre response avant le 30 juin (2) afin de pouvoir présenter ces résultats à la conférence qui aura lieux (3) à la mi-juillet.",
+      "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
+      "choices": [
+        { "id": 1, "text": "pour savoir" },
+        { "id": 2, "text": "avant le 30 juin" },
+        { "id": 3, "text": "qui aura lieux" },
+        { "id": 4, "text": "aucune correction" }
+      ],
+      "answerKey": {
+        "correctChoiceId": 3,
+        "correctChoiceText": "qui aura lieux",
+        "explanation": "Dans l'expression « avoir lieu » (to take place), le mot « lieu » s’écrit toujours au singulier."
+      }
+    }
   }
 ]
