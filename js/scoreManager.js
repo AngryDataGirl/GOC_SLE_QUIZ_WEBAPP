@@ -4,7 +4,7 @@ function getScores() {
     return JSON.parse(localStorage.getItem('quizScores')) || [];
 }
 
-export function saveScore(quizName, score, correct, total, finalTime) {
+export function saveScore(quizName, score, correct, total, finalTime, results) {
     const newScore = {
         name: quizName,
         score: Math.round((correct / total) * 100),
