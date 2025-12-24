@@ -1,5 +1,7 @@
 "# GOC_SLE_QUIZ_WEBAPP" 
 
+https://angrydatagirl.github.io/GOC_SLE_QUIZ_WEBAPP/
+
 main.js is the entry point. It runs first, sets up all the event listeners (like what happens when a button is clicked), and acts as the "conductor" that tells the other modules what to do.
 
 quiz.js is the brain of the quiz. When you click a quiz button, main.js tells quiz.js to start. It handles fetching questions, tracking the current question, and calculating the score.
