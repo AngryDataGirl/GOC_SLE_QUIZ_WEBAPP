@@ -44,32 +44,28 @@ export function displayQuestion(question, currentIndex, total) {
 
     elements.questionCounter.textContent = `Question ${currentIndex + 1}/${total}`;
     elements.questionPrompt.textContent = question.prompt;
-    
+        
     if (question.context) {
-    let contextHTML = question.context;
-    const activeBlank = question.refersTo; // e.g., "BLANK_A"
+            let contextHTML = question.context;
+            const activeBlank = question.refersTo; 
 
-    if (activeBlank) {
-        // This is a fill-in-the-blank question
+            // Match all instances of {{BLANK_A}}, {{BLANK_B}}, etc.
+            const blankRegex = /\{\{(BLANK_([A-Z]))\}\}/g;
 
-        // 1. Highlight the blank this question refers to
-        const activeRegex = new RegExp(`\\{\\{${activeBlank}\\}\\}`, 'g');
-        contextHTML = contextHTML.replace(activeRegex, '<span class="active-blank-space">[BLANK]</span>');
+            contextHTML = contextHTML.replace(blankRegex, (match, fullTag, letter) => {
+                // Check if this specific blank matches the one in the question metadata
+                const isActive = (fullTag === activeBlank);
+                const className = isActive ? 'blank-space active' : 'blank-space';
+                
+                // Return a span that keeps the letter visible [A], [B], or [C]
+                return `<span class="${className}">[${letter}]</span>`;
+            });
 
-        // 2. Just remove the tags from any *other* blanks in the same text
-        contextHTML = contextHTML.replace(/\{\{BLANK.*?\}\}/g, '');
-
-    } else {
-        // This is not a fill-in-the-blank question, but might have sample blanks
-        // (like in the original CE_1_Q1 text)
-        contextHTML = contextHTML.replace(/\{\{BLANK.*?\}\}/g, '<span class="blank-space"></span>');
-    }
-
-    elements.contextText.innerHTML = contextHTML;
-    elements.contextArea.classList.remove('hidden');
-} else {
-    elements.contextArea.classList.add('hidden');
-}
+            elements.contextText.innerHTML = contextHTML;
+            elements.contextArea.classList.remove('hidden');
+        } else {
+            elements.contextArea.classList.add('hidden');
+        }
 
     question.choices.forEach(choice => {
         const button = document.createElement('button');

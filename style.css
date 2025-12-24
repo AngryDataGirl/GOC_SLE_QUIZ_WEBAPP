@@ -121,13 +121,13 @@ body {
     border: 1px solid var(--color-incorrect);
 }
 
-.blank-space {
+/* .blank-space {
     display: inline-block;
     width: 80px;
     border-bottom: 1px solid var(--border-color);
     margin: 0 4px;
     vertical-align: bottom;
-}
+} */
 
 /* --- Flashy Animated Gradient Heading --- */
 
@@ -338,4 +338,24 @@ body {
     rgba(var(--color-selected-bg-rgb), 0.7),
     transparent
   );
+}
+
+/* --- Updated Blank Space Styling --- */
+.blank-space {
+    display: inline-block;
+    min-width: 40px; /* Use min-width so [A] fits inside */
+    font-weight: bold;
+    color: var(--text-secondary); /* Uses your variable #888888 */
+    border-bottom: 1px solid var(--border-color);
+    margin: 0 4px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.blank-space.active {
+    color: #000; /* Dark text for contrast against light background */
+    background-color: var(--primary-color); /* Bright blue from your :root */
+    border-bottom: 1px solid var(--primary-color);
+    padding: 0 6px;
+    border-radius: 4px;
 }
