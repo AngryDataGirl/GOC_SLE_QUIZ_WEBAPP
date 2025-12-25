@@ -1411,7 +1411,7 @@
     "questionId": "EE_1_Q48",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Expressions idiomatiques et adverbes de temps (sur-le-champ)",
+    "grammarType": "Vocabulaire / Expressions idiomatiques",
     "context": "Nous avons dû prendre la décision {{BLANK}}.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -2926,7 +2926,7 @@
       "questionId": "EE_2_Q46",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Expressions idiomatiques (veiller à ce que)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Je vous demanderais donc {{BLANK}} que vos messages d'accueil téléphonique soient en français et en anglais.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -3076,7 +3076,7 @@
       "questionId": "EE_2_Q52",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Expressions idiomatiques (avoir à l’œil)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Si tu veux mon avis, tu ferais bien mieux {{BLANK}} le nouvel employé occasionnel. Il n’a pas l’air de travailler toutes les heures qu’il devrait.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -3173,7 +3173,7 @@
       "setId": "EE_2_Q56",
       "questionId": "EE_2_Q56",
       "questionType": "Error-identification",
-      "grammarType": "Expressions idiomatiques et orthographe (faire part)",
+      "grammarType": "Orthographe",
       "context": "J’ai le plaisir de vous faire par (1) de la nomination de Serge Courchesne au poste de directeur exécutif. M. Courchesne a une vaste expérience qu'il saura mettre à profit (2) dans son nouveau poste au sein du ministère. Je sais que je peux compter sur vous pour accueillir le nouveau Directeur exécutif et l'assurer (3) de votre collaboration.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -3989,7 +3989,7 @@
       "questionId": "EE_3_Q24",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Expressions idiomatiques (Collocations)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Je {{BLANK}} pour remercier tous ceux et celles qui ont participé bénévolement à l'activité. Merci beaucoup!",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -6466,7 +6466,7 @@
       "questionId": "EE_4_Q58",
       "questionType": "Error-identification",
       "refersTo": "None",
-      "grammarType": "Expressions idiomatiques (pas mal de)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Ta demande de congé d'études est acceptée (1). Peux-tu passer me voir ce matin? Il n'y a encore pas mal (2) de paperasse (3) à signer et à envoyer aux ressources humaines.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -6566,7 +6566,7 @@
       "questionId": "EE_4_Q62",
       "questionType": "Error-identification",
       "refersTo": "None",
-      "grammarType": "Expressions idiomatiques (Locutions)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Au futur et à mesure (1) que les choses progressent, nous nous engageons à (2) solliciter vos commentaires de façon régulière. Nous tenons à favoriser un processus clair et transparent (3) dans la réalisation de ce projet.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -7116,7 +7116,7 @@
       "questionId": "EE_5_Q19",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Expressions idiomatiques (avoir tort)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Je pense que John {{BLANK}}. Selon moi, c’est plutôt vers la formation en ligne qu’il faudrait se tourner. C’est ça l’avenir après tout.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -7816,7 +7816,7 @@
       "questionId": "EE_5_Q47",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Vocabulaire (Expressions idiomatiques)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Ce webinaire proposé par l’École de la fonction publique du Canada vous permettra {{BLANK}} sur le sujet.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -7891,7 +7891,7 @@
       "questionId": "EE_5_Q50",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Vocabulaire (Traductions idiomatiques)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Une enquête réalisée pour le compte du Commissariat à la protection de la vie privée du Canada a révélé que 90 % des Canadiens {{BLANK}} par les répercussions des nouvelles technologies sur leur vie personnelle.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -8254,7 +8254,7 @@
       "setId": "EE_5_Q65",
       "questionId": "EE_5_Q65",
       "questionType": "Error-identification",
-      "grammarType": "Locutions idiomatiques",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Vous trouverez sur ce site, de l'information portant sur un vaste éventail (1) de services liés aux immeubles, et compris (2) la surveillance par système d'alarme, le nettoyage, les systèmes électriques, les ascenseurs (3), le chauffage, la ventilation et la climatisation, l'éclairage, la plomberie, les systèmes de sécurité et plus encore.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -8354,7 +8354,7 @@
       "questionId": "EE_6_Q4",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Locutions idiomatiques",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Consultez la liste en annexe {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -8600,7 +8600,7 @@
       "setId": "EE_6_Q14",
       "questionId": "EE_6_Q14",
       "questionType": "Error-identification",
-      "grammarType": "Locutions verbales idiomatiques",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Un (1) séminaire prendra lieu (2) le 20 août prochain. Prière (3) d’apporter les documents pertinents.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -8974,7 +8974,7 @@
       "questionId": "EE_6_Q29",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Expressions idiomatiques (Traductions)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Merci de bien vouloir répondre à notre sondage. {{BLANK}} que vos réponses demeureront confidentielles.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -9496,7 +9496,7 @@
       "questionNumber": 50,
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Expressions idiomatiques",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Si tu veux mon avis, tu ferais bien mieux {{BLANK}} le nouvel employé occasionnel. Il n’a pas l’air de travailler toutes les heures qu’il devrait.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -11194,7 +11194,7 @@
       "questionId": "EE_7_Q53",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Expressions idiomatiques et orthographe",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "La maîtrise en études canadiennes est un programme de deuxième cycle offert uniquement par Internet. Son objectif est d'amener l'étudiant à approfondir ses connaissances du Canada en utilisant {{BLANK}} d'outils analytiques et documentaires.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -12069,7 +12069,7 @@
       "questionId": "EE_8_Q23",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Expressions idiomatiques",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Nous devons nous rencontrer dès que possible pour {{BLANK}} sur les nouveaux projets.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
