@@ -781,7 +781,7 @@
     "questionId": "EE_1_Q30",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Vocabulaire / Anglicismes",
+    "grammarType": "Lexique (Anglicisme et Faux Amis)",
     "context": "Êtes-vous d’accord avec les récentes politiques de notre ministère concernant les toutes dernières {{BLANK}}.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -1143,7 +1143,7 @@
     "setId": "EE_1_Q40",
     "questionId": "EE_1_Q40",
     "questionType": "Error-identification",
-    "grammarType": "Vocabulaire / Anglicismes",
+    "grammarType": "Lexique (Anglicisme et Faux Amis)",
     "context": "Je viens d'apprendre que c'est Michel qui sera chargé (1) de mettre sur pied (2) le nouveau programme de mentorat. C'est un bon choix, car il est titulaire d'un degré (3) en andragogie.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -1753,7 +1753,7 @@
     "setId": "EE_1_Q62",
     "questionId": "EE_1_Q62",
     "questionType": "Error-identification",
-    "grammarType": "Anglicismes et faux amis (valuables vs de valeur)",
+    "grammarType": "Lexique (Anglicisme et Faux Amis)",
     "context": "Vous n'êtes pas sans savoir (1) que l'édifice est un vaste ensemble comportant de nombreuses portes d'accès. Bien que (2) nos agents exercent une surveillance de tous les instants, ils ne peuvent être partout à la fois. Je vous invite donc à surveiller de près vos effets personnels. Ne laissez pas d'objets valuables (3) sans surveillance. Si quelque chose disparaît, veuillez en aviser dans les plus brefs délais l'agent des services administratifs au 613-993-0180.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -2171,7 +2171,7 @@
       "setId": "EE_2_Q14",
       "questionId": "EE_2_Q14",
       "questionType": "Error-identification",
-      "grammarType": "Anglicisme (plancher vs étage)",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "Dans cet (1) édifice, le service de la rémunération (2) se trouve au 21e plancher (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs?",
       "choices": [
@@ -3439,7 +3439,7 @@
       "questionId": "EE_3_Q2",
       "questionType": "Fill-in-the-blank",
       "refersTo": "________________",
-      "grammarType": "Anglicismes et calques (demande générale)",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "À la ________________, le cours N-610 sur l'utilisation du Web 2.0 au bureau sera offert à nouveau en janvier.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -3464,7 +3464,7 @@
       "questionId": "EE_3_Q3",
       "questionType": "Fill-in-the-blank",
       "refersTo": "_______________",
-      "grammarType": "Vocabulaire et paronymes",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "Étant donné que de nombreux employés sont en congé durant l'été, nous avons décidé de _______________ la réunion.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -3964,7 +3964,7 @@
       "questionId": "EE_3_Q23",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Vocabulaire (Anglicismes et calques)",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "Hier, il y a eu {{BLANK}} qui a duré deux heures.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -4039,7 +4039,7 @@
       "questionId": "EE_3_Q26",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Vocabulaire (Anglicismes : if required)",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "Soyez en mesure de présenter une pièce d’identité {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -4514,7 +4514,7 @@
       "questionId": "EE_3_Q45",
       "questionType": "Error-identification",
       "refersTo": "resources humaines",
-      "grammarType": "Orthographe lexicale (Influence de l'anglais 'resources')",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Tous les employés et employées intéressés par cette mutation doivent me le signaler avant le 15 de ce mois. Si vous souhaitez poser (1) votre candidature, veuillez transmettre votre curriculum vitæ à jour (2) au service des resources humaines (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -5300,7 +5300,7 @@
       "questionNumber": 11,
       "questionType": "Error-identification",
       "refersTo": "faire une décision",
-      "grammarType": "Lexique (Anglicisme sémantique)",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "On doit prendre en considération (1) cet aspect (2) du travail avant de faire une décision (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -5326,7 +5326,7 @@
       "questionNumber": 12,
       "questionType": "Error-identification",
       "refersTo": "adresse",
-      "grammarType": "Lexique (Calque de l'anglais 'to address')",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "Avant de pouvoir aller (1) plus loin dans le processus (2), il faut absolument qu'on adresse (3) ce problème.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -5679,7 +5679,7 @@
       "questionId": "EE_4_Q26",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Vocabulaire (Faux amis - advertising)",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "Vous devriez faire {{BLANK}} sur le Web pour augmenter la visibilité du programme auprès des Canadiens.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -5877,7 +5877,7 @@
       "setId": "EE_4_Q34",
       "questionId": "EE_4_Q34",
       "questionType": "Error-identification",
-      "grammarType": "Vocabulaire (anglicisme)",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "Au cours des prochains mois, je voudrais me prévaloir (1) de l'horaire de travail compressé (2). Cet horaire serait ce qu'il y a de mieux pour moi vu (3) ma situation familiale actuelle. Merci!",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -6516,7 +6516,7 @@
       "questionId": "EE_4_Q60",
       "questionType": "Error-identification",
       "refersTo": "None",
-      "grammarType": "Anglicismes de préposition (par vs d'ici)",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "La répartition du travail doit être terminée par jeudi (1) de la semaine prochaine. D'ailleurs (2), je voudrais te rencontrer à ce sujet. Il me semble qu'on pourrait former seulement deux équipes au lieu de trois. Comme ça, on serait plus efficace quand vient le temps de faire la répartition des tâches. Qu'en (3) penses-tu?",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -6666,7 +6666,7 @@
       "questionId": "EE_5_Q1",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Anglicismes (campagne de charité)",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "La campagne {{BLANK}} en milieu de travail du gouvernement du Canada sera officiellement lancée le 13 septembre.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -6741,7 +6741,7 @@
       "questionId": "EE_5_Q4",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Salutations / Anglicismes",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "Quand j’emmène mes enfants à l’école le matin, je leur dis toujours : « {{BLANK}}! »",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -6816,7 +6816,7 @@
       "questionId": "EE_5_Q7",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Vocabulaire professionnel / Anglicismes",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "J’ai entendu dire qu’un agent d’approvisionnement avait été {{BLANK}} pour fraude. Il aurait attribué des contrats à ses amis.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -7166,7 +7166,7 @@
       "questionId": "EE_5_Q21",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Vocabulaire (Anglicismes)",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "Si tu participes à ce processus de sélection, tu devras {{BLANK}} un examen écrit et te présenter à une entrevue de sélection.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -7216,7 +7216,7 @@
       "questionId": "EE_5_Q23",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Vocabulaire (Anglicismes)",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "Comme on a droit à un {{BLANK}}, je l’ai demandé pour lundi prochain. Je vais accompagner un groupe d’enfants ayant un handicap au parc aquatique.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -7541,7 +7541,7 @@
       "questionId": "EE_5_Q36",
       "questionType": "Error-identification",
       "refersTo": "Numbered Sections",
-      "grammarType": "Vocabulaire (Anglicismes)",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "Au cours des prochains jours le Centre canadien d'hygiène et de sécurité au travail (CCHST) enverra (1) à tous un courriel automatisé intitulé : formation en ligne mandatoire (2). Il contiendra votre nom d’utilisateur et votre mot de passe pour suivre les cours en ligne (3) directement à partir du site internet du CCHST.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -7966,7 +7966,7 @@
       "questionId": "EE_5_Q53",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Vocabulaire professionnel / Anglicismes",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "Dans le cadre du processus de sélection des Prix d'excellence en gestion financière des Comptables professionnels {{BLANK}} du Canada, un éminent comité de sélection composé de hauts fonctionnaires et d'experts du milieu des affaires procédera à la sélection de la personne ou de l'équipe lauréate.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -8404,7 +8404,7 @@
       "questionId": "EE_6_Q6",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Vocabulaire (Anglicismes)",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "Vous devriez demander à suivre {{BLANK}} en informatique à votre patron.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -9097,7 +9097,7 @@
       "setId": "EE_6_Q34",
       "questionId": "EE_6_Q34",
       "questionType": "Error-identification",
-      "grammarType": "Écriture de l'heure (Anglicisme)",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "Le 18 décembre approche à grands pas (1) et nous voulons vous rappeler que c'est la journée que nous avons choisie (2) pour célébrer ensemble la période des fêtes. Nous vous attendons donc à 3:00 PM (3). La réception aura lieu au salon du 3e étage.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -9899,7 +9899,7 @@
       "questionId": "EE_7_Q1",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Anglicismes (Vocabulaire administratif)",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "La nouvelle politique {{BLANK}} le 15 juin.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -10794,7 +10794,7 @@
       "questionId": "EE_7_Q37",
       "questionType": "Error-identification",
       "refersTo": null,
-      "grammarType": "Anglicismes (Calques)",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "À date (1), il est très difficile d’évaluer les risques que nous courons (2) en mettant sur pied (3) un tel programme.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -10944,7 +10944,7 @@
       "questionId": "EE_7_Q43",
       "questionType": "Error-identification",
       "refersTo": null,
-      "grammarType": "Anglicismes (Vocabulaire financier)",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "Comme tu voulais que je t'accompagne, préviens-moi quand tu partiras (2). On pourra se rejoindre en bas pour prendre le taxi. Il me reste encore quelques billets de taxi de l'année passée que je ferais mieux d'utiliser avant la fin de l'année fiscale (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -11644,7 +11644,7 @@
       "questionId": "EE_8_Q6",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Anglicismes et faux amis",
+      "grammarType": "Lexique (Anglicisme et Faux Amis)",
       "context": "{{BLANK}} ont ratifié la nouvelle convention collective.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
