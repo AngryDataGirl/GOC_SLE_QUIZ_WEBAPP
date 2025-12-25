@@ -133,7 +133,7 @@
     "questionId": "EE_1_Q6",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Vocabulaire/Orthographe",
+    "grammarType": "Orthographe/Vocabulaire",
     "context": "Assure-toi de vérifier la date {{BLANK}} de chaque commande.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -583,7 +583,7 @@
     "questionId": "EE_1_Q24",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Vocabulaire/Orthographe",
+    "grammarType": "Orthographe/Vocabulaire",
     "context": "Ils ont fait leurs profits grâce à la vente de produits {{BLANK}}.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -1287,7 +1287,7 @@
     "setId": "EE_1_Q44",
     "questionId": "EE_1_Q44",
     "questionType": "Error-identification",
-    "grammarType": "Vocabulaire / Orthographe",
+    "grammarType": "Orthographe/Vocabulaire",
     "context": "Le représentant ministériel en Europe doit prémouvoir (1) et administrer conjointement (2) avec le représentant de la CE (Communauté européenne) et le directeur des Affaires ministérielles et internationales, un programme d’assistance technique pour les pays émergents (3).",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -1461,7 +1461,7 @@
     "questionId": "EE_1_Q50",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Accord du participe passé et orthographe du verbe 'encourir'",
+    "grammarType": "Orthographe/Vocabulaire",
     "context": "Il faudra évaluer les dépenses {{BLANK}} par cette initiative.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -1609,7 +1609,7 @@
     "setId": "EE_1_Q56",
     "questionId": "EE_1_Q56",
     "questionType": "Error-identification",
-    "grammarType": "Orthographe d'usage (rappeler)",
+    "grammarType": "Orthographe/Vocabulaire",
     "context": "Nous désirons vous rapeller (1) que le système est toujours en période de rodage (2) et que des bogues (3) peuvent survenir à l'occasion. N’hésitez pas à nous signaler tout problème que vous pourriez avoir pendant la mise en œuvre du système. Merci.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -2661,7 +2661,7 @@
       "setId": "EE_2_Q35",
       "questionId": "EE_2_Q35",
       "questionType": "Error-identification",
-      "grammarType": "Orthographe d'usage (communautaires)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Nous encourageons (1) les membres du personnel à consulter les organismes comunitaires (2) et les médias locaux pour voir les événements prévus dans leur région afin de commémorer (3) cette journée importante.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -3149,7 +3149,7 @@
       "setId": "EE_2_Q55",
       "questionId": "EE_2_Q55",
       "questionType": "Error-identification",
-      "grammarType": "Orthographe (courant vs courrant)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Afin que (1) le personnel soit au courrant (2) de tous les programmes dont (3) il peut bénéficier, nous vous invitons à consulter la nouvelle page Web du Service de la formation et du perfectionnement.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -3173,7 +3173,7 @@
       "setId": "EE_2_Q56",
       "questionId": "EE_2_Q56",
       "questionType": "Error-identification",
-      "grammarType": "Orthographe",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "J’ai le plaisir de vous faire par (1) de la nomination de Serge Courchesne au poste de directeur exécutif. M. Courchesne a une vaste expérience qu'il saura mettre à profit (2) dans son nouveau poste au sein du ministère. Je sais que je peux compter sur vous pour accueillir le nouveau Directeur exécutif et l'assurer (3) de votre collaboration.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -3269,7 +3269,7 @@
       "setId": "EE_2_Q60",
       "questionId": "EE_2_Q60",
       "questionType": "Error-identification",
-      "grammarType": "Orthographe (ressources vs resources)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Si le gouvernement du Canada veut faire sa part pour éviter que ne survienne la destruction irrémédiable (1) de notre environnement, il faut que la révision du processus d'évaluation et d'examen en matière d'environnement débouche sur une nouvelle loi. Dans la perspective d'un développement durable (2) et d'une conservation judicieuse de nos resources naturelles (3), l'évaluation environnementale est un outil essentiel.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -3317,7 +3317,7 @@
       "setId": "EE_2_Q62",
       "questionId": "EE_2_Q62",
       "questionType": "Error-identification",
-      "grammarType": "Orthographe d'usage (ancien)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Nous ne sommes pas toujours conscients qu'il y a beaucoup de Canadiens parmi (1) les meilleurs scientifiques du monde. Le prix Nobel a récompensé certains de ces as (2), comme John Polanyi, Frederick Banting (il a découvert l'insuline), et Gerhard Herzberg (il a étudié le comportement des molécules dans l'espace). Un quatrième Canadien a déjà reçu le prix Nobel de la paix : c'est l'ancient (3) premier ministre Lester B. Pearson.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -3341,7 +3341,7 @@
       "setId": "EE_2_Q63",
       "questionId": "EE_2_Q63",
       "questionType": "Error-identification",
-      "grammarType": "Orthographe (Cédille)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "On a beaucoup parlé des soi-disant (1) effets nocifs de la caféine. En Amérique du Nord, les journaux l'ont associée (2) au cancer et aux problèmes cardiaques. Ces révélations ont suscité la crainte de la caféine chez de nombreux consommateurs. Les compagnies de café ont réagi en se lancant (3) dans la production de produits exempts de caféine ou en contenant peu.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -3539,7 +3539,7 @@
       "questionId": "EE_3_Q6",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Orthographe (accents)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Je continue à compter sur votre appui pendant que nous mettons en œuvre cette {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -4214,7 +4214,7 @@
       "questionId": "EE_3_Q33",
       "questionType": "Error-identification",
       "refersTo": "Au court",
-      "grammarType": "Orthographe (Homophones : court/cours)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Au court (1) des quatre dernières années, on a offert (2) une prime de départ anticipé à environ (3) 5 000 employés.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4364,7 +4364,7 @@
       "questionId": "EE_3_Q39",
       "questionType": "Error-identification",
       "refersTo": "a échéance",
-      "grammarType": "Orthographe (Homophones : a vs à)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Votre assurance dentaire arrivera bientôt a échéance (1). Sachez qu'il est toujours possible pour vous de la renouveler (2) en remplissant le formulaire ci-joint (3) que vous ferez parvenir par la suite à votre agent de paie.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4389,7 +4389,7 @@
       "questionId": "EE_3_Q40",
       "questionType": "Error-identification",
       "refersTo": "intergouvernmental",
-      "grammarType": "Orthographe d'usage (Influence de l'anglais)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Puisque ce cours devra (1) être disponible pour tous les fonctionnaires fédéraux et provinciaux, je suggère de tester (2) votre application sur notre site Web intergouvernmental (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4464,7 +4464,7 @@
       "questionId": "EE_3_Q43",
       "questionType": "Error-identification",
       "refersTo": "encouragons",
-      "grammarType": "Orthographe (Particularité des verbes en -ger)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Cette entente entrera en vigueur (1) le mois prochain. Pour cette raison, nous vous encouragons (2) vivement à vous inscrire à l’une des sessions de formation d’une demi-journée (3) qui vont commencer dans deux semaines, soit à partir du 30 octobre.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4689,7 +4689,7 @@
       "questionId": "EE_3_Q52",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Orthographe (Pluriel des noms en -ou)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "En raison de la valeur souvent élevée {{BLANK}} et des difficultés que peut présenter leur identification, les agents des services frontaliers ne peuvent pas les inscrire directement sur le formulaire BDT708. On vous recommande donc d'en apporter le moins possible en voyage.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -4714,7 +4714,7 @@
       "questionId": "EE_3_Q53",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Orthographe et Genre (Masculin du mot 'Musée')",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "{{BLANK}} de l’histoire a pour mission d’accroître la connaissance, la compréhension et le degré d’appréciation des Canadiens  à l’égard d’évènements, d’expériences, de personnes et d’objets qui incarnent l’histoire et l’identité canadiennes, qu’ils ont façonnées, ainsi que de les sensibiliser à l’histoire du monde et aux autres cultures.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -4739,7 +4739,7 @@
       "questionId": "EE_3_Q54",
       "questionType": "Error-identification",
       "refersTo": "Quoique",
-      "grammarType": "Orthographe (Homophones : Quoique vs Quoi que)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Quoique (1) soit sa décision, il nous faudra (2) travailler à ce projet puisqu'il découle d'une décision ministérielle (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4864,7 +4864,7 @@
       "questionId": "EE_3_Q59",
       "questionType": "Error-identification",
       "refersTo": "sur le citoyien",
-      "grammarType": "Orthographe lexicale",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "La prestation de services centrée sur le citoyien (1) est un concept général qui comprend non seulement les normes de service, mais aussi le leadership, la planification, la bonne gestion, la mesure du rendement, etc. Elle inclut (2) aussi la mise en œuvre de nouvelles approches intégrées pour la prestation de services, comme les guichets uniques (3) et les partenariats avec des entreprises.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4889,7 +4889,7 @@
       "questionId": "EE_3_Q60",
       "questionType": "Error-identification",
       "refersTo": "en choissisant",
-      "grammarType": "Orthographe (Morphologie du participe présent)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Les gestionnaires désireux (1) d'être efficaces doivent connaître leurs forces et leurs faiblesses relativement à leur capacité à influencer les autres personnes. En analysant leurs techniques de communication et en choissisant (2) les moyens les plus efficaces d'influencer autrui (3), ils peuvent accroître leur capacité à amener les autres à penser comme eux.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4939,7 +4939,7 @@
       "questionId": "EE_3_Q62",
       "questionType": "Error-identification",
       "refersTo": "rapide survole théorique",
-      "grammarType": "Orthographe (Distinction entre nom et verbe)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Si l'équipement nécessaire est disponible (1), le formateur fera (2) une démonstration du logiciel. Dans l'éventualité où le formateur n'aurait pas accès à l'équipement nécessaire pour faire la démonstration, il fera un rapide survole théorique (3) des possibilités qu'offre le logiciel.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -5040,7 +5040,7 @@
       "questionNumber": 1,
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Orthographe (Locutions de politesse)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Pourriez-vous classer ces fichiers, {{BLANK}}?",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -5529,7 +5529,7 @@
       "questionId": "EE_4_Q20",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Orthographe (mots composés)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "La {{BLANK}} aimerait être informée de tout changement à la présentation.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -5829,7 +5829,7 @@
       "questionId": "EE_4_Q32",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Orthographe (traits d'union)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Avec la mise à niveau des postes de travail, {{BLANK}} l’installation d’ordinateurs portables pour tous les employés, le ministère continue de moderniser ses milieux de travail pour appuyer l'engagement du greffier du Conseil privé en ce qui concerne le renouvellement des installations.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -6366,7 +6366,7 @@
       "questionId": "EE_4_Q54",
       "questionType": "Error-identification",
       "refersTo": "None",
-      "grammarType": "Orthographe et prépositions",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Dans le cadre du programme de réaménagement (1) des effectifs, la direction nous a demandé de chercher des moyens de faire des économies dans nos sections et divisions respectives (2). Nous comptons beaucoup sur (3) votre collaboration pour y arriver.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -6866,7 +6866,7 @@
       "questionId": "EE_5_Q9",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Orthographe (Mots composés)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Elle oublie constamment son {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -7641,7 +7641,7 @@
       "questionId": "EE_5_Q40",
       "questionType": "Error-identification",
       "refersTo": "Numbered Sections",
-      "grammarType": "Orthographe (Recommandations)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Le sous-ministre a annoncé la formation d'un comité en vue de la mise sur pied (1) d'un programme d'emploi pour les personnes ayant une déficience. Il ne prendra (2) aucune décision avant d'avoir reçu les recommendations (3) des personnes intéressées.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -7666,7 +7666,7 @@
       "questionId": "EE_5_Q41",
       "questionType": "Error-identification",
       "refersTo": "Numbered Sections",
-      "grammarType": "Orthographe (Homophones nom/non)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Au non de (1) tout le personnel, je voudrais vous signaler que dans notre unité, nous sommes très intéressés à profiter des nouveaux services offerts (2). Il y a longtemps d’ailleurs (3) que les employés suggèrent de rendre disponible ce bouquet de nouveaux services à l’ensemble du personnel. Encore merci pour cette très heureuse initiative.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -7716,7 +7716,7 @@
       "questionId": "EE_5_Q43",
       "questionType": "Error-identification",
       "refersTo": "Numbered Sections",
-      "grammarType": "Orthographe (Adjectifs)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "J'aimerais recevoir vos commentaires dans les plus briefs délais (1). De plus, le sous-ministre a déclaré (2) que le programme d'emplois pour étudiants connaissait (3) beaucoup de succès.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -8014,7 +8014,7 @@
       "setId": "EE_5_Q55",
       "questionId": "EE_5_Q55",
       "questionType": "Error-identification",
-      "grammarType": "Orthographe et Accord",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Depuis janvier 2013, le gouvernement oblige les universités et collèges de la province à donner de la formation sur l’accessibilité (1) à l’ensemble de leurs éducateurs. C’est là une occasion idéale de parler des meilleures pratiques en enseignement et en apprentissage. Le guide d’introduction présente un survol (2) des pratiques d’enseignement inclusives (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -8279,7 +8279,7 @@
       "questionId": "EE_6_Q1",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Orthographe (noms composés)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Il a oublié de nous faire parvenir le {{BLANK}} de la réunion.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -8552,7 +8552,7 @@
       "setId": "EE_6_Q12",
       "questionId": "EE_6_Q12",
       "questionType": "Error-identification",
-      "grammarType": "Orthographe (Adjectif indéfini)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Soyez assurés (1) que nous prendrons touts (2) les moyens à notre disposition pour régler (3) le problème.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -9169,7 +9169,7 @@
       "setId": "EE_6_Q37",
       "questionId": "EE_6_Q37",
       "questionType": "Error-identification",
-      "grammarType": "Orthographe d'usage (Position de la voyelle)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Nous aimerions informer (1) les employés que Pauline Bourgeois, du Service des tests et de l'évaluation, et André Osman, de la Division des politiques, de la planification et de la coordination, seront responsables de l'implantation du nouveau programme. Ils commenceront très bientôt la ceuillette (2) de données en ce qui concerne (3)l'implantation du programme pour les groupes PM et PE.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -9624,7 +9624,7 @@
       "questionId": "EE_6_Q55",
       "questionNumber": 55,
       "questionType": "Error-identification",
-      "grammarType": "Orthographe d'usage",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Les sites de réseautage social (1) aident les gens à communiquer avec leurs amis et leur famille, à échanger des idées avec des collègues dans leur domain d’expertise (2) ou à partager des renseignements avec des personnes ayant les mêmes intérêts qu’eux (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -10244,7 +10244,7 @@
       "setId": "EE_7_Q15",
       "questionId": "EE_7_Q15",
       "questionType": "Error-identification",
-      "grammarType": "Orthographe (Adverbe)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Les demandes de service doivent (1) être traitées rapidment (2) pour éviter l’accumulation de dossiers en attente (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -10444,7 +10444,7 @@
       "questionId": "EE_7_Q23",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Orthographe (Participe présent / Gérondif)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "En vous {{BLANK}} à la cyberconférence, vous pourrez participer à l’atelier sur le processus d’orientation.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -11219,7 +11219,7 @@
       "questionId": "EE_7_Q54",
       "questionType": "Error-identification",
       "refersTo": "n/a",
-      "grammarType": "Orthographe d'usage (Anglicisme)",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "Le Conseil du Trésor est chargé de l'imputabilité et de l'éthic (1), de la gestion des finances, du personnel et de l'administration, de la fonction de contrôle ainsi que de l'approbation des règlements (2) et de la plupart des décrets en conseil. Le Conseil du Trésor est doté (3) d'un organe administratif, le Secrétariat, qui faisait autrefois partie du ministère des Finances, mais qui depuis 1966 constitue un ministère distinct.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -11619,7 +11619,7 @@
       "questionId": "EE_8_Q5",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Orthographe d'usage",
+      "grammarType": "Orthographe/Vocabulaire",
       "context": "En ce qui concerne les documents que tu m’avais demandés, tu les trouveras dans le deuxième {{BLANK}} de mon bureau.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
