@@ -58,7 +58,7 @@
     "questionId": "EE_1_Q3",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Adjectif interrogatif (accord) et préposition",
+    "grammarType": "Prépositions",
     "context": "Ce courriel, {{BLANK}} faut-il l'envoyer?",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -633,7 +633,7 @@
     "questionId": "EE_1_Q26",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Syntaxe / Préposition + Infinitif",
+    "grammarType": "Prépositions",
     "context": "Excusez-moi {{BLANK}} fait attendre.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -855,7 +855,7 @@
     "questionId": "EE_1_Q32",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Syntaxe / Prépositions (Régime des verbes)",
+    "grammarType": "Prépositions",
     "context": "Vous n’êtes pas autorisé {{BLANK}} prendre ce genre de décisions.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -891,7 +891,7 @@
     "setId": "EE_1_Q33",
     "questionId": "EE_1_Q33",
     "questionType": "Error-identification",
-    "grammarType": "Conjugaison / Infinitif après préposition",
+    "grammarType": "Prépositions",
     "context": "Elles ont choisi de s'exprimées (1) devant le groupe pour faire taire les rumeurs voulant (2) qu'elles partent (3) toutes les deux pour des postes dans un autre ministère.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -1215,7 +1215,7 @@
     "setId": "EE_1_Q42",
     "questionId": "EE_1_Q42",
     "questionType": "Error-identification",
-    "grammarType": "Conjugaison / Infinitif après préposition",
+    "grammarType": "Prépositions",
     "context": "Nous aimerions savoir si M. Bouchard a l’intention d’accepté (1) le poste de vérificateur principal à Toronto à la suite du concours qui a eu lieu (2) dans cette région le mois dernier. La date d'échéance pour donner sa réponse est fixée (3) au 20 juin.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -1385,7 +1385,7 @@
     "questionId": "EE_1_Q47",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Verbes pronominaux et prépositions (se prévaloir de)",
+    "grammarType": "Prépositions",
     "context": "Nous vous invitons {{BLANK}} ces services en tout temps.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -1657,7 +1657,7 @@
     "setId": "EE_1_Q58",
     "questionId": "EE_1_Q58",
     "questionType": "Error-identification",
-    "grammarType": "Régime prépositionnel (avoir l'obligeance de)",
+    "grammarType": "Prépositions",
     "context": "Veuillez avoir l’obligeance à (1) vérifier l’exactitude des données de ce rapport. Sinon, des erreurs pourraient survenir lors de (2) sa publication, ce qui causerait un tort irréparable à la (3) réputation de l'agence.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -1900,7 +1900,7 @@
       "questionId": "EE_2_Q3",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Construction verbale avec préposition « de »",
+      "grammarType": "Prépositions",
       "context": "Veuillez me faire savoir si vous {{BLANK}} de participer à cet événement.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -2025,7 +2025,7 @@
       "questionId": "EE_2_Q8",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Préposition avec le verbe « dépendre »",
+      "grammarType": "Prépositions",
       "context": "Cela dépend {{BLANK}} poste que vous occupez.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -2309,7 +2309,7 @@
       "examId": "EE_2",
       "questionId": "EE_2_Q20",
       "questionType": "Fill-in-the-blank",
-      "grammarType": "Préposition avec « intéressé »",
+      "grammarType": "Prépositions",
       "context": "Quant à moi, j’aimerais vous signaler que je suis intéressé {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -2447,7 +2447,7 @@
       "examId": "EE_2",
       "questionId": "EE_2_Q26",
       "questionType": "Fill-in-the-blank",
-      "grammarType": "Construction du verbe « autoriser » (préposition)",
+      "grammarType": "Prépositions",
       "context": "Vous n’êtes pas autorisé {{BLANK}} prendre ce genre de décisions.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -2493,7 +2493,7 @@
       "examId": "EE_2",
       "questionId": "EE_2_Q28",
       "questionType": "Fill-in-the-blank",
-      "grammarType": "Infinitif après préposition",
+      "grammarType": "Prépositions",
       "context": "Il entre souvent dans mon bureau sans {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -4789,7 +4789,7 @@
       "questionId": "EE_3_Q56",
       "questionType": "Error-identification",
       "refersTo": "accusé réception à",
-      "grammarType": "Syntaxe (Régime prépositionnel des locutions verbales)",
+      "grammarType": "Prépositions",
       "context": "Tu te souviens (1) de la poursuite qu'on avait intentée (2) contre cette compagnie au sujet des sièges d'auto pour bébés dangereux? Ils ont accusé réception à (3) notre ultimatum hier.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4989,7 +4989,7 @@
       "questionId": "EE_3_Q64",
       "questionType": "Error-identification",
       "refersTo": "Autour",
-      "grammarType": "Lexique (Prépositions et adverbes de lieu)",
+      "grammarType": "Prépositions",
       "context": "Autour (1) dans le monde, les fonctions publiques changent considérablement, et les fonctionnaires doivent garder leurs compétences et leurs connaissances à jour (2). Autrement dit, l'apprentissage est essentiel pour permettre à la fonction publique de respecter ses priorités, de servir le gouvernement en place et de transformer et moderniser (3) l'administration publique.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -5092,7 +5092,7 @@
       "questionNumber": 3,
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe (Prépositions temporelles)",
+      "grammarType": "Prépositions",
       "context": "{{BLANK}} combien de temps attendez-vous?",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -5352,7 +5352,7 @@
       "questionNumber": 13,
       "questionType": "Error-identification",
       "refersTo": "au",
-      "grammarType": "Syntaxe (Prépositions devant une personne)",
+      "grammarType": "Prépositions",
       "context": "Salut Marc. Juste un petit mot pour te dire que je ne pourrai (1) pas aller jouer au golf ce soir, j'ai un rendez-vous au (2) dentiste à 18 h (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -6117,7 +6117,7 @@
       "setId": "EE_4_Q44",
       "questionId": "EE_4_Q44",
       "questionType": "Error-identification",
-      "grammarType": "Régime prépositionnel (en priorité)",
+      "grammarType": "Prépositions",
       "context": "Nous vous demandons de traiter (1) ces formulaires dans (2) priorité afin de diminuer les délais administratifs (3) et d’éviter les retards dans le versement des subventions.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -6766,7 +6766,7 @@
       "questionId": "EE_5_Q5",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Prépositions temporelles",
+      "grammarType": "Prépositions",
       "context": "L’atelier aura lieu mardi prochain et durera toute la journée. Je serai donc de retour au bureau {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -7041,7 +7041,7 @@
       "questionId": "EE_5_Q16",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Structures verbales et prépositions",
+      "grammarType": "Prépositions",
       "context": "J’encourage tous les employés {{BLANK}} cette initiative méritoire.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -7266,7 +7266,7 @@
       "questionId": "EE_5_Q25",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe (Prépositions)",
+      "grammarType": "Prépositions",
       "context": "J’ai vraiment besoin de plus de temps {{BLANK}} dessiner les plans.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -7291,7 +7291,7 @@
       "questionId": "EE_5_Q26",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe (Prépositions)",
+      "grammarType": "Prépositions",
       "context": "La direction collabore avec le Bureau du dirigeant principal des ressources humaines {{BLANK}} soutenir les ministères dans leurs efforts de préparation en vue de la nouvelle Directive sur la gestion du rendement.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -7491,7 +7491,7 @@
       "questionId": "EE_5_Q34",
       "questionType": "Error-identification",
       "refersTo": "Numbered Sections",
-      "grammarType": "Syntaxe (Prépositions de temps)",
+      "grammarType": "Prépositions",
       "context": "Afin de présenter (1) à tout le monde le rapport de vérification interne, une réunion spéciale est prévue au 17 janvier (2). Il est extrêmement important que tous puissent y assister (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -8429,7 +8429,7 @@
       "questionId": "EE_6_Q7",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Régime verbal (prépositions)",
+      "grammarType": "Prépositions",
       "context": "Si vous prévoyez {{BLANK}} forum, veuillez me fournir les renseignements requis d’ici demain.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -8624,7 +8624,7 @@
       "setId": "EE_6_Q15",
       "questionId": "EE_6_Q15",
       "questionType": "Error-identification",
-      "grammarType": "Prépositions idiomatiques",
+      "grammarType": "Prépositions",
       "context": "Dans (1) mon avis, ce (2) genre de situation exige une intervention appropriée (3) et rapide.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -8874,7 +8874,7 @@
       "questionId": "EE_6_Q25",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Prépositions (Conformité)",
+      "grammarType": "Prépositions",
       "context": "Ces places seront attribuées {{BLANK}} les critères énoncés dans la politique de stationnement.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -9073,7 +9073,7 @@
       "setId": "EE_6_Q33",
       "questionId": "EE_6_Q33",
       "questionType": "Error-identification",
-      "grammarType": "Prépositions (chez vs à/au)",
+      "grammarType": "Prépositions",
       "context": "Par le passé (1), lorsque vous aviez un rendez-vous au (2) médecin ou le dentiste, il fallait que vous soumettiez une demande de congé de maladie sans certificat. Dorénavant (3), veuillez utiliser le type de congé numéro 689 intitulé Rendez-vous médical.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -9366,7 +9366,7 @@
       "questionId": "EE_6_Q45",
       "questionNumber": 45,
       "questionType": "Error-identification",
-      "grammarType": "Morphologie verbale (Infinitif après préposition)",
+      "grammarType": "Prépositions",
       "context": "La fonction publique fédérale s'est engagée (1) à offrir aux étudiantes et étudiants des affectations d'apprentissage valables et structurées qui servent à assurées (2) la transition de l'école au marché du travail. Le personnel étudiant entraîne des coûts moins élevés que le personnel régulier. Ils ont le statut de stagiaires (3) et ne bénéficient pas des mêmes avantages que le personnel en titre.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -9699,7 +9699,7 @@
       "questionId": "EE_6_Q58",
       "questionNumber": 58,
       "questionType": "Error-identification",
-      "grammarType": "Prépositions (Complément d'agent)",
+      "grammarType": "Prépositions",
       "context": "Lorsqu'une personne ayant la grippe tousse ou éternue, le virus peut être projeté dans l'air et inhalé de quelqu'un (1) d'autre. Le virus peut aussi atterrir sur des surfaces (2) comme les poignées de portes, les boutons d’ascenseur ou les téléphones. Vous pouvez attraper la grippe si vous touchez un objet contaminé et portez ensuite (3) la main aux yeux, au nez ou à la bouche.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -10024,7 +10024,7 @@
       "questionId": "EE_7_Q6",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Prépositions de temps (within)",
+      "grammarType": "Prépositions",
       "context": "Vous devriez obtenir votre laissez-passer {{BLANK}} deux semaines.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -10074,7 +10074,7 @@
       "questionId": "EE_7_Q8",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Régime prépositionnel (satisfait de)",
+      "grammarType": "Prépositions",
       "context": "Sont-ils tous satisfaits {{BLANK}}?",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -10172,7 +10172,7 @@
       "setId": "EE_7_Q12",
       "questionId": "EE_7_Q12",
       "questionType": "Error-identification",
-      "grammarType": "Régime prépositionnel (avoir l'obligeance de)",
+      "grammarType": "Prépositions",
       "context": "Auriez-vous l’obligeance à (1) bien vouloir vérifier (2) l’exactitude des données (3) de ce rapport.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -10220,7 +10220,7 @@
       "setId": "EE_7_Q14",
       "questionId": "EE_7_Q14",
       "questionType": "Error-identification",
-      "grammarType": "Régime prépositionnel (aller à)",
+      "grammarType": "Prépositions",
       "context": "Ceci est un message pour vous rappeler (1) que la navette pour se rendre au barbecue organisé pour Centraide partira à 11 h 10. Notez (2) qu’aucune autre navette n’est prévue pour aller (3) cette activité.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -10694,7 +10694,7 @@
       "questionId": "EE_7_Q33",
       "questionType": "Error-identification",
       "refersTo": null,
-      "grammarType": "Morphologie verbale (Infinitif après préposition)",
+      "grammarType": "Prépositions",
       "context": "J'ai le plaisir de vous annoncez (1) que M. Tremblay a été promu (2) chef de notre section à la suite de la mutation (3) de Mme Leblanc.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -10894,7 +10894,7 @@
       "questionId": "EE_7_Q41",
       "questionType": "Error-identification",
       "refersTo": null,
-      "grammarType": "Syntaxe (Préposition avec pronoms relatifs/interrogatifs)",
+      "grammarType": "Prépositions",
       "context": "Bonjour Madame. Je voudrais des renseignements (1) sur la nouvelle initiative en matière de formation de la main-d’œuvre (2) dans le secteur de la santé, mise en place par votre ministère. Pourriez-vous me dire qui (3) on a attribué ce projet pour que je sache à qui m’adresser exactement.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -10994,7 +10994,7 @@
       "questionId": "EE_7_Q45",
       "questionType": "Error-identification",
       "refersTo": null,
-      "grammarType": "Syntaxe (Prépositions temporelles)",
+      "grammarType": "Prépositions",
       "context": "Je t'envoie (1) le rapport sur lequel (2) je travaille depuis plusieurs semaines déjà. Prends le temps de le lire, mais souviens-toi que, comme la date d'échéance approche à grands pas, j'aimerais recevoir tes commentaires au plus tard au 14 octobre (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -11319,7 +11319,7 @@
       "questionId": "EE_7_Q58",
       "questionType": "Error-identification",
       "refersTo": "n/a",
-      "grammarType": "Régime verbal (Prépositions)",
+      "grammarType": "Prépositions",
       "context": "L'Agence du revenu du Canada tient de (1) prévenir les Canadiens que des courriels frauduleux (2) prétendant provenir de l'Agence sont actuellement en circulation. Voici des exemples de ces escroqueries (3) et comment vous pouvez vous protéger.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -11469,7 +11469,7 @@
       "questionId": "EE_7_Q64",
       "questionType": "Error-identification",
       "refersTo": "n/a",
-      "grammarType": "Syntaxe (Conjonction vs Préposition)",
+      "grammarType": "Prépositions",
       "context": "Vous retournez aux études pour acquérir de nouvelles compétences ou prévoyez parfaire (1) vos connaissances? Vous pourriez avoir droit à une subvention afin que (2) poursuivre des études postsecondaires. Ce programme offre une aide financière pour soutenir l’apprentissage (3) et aider les étudiants canadiens qui souhaitent étudier à l’étranger, tout en encourageant les jeunes à étudier dans les domaines des sciences, de la technologie, de l’ingénierie et des mathématiques.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -11544,7 +11544,7 @@
       "questionId": "EE_8_Q2",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Prépositions de temps",
+      "grammarType": "Prépositions",
       "context": "Tous les candidats ayant fourni une demande incomplète ou reçue {{BLANK}} le 8 février verront leur candidature placée sur une liste d'attente.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -12169,7 +12169,7 @@
       "questionId": "EE_8_Q27",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Infinitif après préposition",
+      "grammarType": "Prépositions",
       "context": "M. Robert insiste pour {{BLANK}} le scénarimage cette semaine.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -12854,7 +12854,7 @@
       "setId": "EE_8_Q55",
       "questionId": "EE_8_Q55",
       "questionType": "Error-identification",
-      "grammarType": "Régime prépositionnel (orienté vers)",
+      "grammarType": "Prépositions",
       "context": "Le nouveau centre de recherche en (1) biotechnologie du Conseil national de recherches du Canada (CNRC) a adopté une démarche (2) scientifique résolument orientée pour (3) l’innovation industrielle.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
