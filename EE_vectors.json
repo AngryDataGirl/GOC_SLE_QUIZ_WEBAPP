@@ -1461,7 +1461,7 @@
     "questionId": "EE_1_Q50",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Orthographe"
+    "grammarType": "Orthographe",
     "context": "Il faudra évaluer les dépenses {{BLANK}} par cette initiative.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
