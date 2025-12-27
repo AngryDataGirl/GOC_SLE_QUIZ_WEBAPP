@@ -8,7 +8,7 @@
     "questionId": "EE_1_Q1",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Accord de l'adjectif indéfini (tout)",
+    "grammarType": "Accord de l'adjectif",
     "context": "Il a refusé {{BLANK}} nos offres.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -258,7 +258,7 @@
     "questionId": "EE_1_Q11",
     "questionType": "Error-identification",
     "refersTo": null,
-    "grammarType": "Accord de l'adjectif indéfini (plusieurs)",
+    "grammarType": "Accord de l'adjectif",
     "context": "Cet atelier (1) a permis la mise en place d'un système de réseautage étendu (2) à plusieures (3) institutions non gouvernementales.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -963,7 +963,7 @@
     "setId": "EE_1_Q35",
     "questionId": "EE_1_Q35",
     "questionType": "Error-identification",
-    "grammarType": "Grammaire / Accord de l'adjectif possessif",
+    "grammarType": "Accord de l'adjectif",
     "context": "Il n'y a rien qu'on puisse (1) faire pour améliorer leurs (2) situation étant donné que nous sommes nous-mêmes (3) des intervenants dans ce projet.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -1035,7 +1035,7 @@
     "setId": "EE_1_Q37",
     "questionId": "EE_1_Q37",
     "questionType": "Error-identification",
-    "grammarType": "Grammaire / Accord de l'adjectif",
+    "grammarType": "Accord de l'adjectif",
     "context": "Mon patron m'a dit qu'il fallait (1) embaucher une firme informatique pour finir la programmation de l'outil en ligne (2). Personnellement, je ne suis pas d'accord avec cette décision qui me semble un peu précipité (3).",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -1107,7 +1107,7 @@
     "setId": "EE_1_Q39",
     "questionId": "EE_1_Q39",
     "questionType": "Error-identification",
-    "grammarType": "Grammaire / Accord de l'adjectif",
+    "grammarType": "Accord de l'adjectif",
     "context": "Vu les circonstances exceptionnels (1), l'agence accordera une semaine de congé de plus à tout le personnel. Vous bénéficierez (2) d'une période d'une année financière pour vous prévaloir de cette semaine de congé. Veillez (3) à respecter cette durée.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -1875,7 +1875,7 @@
       "questionId": "EE_2_Q2",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Accord de l'adjectif (intéressant vs intéressé)",
+      "grammarType": "Accord de l'adjectif",
       "context": "Les personnes {{BLANK}} peuvent s’inscrire en ligne.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -2613,7 +2613,7 @@
       "setId": "EE_2_Q33",
       "questionId": "EE_2_Q33",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif indéfini (quelque)",
+      "grammarType": "Accord de l'adjectif",
       "context": "Les quelque (1) plaintes reçues cette année ont été traitées (2) ou sont sur le point de (3) l'être.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -2877,7 +2877,7 @@
       "setId": "EE_2_Q44",
       "questionId": "EE_2_Q44",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif qualificatif",
+      "grammarType": "Accord de l'adjectif",
       "context": "Veillez (1) à ce que tout le personnel reçoive une trousse d’information avant la réunion. Elle est essentiel (2) pour y (3) participer.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -3365,7 +3365,7 @@
       "setId": "EE_2_Q64",
       "questionId": "EE_2_Q64",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif possessif",
+      "grammarType": "Accord de l'adjectif",
       "context": "Veuillez faire part à (1) votre personnel des changements qui se produiront prochainement au sein de votre section. Sachez que (2) nous ferons tout en notre pouvoir pour minimiser les conséquences négatives que de tels changements pourraient avoir sur leur bon fonctionnement (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -3414,7 +3414,7 @@
       "questionId": "EE_3_Q1",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Typographie et notation de l'heure",
+      "grammarType": "Orthographe",
       "context": "Margot sera absente de la réunion prévue ce matin à {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -3714,7 +3714,7 @@
       "questionId": "EE_3_Q13",
       "questionType": "Error-identification",
       "refersTo": "normals",
-      "grammarType": "Accord de l'adjectif qualificatif",
+      "grammarType": "Accord de l'adjectif",
       "context": "Vous avez été désigné (1) pour recevoir une des nouvelles tablettes récemment acquises par notre direction. L'installation du routeur et du câble (2) de recharge se fera en dehors des heures normals (3) de travail.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4289,7 +4289,7 @@
       "questionId": "EE_3_Q36",
       "questionType": "Error-identification",
       "refersTo": "général",
-      "grammarType": "Morphologie (Accord de l'adjectif au féminin)",
+      "grammarType": "Accord de l'adjectif",
       "context": "En ce qui concerne la réunion général (1) du personnel, je crois qu'on devrait faire en sorte (2) que chacun ait l’occasion (3) de s'exprimer.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -5404,7 +5404,7 @@
       "questionNumber": 15,
       "questionType": "Error-identification",
       "refersTo": "relatifs",
-      "grammarType": "Morphosyntaxe (Accord de l'adjectif)",
+      "grammarType": "Accord de l'adjectif",
       "context": "Selon (1) les lois et règlements du Secrétariat du Conseil du Trésor, chaque gestionnaire a la responsabilité d’informer (2) son personnel des lignes directrices relatifs (3) aux conflits d’intérêts dans la fonction publique du Canada.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -5997,7 +5997,7 @@
       "setId": "EE_4_Q39",
       "questionId": "EE_4_Q39",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif possessif",
+      "grammarType": "Accord de l'adjectif",
       "context": "Les membres du Syndicat des fonctionnaires se sont choisi (1) une représentante syndicale chargée de défendre leur (2) intérêts auprès de (3) la gestion régionale.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -7341,7 +7341,7 @@
       "questionId": "EE_5_Q28",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Accord de l'adjectif (Genre/Nombre)",
+      "grammarType": "Accord de l'adjectif",
       "context": "Des obstacles à l'innovation, au renouvellement et à la mobilisation se présentent parfois au niveau le plus fondamental des opérations quotidiennes d'une organisation. Les habitudes et les rituels {{BLANK}} aux réunions en sont un bon exemple.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -7766,7 +7766,7 @@
       "questionId": "EE_5_Q45",
       "questionType": "Error-identification",
       "refersTo": "Numbered Sections",
-      "grammarType": "Accord de l'adjectif (Public)",
+      "grammarType": "Accord de l'adjectif",
       "context": "Il est permis de copier de l'information sous format électronique ou de l'imprimer pour usage interne seulement. Toutefois (1), il est interdit de reproduire, modifier ou redistribuer de l'information, sous quelque forme ou par quelque moyen que ce soit (2) pour usage externe, sans l'autorisation préalable du ministre des Travaux publiques (3) et des Services gouvernementaux Canada.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -8110,7 +8110,7 @@
       "setId": "EE_5_Q59",
       "questionId": "EE_5_Q59",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif (plusieurs noms)",
+      "grammarType": "Accord de l'adjectif",
       "context": "La direction des services aux entreprises devra élaborer les politiques et les normes requises (1) pour, d’une part, assurer un niveau de qualité qui corresponde (2) à l'objectif et au marché visé (3) et, d'autre part, garantir une production efficace et économique autant au Canada qu’à l’international.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -8158,7 +8158,7 @@
       "setId": "EE_5_Q61",
       "questionId": "EE_5_Q61",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif (genre et nombre)",
+      "grammarType": "Accord de l'adjectif",
       "context": "L'intégrité est la pierre angulaire de la bonne gouvernance (1) et de la démocratie. Forts (2) des normes d'éthique les plus rigoureux (3), les fonctionnaires maintiennent et renforcent la confiance du public en l'honnêteté, l'équité et l'impartialité du secteur public fédéral.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -8304,7 +8304,7 @@
       "questionId": "EE_6_Q2",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Accord de l'adjectif qualificatif",
+      "grammarType": "Accord de l'adjectif",
       "context": "Le Canada est un chef de file {{BLANK}} dans le domaine de l'aviation.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -9193,7 +9193,7 @@
       "setId": "EE_6_Q38",
       "questionId": "EE_6_Q38",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif qualificatif",
+      "grammarType": "Accord de l'adjectif",
       "context": "Les pressions économiques exercées (1) sur le pays pour qu'il réduise son déficit et qu'il améliore sa compétitivité (2) sur les marchés étrangers ont exigé des compressions budgétaires et la réduction des effectifs dans la fonction publique fédéral (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -9241,7 +9241,7 @@
       "setId": "EE_6_Q40",
       "questionId": "EE_6_Q40",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif qualificatif",
+      "grammarType": "Accord de l'adjectif",
       "context": "Certains ministères ont déjà utilisé (1) des normes acceptées à l'échelle international (2) afin d'assurer la qualité de leurs procédés de prestation de services à leur clientèle. Par exemple, certains des services de Ressources naturelles Canada (3) et Travaux publics et Services gouvernementaux Canada sont homologués sous les normes ISO 9 000.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -9291,7 +9291,7 @@
       "questionId": "EE_6_Q42",
       "questionNumber": 42,
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif (Participe passé employé seul)",
+      "grammarType": "Accord de l'adjectif",
       "context": "Il y a eu récemment (1) quelques incidents sérieux relatifs à la sécurité de l'ensemble des réseaux et des fonds de renseignements du gouvernement du Canada. Le Ministère établit (2) présentement un plan d'action pour mettre en œuvre des mesures de sécurité visant tous les biens liés à la technologie de l'information (TI) et pour sécuriser les réseaux partagées (3) du gouvernement du Canada.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -9849,7 +9849,7 @@
       "questionId": "EE_6_Q64",
       "questionNumber": 64,
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif / Participe passé",
+      "grammarType": "Accord de l'adjectif",
       "context": "La « Loi sur l'accès à l'information » confère (1) aux citoyens et aux individus présents au Canada, le droit d'accès à tout document qui relève d’une institution du gouvernement fédéral. Actuellement plus de 250 institutions du gouvernement, par exemple, les ministères et agences, les sociétés d’État et les filiales (2) en propriété exclusive, sont assujettes (3) à ces lois.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -11769,7 +11769,7 @@
       "questionId": "EE_8_Q11",
       "questionType": "Error-identification",
       "refersTo": null,
-      "grammarType": "Accord de l'adjectif (féminin pluriel)",
+      "grammarType": "Accord de l'adjectif",
       "context": "Les qualifications essentiels (1) sont celles (2) qui sont nécessaires (3) pour accomplir le travail.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -11794,7 +11794,7 @@
       "questionId": "EE_8_Q12",
       "questionType": "Error-identification",
       "refersTo": null,
-      "grammarType": "Accord de l'adjectif (féminin singulier)",
+      "grammarType": "Accord de l'adjecti",
       "context": "La réunion pour discuter des nouveaux (1) services de formation professionnel (2) aura lieu dans quelques (3) semaines.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -11869,7 +11869,7 @@
       "questionId": "EE_8_Q15",
       "questionType": "Error-identification",
       "refersTo": null,
-      "grammarType": "Accord de l'adjectif indéfini (aucun)",
+      "grammarType": "Accord de l'adjectif",
       "context": "Aucune (1) incident de ce genre (2) n’a été rapporté (3) au cours de la dernière année.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -12318,7 +12318,7 @@
       "setId": "EE_8_Q33",
       "questionId": "EE_8_Q33",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif/participe passé",
+      "grammarType": "Accord de l'adjectif",
       "context": "Comme l'adjointe administrative du directeur est occupé (1), elle te verra seulement cet (2) après-midi. Prépare-toi de solides arguments si tu veux obtenir un rendez-vous (3) de trois heures, car il est difficile de rencontrer le directeur pour une aussi longue période.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -12486,7 +12486,7 @@
       "setId": "EE_8_Q40",
       "questionId": "EE_8_Q40",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif indéfini (tout)",
+      "grammarType": "Accord de l'adjectif",
       "context": "Comme je te le (1) disais, il est parfois (2) difficile d’envisager tous (3) les facettes d’un problème.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -12534,7 +12534,7 @@
       "setId": "EE_8_Q42",
       "questionId": "EE_8_Q42",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif (nouveau/nouvel/nouvelle)",
+      "grammarType": "Accord de l'adjectif",
       "context": "Il faudra prévoir (1) un nouvelle (2) espace pour ce classeur encombrant (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -12731,7 +12731,7 @@
       "questionId": "EE_8_Q50",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Locution (en tant que) et accord de l'adjectif",
+      "grammarType": "Accord de l'adjectif",
       "context": "Une définition de la violence en milieu de travail doit tenir compte de deux aspects importants : le comportement {{BLANK}} manifesté lors d’un incident violent et son origine.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
