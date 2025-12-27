@@ -10244,7 +10244,7 @@
       "setId": "EE_7_Q15",
       "questionId": "EE_7_Q15",
       "questionType": "Error-identification",
-      "grammarType": "Orthographe"
+      "grammarType": "Orthographe",
       "context": "Les demandes de service doivent (1) être traitées rapidment (2) pour éviter l’accumulation de dossiers en attente (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
