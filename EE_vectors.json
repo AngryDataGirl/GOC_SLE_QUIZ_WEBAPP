@@ -8,7 +8,7 @@
     "questionId": "EE_1_Q1",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Accord de l'adjectif",
+    "grammarType": "Accord",
     "context": "Il a refusé {{BLANK}} nos offres.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -258,7 +258,7 @@
     "questionId": "EE_1_Q11",
     "questionType": "Error-identification",
     "refersTo": null,
-    "grammarType": "Accord de l'adjectif",
+    "grammarType": "Accord",
     "context": "Cet atelier (1) a permis la mise en place d'un système de réseautage étendu (2) à plusieures (3) institutions non gouvernementales.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -308,7 +308,7 @@
     "questionId": "EE_1_Q13",
     "questionType": "Error-identification",
     "refersTo": null,
-    "grammarType": "Accord du participe passé (avec être)",
+    "grammarType": "Accord",
     "context": "Je suis désolé pour demain, Pénélope, mais je ne peux malheureusement pas t'accorder (1) le congé demandé. La traduction du document doit absolument être terminé (2) pour demain, 17 h, et tu es la seule qui puisse (3) le faire.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -383,7 +383,7 @@
     "questionId": "EE_1_Q16",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Accord du participe passé (avec être) / Futur antérieur",
+    "grammarType": "Accord",
     "context": "Notre directrice nous rencontrera dès qu’elle {{BLANK}} de sa rencontre avec le sous-ministre.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -963,7 +963,7 @@
     "setId": "EE_1_Q35",
     "questionId": "EE_1_Q35",
     "questionType": "Error-identification",
-    "grammarType": "Accord de l'adjectif",
+    "grammarType": "Accord",
     "context": "Il n'y a rien qu'on puisse (1) faire pour améliorer leurs (2) situation étant donné que nous sommes nous-mêmes (3) des intervenants dans ce projet.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -999,7 +999,7 @@
     "setId": "EE_1_Q36",
     "questionId": "EE_1_Q36",
     "questionType": "Error-identification",
-    "grammarType": "Conjugaison / Accord du participe passé",
+    "grammarType": "Accord",
     "context": "La pénurie de main-d'œuvre (1) dans cette région a obligée (2) les travailleurs à faire beaucoup d'heures supplémentaires au cours (3) de la dernière année.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -1035,7 +1035,7 @@
     "setId": "EE_1_Q37",
     "questionId": "EE_1_Q37",
     "questionType": "Error-identification",
-    "grammarType": "Accord de l'adjectif",
+    "grammarType": "Accord",
     "context": "Mon patron m'a dit qu'il fallait (1) embaucher une firme informatique pour finir la programmation de l'outil en ligne (2). Personnellement, je ne suis pas d'accord avec cette décision qui me semble un peu précipité (3).",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -1107,7 +1107,7 @@
     "setId": "EE_1_Q39",
     "questionId": "EE_1_Q39",
     "questionType": "Error-identification",
-    "grammarType": "Accord de l'adjectif",
+    "grammarType": "Accord",
     "context": "Vu les circonstances exceptionnels (1), l'agence accordera une semaine de congé de plus à tout le personnel. Vous bénéficierez (2) d'une période d'une année financière pour vous prévaloir de cette semaine de congé. Veillez (3) à respecter cette durée.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -1179,7 +1179,7 @@
     "setId": "EE_1_Q41",
     "questionId": "EE_1_Q41",
     "questionType": "Error-identification",
-    "grammarType": "Syntaxe / Accord du pronom réfléchi",
+    "grammarType": "Accord",
     "context": "En ce qui concerne le nouveau projet d'intégration des systèmes informatiques, d'après (1) les plus récentes statistiques, nous ne pouvons pas s'attendre (2) à ce que ce programme soit une réussite à 100 % (3).",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -1251,7 +1251,7 @@
     "setId": "EE_1_Q43",
     "questionId": "EE_1_Q43",
     "questionType": "Error-identification",
-    "grammarType": "Conjugaison / Accord du participe passé",
+    "grammarType": "Accord",
     "context": "Il est prévu (1) que les conséquences des modifications apportées (2) à la loi se feront sentir seulement l’an prochain, après que les fabricants auront eus (3) le temps de s’adapter à ces changements.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -1323,7 +1323,7 @@
     "setId": "EE_1_Q45",
     "questionId": "EE_1_Q45",
     "questionType": "Error-identification",
-    "grammarType": "Grammaire / Accord du déterminant",
+    "grammarType": "Accord",
     "context": "Le calendrier du plan de dotation (1) de la Direction générale vient d’être mis à jour (2) sur l’intranet. Si vous avez des questions à cette sujet (3), veuillez communiquer avec Mme Pigeon au Service des ressources humaines.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -1360,7 +1360,7 @@
     "questionId": "EE_1_Q46",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Accord du participe passé et inversion du sujet (verbe pronominal)",
+    "grammarType": "Accord",
     "context": "Comment le problème {{BLANK}}?",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -1875,7 +1875,7 @@
       "questionId": "EE_2_Q2",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "Les personnes {{BLANK}} peuvent s’inscrire en ligne.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -2147,7 +2147,7 @@
       "setId": "EE_2_Q13",
       "questionId": "EE_2_Q13",
       "questionType": "Error-identification",
-      "grammarType": "Accord du verbe (vouloir)",
+      "grammarType": "Accord",
       "context": "Le comité reconnaît (1) l’engagement admirable des fonctionnaires et veux (2) vous remercier (3) de votre contribution.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs?",
       "choices": [
@@ -2613,7 +2613,7 @@
       "setId": "EE_2_Q33",
       "questionId": "EE_2_Q33",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "Les quelque (1) plaintes reçues cette année ont été traitées (2) ou sont sur le point de (3) l'être.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -2757,7 +2757,7 @@
       "setId": "EE_2_Q39",
       "questionId": "EE_2_Q39",
       "questionType": "Error-identification",
-      "grammarType": "Accord du participe passé (verbes pronominaux)",
+      "grammarType": "Accord",
       "context": "De pair (1) avec les valeurs en dotation que notre organisation s’est engager (2) à protéger ainsi que les notions de service et de qualité qui sont enracinées dans nos pratiques, les nouvelles valeurs nous aideront (3) à atteindre nos objectifs.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -2781,7 +2781,7 @@
       "setId": "EE_2_Q40",
       "questionId": "EE_2_Q40",
       "questionType": "Error-identification",
-      "grammarType": "Accord du participe passé avec avoir (COD précédent)",
+      "grammarType": "Accord",
       "context": "Les trois primes accordées cette année soulignent (1) les contributions remarquables que (2) le Ministère a apportées (3) et continuera d’apporter.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -2877,7 +2877,7 @@
       "setId": "EE_2_Q44",
       "questionId": "EE_2_Q44",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "Veillez (1) à ce que tout le personnel reçoive une trousse d’information avant la réunion. Elle est essentiel (2) pour y (3) participer.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -3365,7 +3365,7 @@
       "setId": "EE_2_Q64",
       "questionId": "EE_2_Q64",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "Veuillez faire part à (1) votre personnel des changements qui se produiront prochainement au sein de votre section. Sachez que (2) nous ferons tout en notre pouvoir pour minimiser les conséquences négatives que de tels changements pourraient avoir sur leur bon fonctionnement (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -3564,7 +3564,7 @@
       "questionId": "EE_3_Q7",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Accord du participe passé",
+      "grammarType": "Accord",
       "context": "À partir de maintenant, toute publication provenant de notre section {{BLANK}} par courriel en format PDF.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -3714,7 +3714,7 @@
       "questionId": "EE_3_Q13",
       "questionType": "Error-identification",
       "refersTo": "normals",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "Vous avez été désigné (1) pour recevoir une des nouvelles tablettes récemment acquises par notre direction. L'installation du routeur et du câble (2) de recharge se fera en dehors des heures normals (3) de travail.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4289,7 +4289,7 @@
       "questionId": "EE_3_Q36",
       "questionType": "Error-identification",
       "refersTo": "général",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "En ce qui concerne la réunion général (1) du personnel, je crois qu'on devrait faire en sorte (2) que chacun ait l’occasion (3) de s'exprimer.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4414,7 +4414,7 @@
       "questionId": "EE_3_Q41",
       "questionType": "Error-identification",
       "refersTo": "encouragez",
-      "grammarType": "Conjugaison (Accord sujet-verbe au présent)",
+      "grammarType": "Accord",
       "context": "En référence (1) au courriel que vous avez reçu le 20 septembre dernier, j’aimerais vous rappeler l’importance de participer à la séance de formation offerte au personnel. Si ce n’est déjà fait, je vous encouragez (2) fortement à vous inscrire (3) à l’une de ces séances.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4439,7 +4439,7 @@
       "questionId": "EE_3_Q42",
       "questionType": "Error-identification",
       "refersTo": "adoptés",
-      "grammarType": "Morphologie (Accord du participe passé employé comme adjectif)",
+      "grammarType": "Accord",
       "context": "Le budget des services adoptés (1) par les directions générales demeure essentiellement au même niveau que celui (2) de l’année dernière. Vous n'avez donc pas à vous inquiéter (3) pour le financement des projets en cours.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4614,7 +4614,7 @@
       "questionId": "EE_3_Q49",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe (Accord du participe passé des verbes pronominaux)",
+      "grammarType": "Accord",
       "context": "À la fin de l’atelier, les participants se sont {{BLANK}} leurs coordonnées.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -4914,7 +4914,7 @@
       "questionId": "EE_3_Q61",
       "questionType": "Error-identification",
       "refersTo": "demanderont",
-      "grammarType": "Syntaxe (Accord du verbe avec un nom collectif)",
+      "grammarType": "Accord",
       "context": "À la fin de la séance d’atelier, l'équipe pourrait devoir (1) présenter son travail et avoir à défendre ses résultats. Si c'est le cas, vous aurez (2) dix minutes au maximum pour vous exécuter. L'ensemble de la classe discutera ensuite de la présentation et demanderont (3) des éclaircissements au besoin.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -5014,7 +5014,7 @@
     "questionId": "EE_3_Q65",
     "questionType": "Error-identification",
     "refersTo": "aucune correction",
-    "grammarType": "Révision globale (Accord, Régime verbal, Participe passé)",
+    "grammarType": "Accord",
     "context": "Les priorités annuelles de l'Agence sont définies (1) chaque année au moyen du cycle de planification. Les priorités d'ensemble s'inspirent de (2) ce qui est ressorti (3) lors des rencontres de la haute direction, de la réunion du conseil d'administration, du Sommet sur le leadership et d'autres activités de planification interne.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -5222,7 +5222,7 @@
       "questionNumber": 8,
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Morphosyntaxe (Accord sujet-verbe et Infinitif)",
+      "grammarType": "Accord",
       "context": "Il {{BLANK}} au bureau le vendredi parce que c'est sa dernière journée de travail de la semaine.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -5404,7 +5404,7 @@
       "questionNumber": 15,
       "questionType": "Error-identification",
       "refersTo": "relatifs",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "Selon (1) les lois et règlements du Secrétariat du Conseil du Trésor, chaque gestionnaire a la responsabilité d’informer (2) son personnel des lignes directrices relatifs (3) aux conflits d’intérêts dans la fonction publique du Canada.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -5504,7 +5504,7 @@
       "questionId": "EE_4_Q19",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Accord du participe passé avec avoir",
+      "grammarType": "Accord",
       "context": "Finalement son analyse, elle ne l'a jamais {{BLANK}} publique.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -5579,7 +5579,7 @@
       "questionId": "EE_4_Q22",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Accord du participe passé (COD placé avant)",
+      "grammarType": "Accord",
       "context": "Michelle, je dois te dire que la documentation que tu {{BLANK}} n'est plus disponible.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -5779,7 +5779,7 @@
       "questionId": "EE_4_Q30",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Passé composé et accord du participe passé",
+      "grammarType": "Accord",
       "context": "Plus de la moitié des personnes sondées disent que c’est une réalité : la qualité des services {{BLANK}} depuis trois ans.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -5997,7 +5997,7 @@
       "setId": "EE_4_Q39",
       "questionId": "EE_4_Q39",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "Les membres du Syndicat des fonctionnaires se sont choisi (1) une représentante syndicale chargée de défendre leur (2) intérêts auprès de (3) la gestion régionale.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -6045,7 +6045,7 @@
       "setId": "EE_4_Q41",
       "questionId": "EE_4_Q41",
       "questionType": "Error-identification",
-      "grammarType": "Accord du participe passé avec avoir (COD placé avant)",
+      "grammarType": "Accord",
       "context": "Les discussions que nous avons eu (1) avec le syndicat nous ont permis (2) de régler le problème des horaires de (3) travail dans la région de Windsor, à la satisfaction des deux parties.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -6241,7 +6241,7 @@
       "questionId": "EE_4_Q49",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Accord du pronom réfléchi",
+      "grammarType": "Accord",
       "context": "On {{BLANK}} pour que le projet finisse à la date prévue.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -6491,7 +6491,7 @@
       "questionId": "EE_4_Q59",
       "questionType": "Error-identification",
       "refersTo": "None",
-      "grammarType": "Accord du participe passé avec avoir (COD précédent)",
+      "grammarType": "Accord",
       "context": "On a dû se pencher (1) une deuxième fois sur cette affaire (2). Je pense que la première fois, on l'avait pris (3) un peu trop à la légère.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -6541,7 +6541,7 @@
       "questionId": "EE_4_Q61",
       "questionType": "Error-identification",
       "refersTo": "None",
-      "grammarType": "Accord sujet-verbe",
+      "grammarType": "Accord",
       "context": "L’utilisation de nos services impliquent (1) votre acceptation des présentes conditions d’utilisation. Veuillez les lire attentivement (2). Nos services sont très variés : il se peut (3) que des conditions additionnelles ou particulières à certains services s’appliquent. Ces conditions additionnelles seront mises à votre disposition avec les services concernés.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -6791,7 +6791,7 @@
       "questionId": "EE_5_Q6",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Accord sujet-verbe (Sujet complexe)",
+      "grammarType": "Accord",
       "context": "Mon collègue et moi {{BLANK}} de partager le même bureau.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -6891,7 +6891,7 @@
       "questionId": "EE_5_Q10",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Accord du participe passé / Orthographe",
+      "grammarType": "Accord",
       "context": "Les frais de livraison ont été {{BLANK}} dans ce contrat.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -6991,7 +6991,7 @@
       "questionId": "EE_5_Q14",
       "questionType": "Error-identification",
       "refersTo": "None",
-      "grammarType": "Accord sujet-verbe",
+      "grammarType": "Accord",
       "context": "Un gel (1) des budgets pourraient (2) bien survenir après une telle décision (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -7316,7 +7316,7 @@
       "questionId": "EE_5_Q27",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Accord du participe passé (avec être)",
+      "grammarType": "Accord",
       "context": "Les résultats du concours national d'essais universitaires tenu dans le cadre de lacampagne de recrutement postsecondaire sont maintenant {{BLANK}}. Dix candidats ont été sélectionnés pour la grande finale.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -7341,7 +7341,7 @@
       "questionId": "EE_5_Q28",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "Des obstacles à l'innovation, au renouvellement et à la mobilisation se présentent parfois au niveau le plus fondamental des opérations quotidiennes d'une organisation. Les habitudes et les rituels {{BLANK}} aux réunions en sont un bon exemple.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -7366,7 +7366,7 @@
       "questionId": "EE_5_Q29",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Conjugaison (Accord sujet-verbe)",
+      "grammarType": "Accord",
       "context": "Le cours « analyses et enquêtes de sécurité » {{BLANK}} aux participants un aperçu des processus liés aux demandes d'enquête de sécurité sur le personnel.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -7741,7 +7741,7 @@
       "questionId": "EE_5_Q44",
       "questionType": "Error-identification",
       "refersTo": "Numbered Sections",
-      "grammarType": "Grammaire (Accord de 'tout')",
+      "grammarType": "Accord",
       "context": "Comme dans tout examens (1), il se peut que vous n'ayez pas compris correctement la question. Demandez (2) alors simplement à l’évaluateur de répéter. Il est préférable de faire répéter l’évaluateur plutôt que de répondre totalement à côté de la question (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -7766,7 +7766,7 @@
       "questionId": "EE_5_Q45",
       "questionType": "Error-identification",
       "refersTo": "Numbered Sections",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "Il est permis de copier de l'information sous format électronique ou de l'imprimer pour usage interne seulement. Toutefois (1), il est interdit de reproduire, modifier ou redistribuer de l'information, sous quelque forme ou par quelque moyen que ce soit (2) pour usage externe, sans l'autorisation préalable du ministre des Travaux publiques (3) et des Services gouvernementaux Canada.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -8110,7 +8110,7 @@
       "setId": "EE_5_Q59",
       "questionId": "EE_5_Q59",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "La direction des services aux entreprises devra élaborer les politiques et les normes requises (1) pour, d’une part, assurer un niveau de qualité qui corresponde (2) à l'objectif et au marché visé (3) et, d'autre part, garantir une production efficace et économique autant au Canada qu’à l’international.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -8158,7 +8158,7 @@
       "setId": "EE_5_Q61",
       "questionId": "EE_5_Q61",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "L'intégrité est la pierre angulaire de la bonne gouvernance (1) et de la démocratie. Forts (2) des normes d'éthique les plus rigoureux (3), les fonctionnaires maintiennent et renforcent la confiance du public en l'honnêteté, l'équité et l'impartialité du secteur public fédéral.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -8230,7 +8230,7 @@
       "setId": "EE_5_Q64",
       "questionId": "EE_5_Q64",
       "questionType": "Error-identification",
-      "grammarType": "Adjectifs possessifs (Accord avec le possesseur)",
+      "grammarType": "Accord",
       "context": "Les fonctionnaires doivent faire rapport par écrit (1) à l'administrateur général, conformément aux procédures de leur organisation, de toutes les activités extérieures, de tous les biens et de tous les intérêts susceptibles de donner lieu à un conflit d'intérêts (2) réel, apparent ou potentiel relativement à ses fonctions officielles (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -8304,7 +8304,7 @@
       "questionId": "EE_6_Q2",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "Le Canada est un chef de file {{BLANK}} dans le domaine de l'aviation.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -8528,7 +8528,7 @@
       "setId": "EE_6_Q11",
       "questionId": "EE_6_Q11",
       "questionType": "Error-identification",
-      "grammarType": "Accord sujet-verbe",
+      "grammarType": "Accord",
       "context": "Les personnes qui désirent (1) participer à ce cours de perfectionnement devrons (2) en aviser (3) leur superviseur dans les plus brefs délais.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -9193,7 +9193,7 @@
       "setId": "EE_6_Q38",
       "questionId": "EE_6_Q38",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "Les pressions économiques exercées (1) sur le pays pour qu'il réduise son déficit et qu'il améliore sa compétitivité (2) sur les marchés étrangers ont exigé des compressions budgétaires et la réduction des effectifs dans la fonction publique fédéral (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -9241,7 +9241,7 @@
       "setId": "EE_6_Q40",
       "questionId": "EE_6_Q40",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "Certains ministères ont déjà utilisé (1) des normes acceptées à l'échelle international (2) afin d'assurer la qualité de leurs procédés de prestation de services à leur clientèle. Par exemple, certains des services de Ressources naturelles Canada (3) et Travaux publics et Services gouvernementaux Canada sont homologués sous les normes ISO 9 000.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -9266,7 +9266,7 @@
       "questionId": "EE_6_Q41",
       "questionNumber": 41,
       "questionType": "Error-identification",
-      "grammarType": "Accord du déterminant indéfini (Tout)",
+      "grammarType": "Accord",
       "context": "Toutes les documents (1) doivent être évalués afin d’en connaître le niveau de sécurité requis selon (2) le sujet traité et la spécificité des renseignements qu'ils renferment (3). Certains documents ne requièrent pas de protection particulière tandis que d’autres requièrent différents types et niveaux de protection.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -9291,7 +9291,7 @@
       "questionId": "EE_6_Q42",
       "questionNumber": 42,
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "Il y a eu récemment (1) quelques incidents sérieux relatifs à la sécurité de l'ensemble des réseaux et des fonds de renseignements du gouvernement du Canada. Le Ministère établit (2) présentement un plan d'action pour mettre en œuvre des mesures de sécurité visant tous les biens liés à la technologie de l'information (TI) et pour sécuriser les réseaux partagées (3) du gouvernement du Canada.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -9392,7 +9392,7 @@
       "questionNumber": 46,
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Accord du participe passé (Adjectif)",
+      "grammarType": "Accord",
       "context": "Le Centre des opérations et déclarations financières du Canada a été créé dans le cadre d'une initiative du gouvernement du Canada {{BLANK}} pour lutter contre le blanchiment d'argent et le financement des activités terroristes, à l'échelle nationale et internationale.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -9674,7 +9674,7 @@
       "questionId": "EE_6_Q57",
       "questionNumber": 57,
       "questionType": "Error-identification",
-      "grammarType": "Accord sujet-verbe (Sujet inversé)",
+      "grammarType": "Accord",
       "context": "Notre gouvernement accueille avec plaisir les recommandations que présentent (1) le Groupe de travail sur la transparence dans les industries extractives. Nous allons étudier le cadre de référence (2) proposé et poursuivre nos consultations avec l’industrie, les gouvernements provinciaux et territoriaux, les groupes autochtones (3) et les organisations de la société civile.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -9849,7 +9849,7 @@
       "questionId": "EE_6_Q64",
       "questionNumber": 64,
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "La « Loi sur l'accès à l'information » confère (1) aux citoyens et aux individus présents au Canada, le droit d'accès à tout document qui relève d’une institution du gouvernement fédéral. Actuellement plus de 250 institutions du gouvernement, par exemple, les ministères et agences, les sociétés d’État et les filiales (2) en propriété exclusive, sont assujettes (3) à ces lois.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -11144,7 +11144,7 @@
       "questionId": "EE_7_Q51",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Accord du participe passé (verbes pronominaux)",
+      "grammarType": "Accord",
       "context": "Comme j’étais absent, je ne sais pas comment {{BLANK}} la réunion du comité de gestion. Si tu veux plus d’information, tu peux toujours communiquer avec Françoise. Je crois qu’elle était présente.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -11594,7 +11594,7 @@
       "questionId": "EE_8_Q4",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Accord du nom collectif (personnel)",
+      "grammarType": "Accord",
       "context": "{{BLANK}} de contribuer à l'exécution de notre mandat et à l'atteinte de nos objectifs en donnant le meilleur rendement possible.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -11694,7 +11694,7 @@
       "questionId": "EE_8_Q8",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "Les dates {{BLANK}} doivent être respectées.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -11769,7 +11769,7 @@
       "questionId": "EE_8_Q11",
       "questionType": "Error-identification",
       "refersTo": null,
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "Les qualifications essentiels (1) sont celles (2) qui sont nécessaires (3) pour accomplir le travail.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -11794,7 +11794,7 @@
       "questionId": "EE_8_Q12",
       "questionType": "Error-identification",
       "refersTo": null,
-      "grammarType": "Accord de l'adjecti",
+      "grammarType": "Accord",
       "context": "La réunion pour discuter des nouveaux (1) services de formation professionnel (2) aura lieu dans quelques (3) semaines.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -11869,7 +11869,7 @@
       "questionId": "EE_8_Q15",
       "questionType": "Error-identification",
       "refersTo": null,
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "Aucune (1) incident de ce genre (2) n’a été rapporté (3) au cours de la dernière année.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -12318,7 +12318,7 @@
       "setId": "EE_8_Q33",
       "questionId": "EE_8_Q33",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "Comme l'adjointe administrative du directeur est occupé (1), elle te verra seulement cet (2) après-midi. Prépare-toi de solides arguments si tu veux obtenir un rendez-vous (3) de trois heures, car il est difficile de rencontrer le directeur pour une aussi longue période.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -12462,7 +12462,7 @@
       "setId": "EE_8_Q39",
       "questionId": "EE_8_Q39",
       "questionType": "Error-identification",
-      "grammarType": "Accord sujet-verbe (noms collectifs)",
+      "grammarType": "Accord",
       "context": "En ce qui concerne la demande d'accès à l'information que tu as reçue la semaine dernière, je t'envoie (1) une partie des documents. Le reste vont suivre (2) cet après-midi. Si tu as besoin d'aide ou si tu veux en discuter (3), tu peux toujours m'appeler. Je suis disponible toute la journée, demain également.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -12486,7 +12486,7 @@
       "setId": "EE_8_Q40",
       "questionId": "EE_8_Q40",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "Comme je te le (1) disais, il est parfois (2) difficile d’envisager tous (3) les facettes d’un problème.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -12510,7 +12510,7 @@
       "setId": "EE_8_Q41",
       "questionId": "EE_8_Q41",
       "questionType": "Error-identification",
-      "grammarType": "Accord du participe passé avec avoir",
+      "grammarType": "Accord",
       "context": "Nous avons réfléchis (1) à cette question, mais nous n’avons trouvé (2) aucune solution satisfaisante (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -12534,7 +12534,7 @@
       "setId": "EE_8_Q42",
       "questionId": "EE_8_Q42",
       "questionType": "Error-identification",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "Il faudra prévoir (1) un nouvelle (2) espace pour ce classeur encombrant (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -12558,7 +12558,7 @@
       "setId": "EE_8_Q43",
       "questionId": "EE_8_Q43",
       "questionType": "Error-identification",
-      "grammarType": "Accord du participe passé avec avoir (position du COD)",
+      "grammarType": "Accord",
       "context": "Les propos (1) de M. Hill ont soulevés (2) la colère de certains (3) de mes collègues.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -12606,7 +12606,7 @@
       "setId": "EE_8_Q45",
       "questionId": "EE_8_Q45",
       "questionType": "Error-identification",
-      "grammarType": "Accord du participe passé (forme passive)",
+      "grammarType": "Accord",
       "context": "Vu l’importance des questions qui seront débattus (1) à la prochaine réunion, je tiens à ce que (2) tous les employés et employées soient (3) présents.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -12731,7 +12731,7 @@
       "questionId": "EE_8_Q50",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Accord de l'adjectif",
+      "grammarType": "Accord",
       "context": "Une définition de la violence en milieu de travail doit tenir compte de deux aspects importants : le comportement {{BLANK}} manifesté lors d’un incident violent et son origine.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -12902,7 +12902,7 @@
       "setId": "EE_8_Q57",
       "questionId": "EE_8_Q57",
       "questionType": "Error-identification",
-      "grammarType": "Accord du verbe avec le pronom relatif 'qui'",
+      "grammarType": "Accord",
       "context": "Comme vous le savez déjà, c’est moi qui sera (1) votre délégué pour la prochaine négociation collective qui débutera (2) bientôt. J’espère vous représenter avec brio (3) et j’aimerais vous assurer de mon total engagement envers les objectifs que nous défendons tous.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -12926,7 +12926,7 @@
       "setId": "EE_8_Q58",
       "questionId": "EE_8_Q58",
       "questionType": "Error-identification",
-      "grammarType": "Accord en genre et nombre",
+      "grammarType": "Accord",
       "context": "Les hautes gestionnaires (1) sont chargés de gérer les risques auxquels (2) leur organisation est exposée et de mettre en œuvre (3) des pratiques efficaces de gestion du risque, qu'elles soient formelles ou informelles.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -12974,7 +12974,7 @@
       "setId": "EE_8_Q60",
       "questionId": "EE_8_Q60",
       "questionType": "Error-identification",
-      "grammarType": "Accord du pronom démonstratif",
+      "grammarType": "Accord",
       "context": "Les lettres qui suivent la mention « bilingue impératif » ou « bilingue non impératif » représentent les niveaux de compétence linguistique exigés (1) pour chaque langue officielle. Les trois premières lettres représentent les niveaux de compétence linguistique requis en anglais et les trois dernières lettres celles (2) qui le sont en français. La première lettre de chaque groupe correspond (3) aux compétences en lecture, la deuxième en rédaction et la troisième en interaction orale.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
