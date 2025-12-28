@@ -408,7 +408,7 @@
     "questionId": "EE_1_Q17",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Accord du participe passé (voix passive)",
+    "grammarType": "Voix passive et accord du participe passé",
     "context": "La note de frais {{BLANK}} par le service des finances.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -1436,7 +1436,7 @@
     "questionId": "EE_1_Q49",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Emploi du subjonctif après 'veiller à ce que' et voix passive",
+    "grammarType": "Voix passive et accord du participe passé",
     "context": "C'est à vous de veiller à ce que le travail {{BLANK}} à temps.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -2099,7 +2099,7 @@
       "setId": "EE_2_Q11",
       "questionId": "EE_2_Q11",
       "questionType": "Error-identification",
-      "grammarType": "Voix passive",
+      "grammarType": "Voix passive et accord du participe passé",
       "context": "Les fonctionnaires de tous niveaux (1) sont admissibles (2) à ce prix et les mises en candidature doivent présenter (3) par courriel.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4839,7 +4839,7 @@
       "questionId": "EE_3_Q58",
       "questionType": "Error-identification",
       "refersTo": "a été conçu",
-      "grammarType": "Morphosyntaxe (Accord du participe passé à la voix passive)",
+      "grammarType": "Voix passive et accord du participe passé",
       "context": "Cette formation en cybersécurité a été conçu (1) par notre ministère. Nous vous encourageons à vous y inscrire le plus rapidement possible. Cette initiative a été mise en place (2) afin que tout le personnel puisse (3) être sensibilisé aux dangers potentiels liés à l'utilisation d'Internet au sein de la fonction publique.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -6069,7 +6069,7 @@
       "setId": "EE_4_Q42",
       "questionId": "EE_4_Q42",
       "questionType": "Error-identification",
-      "grammarType": "Accord du participe passé (voix passive)",
+      "grammarType": "Voix passive et accord du participe passé",
       "context": "Étant donné (1) que le pouvoir de doter les postes a été délégués (2) aux gestionnaires régionaux, j’ai transmis votre demande à Mme Pierrette Brascoupé, directrice régionale (3) pour la région du Québec et du Nunavut.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
