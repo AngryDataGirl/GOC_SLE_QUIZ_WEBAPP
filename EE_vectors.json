@@ -1681,7 +1681,7 @@
     "setId": "EE_1_Q59",
     "questionId": "EE_1_Q59",
     "questionType": "Error-identification",
-    "grammarType": "Connecteurs logiques (confusion entre but et cause)",
+    "grammarType": "Connecteurs logiques",
     "context": "Dans le but de (1) l’évolution constante des pratiques dans le monde des affaires, nous avons jugé nécessaire de conférer (2) un plus grand pouvoir réglementaire au gouvernement en conseil (3).",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -3939,7 +3939,7 @@
       "questionId": "EE_3_Q22",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Verbes pronominaux à l'infinitif",
+      "grammarType": "Verbes pronominaux",
       "context": "Vous pouvez {{BLANK}} par téléphone au 604-987-7865.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -4064,7 +4064,7 @@
       "questionId": "EE_3_Q27",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Impératif des verbes pronominaux",
+      "grammarType": "Verbes pronominaux",
       "context": "Le soir, avant de quitter le bureau, {{BLANK}} d'éteindre tous les ordinateurs.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -6216,7 +6216,7 @@
       "questionId": "EE_4_Q48",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Verbes pronominaux / Anglicismes",
+      "grammarType": "Verbes pronominaux",
       "context": "Il devait {{BLANK}} au bureau de son patron dès le lendemain.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -6591,7 +6591,7 @@
       "questionId": "EE_4_Q63",
       "questionType": "Error-identification",
       "refersTo": "None",
-      "grammarType": "Paronymes et verbes pronominaux",
+      "grammarType": "Verbes pronominaux",
       "context": "À compter du (1) 6 juin prochain, deux autres personnes vont se rejoindre à (2) l’équipe pour effectuer les travaux liés à la formation en ligne. Je compte sur votre collaboration habituelle pour accueillir (3) chaleureusement ces nouveaux employés.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -7391,7 +7391,7 @@
       "questionId": "EE_5_Q30",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Conjugaison (Verbes pronominaux)",
+      "grammarType": "Verbes pronominaux",
       "context": "Le travail du Bureau des normes Web et des groupes de travail connexes {{BLANK}} prochainement vers l’Initiative de renouvellement du Web.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -10269,7 +10269,7 @@
       "questionId": "EE_7_Q16",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Connecteurs logiques (Le but)",
+      "grammarType": "Connecteurs logiques",
       "context": "{{BLANK}} vous conformer à cette directive, veuillez nous faire parvenir votre demande le plus rapidement possible.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -10494,7 +10494,7 @@
       "questionId": "EE_7_Q25",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe (Place du pronom personnel)",
+      "grammarType": "Pronoms",
       "context": "Veuillez {{BLANK}} ce matériel promotionnel avant le 24 février.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -10569,7 +10569,7 @@
       "questionId": "EE_7_Q28",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Verbes pronominaux / Futur simple",
+      "grammarType": "Verbes pronominaux",
       "context": "À l’avenir, {{BLANK}} à ces exigences.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -10594,7 +10594,7 @@
       "questionId": "EE_7_Q29",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe (Ordre des pronoms compléments)",
+      "grammarType": "Pronoms",
       "context": "Je crois bien que l’adjoint serait disposé à vous donner un coup de main si vous {{BLANK}} demandiez.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -10769,7 +10769,7 @@
       "questionId": "EE_7_Q36",
       "questionType": "Error-identification",
       "refersTo": null,
-      "grammarType": "Pronoms personnels (COD vs COI)",
+      "grammarType": "Pronoms",
       "context": "Le directeur nous a demandé (1) de bien vouloir lui informer (2) de tout changement qui pourrait (3) survenir suite aux nouvelles mesures.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -11044,7 +11044,7 @@
       "questionId": "EE_7_Q47",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Pronoms relatifs (dont)",
+      "grammarType": "Pronoms",
       "context": "Les employés {{BLANK}} les postes de travail se trouvent le long des murs extérieurs doivent collaborer avec les équipes d'entretien en suivant les directives déjà donnée.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -12244,7 +12244,7 @@
       "questionId": "EE_8_Q30",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Verbes pronominaux à sens passif",
+      "grammarType": "Verbes pronominaux",
       "context": "Comme on nous l’a dit, la présentation du projet devrait {{BLANK}} vers 16 h 30.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -12269,7 +12269,7 @@
       "questionId": "EE_8_Q31",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Pronoms adverbiaux (en) et verbes pronominaux",
+      "grammarType": "Verbes pronominaux",
       "context": "Je crois qu'elle a encore besoin de ce document et qu’elle {{BLANK}} pour ses recherches.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -12656,7 +12656,7 @@
       "questionId": "EE_8_Q47",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Conjugaison des verbes pronominaux",
+      "grammarType": "Verbes pronominaux",
       "context": "{{BLANK}} entretenir des rapports francs et ouverts avec les gestionnaires et le personnel.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
