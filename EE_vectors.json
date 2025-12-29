@@ -333,7 +333,7 @@
     "questionId": "EE_1_Q14",
     "questionType": "Error-identification",
     "refersTo": null,
-    "grammarType": "Conjugaison (imparfait, 2e pers. sing.)",
+    "grammarType": "Imparfait",
     "context": "Savait-tu (1) qu'Ariane avait été nommée nouvelle directrice adjointe? Je te dis (2) que la nouvelle s'est répandue comme une traînée de poudre partout (3) dans la division.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -433,7 +433,7 @@
     "questionId": "EE_1_Q18",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Concordance des temps (Si + présent + futur simple)",
+    "grammarType": "Conditionnel",
     "context": "Si cette politique est adoptée telle quelle, elle {{BLANK}} une augmentation des dépenses pour ce ministère.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -1585,7 +1585,7 @@
     "setId": "EE_1_Q55",
     "questionId": "EE_1_Q55",
     "questionType": "Error-identification",
-    "grammarType": "Discours indirect et concordance des temps (futur vs conditionnel)",
+    "grammarType": "Conditionnel",
     "context": "Lors (1) de la dernière réunion du Comité sur la santé et la sécurité au travail, Mme Labelle a déclaré que les employées et employés en poste (2) à Calgary n’iront pas (3) travailler à Whitehorse sans indemnisation financière.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -2286,7 +2286,7 @@
       "examId": "EE_2",
       "questionId": "EE_2_Q19",
       "questionType": "Fill-in-the-blank",
-      "grammarType": "Impératif et calque de l'anglais",
+      "grammarType": "Impératif",
       "context": "{{BLANK}} que chaque stagiaire a bien reçu une vignette de stationnement.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -2829,7 +2829,7 @@
       "setId": "EE_2_Q42",
       "questionId": "EE_2_Q42",
       "questionType": "Error-identification",
-      "grammarType": "Structures hypothétiques (Si + imparfait)",
+      "grammarType": "Conditionnel",
       "context": "Si vous pourriez (1) me transmettre l’information le plus rapidement possible (2), je vous en (3) serais reconnaissante.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -3614,7 +3614,7 @@
       "questionId": "EE_3_Q9",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Temps du passé (Passé composé vs Imparfait)",
+      "grammarType": "Passé composé",
       "context": "La semaine dernière, {{BLANK}} à une excellente conférence sur les intelligences multiples et le travail en équipe.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -3764,7 +3764,7 @@
       "questionId": "EE_3_Q15",
       "questionType": "Error-identification",
       "refersTo": "n'essayer pas",
-      "grammarType": "Conjugaison (Impératif)",
+      "grammarType": "Impératif",
       "context": "Si votre ordinateur ne fonctionne pas correctement, n’essayer pas (1) de le réparer vous-même; seul un technicien spécialisé peut le faire (2). Veuillez communiquer avec le service de dépannage informatique (3) pour toute réparation nécessaire.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4239,7 +4239,7 @@
       "questionId": "EE_3_Q34",
       "questionType": "Error-identification",
       "refersTo": "est travaillante",
-      "grammarType": "Syntaxe (Subjonctif après 'bien que')",
+      "grammarType": "Subjonctif",
       "context": "Tu m'avais demandé (1) des références au sujet de Madeleine, Je dirais que bien qu’elle est travaillante (2), elle manque d’expérience pour le poste en question (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4264,7 +4264,7 @@
       "questionId": "EE_3_Q35",
       "questionType": "Error-identification",
       "refersTo": "penserais",
-      "grammarType": "Conjugaison (Temps du passé : Imparfait vs Conditionnel)",
+      "grammarType": "Imparfait",
       "context": "Le problème est encore plus complexe que je ne le penserais (1). Je crois qu'il va vraiment falloir (2) qu'on appelle le service de dépannage informatique (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4314,7 +4314,7 @@
       "questionId": "EE_3_Q37",
       "questionType": "Error-identification",
       "refersTo": "Vérifies",
-      "grammarType": "Conjugaison (Impératif présent des verbes en -er)",
+      "grammarType": "Impératif",
       "context": "Vérifies (1) les factures et assure-toi (2) que les dates de livraison sont (3) les bonnes.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4589,7 +4589,7 @@
       "questionId": "EE_3_Q48",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Conjugaison (Impératif présent du verbe 'avoir')",
+      "grammarType": "Impératif",
       "context": "{{BLANK}} l’obligeance de faire suivre ce courriel à toute personne qui pourrait se retrouver dans la même situation.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -5629,7 +5629,7 @@
       "questionId": "EE_4_Q24",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Concordance des temps (Conditionnel présent)",
+      "grammarType": "Conditionnel",
       "context": "Il a dit qu'{{BLANK}} la situation l'année prochaine.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -6391,7 +6391,7 @@
       "questionId": "EE_4_Q55",
       "questionType": "Error-identification",
       "refersTo": "None",
-      "grammarType": "Hypothèse sur le passé (Si + plus-que-parfait)",
+      "grammarType": "Conditionnel",
       "context": "L'adjoint m'a dit que s'il aurait eu (1) le temps, il lui aurait répondu (2). Mais comme il a été occupé toute la journée hier à préparer les dossiers d'entrevues, il n’a pas pu le faire et personne d'autre (3) n'a pris le temps d'envoyer ce courriel.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -6441,7 +6441,7 @@
       "questionId": "EE_4_Q57",
       "questionType": "Error-identification",
       "refersTo": "None",
-      "grammarType": "Emploi du futur vs Conditionnel",
+      "grammarType": "Futur v Conditionnel",
       "context": "En ce concerne l'appel d'offres, comme nous n'aurions pas (1) les résultats avant jeudi prochain, je te conseille de prendre quelques jours pour y réfléchir (2). Il faudra trouver la bonne personne pour le poste de coordonnateur de projet. Je pense que Lucie a déjà signifié (3) son intérêt mais il faudra voir aussi avec les autres personnes intéressées.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -7091,7 +7091,7 @@
       "questionId": "EE_5_Q18",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Conditionnel présent (suggestion)",
+      "grammarType": "Conditionnel",
       "context": "Tu cherches un moment disponible pour organiser la réunion générale des employés? Selon moi, le personnel {{BLANK}} se réunir mardi après-midi.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -7241,7 +7241,7 @@
       "questionId": "EE_5_Q24",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Conjugaison (Imparfait)",
+      "grammarType": "Imparfait",
       "context": "Plusieurs personnes {{BLANK}} te voir aujourd’hui au bureau. Je leur ai dit que tu étais en formation toute la journée.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -7616,7 +7616,7 @@
       "questionId": "EE_5_Q39",
       "questionType": "Error-identification",
       "refersTo": "Numbered Sections",
-      "grammarType": "Conjugaison (Si + Présent)",
+      "grammarType": "Conditionnel",
       "context": "Il y a encore plusieurs documents à réviser dans le dossier marketing de notre agent des communications; demandez-lui (1) tout de même si vous puissiez (2) les consulter tout de suite. Sinon, il faudra attendre que le travail soit (3) un peu plus avancé.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -7691,7 +7691,7 @@
       "questionId": "EE_5_Q42",
       "questionType": "Error-identification",
       "refersTo": "Numbered Sections",
-      "grammarType": "Conjugaison (Imparfait vs Conditionnel)",
+      "grammarType": "Imparfait",
       "context": "Autrefois on pourrait (1) me demander de faire des heures supplémentaires (2), mais depuis cet incident au bureau, je refuse de travailler seule (3) le soir.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -8379,7 +8379,7 @@
       "questionId": "EE_6_Q5",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Mode (Impératif)",
+      "grammarType": "Impératif",
       "context": "{{BLANK}} ce rapport avant la prochaine réunion.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -8924,7 +8924,7 @@
       "questionId": "EE_6_Q27",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Locutions conditionnelles",
+      "grammarType": "Conditionnel",
       "context": "Veuillez noter que le pique-nique annuel de la division aura lieu comme à l’habitude durant la première semaine de juillet. {{BLANK}} il sera remis à la semaine suivante.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -8949,7 +8949,7 @@
       "questionId": "EE_6_Q28",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Conditionnel passé (Regret/Action manquée)",
+      "grammarType": "Conditionnel",
       "context": "Dans la section « En bref » du babillard de la direction reçu par courriel, le 11 mars dernier, nous faisions référence à la « Phase 1 » du projet de modernisation de l’infrastructure, alors que nous {{BLANK}} faire référence à la « Phase 2 » du projet. Nous sommes désolés de tout inconvénient que cette erreur aurait pu occasionner.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -9316,7 +9316,7 @@
       "questionId": "EE_6_Q43",
       "questionNumber": 43,
       "questionType": "Error-identification",
-      "grammarType": "Pronoms personnels (Pronoms toniques)",
+      "grammarType": "Pronoms",
       "context": "Je suis heureux de t'annoncer que le grand patron est parfaitement (1) d'accord avec la décision que nous avons prise, toi et je (2). Quant au comité, il nous accorde son plein appui, pourvu que tout se déroule (3) dans l’ordre.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -10344,7 +10344,7 @@
       "questionId": "EE_7_Q19",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe de la négation (Impératif de politesse)",
+      "grammarType": "Impératif",
       "context": "Si votre demande de remboursement ou d’indemnité nous a déjà été transmise, {{BLANK}} de cet avis.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -10519,7 +10519,7 @@
       "questionId": "EE_7_Q26",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Concordance des temps (Si + impératif)",
+      "grammarType": "Conditionnel",
       "context": "Si vous {{BLANK}} des questions, n’hésitez pas à communiquer avec moi.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -10644,7 +10644,7 @@
       "questionId": "EE_7_Q31",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Concordance des temps (Si + plus-que-parfait)",
+      "grammarType": "Conditionnel",
       "context": "Tu te doutes bien que si j’avais déjà suivi ce webinaire, je {{BLANK}} mon nom pour y participer.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -10919,7 +10919,7 @@
       "questionId": "EE_7_Q42",
       "questionType": "Error-identification",
       "refersTo": null,
-      "grammarType": "Modes verbaux (Conditionnel passé)",
+      "grammarType": "Conditionnel",
       "context": "Je suis désolé de devoir répondre (1) négativement à ta demande, mais il est impossible d’annuler ta participation au cours C711, moins de 24 heures avant le début du cours. Tu auras dû (2) y penser à l’avance. Tout ce que je peux te suggérer, c’est de trouver quelqu’un pour te remplacer. Comme ça, au moins (3) le paiement versé ne sera pas perdu.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -11344,7 +11344,7 @@
       "questionId": "EE_7_Q59",
       "questionType": "Error-identification",
       "refersTo": "n/a",
-      "grammarType": "Emploi des modes (Conditionnel présent)",
+      "grammarType": "Conditionnel",
       "context": "L’Agence du revenu du Canada (ARC) est là pour vous aider pendant la période de production des déclarations de revenus (1). Voici quelques renseignements que vous deviez connaître (2) au moment de remplir votre déclaration et qui vous permettront (3) d’économiser de l’argent.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -11519,7 +11519,7 @@
       "questionId": "EE_8_Q1",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "L'imparfait de l'indicatif",
+      "grammarType": "Imparfait",
       "context": "On a congédié le secrétaire du ministre parce qu’{{BLANK}} un bon travail.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -11969,7 +11969,7 @@
       "questionId": "EE_8_Q19",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Négation à l'infinitif et Impératif",
+      "grammarType": "Impératif",
       "context": "Je t’ai laissé le seul exemplaire que j’avais de ce cahier d’exercices pour l’expression écrite. S’il te plait, {{BLANK}} dedans.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -11994,7 +11994,7 @@
       "questionId": "EE_8_Q20",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Imparfait de l'indicatif",
+      "grammarType": "Imparfait",
       "context": "À la demande de votre superviseur, nous avons envoyé tous les renseignements {{BLANK}} concernant le processus de dotation numéro 19-AGR-NRCDAS-MIBS-235.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -12019,7 +12019,7 @@
       "questionId": "EE_8_Q21",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Phrases conditionnelles (Si + Plus-que-parfait)",
+      "grammarType": "Conditionnel",
       "context": "J’aurais signé cette pétition avec joie si {{BLANK}} présent. Malheureusement, j’étais absent du bureau cette journée-là. J’avais un rendez-vous chez l’allergologue.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -12119,7 +12119,7 @@
       "questionId": "EE_8_Q25",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Phrases conditionnelles (Si + Imparfait)",
+      "grammarType": "Conditionnel",
       "context": "Si on avait le budget suffisant, {{BLANK}} une personne pour s’occuper de ce genre de choses.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -12144,7 +12144,7 @@
       "questionId": "EE_8_Q26",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Phrases conditionnelles et Pronoms COI",
+      "grammarType": "Conditionnel",
       "context": "Le patron sera bien content si on {{BLANK}} nos commentaires avant de quitter le bureau car il en aura besoin demain matin.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
