@@ -818,7 +818,7 @@
     "questionId": "EE_1_Q31",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Syntaxe / Semi-auxiliaire + Infinitif",
+    "grammarType": "Vocabulaire / Expressions idiomatiques",
     "context": "Vous {{BLANK}} du fait que ce projet sera très couteux et passablement inutile.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -1561,7 +1561,7 @@
     "setId": "EE_1_Q54",
     "questionId": "EE_1_Q54",
     "questionType": "Error-identification",
-    "grammarType": "Pronoms relatifs (choix entre dont et que)",
+    "grammarType": "Pronom relatif",
     "context": "Le Conseil du Trésor exige que (1) les ministères exercent un strict contrôle sur (2) les biens immobiliers dont (3) ils possèdent.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -2332,7 +2332,7 @@
       "examId": "EE_2",
       "questionId": "EE_2_Q21",
       "questionType": "Fill-in-the-blank",
-      "grammarType": "Pronom relatif et présent avec « depuis »",
+      "grammarType": "Pronoms",
       "context": "J’ai le plaisir de vous annoncer que Pierre Grenier, {{BLANK}} avec nous depuis l’hiver dernier, a accepté de rester jusqu’à la fin de l’année financière.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -2470,7 +2470,7 @@
       "examId": "EE_2",
       "questionId": "EE_2_Q27",
       "questionType": "Fill-in-the-blank",
-      "grammarType": "Pronom relatif (dont vs que)",
+      "grammarType": "Pronom relatif",
       "context": "Vous prenez {{BLANK}} vous avez besoin dans le classeur bleu.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -2539,7 +2539,7 @@
       "examId": "EE_2",
       "questionId": "EE_2_Q30",
       "questionType": "Fill-in-the-blank",
-      "grammarType": "Place du pronom objet et calque de l'anglais",
+      "grammarType": "Pronoms",
       "context": "Aussitôt que vous arriverez au bureau, allez dire à mon collègue {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -5378,7 +5378,7 @@
       "questionNumber": 14,
       "questionType": "Error-identification",
       "refersTo": "par chaque personne",
-      "grammarType": "Syntaxe (Emploi des prépositions de distribution)",
+      "grammarType": "Prépositions",
       "context": "J'ai revu (1) l'organisation de la salle pour la conférence ministérielle (2) de demain matin. Tout semble beau, il y a un document disponible par chaque personne (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -7441,7 +7441,7 @@
       "questionId": "EE_5_Q32",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe (Pronoms relatifs neutres)",
+      "grammarType": "Pronom relatif",
       "context": "Tu devrais faire appel au Service de médiation du Conseil du Trésor. Selon moi, {{BLANK}} est primordial, c’est d’aller chercher les conseils d’un intervenant neutre pour clarifier la situation et ramener la bonne entente au bureau.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -8479,7 +8479,7 @@
       "questionId": "EE_6_Q9",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Pronom",
+      "grammarType": "Pronoms",
       "context": "Pierrette, ne prends pas cette tasse pour te faire un café, c’est {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -9470,7 +9470,7 @@
       "questionNumber": 49,
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Pronoms",
+      "grammarType": "Pronom relatif",
       "context": "L'utilisation de données révisées, disponibles au moment {{BLANK}} les décisions de politique monétaire ont été prises, plutôt que de données en temps réel ne modifie pas le raisonnement sur lequel ont reposé les délibérations.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -11044,7 +11044,7 @@
       "questionId": "EE_7_Q47",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Pronoms",
+      "grammarType": "Pronom relatif",
       "context": "Les employés {{BLANK}} les postes de travail se trouvent le long des murs extérieurs doivent collaborer avec les équipes d'entretien en suivant les directives déjà donnée.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -11569,7 +11569,7 @@
       "questionId": "EE_8_Q3",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Place du pronom personnel",
+      "grammarType": "Pronoms",
       "context": "J'aimerais {{BLANK}} certaines règles fondamentales concernant l’utilisation d’Internet durant les heures de travail.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -12044,7 +12044,7 @@
       "questionId": "EE_8_Q22",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Pronoms relatifs (où)",
+      "grammarType": "Pronom relatif",
       "context": "Veuillez noter que comme il s’agit d’un événement d’apprentissage qui se déroulera en partie pendant vos heures de travail, durant une période {{BLANK}} vous devriez normalement être présent à votre poste de travail, vous devrez demander à l’avance à votre superviseur la permission d’y participer. Si vous obtenez la permission d’y participer, il est attendu que vous serez de retour au travail à 14 h.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -12194,7 +12194,7 @@
       "questionId": "EE_8_Q28",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "La négation et pronoms indéfinis",
+      "grammarType": "Pronoms",
       "context": "Je n'ai encore parlé à {{BLANK}} de cette nouvelle directive car je sens que ça va faire du bruit.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -12631,7 +12631,7 @@
       "questionId": "EE_8_Q46",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Pronom relatif (dont)",
+      "grammarType": "Pronom relatif",
       "context": "La façon {{BLANK}} les services sont offerts à la population permet d’accroître la confiance et l'autonomie de la clientèle.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -12756,7 +12756,7 @@
       "questionId": "EE_8_Q51",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Pronom indéfini",
+      "grammarType": "Pronoms",
       "context": "Dans la Loi sur le Service canadien de sécurité, on peut lire que, pour être considérées comme des menaces, des activités doivent être influencées par l’étranger, préjudiciables aux intérêts du Canada et de nature clandestine ou trompeuse, ou doivent comporter des menaces envers {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
