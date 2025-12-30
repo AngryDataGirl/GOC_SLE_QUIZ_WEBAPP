@@ -7990,7 +7990,7 @@
       "setId": "EE_5_Q54",
       "questionId": "EE_5_Q54",
       "questionType": "Error-identification",
-      "grammarType": "Locutions invariables",
+      "grammarType": "Vocabulaire / Expressions idiomatique",
       "context": "Des exercices pratiques dirigés (1) par le formateur vous seront proposés ainsi que des démonstrations. À la fin du module de formation, les participants seront en mesures (2) d’évaluer l’accessibilité du contenu de divers sites Web (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -11069,7 +11069,7 @@
       "questionId": "EE_7_Q48",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Collocations (Déployer des efforts)",
+      "grammarType": "Vocabulaire / Expressions idiomatique",
       "context": "Tous les efforts seront {{BLANK}} afin de trouver d'autres postes convenables pour tous les employés touchés.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
