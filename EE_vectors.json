@@ -508,7 +508,7 @@
     "questionId": "EE_1_Q21",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Subjonctif (après 'craindre que')",
+    "grammarType": "Subjonctif",
     "context": "Si nous ne passons pas une commande d'ici peu, je crains que {{BLANK}} de papier pour les imprimantes de l'étage.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -744,7 +744,7 @@
     "questionId": "EE_1_Q29",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Conjugaison / Subjonctif",
+    "grammarType": "Subjonctif",
     "context": "Pensez-vous que ça {{BLANK}} la peine d’embaucher une personne pour une si courte période de temps?",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -1777,7 +1777,7 @@
     "setId": "EE_1_Q63",
     "questionId": "EE_1_Q63",
     "questionType": "Error-identification",
-    "grammarType": "Emploi du subjonctif après « bien que »",
+    "grammarType": "Subjonctif",
     "context": "Présentement, la base de données (1) contient seulement l'information sur les contrats attribués. Si vous désirez plus de précisions sur le contenu du présent site, vous pouvez consulter (2) l'aide en ligne. Bien que les données historiques pouvant (3) vous aider à réaliser votre étude de marché, elles ne vous permettront pas de déterminer avec exactitude les possibilités de contrat à venir.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -2853,7 +2853,7 @@
       "setId": "EE_2_Q43",
       "questionId": "EE_2_Q43",
       "questionType": "Error-identification",
-      "grammarType": "Conjugaison (Subjonctif présent du verbe avoir)",
+      "grammarType": "Subjonctif",
       "context": "Dans la mesure du possible (1), nous ferons effectuer les travaux le soir afin que (2) vous aillez (3) accès à votre poste de travail pendant la journée.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -2901,7 +2901,7 @@
       "setId": "EE_2_Q45",
       "questionId": "EE_2_Q45",
       "questionType": "Error-identification",
-      "grammarType": "Pronoms personnels compléments (le/la vs lui)",
+      "grammarType": "Pronoms",
       "context": "Un représentant de la Commission de la fonction publique était présent à la réunion, et le comité l’a proposé (1) d’expliquer la position (2) de son ministère sur les nominations intérimaires au sein (3) de la fonction publique fédérale.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -3026,7 +3026,7 @@
       "questionId": "EE_2_Q50",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Conjonctions de subordination et subjonctif",
+      "grammarType": "Subjonctif",
       "context": "{{BLANK}} ce document puisse vous aider dans vos recherches, vous devriez également consulter notre site Web.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -3197,7 +3197,7 @@
       "setId": "EE_2_Q57",
       "questionId": "EE_2_Q57",
       "questionType": "Error-identification",
-      "grammarType": "Modes verbaux (Indicatif vs Subjonctif)",
+      "grammarType": "Subjonctif",
       "context": "M. Cottler est titulaire (1) d'un baccalauréat en philosophie de l'Université de Toronto. Il détient un diplôme en éducation du Western College of Education et un autre en administration publique de l'Université Laval. Il est entré au service de la fonction publique fédérale en 1995 et il a acquis (2) depuis, dans les divers postes qu'il ait occupés (3), une solide expérience en gestion de personnel.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -3514,7 +3514,7 @@
       "questionId": "EE_3_Q5",
       "questionType": "Fill-in-the-blank",
       "refersTo": "_________________",
-      "grammarType": "Syntaxe des pronoms personnels (le/la vs lui)",
+      "grammarType": "Pronoms",
       "context": "Il faudrait envoyer une copie de votre demande à votre gestionnaire _________________ de votre participation.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -3639,7 +3639,7 @@
       "questionId": "EE_3_Q10",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Pronoms personnels (en)",
+      "grammarType": "Pronoms",
       "context": "Ce gâteau est excellent! {{BLANK}} deux fois.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -4139,7 +4139,7 @@
       "questionId": "EE_3_Q30",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe (Emploi du subjonctif après 'afin que')",
+      "grammarType": "Subjonctif",
       "context": "Nous encourageons fortement les employés à donner leur opinion afin que la ronde de consultation {{BLANK}} un vrai succès.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -4164,7 +4164,7 @@
       "questionId": "EE_3_Q31",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe (Subjonctif après 'veiller à ce que')",
+      "grammarType": "Subjonctif",
       "context": "Veillez à ce que chaque employé {{BLANK}} son nouveau laissez-passer avant la fin de l’année financière.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -4189,7 +4189,7 @@
       "questionId": "EE_3_Q32",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe (Place des pronoms personnels compléments)",
+      "grammarType": "Pronoms",
       "context": "Vous {{BLANK}} dire plus tôt.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -4564,7 +4564,7 @@
       "questionId": "EE_3_Q47",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe (Conjonctions et mode subjonctif)",
+      "grammarType": "Subjonctif",
       "context": "{{BLANK}} toutes ces données soient accessibles, certaines ne sont pas régies par la Loi sur l’accès à l’information.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -4639,7 +4639,7 @@
       "questionId": "EE_3_Q50",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Morphosyntaxe (Déterminants et parties du corps)",
+      "grammarType": "Articles",
       "context": "Il y a présentement une recrudescence de la grippe dans nos lieux de travail. Pour cette raison, nous aimerions vous rappeler certaines règles de base pour en éviter la propagation. Il faut {{BLANK}} après s’être mouché ou être allé à la salle de bain, avant et après avoir mangé. On peut également utiliser un désinfectant liquide pour les mains si on se trouve dans l’impossibilité d’avoir accès à un évier et à du savon.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -4814,7 +4814,7 @@
       "questionId": "EE_3_Q57",
       "questionType": "Error-identification",
       "refersTo": "se sont",
-      "grammarType": "Syntaxe (Emploi du subjonctif après une tournure impersonnelle)",
+      "grammarType": "Subjonctif",
       "context": "Si vous avez reçu ou envoyé des messages par courrier électronique entre le 29 avril et le 1er mai, il se peut qu’ils ne se sont (1) pas rendus à destination. Nous vous recommandons de vérifier (2) les messages que vous avez envoyés entre ces dates et de les envoyer à nouveau si vous n’avez pas eu de réponse de vos destinataires (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4964,7 +4964,7 @@
       "questionId": "EE_3_Q63",
       "questionType": "Error-identification",
       "refersTo": "visent l'excellence",
-      "grammarType": "Morphosyntaxe (Emploi du participe présent)",
+      "grammarType": "Participe présent",
       "context": "Notre projet des orientations stratégiques est axé (1) sur le rôle que notre ministère joue (2) pour aider la fonction publique à être hautement performante et pour la soutenir dans son processus de transformation visent l'excellence (3) tout au long du 21e siècle.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -5066,7 +5066,7 @@
       "questionNumber": 2,
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Morphosyntaxe (Adjectifs démonstratifs)",
+      "grammarType": "Adjectifs",
       "context": "Pouvez-vous nous donner votre opinion à {{BLANK}} sujet.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -5144,7 +5144,7 @@
       "questionNumber": 5,
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Morphologie (Infinitif après un semi-auxiliaire)",
+      "grammarType": "Infinitif",
       "context": "Pourriez-vous {{BLANK}} la porte de la salle de photocopie ouverte en permanence? Merci.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -5429,7 +5429,7 @@
       "questionId": "EE_4_Q16",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Le subjonctif présent (avoir à)",
+      "grammarType": "Subjonctif",
       "context": "C'est possible qu'{{BLANK}} à commander un autre classeur.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -5754,7 +5754,7 @@
       "questionId": "EE_4_Q29",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Pronoms possessifs",
+      "grammarType": "Pronoms",
       "context": "Je suis d’accord avec le fait que nous devrons améliorer la qualité des services qui sont offerts à notre point de service de Fredericton. Par contre, en ce qui concerne l’idée du déménagement, je crois qu’il faudrait y réfléchir davantage. Je ne suis pas contre le nouvel emplacement choisi, mais je considère que {{BLANK}} est bien mieux situé.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -5853,7 +5853,7 @@
       "setId": "EE_4_Q33",
       "questionId": "EE_4_Q33",
       "questionType": "Error-identification",
-      "grammarType": "Mode indicatif vs subjonctif (pendant que)",
+      "grammarType": "Indicatif",
       "context": "Nous pourrions (1) profiter de l'occasion pour (2) discuter de cette question pendant que notre directeur soit (3) ici.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -5901,7 +5901,7 @@
       "setId": "EE_4_Q35",
       "questionId": "EE_4_Q35",
       "questionType": "Error-identification",
-      "grammarType": "Pronoms personnels (COD vs COI)",
+      "grammarType": "Pronoms",
       "context": "Hier matin, j'ai rencontré ma patronne. Je l'ai (1) proposé de faire elle-même (2) la présentation au sous-ministre. Elle a dit qu'elle allait y (3) réfléchir.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -5949,7 +5949,7 @@
       "setId": "EE_4_Q37",
       "questionId": "EE_4_Q37",
       "questionType": "Error-identification",
-      "grammarType": "Emploi du subjonctif après 'il faut que'",
+      "grammarType": "Subjonctif",
       "context": "Il faut que vous allez (1) vous-même rencontrer l’agent de dotation (2) pour obtenir des renseignements (3) concernant les programmes de perfectionnement.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -6093,7 +6093,7 @@
       "setId": "EE_4_Q43",
       "questionId": "EE_4_Q43",
       "questionType": "Error-identification",
-      "grammarType": "Emploi de l'indicatif vs subjonctif",
+      "grammarType": "Indicatif",
       "context": "Le règlement énonce clairement que les inspecteurs et inspectrices des douanes ont le pouvoir d’ouvrir les envois postaux (1) tout en précisant (2) qu’ils puissent (3) le faire seulement s’ils ont des motifs raisonnables.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -6141,7 +6141,7 @@
       "setId": "EE_4_Q45",
       "questionId": "EE_4_Q45",
       "questionType": "Error-identification",
-      "grammarType": "Pronoms personnels (COI y vs COD le)",
+      "grammarType": "Pronoms",
       "context": "Nous aimerions attirer votre attention sur le fait que ce sondage sera effectué (1) auprès de tous les employés du 14 au 25 janvier prochains. Veuillez vous assurer que tous les membres de votre personnel le (2) répondent sans faute (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -6191,7 +6191,7 @@
       "questionId": "EE_4_Q47",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Mode subjonctif / Verbes impersonnels",
+      "grammarType": "Subjonctif",
       "context": "{{BLANK}} d'une seule personne ou de plusieurs, on applique les mêmes règles.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -6616,7 +6616,7 @@
       "questionId": "EE_4_Q64",
       "questionType": "Error-identification",
       "refersTo": "None",
-      "grammarType": "Mode subjonctif (après verbe de souhait)",
+      "grammarType": "Subjonctif",
       "context": "Il a été porté à notre attention qu’il y avait un certain manque de ponctualité (1) aux réunions  du comité de gestion de la modernisation des communications électroniques. Bien que nous comprenions que des imprévus puissent toujours arriver, nous aimerions tout de même vous rappeler que M. Smith, le directeur du service, souhaite que tous les employés sont à l'heure (2) à cette importante réunion bimensuelle. Il y va de (3) la bonne marche du programme.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -6716,7 +6716,7 @@
       "questionId": "EE_5_Q3",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Pronoms personnels compléments / Vouvoiement",
+      "grammarType": "Pronoms",
       "context": "J'aimerais {{BLANK}} si vous avez quelques minutes.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -6941,7 +6941,7 @@
       "questionId": "EE_5_Q12",
       "questionType": "Error-identification",
       "refersTo": "None",
-      "grammarType": "Mode subjonctif (après il faut que)",
+      "grammarType": "Subjonctif",
       "context": "Il faut qu’on est (1) une solution à présenter (2) au comité lundi prochain (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -7066,7 +7066,7 @@
       "questionId": "EE_5_Q17",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Subjonctif et expressions de temps",
+      "grammarType": "Subjonctif",
       "context": "Je veux que tu {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -8086,7 +8086,7 @@
       "setId": "EE_5_Q58",
       "questionId": "EE_5_Q58",
       "questionType": "Error-identification",
-      "grammarType": "Mode (Subjonctif après craindre que)",
+      "grammarType": "Subjonctif",
       "context": "Vous devriez, en principe, recevoir bientôt un avis de rajustement (1) de salaire. Toutefois (2) je crains que dans les circonstances actuelles, cet avis ne peut vous parvenir (3) avant un mois ou deux.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -8479,7 +8479,7 @@
       "questionId": "EE_6_Q9",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Pronoms possessifs",
+      "grammarType": "Pronom",
       "context": "Pierrette, ne prends pas cette tasse pour te faire un café, c’est {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -8504,7 +8504,7 @@
       "questionId": "EE_6_Q10",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Place du pronom personnel",
+      "grammarType": "Pronoms",
       "context": "Tu dois {{BLANK}} davantage tes conclusions.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -8649,7 +8649,7 @@
       "questionId": "EE_6_Q16",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Pronoms interrogatifs et régimes prépositionnels",
+      "grammarType": "Pronoms",
       "context": "Parmi nos experts, {{BLANK}} allez-vous avoir besoin pour faire le travail?",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -8724,7 +8724,7 @@
       "questionId": "EE_6_Q19",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Locutions verbales et pronoms personnels",
+      "grammarType": "Pronoms",
       "context": "Quand tu rencontreras Diane, {{BLANK}} notre décision de ne plus embaucher d’étudiants cette année.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -9341,7 +9341,7 @@
       "questionId": "EE_6_Q44",
       "questionNumber": 44,
       "questionType": "Error-identification",
-      "grammarType": "Mode verbal (Subjonctif après 'insister pour que')",
+      "grammarType": "Subjonctif",
       "context": "Durant la formation, la chef de section insiste pour que vous prenez (1) votre pause de 10 h 15 à 10 h 30 (2). Si vous ne vous conformez pas à cette directive, vous risquez de (3) devoir reprendre certaines parties de la formation. Merci.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -9470,7 +9470,7 @@
       "questionNumber": 49,
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Pronoms relatifs (Temps)",
+      "grammarType": "Pronoms",
       "context": "L'utilisation de données révisées, disponibles au moment {{BLANK}} les décisions de politique monétaire ont été prises, plutôt que de données en temps réel ne modifie pas le raisonnement sur lequel ont reposé les délibérations.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -10196,7 +10196,7 @@
       "setId": "EE_7_Q13",
       "questionId": "EE_7_Q13",
       "questionType": "Error-identification",
-      "grammarType": "Morphologie verbale (Infinitif)",
+      "grammarType": "Infinitif",
       "context": "Prière de (1) noter que la réunion qui devait se tiendre (2) mardi prochain est reportée (3) à une date ultérieure.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -10719,7 +10719,7 @@
       "questionId": "EE_7_Q34",
       "questionType": "Error-identification",
       "refersTo": null,
-      "grammarType": "Morphologie (Nom vs Adjectif)",
+      "grammarType": "Nom vs Adjectif",
       "context": "La mise sur pied (1) de ce service contribuera aussi à améliorer (2) notre image auprès du publique (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -10744,7 +10744,7 @@
       "questionId": "EE_7_Q35",
       "questionType": "Error-identification",
       "refersTo": null,
-      "grammarType": "Modes verbaux (Subjonctif après 'bien que')",
+      "grammarType": "Subjonctif",
       "context": "Le rapport que Mme Dubois a rédigé (1) est satisfaisant, bien qu’elle a omis (2) d’y inclure (3) certaines données.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -11669,7 +11669,7 @@
       "questionId": "EE_8_Q7",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Le subjonctif présent",
+      "grammarType": "Subjonctif",
       "context": "Veillez à ce que {{BLANK}} à temps.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -12366,7 +12366,7 @@
       "setId": "EE_8_Q35",
       "questionId": "EE_8_Q35",
       "questionType": "Error-identification",
-      "grammarType": "Place et forme des pronoms personnels objets",
+      "grammarType": "Pronoms",
       "context": "Mme Meiri aimerait voir toi (1) à son bureau ce matin (2). Je ne sais pas exactement pour quelle raison, mais je pense que ça concerne les vacances. Je pense qu'elle veut s'assurer qu'il n'y aura pas (3) d'interruption du service à la clientèle durant la période des vacances estivales.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -12582,7 +12582,7 @@
       "setId": "EE_8_Q44",
       "questionId": "EE_8_Q44",
       "questionType": "Error-identification",
-      "grammarType": "Emploi du subjonctif après une tournure impersonnelle",
+      "grammarType": "Subjonctif",
       "context": "Il est primordial qu’un compte rendu (1) de toutes (2) les réunions est donné (3) au directeur général.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -12806,7 +12806,7 @@
       "questionId": "EE_8_Q53",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Subjonctif après 'où que'",
+      "grammarType": "Subjonctif",
       "context": "Grâce à ce réseau, vous serez désormais en mesure de vous tenir informé où que vous {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
