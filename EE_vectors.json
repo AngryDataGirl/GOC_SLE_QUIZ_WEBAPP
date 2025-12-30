@@ -927,7 +927,7 @@
     "setId": "EE_1_Q34",
     "questionId": "EE_1_Q34",
     "questionType": "Error-identification",
-    "grammarType": "Syntaxe / Grammaire générale",
+    "grammarType": "Aucune correction",
     "context": "On lui a demandé de sauvegarder (1) les données (2) dans une banque compatible à celle (3) de la direction des achats.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -1633,7 +1633,7 @@
     "setId": "EE_1_Q57",
     "questionId": "EE_1_Q57",
     "questionType": "Error-identification",
-    "grammarType": "Syntaxe et ponctuation (aucune correction)",
+    "grammarType": "Aucune correction",
     "context": "Les candidats qui par (1) leurs compétences et leurs aptitudes satisfont aux critères de sélection seront ensuite soumis à (2) un processus (3) intensif d’évaluation.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -2951,7 +2951,7 @@
       "questionId": "EE_2_Q47",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe verbale (profiter de l'occasion pour + infinitif)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Je profite de l’occasion {{BLANK}} tous ceux et celles qui ont déjà répondu au sondage.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -3293,7 +3293,7 @@
       "setId": "EE_2_Q61",
       "questionId": "EE_2_Q61",
       "questionType": "Error-identification",
-      "grammarType": "Syntaxe (Malgré vs Cependant/Toutefois)",
+      "grammarType": "Connecteurs logiques",
       "context": "Les zoologistes ne peuvent pas encore (1) nous dire avec exactitude combien d'espèces animales différentes se trouvent sur notre terre. On estime malgré (2) que le nombre d'espèces doit être d'environ (3) 8 700 pour les oiseaux, 4 100 pour les mammifères, 23 000 pour les poissons et 9 300 pour les reptiles et les amphibiens.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4489,7 +4489,7 @@
       "questionId": "EE_3_Q44",
       "questionType": "Error-identification",
       "refersTo": "aucune",
-      "grammarType": "Révision globale (Syntaxe et orthographe)",
+      "grammarType": "Aucune correction",
       "context": "Le comité a décidé de lancer le processus de dotation pour le poste de directeur général des Communications. Entre-temps (1), pour assurer une transition efficace (2), nous avons demandé à Mme Duchemin, directrice de la Gestion de l’information, d’accepter une affectation temporaire (3) à ce poste.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -4539,7 +4539,7 @@
       "questionId": "EE_3_Q46",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe (Construction du verbe 'veiller')",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Étant donné que c'est une rencontre obligatoire, veillez {{BLANK}} tous vos employés y participent.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -4664,7 +4664,7 @@
       "questionId": "EE_3_Q51",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe (Articles devant les pays et pronom 'y')",
+      "grammarType": "Pronoms",
       "context": "À la fin du mois de mai, l’Organisation de coopération et de développement économiques (OCDE), a publié la nouvelle version de son Indicateur du mieux vivre. {BLANK}} au troisième rang sur 36 pays, mais en fait, il est presque en première place, ex æquo avec l’Australie et la Suède.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -4764,7 +4764,7 @@
       "questionId": "EE_3_Q55",
       "questionType": "Error-identification",
       "refersTo": "j'en trouve",
-      "grammarType": "Syntaxe (Emploi du pronom adverbial 'y' vs 'en')",
+      "grammarType": "Pronoms",
       "context": "Rien (1) n’est plus facile pour moi que de (2) parler toute la journée avec mes clients. En fait, j'en trouve (3) beaucoup de satisfaction.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -5170,7 +5170,7 @@
       "questionNumber": 6,
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Morphosyntaxe (Concordance des temps au futur)",
+      "grammarType": "Concordance des temps",
       "context": "Nous {{BLANK}} rencontrer cet employé demain.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -5248,7 +5248,7 @@
       "questionNumber": 9,
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe (Pronoms compléments d'objet direct)",
+      "grammarType": "Pronoms",
       "context": "Plus je pensais à cette idée, plus je {{BLANK}} excellente.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -5274,7 +5274,7 @@
       "questionNumber": 10,
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe (Locutions impersonnelles de durée)",
+      "grammarType": "Vocabulaire / Expressions idiomatique",
       "context": "{{BLANK}} quatre jours que j'essaie de le joindre.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -6266,7 +6266,7 @@
       "questionId": "EE_4_Q50",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Interrogation (T euphonique)",
+      "grammarType": "Syntaxe interrogative",
       "context": "Je suis bien heureux qu’on nous ait accordé la permission d’aller à ce congrès à Toronto. Mais j’aurais malgré tout une question pour toi. {{BLANK}} partir le dimanche soir ou seulement le lundi matin?",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -6416,7 +6416,7 @@
       "questionId": "EE_4_Q56",
       "questionType": "Error-identification",
       "refersTo": "None",
-      "grammarType": "Syntaxe et ponctuation",
+      "grammarType": "Aucune correction",
       "context": "J’aimerais, par le présent courriel, vous inviter (1) au dîner d’adieu organisé en l’honneur de M. Aubry, lequel (2) prendra sa retraite le mois prochain. Je serais (3) heureux de recevoir votre réponse le plus tôt possible. Merci.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -7416,7 +7416,7 @@
       "questionId": "EE_5_Q31",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe (Ordre des pronoms)",
+      "grammarType": "Pronoms",
       "context": "Robert ne semblait pas au courant qu’on avait une réunion ce matin. {{BLANK}} avais-tu dis?",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -7466,7 +7466,7 @@
       "questionId": "EE_5_Q33",
       "questionType": "Error-identification",
       "refersTo": "Numbered Sections",
-      "grammarType": "Syntaxe (Pronoms adverbiaux 'y'/'en')",
+      "grammarType": "Pronoms",
       "context": "Veuillez noter que la semaine prochaine, je ne prendrai pas ma voiture pour aller au travail, je m'en rendrai (1) en autobus. Je ne serai donc pas nécessairement disponible à 7 h 30 le matin pour vous recevoir en entrevue (2). Mais je devrais être arrivée (3) à 8 heures.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -7866,7 +7866,7 @@
       "questionId": "EE_5_Q49",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe (Conjonctions logiques)",
+      "grammarType": "Connecteurs logique",
       "context": "C’est l'Agence des services frontaliers du Canada (ASFC) qui est responsable d'appliquer et d'exécuter la politique concernant l'importation de marchandises contaminées par de la terre {{BLANK}} cette politique s'applique à la frontière.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -8206,7 +8206,7 @@
       "setId": "EE_5_Q63",
       "questionId": "EE_5_Q63",
       "questionType": "Error-identification",
-      "grammarType": "Syntaxe interrogative (Inversion sujet-verbe)",
+      "grammarType": "Syntaxe interrogative",
       "context": "Pourquoi tu n'as pas mis (1) le dossier dans le classeur hier soir? Tu sais pourtant que ces dossiers sont confidentiels (2) et qu’il faut les mettre sous clé (3) chaque soir. Il ne faudrait plus que ça se reproduise.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -8329,7 +8329,7 @@
       "questionId": "EE_6_Q3",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe interrogative (durée)",
+      "grammarType": "Syntaxe interrogative",
       "context": "{{BLANK}} travaillez-vous dans cette division?",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -9949,7 +9949,7 @@
       "questionId": "EE_7_Q3",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Interrogation (t euphonique)",
+      "grammarType": "Syntaxe interrogative",
       "context": "Son collègue lui {{BLANK}} communiqué la nouvelle?",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -11094,7 +11094,7 @@
       "questionId": "EE_7_Q49",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe (Forme impersonnelle)",
+      "grammarType": "Syntaxe interrogative",
       "context": "Comment {{BLANK}} qu'on soit encore confronté au même problème de ressources humaines? Je croyais que c’était réglé depuis longtemps.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -11719,7 +11719,7 @@
       "questionId": "EE_8_Q9",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe de la date",
+      "grammarType": "Articles",
       "context": "Nous aimerions recevoir une réponse {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -12414,7 +12414,7 @@
       "setId": "EE_8_Q37",
       "questionId": "EE_8_Q37",
       "questionType": "Error-identification",
-      "grammarType": "Syntaxe générale",
+      "grammarType": "Aucune correction",
       "context": "Rappelle-moi (1) si tu trouves un exemplaire de ce débat historique à la Chambre des communes (2) car je tiens à l’avoir (3). J'en ai absolument besoin pour finir mon mémoire de maîtrise à l'université.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -12950,7 +12950,7 @@
       "setId": "EE_8_Q59",
       "questionId": "EE_8_Q59",
       "questionType": "Error-identification",
-      "grammarType": "Syntaxe générale",
+      "grammarType": "Aucune correction",
       "context": "Le risque désigne l'effet de l'incertitude (1) sur la réalisation des objectifs. Il exprime (2) la probabilité et les répercussions d'un incident susceptible de nuire (3) à l'atteinte des objectifs de l'organisation.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -13046,7 +13046,7 @@
       "setId": "EE_8_Q63",
       "questionId": "EE_8_Q63",
       "questionType": "Error-identification",
-      "grammarType": "Syntaxe générale",
+      "grammarType": "Aucune correction",
       "context": "En conséquence (1), je vous demanderais de porter ce litige (2) à l’attention de vos directeurs d’établissements respectifs (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
