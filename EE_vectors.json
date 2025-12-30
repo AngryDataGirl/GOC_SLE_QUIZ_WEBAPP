@@ -1729,7 +1729,7 @@
     "setId": "EE_1_Q61",
     "questionId": "EE_1_Q61",
     "questionType": "Error-identification",
-    "grammarType": "Collocations verbales (acquérir vs conquérir des compétences)",
+    "grammarType": "Vocabulaire / Expressions idiomatiques",
     "context": "Grâce à ce nouveau programme, les Centres de ressources humaines de la région et les organismes partenaires (1) peuvent offrir des subventions salariales temporaires (2) à des employeurs pour les inciter à engager des personnes qu'ils n'auraient probablement pas recrutées autrement. Ceci permet aux personnes sans emploi de conquérir (3) de nouvelles compétences et une expérience de travail utile.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -2050,7 +2050,7 @@
       "questionId": "EE_2_Q9",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Interrogation sur la durée",
+      "grammarType": "Syntaxe interrogative",
       "context": "{{BLANK}} travaillez-vous dans cette division?",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -2685,7 +2685,7 @@
       "setId": "EE_2_Q36",
       "questionId": "EE_2_Q36",
       "questionType": "Error-identification",
-      "grammarType": "Articles contractés (de + les = des)",
+      "grammarType": "Article",
       "context": "Un comité de sélection pourra étudier (1) une candidature à un processus de dotation envoyée au-delà de la date limite pourvu qu’il (2) n’ait pas terminé l’évaluation les (3) autres candidatures.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -6291,7 +6291,7 @@
       "questionId": "EE_4_Q51",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Pronoms disjoints / Sujet indéfini",
+      "grammarType": "Pronoms",
       "context": "Je sais qu’il est possible de faire ça {{BLANK}}. Mais je te conseille de faire affaire avec les gens de Travaux publics et Services gouvernementaux.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -9444,7 +9444,7 @@
       "questionNumber": 48,
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe (Adverbe interrogatif)",
+      "grammarType": "Syntaxe interrogative",
       "context": "Même si vous n’êtes pas Canadiens, il est possible que vous n’ayez pas besoin d’obtenir un permis de travail pour travailler de façon temporaire au Canada. Si vous êtes un homme ou une femme d’affaires, renseignez-vous pour savoir si vous devez obtenir un permis de travail et si c’est le cas, {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -9824,7 +9824,7 @@
       "questionId": "EE_6_Q63",
       "questionNumber": 63,
       "questionType": "Error-identification",
-      "grammarType": "Articles partitifs à la forme négative",
+      "grammarType": "Articles",
       "context": "Comme chaque mois, on recevra les allocations de dépenses pour la petite caisse le premier seulement. Ce qui veut dire qu’on n'obtiendra pas de l'argent (1) avant jeudi prochain. Je te conseille donc d’acheter le minimum de fournitures (2) pour le moment quitte à les payer (3) avec ton propre argent et à te faire rembourser après le premier du mois.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
