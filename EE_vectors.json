@@ -33,7 +33,7 @@
     "questionId": "EE_1_Q2",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Adjectif (participe passé) vs. Verbe pronominal",
+    "grammarType": "Vocabulaire / Expressions idiomatiques",
     "context": "Madeleine? Elle {{BLANK}}. Elle est en train de traduire la présentation de la semaine prochaine.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -283,7 +283,7 @@
     "questionId": "EE_1_Q12",
     "questionType": "Error-identification",
     "refersTo": null,
-    "grammarType": "Adjectif (meilleur) vs Adverbe (mieux)",
+    "grammarType": "Adjectifs",
     "context": "Voilà ce que je te suggère. Annulons la réunion de demain et remettons-la (1) à la semaine prochaine. Comme ça (2), on aura le temps de faire les dernières vérifications dans les documents et de meilleur (3) se préparer.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -558,7 +558,7 @@
     "questionId": "EE_1_Q23",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Participe passé (devoir) / Homophones (dû vs du)",
+    "grammarType": "Vocabulaire / Expressions idiomatiques",
     "context": "Ils {{BLANK}} s'assurer de ne pas contrevenir aux lois sur la concurrence.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -608,7 +608,7 @@
     "questionId": "EE_1_Q25",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Adjectif (nouveau/nouvel)",
+    "grammarType": "Adjectifs",
     "context": "On embauchera {{BLANK}} économiste cette année.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -2075,7 +2075,7 @@
       "questionId": "EE_2_Q10",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Locution adverbiale (au besoin)",
+      "grammarType": "Vocabulaire / Expressions idiomatique",
       "context": "Consultez la liste en annexe {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -2123,7 +2123,7 @@
       "setId": "EE_2_Q12",
       "questionId": "EE_2_Q12",
       "questionType": "Error-identification",
-      "grammarType": "Homophones (ces vs ses)",
+      "grammarType": "Adjectifs",
       "context": "Nous avons concentré nos (1) efforts sur l’affectation de fonds correspondant aux analyses de cas qui ont été élaborées (2) en janvier. Je sais que la rédaction des propositions pour ses (3) analyses de cas a nécessité beaucoup de travail.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs?",
       "choices": [
@@ -7016,7 +7016,7 @@
       "questionId": "EE_5_Q15",
       "questionType": "Error-identification",
       "refersTo": "None",
-      "grammarType": "Homophones (se vs ce)",
+      "grammarType": "Adjectifs",
       "context": "Pour tout renseignement (1) supplémentaire à se sujet (2), veuillez communiquer avec (3) Mme Roy, responsable du programme.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -7191,7 +7191,7 @@
       "questionId": "EE_5_Q22",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Grammaire (Homophones/Adjectifs possessifs)",
+      "grammarType": "Adjectifs",
       "context": "Gilberte n’est pas là. Pourrais-tu prendre {{BLANK}} pendant qu'elle est absente du bureau?",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -8230,7 +8230,7 @@
       "setId": "EE_5_Q64",
       "questionId": "EE_5_Q64",
       "questionType": "Error-identification",
-      "grammarType": "Accord",
+      "grammarType": "Adjectifs",
       "context": "Les fonctionnaires doivent faire rapport par écrit (1) à l'administrateur général, conformément aux procédures de leur organisation, de toutes les activités extérieures, de tous les biens et de tous les intérêts susceptibles de donner lieu à un conflit d'intérêts (2) réel, apparent ou potentiel relativement à ses fonctions officielles (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -8304,7 +8304,7 @@
       "questionId": "EE_6_Q2",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Accord",
+      "grammarType": "Adjectifs",
       "context": "Le Canada est un chef de file {{BLANK}} dans le domaine de l'aviation.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -9145,7 +9145,7 @@
       "setId": "EE_6_Q36",
       "questionId": "EE_6_Q36",
       "questionType": "Error-identification",
-      "grammarType": "Adjectifs démonstratifs",
+      "grammarType": "Adjectifs",
       "context": "Nous vivons dans un monde en mutation rapide. Cet situation (1) est plus évidente à la fonction publique que jamais auparavant (2). Il n'y a qu'à considérer tous les changements organisationnels (3), sociaux, technologiques, politiques, budgétaires, etc., survenus récemment au gouvernement.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -10719,7 +10719,7 @@
       "questionId": "EE_7_Q34",
       "questionType": "Error-identification",
       "refersTo": null,
-      "grammarType": "Nom vs Adjectif",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "La mise sur pied (1) de ce service contribuera aussi à améliorer (2) notre image auprès du publique (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -10869,7 +10869,7 @@
       "questionId": "EE_7_Q40",
       "questionType": "Error-identification",
       "refersTo": null,
-      "grammarType": "Homophones (plus tôt vs plutôt)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "En ce qui concerne les références que tu m’avais demandées (1) au sujet de Julien, je dirais que c’est une personne qui ne cherche pas à justifier les échecs passés, mais qui essaie plus tôt (2) de trouver des solutions aux problèmes à venir (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -11269,7 +11269,7 @@
       "questionId": "EE_7_Q56",
       "questionType": "Error-identification",
       "refersTo": "n/a",
-      "grammarType": "Nature des mots (Adjectif vs Nom)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Santé Canada encourage les Canadiens à améliorer leur santé en adoptant un mode de vie actif (1). Le Ministère se charge de la surveillance, de la prévention, du contrôle et de la recherche sur les poussées épidémiques (2), au pays comme à l'étranger. De plus, il suit de près les risques pour la santé et la sécurité, reliés à la vente et à la consommation de drogues, aliments, chimiques (3), pesticides, matériels médicaux et autres produits de consommation.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -11394,7 +11394,7 @@
       "questionId": "EE_7_Q61",
       "questionType": "Error-identification",
       "refersTo": "n/a",
-      "grammarType": "Homophones (Vieille vs Veille)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Parcs Canada est déterminé à prendre des initiatives de protection de l’environnement dans les parcs nationaux, les lieux historiques nationaux et les aires marines (1) nationales de conservation. Que ce soit par la revitalisation de sites contaminés, l’application de pratiques de conservation ou la réalisation de projets novateurs (2), Parcs Canada vieille (3) toujours à ce que les Canadiens puissent profiter de ces joyaux de la façon la plus écologique qui soit.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -13070,7 +13070,7 @@
       "setId": "EE_8_Q64",
       "questionId": "EE_8_Q64",
       "questionType": "Error-identification",
-      "grammarType": "Homophones (sain vs sein)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Il y a, au sain de (1) notre direction, un nombre impressionnant (2) de professionnels chevronnés (3) et de techniciens compétents.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
