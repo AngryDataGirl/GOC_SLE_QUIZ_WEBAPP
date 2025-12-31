@@ -1825,7 +1825,7 @@
     "setId": "EE_1_Q65",
     "questionId": "EE_1_Q65",
     "questionType": "Error-identification",
-    "grammarType": "Locutions causales (à cause de vs à cause que)",
+    "grammarType": "Vocabulaire / Expressions idiomatique",
     "context": "En ce qui concerne le consultant, c’est surtout à cause que (1) son manque de disponibilité que notre projet a échoué (2). Si ça ne dépendait que de moi (3), je le remplacerais par un consultant vraiment plus coopératif.",
     "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
     "choices": [
@@ -2000,7 +2000,7 @@
       "questionId": "EE_2_Q7",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Locution verbale (entrer en vigueur)",
+      "grammarType": "Vocabulaire / Expressions idiomatique",
       "context": "Cet accord {{BLANK}} dès le mois prochain.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -2075,7 +2075,7 @@
       "questionId": "EE_2_Q10",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Vocabulaire / Expressions idiomatique",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Consultez la liste en annexe {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -2240,7 +2240,7 @@
       "examId": "EE_2",
       "questionId": "EE_2_Q17",
       "questionType": "Fill-in-the-blank",
-      "grammarType": "Locution verbale (faire partie de)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Si vous {{BLANK}} d’un comité de ce type, veuillez communiquer avec moi.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -5274,7 +5274,7 @@
       "questionNumber": 10,
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Vocabulaire / Expressions idiomatique",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "{{BLANK}} quatre jours que j'essaie de le joindre.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -6841,7 +6841,7 @@
       "questionId": "EE_5_Q8",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Locutions infinitives (Avant de + infinitif)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "N’oubliez pas d’éteindre les ordinateurs {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -7990,7 +7990,7 @@
       "setId": "EE_5_Q54",
       "questionId": "EE_5_Q54",
       "questionType": "Error-identification",
-      "grammarType": "Vocabulaire / Expressions idiomatique",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Des exercices pratiques dirigés (1) par le formateur vous seront proposés ainsi que des démonstrations. À la fin du module de formation, les participants seront en mesures (2) d’évaluer l’accessibilité du contenu de divers sites Web (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -8038,7 +8038,7 @@
       "setId": "EE_5_Q56",
       "questionId": "EE_5_Q56",
       "questionType": "Error-identification",
-      "grammarType": "Locutions prépositives",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Pour la suite de (1) la demande de plusieurs employés de pouvoir suivre le cours de préparation à la retraite, le ministère a communiqué avec l’École de la fonction publique du Canada pour s’assurer que des places lui seront réservées (2) en priorité au cours de la prochaine année financière (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -8182,7 +8182,7 @@
       "setId": "EE_5_Q62",
       "questionId": "EE_5_Q62",
       "questionType": "Error-identification",
-      "grammarType": "Locutions conjonctives (Logique et But)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Le Secrétariat du Conseil du Trésor du Canada présente un site de référence (1) sur les compétences dans le monde du travail. Par « compétences », on entend les aptitudes, les techniques, les connaissances, les motivations ou les traits de personnalité observables et définis (2) sur le plan des comportements à adopter de peur d’offrir (3) un rendement au travail efficace.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -8749,7 +8749,7 @@
       "questionId": "EE_6_Q20",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Locutions temporelles (Aspect progressif)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Bernadette, je l’ai vue ce matin et elle est bien occupée. Elle {{BLANK}} répondre à la demande d’accès à l’information que nous avons reçue la semaine dernière.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -8799,7 +8799,7 @@
       "questionId": "EE_6_Q22",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Locutions adverbiales",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "À ta place, je mettrais tout ça {{BLANK}}. Comme ça, tu aurais déjà un dossier de préparé si jamais la situation empirait. Dans un cas de harcèlement, il ne faut rien laisser de côté, tout est important.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -8849,7 +8849,7 @@
       "questionId": "EE_6_Q24",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Locutions prépositives (Fonction)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "{{BLANK}} gestionnaires, nous savons que les changements organisationnels engendrent toujours de l'inquiétude. C’est pour cette raison que nous tâchons d’annoncer les changements importants à l’organigramme plusieurs trimestres à l’avance.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -9049,7 +9049,7 @@
       "questionId": "EE_6_Q32",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Locutions verbales (Éviter les faux-amis)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "J'aimerais {{BLANK}} sur l'extrait ci-joint du Journal des débats de la Chambre des communes.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -9121,7 +9121,7 @@
       "setId": "EE_6_Q35",
       "questionId": "EE_6_Q35",
       "questionType": "Error-identification",
-      "grammarType": "Nombre (Pluriel dans les locutions)",
+      "grammarType": "Orthographe",
       "context": "Toutes les contributions à la campagne Centraide sont déductibles d'impôt et peuvent être prélevées à la source (1). Veuillez consulter l'intranet pour plus de détail (2) concernant les activités qui se dérouleront au cours (3) de la campagne. Nous comptons sur votre appui habituel.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -9418,7 +9418,7 @@
       "questionNumber": 47,
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Marqueurs de relation (Symétrie)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Une fois les politiques et les programmes approuvés, il faut en faire valoir le bienfondé. La tâche de représentation exige des gestionnaires qu'ils agissent d'une part comme porte-parole auprès d'autres organisations et {{BLANK}}, qu'ils assurent dans leur propre organisation la promotion des politiques et des programmes en vigueur.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -9874,7 +9874,7 @@
       "questionId": "EE_6_Q65",
       "questionNumber": 65,
       "questionType": "Error-identification",
-      "grammarType": "Validation syntaxique et lexicale (Locution temporelle)",
+      "grammarType": "Aucune correction",
       "context": "La culture d’une organisation est hautement influencée par le leadership de ses cadres supérieurs. Tant et aussi longtemps que (1) les postes de gestionnaires et de cadres supérieurs ne seront pas comblés (2) par des personnes bilingues possédant des compétences linguistiques adéquates adéquates et exerçant un rôle déterminant quant au respect des langues officielles, l’aménagement d’un milieu de travail respectueux de la dualité linguistique demeurera difficile (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -11069,7 +11069,7 @@
       "questionId": "EE_7_Q48",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Vocabulaire / Expressions idiomatique",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Tous les efforts seront {{BLANK}} afin de trouver d'autres postes convenables pour tous les employés touchés.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -11419,7 +11419,7 @@
       "questionId": "EE_7_Q62",
       "questionType": "Error-identification",
       "refersTo": "n/a",
-      "grammarType": "Locutions prépositives",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "De plus (1) de ses employés qui font déjà leur effort quotidien pour réduire leur empreinte écologique (2), Parcs Canada travaille à l’atteinte des objectifs de la Stratégie fédérale de développement durable (3) dans le cadre de l’engagement du gouvernement du Canada de réduire ses impacts environnementaux dans ses activités quotidiennes.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -12830,7 +12830,7 @@
       "setId": "EE_8_Q54",
       "questionId": "EE_8_Q54",
       "questionType": "Error-identification",
-      "grammarType": "Locution invariable (en péril)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Il faudra voir si l’augmentation de l’activité économique dans les régions isolées (1) du Canada n’aura pas (2) une influence négative sur les espèces considérées en périles (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -13094,7 +13094,7 @@
       "setId": "EE_8_Q65",
       "questionId": "EE_8_Q65",
       "questionType": "Error-identification",
-      "grammarType": "Locution verbale (avoir lieu)",
+      "grammarType": "Vocabulaire / Expressions idiomatique",
       "context": "Vous trouverez ci-joint deux nomenclatures. Je vous demanderais d’exprimer votre point de vue pour savoir (1) quel système de classement serait le plus approprié pour notre ministère ou encore de proposer une autre solution. Nous aimerions recevoir votre response avant le 30 juin (2) afin de pouvoir présenter ces résultats à la conférence qui aura lieux (3) à la mi-juillet.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
