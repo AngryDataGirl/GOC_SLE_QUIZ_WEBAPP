@@ -83,7 +83,7 @@
     "questionId": "EE_1_Q4",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Verbe modal (pouvoir) + infinitif",
+    "grammarType": "Vocabulaire / Expressions Idiomatiques",
     "context": "Dites-moi si je peux vous {{BLANK}}.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -9774,7 +9774,7 @@
       "questionId": "EE_6_Q61",
       "questionNumber": 61,
       "questionType": "Error-identification",
-      "grammarType": "Ordre des mots / Terminology (NAS)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Veuillez ne pas inscrire votre numéro de sociale assurance (NSA) (1) sur votre demande, car il n’est pas exigé. Par contre, la signature du demandeur est essentielle et doit figurer (2) sur le formulaire pour entamer (3) le traitement de la demande.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
