@@ -10937,7 +10937,7 @@
   },
   {
     "doc_id": "EE_7_Q43",
-    "content_to_vectorize": "CONTEXT: Comme tu voulais que je t'accompagne, préviens-moi quand tu partiras (2). On pourra se rejoindre en bas pour prendre le taxi. Il me reste encore quelques billets de taxi de l'année passée que je ferais mieux d'utiliser avant la fin de l'année fiscale (3). QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. sous-ministre adjointe. 2. tu partiras. 3. l'année fiscale. 4. aucune correction. CORRECT ANSWER: l'année fiscale.",
+    "content_to_vectorize": "CONTEXT: Salut Robert. Je sais qu'aujourd'hui tu dois présenter ton projet à la sous-ministre adjointe (1). Comme tu voulais que je t'accompagne, préviens-moi quand tu partiras (2). On pourra se rejoindre en bas pour prendre le taxi. Il me reste encore quelques billets de taxi de l'année passée que je ferais mieux d'utiliser avant la fin de l'année fiscale (3). QUESTION: Laquelle des sections soulignées comporte une ou plusieurs erreurs? CHOICES: 1. sous-ministre adjointe. 2. tu partiras. 3. l'année fiscale. 4. aucune correction. CORRECT ANSWER: l'année fiscale.",
     "metadata": {
       "examId": "EE_7",
       "setId": "EE_7_Q43",
@@ -10945,7 +10945,7 @@
       "questionType": "Error-identification",
       "refersTo": null,
       "grammarType": "Vocabulaire / Expressions idiomatiques",
-      "context": "Comme tu voulais que je t'accompagne, préviens-moi quand tu partiras (2). On pourra se rejoindre en bas pour prendre le taxi. Il me reste encore quelques billets de taxi de l'année passée que je ferais mieux d'utiliser avant la fin de l'année fiscale (3).",
+      "context": "Salut Robert. Je sais qu'aujourd'hui tu dois présenter ton projet à la sous-ministre adjointe (1). Comme tu voulais que je t'accompagne, préviens-moi quand tu partiras (2). On pourra se rejoindre en bas pour prendre le taxi. Il me reste encore quelques billets de taxi de l'année passée que je ferais mieux d'utiliser avant la fin de l'année fiscale (3).",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
         { "id": 1, "text": "sous-ministre adjointe" },

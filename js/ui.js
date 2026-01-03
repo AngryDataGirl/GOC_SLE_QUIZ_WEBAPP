@@ -43,8 +43,8 @@ export function displayQuestion(question, currentIndex, total) {
     }
 
     elements.questionCounter.textContent = `Question ${currentIndex + 1}/${total}`;
-    elements.questionPrompt.textContent = question.prompt;
-        
+    elements.questionPrompt.innerHTML = question.prompt;
+       
     if (question.context) {
             let contextHTML = question.context;
             const activeBlank = question.refersTo; 
