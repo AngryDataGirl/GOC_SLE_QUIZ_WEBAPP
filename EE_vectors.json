@@ -408,7 +408,7 @@
     "questionId": "EE_1_Q17",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Voix passive et accord du participe passé",
+    "grammarType": "Voix passive",
     "context": "La note de frais {{BLANK}} par le service des finances.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -707,7 +707,7 @@
     "questionId": "EE_1_Q28",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Conjugaison / Futur antérieur",
+    "grammarType": "Conjugaison",
     "context": "Sortez quand {{BLANK}}.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -1436,7 +1436,7 @@
     "questionId": "EE_1_Q49",
     "questionType": "Fill-in-the-blank",
     "refersTo": "BLANK",
-    "grammarType": "Voix passive et accord du participe passé",
+    "grammarType": "Voix passive",
     "context": "C'est à vous de veiller à ce que le travail {{BLANK}} à temps.",
     "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
     "choices": [
@@ -2099,7 +2099,7 @@
       "setId": "EE_2_Q11",
       "questionId": "EE_2_Q11",
       "questionType": "Error-identification",
-      "grammarType": "Voix passive et accord du participe passé",
+      "grammarType": "Voix passive",
       "context": "Les fonctionnaires de tous niveaux (1) sont admissibles (2) à ce prix et les mises en candidature doivent présenter (3) par courriel.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -3101,7 +3101,7 @@
       "questionId": "EE_2_Q53",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Concordance des temps (Futur simple)",
+      "grammarType": "Conjugaison (Futur simple)",
       "context": "À la lumière d’un processus exhaustif de consultation et de recherche, nous en sommes actuellement à transformer nos activités et nos façons de faire dans le but de mieux répondre aux besoins d’apprentissage actuels et futurs de la fonction publique. Au cours des prochaines semaines, nous {{BLANK}} l'efficacité de nos programmes de formation aussi bien à l’interne qu’à l’externe.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -3389,7 +3389,7 @@
       "setId": "EE_2_Q65",
       "questionId": "EE_2_Q65",
       "questionType": "Error-identification",
-      "grammarType": "Adverbes (Déjà vs Encore dans la négation)",
+      "grammarType": "Négation",
       "context": "En réponse à votre dernier courriel (1), je voudrais vous rappeler qu’aucune suite n’a déjà (2) été donnée à « l’affaire Joe Sherry ». Nous prévoyons nous y attaquer (3) au cours des prochains mois.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -3489,7 +3489,7 @@
       "questionId": "EE_3_Q4",
       "questionType": "Fill-in-the-blank",
       "refersTo": "_______________",
-      "grammarType": "Lexique (disponible)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Le rapport est maintenant _______________ à l’adresse suivante : http://www... Vous pouvez télécharger votre propre exemplaire.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -3914,7 +3914,7 @@
       "questionId": "EE_3_Q21",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Le participe présent (valeur d'adjectif relatif)",
+      "grammarType": "Prépositions",
       "context": "Il s’agit d’un projet pilote {{BLANK}} les perspectives de carrière des jeunes fonctionnaires.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -4839,7 +4839,7 @@
       "questionId": "EE_3_Q58",
       "questionType": "Error-identification",
       "refersTo": "a été conçu",
-      "grammarType": "Voix passive et accord du participe passé",
+      "grammarType": "Voix passive",
       "context": "Cette formation en cybersécurité a été conçu (1) par notre ministère. Nous vous encourageons à vous y inscrire le plus rapidement possible. Cette initiative a été mise en place (2) afin que tout le personnel puisse (3) être sensibilisé aux dangers potentiels liés à l'utilisation d'Internet au sein de la fonction publique.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -5170,7 +5170,7 @@
       "questionNumber": 6,
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Concordance des temps",
+      "grammarType": "Conjugaison (Futur simple)",
       "context": "Nous {{BLANK}} rencontrer cet employé demain.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -5973,7 +5973,7 @@
       "setId": "EE_4_Q38",
       "questionId": "EE_4_Q38",
       "questionType": "Error-identification",
-      "grammarType": "Voix passive et accord du participe passé",
+      "grammarType": "Voix passive",
       "context": "Vous êtes tenus (1) de contribuer au régime de pension de retraite si (2) vous êtes embauchez (3) pour une période de plus de six mois.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -6069,7 +6069,7 @@
       "setId": "EE_4_Q42",
       "questionId": "EE_4_Q42",
       "questionType": "Error-identification",
-      "grammarType": "Voix passive et accord du participe passé",
+      "grammarType": "Voix passive",
       "context": "Étant donné (1) que le pouvoir de doter les postes a été délégués (2) aux gestionnaires régionaux, j’ai transmis votre demande à Mme Pierrette Brascoupé, directrice régionale (3) pour la région du Québec et du Nunavut.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -6966,7 +6966,7 @@
       "questionId": "EE_5_Q13",
       "questionType": "Error-identification",
       "refersTo": "None",
-      "grammarType": "Choix de l'auxiliaire (être vs avoir)",
+      "grammarType": "être vs avoir",
       "context": "Monsieur Nguyen vient d’être nommé (1) au poste de sous-ministre adjoint (2), Direction des finances. Il a entré (3) au ministère il y a 20 ans et a occupé de nombreux postes de gestion dans le domaine des finances et de l’administration.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -7916,7 +7916,7 @@
       "questionId": "EE_5_Q51",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Conjugaison (verbe croître)",
+      "grammarType": "Conjugaison (Présent)",
       "context": "Figurant parmi les sites les plus fréquentés sur Internet, en particulier au Canada, aux États-Unis et au Royaume-Uni, les sites de réseautage social reçoivent des millions de visites chaque jour. Les plus populaires d’entre eux comptent plus de 100 millions d’utilisateurs inscrits, et les personnes de plus de 25 ans forment le groupe d’utilisateurs qui {{BLANK}} le plus rapidement.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -8699,7 +8699,7 @@
       "questionId": "EE_6_Q18",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Négations complexes",
+      "grammarType": "Négation",
       "context": "Tu peux t’en aller, il n’y a {{BLANK}} faire pour le moment.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -8824,7 +8824,7 @@
       "questionId": "EE_6_Q23",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Temps de l'indicatif (Présent)",
+      "grammarType": "Conjugaison (Présent)",
       "context": "Le gouvernement du Canada {{BLANK}} à ce qu’un haut niveau d’accessibilité soit appliqué uniformément à l’ensemble de ses sites Web.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -8999,7 +8999,7 @@
       "questionId": "EE_6_Q30",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe de la négation (Aucun)",
+      "grammarType": "Négation",
       "context": "Les différences entre les deux versions du logiciel sont minimes. Par conséquent, {{BLANK}} donnée.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -9574,7 +9574,7 @@
       "questionNumber": 53,
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Temps verbaux (Futur simple)",
+      "grammarType": "Conjugaison (Futur simple)",
       "context": "À la lumière d’un processus exhaustif de consultation et de recherche, nous en sommes actuellement à transformer nos activités et nos façons de faire dans le but de mieux répondre aux besoins d’apprentissage actuels et futurs de la fonction publique. Au cours des prochaines semaines, nous {{BLANK}} l'efficacité de nos programmes de formation aussi bien à l’interne qu’à l’externe.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -9824,7 +9824,7 @@
       "questionId": "EE_6_Q63",
       "questionNumber": 63,
       "questionType": "Error-identification",
-      "grammarType": "Articles",
+      "grammarType": "Négation",
       "context": "Comme chaque mois, on recevra les allocations de dépenses pour la petite caisse le premier seulement. Ce qui veut dire qu’on n'obtiendra pas de l'argent (1) avant jeudi prochain. Je te conseille donc d’acheter le minimum de fournitures (2) pour le moment quitte à les payer (3) avec ton propre argent et à te faire rembourser après le premier du mois.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -10099,7 +10099,7 @@
       "questionId": "EE_7_Q9",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Conjugaison (Présent de l'indicatif)",
+      "grammarType": "Conjugaison (Présent)",
       "context": "En ce moment, nous {{BLANK}} les conséquences d’une telle décision.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -10124,7 +10124,7 @@
       "questionId": "EE_7_Q10",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Syntaxe de la négation (Temps composés)",
+      "grammarType": "Négation",
       "context": "Le directeur {{BLANK}} de notre avis.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -10294,7 +10294,7 @@
       "questionId": "EE_7_Q17",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Adverbes de temps (ultérieurement)",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "D'autres rapports sont présentement à l'étude et des recommandations seront présentées {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -10344,7 +10344,7 @@
       "questionId": "EE_7_Q19",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Impératif",
+      "grammarType": "Négation",
       "context": "Si votre demande de remboursement ou d’indemnité nous a déjà été transmise, {{BLANK}} de cet avis.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -10419,7 +10419,7 @@
       "questionId": "EE_7_Q22",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Temps verbaux (Futur simple)",
+      "grammarType": "Conjugaison (Futur simple)",
       "context": "Je n’ai pas mon téléphone sur moi, je vous {{BLANK}} plus tard pour prendre rendez-vous.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -10544,7 +10544,7 @@
       "questionId": "EE_7_Q27",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Négation restrictive (ne... que)",
+      "grammarType": "Négation",
       "context": "Malheureusement, le document {{BLANK}}.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -10844,7 +10844,7 @@
       "questionId": "EE_7_Q39",
       "questionType": "Error-identification",
       "refersTo": null,
-      "grammarType": "Abréviations de civilité",
+      "grammarType": "Pronoms",
       "context": "Pour faire suite à votre dernière demande d’information, je veux vous rappeler (1) qu’aucune réponse officielle n’a été envoyée à Mr. Lebrun (2) concernant les directives relatives à la délivrance (3) des nouvelles cartes d’identité du personnel.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -11119,7 +11119,7 @@
       "questionId": "EE_7_Q50",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Concordance des temps (Futur antérieur)",
+      "grammarType": "Conjugaison (Futur antérieur)",
       "context": "Vous allez lui téléphoner dès que vous {{BLANK}} votre chèque.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -11944,7 +11944,7 @@
       "questionId": "EE_8_Q18",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Passé récent (venir de)",
+      "grammarType": "Vocabulaire / Expressions Idiomatiques",
       "context": "L’agence {{BLANK}} terminer la révision de son site Web. Celui-ci présentera dorénavant une interface adaptée aux appareils mobiles.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -12219,7 +12219,7 @@
       "questionId": "EE_8_Q29",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Voix passive et accord du participe passé",
+      "grammarType": "Voix passive",
       "context": "J’attire votre attention sur le fait que cette version n’est pas définitive et qu’elle {{BLANK}} dans les prochaines semaines.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -12390,7 +12390,7 @@
       "setId": "EE_8_Q36",
       "questionId": "EE_8_Q36",
       "questionType": "Error-identification",
-      "grammarType": "Différence entre savoir et connaître",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "En ce qui concerne la réglementation, je sais (1) quelqu'un qui travaille au (2) Secrétariat du Conseil du Trésor. Veux-tu que je lui demande son avis? Ça ne nous engage à rien (3), je le ferais à titre personnel seulement.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
@@ -12781,7 +12781,7 @@
       "questionId": "EE_8_Q52",
       "questionType": "Fill-in-the-blank",
       "refersTo": "BLANK",
-      "grammarType": "Conjonction de coordination",
+      "grammarType": "Connecteurs logiques",
       "context": "Ce système générera plus de liberté et de flexibilité {{BLANK}} garantira la sécurité de l’information.",
       "prompt": "Quel mot ou groupe de mots complète le mieux le texte?",
       "choices": [
@@ -13094,7 +13094,7 @@
       "setId": "EE_8_Q65",
       "questionId": "EE_8_Q65",
       "questionType": "Error-identification",
-      "grammarType": "Vocabulaire / Expressions idiomatique",
+      "grammarType": "Vocabulaire / Expressions idiomatiques",
       "context": "Vous trouverez ci-joint deux nomenclatures. Je vous demanderais d’exprimer votre point de vue pour savoir (1) quel système de classement serait le plus approprié pour notre ministère ou encore de proposer une autre solution. Nous aimerions recevoir votre response avant le 30 juin (2) afin de pouvoir présenter ces résultats à la conférence qui aura lieux (3) à la mi-juillet.",
       "prompt": "Laquelle des sections soulignées comporte une ou plusieurs erreurs? Si aucune des sections soulignées ne comporte d'erreur, choisissez la réponse 4 « aucune correction ».",
       "choices": [
