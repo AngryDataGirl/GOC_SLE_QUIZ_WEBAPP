@@ -46,23 +46,27 @@ export function displayQuestion(question, currentIndex, total) {
     elements.questionPrompt.innerHTML = question.prompt;
        
     if (question.context) {
-            let contextHTML = question.context;
-            const activeBlank = question.refersTo; 
+        let contextHTML = question.context;
+        const activeBlank = question.refersTo; 
 
-            // Match all instances of {{BLANK_A}}, {{BLANK_B}}, etc.
-            const blankRegex = /\{\{(BLANK_([A-Z]))\}\}/g;
+        // 1. Handle Lettered Blanks: {{BLANK_A}}, {{BLANK_B}}, etc.
+        const letteredRegex = /\{\{(BLANK_([A-Z]))\}\}/g;
+        contextHTML = contextHTML.replace(letteredRegex, (match, fullTag, letter) => {
+            const isActive = (fullTag === activeBlank);
+            const className = isActive ? 'blank-space active' : 'blank-space';
+            return `<span class="${className}">[${letter}]</span>`;
+        });
 
-            contextHTML = contextHTML.replace(blankRegex, (match, fullTag, letter) => {
-                // Check if this specific blank matches the one in the question metadata
-                const isActive = (fullTag === activeBlank);
-                const className = isActive ? 'blank-space active' : 'blank-space';
-                
-                // Return a span that keeps the letter visible [A], [B], or [C]
-                return `<span class="${className}">[${letter}]</span>`;
-            });
+        // 2. Handle Single/Generic Blanks: {{BLANK}} or ___ 
+        // This looks for "{{BLANK}}" or a triple underscore "___"
+        const genericRegex = /\{\{BLANK\}\}|___/g;
+        contextHTML = contextHTML.replace(genericRegex, () => {
+            // If there's only one blank, we assume it's always "active"
+            return `<span class="blank-space active">_______</span>`;
+        });
 
-            elements.contextText.innerHTML = contextHTML;
-            elements.contextArea.classList.remove('hidden');
+        elements.contextText.innerHTML = contextHTML;
+        elements.contextArea.classList.remove('hidden');
         } else {
             elements.contextArea.classList.add('hidden');
         }
